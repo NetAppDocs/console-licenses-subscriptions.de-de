@@ -1,0 +1,15 @@
+= Möglichkeit zum Entfernen von Abonnements
+:allow-uri-read: 
+
+
+
+
+=== Möglichkeit zum Entfernen von Abonnements
+
+Sie können jetzt Abonnements aus der digitalen Geldbörse entfernen, wenn Sie diese abbestellt haben.
+
+
+
+=== Anzeigen der verbrauchten Kapazität für Marketplace-Abonnements
+
+Beim Anzeigen von PAYGO-Abonnements können Sie jetzt die verbrauchte Kapazität des Abonnements anzeigen.

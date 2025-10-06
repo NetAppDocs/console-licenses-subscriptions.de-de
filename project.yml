@@ -1,0 +1,58 @@
+---
+settings:
+  name: Licenses and subscriptions
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: de-de,us-en,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Dokumentation zu Lizenzen und Abonnements
+    url: "/index.html"
+  - title: Versionshinweise
+    entries:
+    - title: Was ist neu
+      url: "/whats-new.html"
+  - title: Erste Schritte
+    entries:
+    - title: Erfahren Sie mehr über
+      url: "/concept-digital-wallet.html"
+  - title: Verwenden Sie Lizenzen und Abonnements
+    entries:
+    - title: Verwenden des Übersichts-Dashboards
+      url: "/task-homepage.html"
+    - title: Lizenzen verwalten
+      entries:
+      - title: Direktlizenzen verwalten
+        url: "/task-manage-data-services-licenses.html"
+      - title: Lizenzen für Cloud Volumes ONTAP verwalten
+        entries:
+        - title: Kapazitätsbasierte Lizenzen für Cloud Volumes ONTAP
+          url: "/task-manage-capacity-licenses.html"
+        - title: Knotenbasierte Lizenzen für Cloud Volumes ONTAP
+          url: "/task-manage-node-based-licenses.html"
+    - title: Private Angebote verwalten
+      entries:
+      - title: Verwalten eines privaten AWS-Angebots
+        url: "/task-manage-private-aws.html"
+      - title: Verwalten eines privaten Azure-Angebots
+        url: "/task-manage-private-azure.html"
+      - title: Verwalten eines privaten Google Cloud-Angebots
+        url: "/task-manage-private-google-cloud.html"
+    - title: Verwalten von Marketplace-Abonnements
+      url: "/task-manage-subscriptions.html"
+    - title: Keystone -Abonnements verwalten
+      url: "/task-manage-keystone.html"
+    - title: Wissen und Unterstützung
+      entries:
+      - title: Für Support registrieren
+        url: "/task-support-registration.html"
+      - title: Hilfe erhalten
+        url: "/task-get-help.html"
+    - title: Rechtliche Hinweise
+      url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

@@ -1,0 +1,35 @@
+= 
+:allow-uri-read: 
+
+
+Sie sollten eine NetApp Lizenzdatei zum Hochladen erhalten, wenn die Konsole keinen Internetzugang hat (Installationen im privaten Modus).
+
+Wenn Sie eine Lizenz von einem NetApp -Vertriebsmitarbeiter erwerben, erhalten Sie eine E-Mail mit der Seriennummer und den Lizenzdetails.  Verwenden Sie die Seriennummer, um die Lizenzdatei zu erhalten, wenn Lizenzen nicht automatisch in der Konsole angezeigt werden.
+
+.Schritte
+. Suchen Sie Ihre Konsolenkonto-ID:
++
+.. Wählen Sie oben rechts in der Konsoleimage:icon-settings-option.png["Das Einstellungssymbol, das oben rechts in der Webkonsole angezeigt wird."] > *Identitäts- und Zugriffsverwaltung*.
+.. Suchen Sie auf der Organisationsseite nach Ihrer Konto-ID und kopieren Sie sie.
++
+Wenn keine Konto-ID aufgeführt ist und Sie nur eine Organisations-ID haben, kopieren Sie die ersten acht Zeichen der Organisations-ID und hängen Sie sie an *Konto-* an
+
++
+Wenn dies beispielsweise Ihre Organisations-ID ist:
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+Ihre Konto-ID wäre:
+
++
+Konto-ea10e1c6
+
+
+
+. Sign in bei https://mysupport.netapp.com["NetApp Support Site"^] und wählen Sie *Systeme > Softwarelizenzen*.
+. Geben Sie die Seriennummer Ihrer Lizenz ein.
+. Wählen Sie in der Spalte *Lizenzschlüssel* die Option * NetApp -Lizenzdatei abrufen*.
+. Geben Sie Ihre Konsolenkonto-ID ein (diese wird auf der Support-Site als Mandanten-ID bezeichnet) und wählen Sie *Senden*, um die Lizenzdatei herunterzuladen.
+

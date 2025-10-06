@@ -1,0 +1,76 @@
+---
+sidebar: sidebar 
+permalink: task-homepage.html 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, bluexp, netapp console, cloud volumes ontap license, cloud volumes ontap 
+summary: Verschaffen Sie sich im Übersichts-Dashboard in der Konsole einen Überblick über alle Abonnements und Lizenzen für Ihre Organisation. 
+---
+= Verwenden der Dashboard-Übersicht
+:allow-uri-read: 
+
+
+
+
+== Verwenden der Dashboard-Übersicht
+
+[role="lead"]
+Verwenden Sie das Dashboard *Übersicht* in der Konsole, um den Zustand Ihrer Lizenzen und Abonnements zu überwachen und sicherzustellen, dass Sie die Kosten verwalten und den Dienst aufrechterhalten können, wenn Abonnements Ablaufdaten oder Kapazitätsgrenzen erreichen.
+
+Sie können spezifische Lizenz- und Abonnementinformationen zu jedem Ihrer Datendienste (einschließlich Cloud Volumes ONTAP) anzeigen und für jeden Dienst eine Detailansicht anzeigen.
+
+Sie werden außerdem auf bevorstehende Kapazitätsgrenzen oder Ablaufdaten hingewiesen und zum Handeln aufgefordert.
+
+
+
+=== Details zu einem bestimmten Datendienst anzeigen
+
+Das Dashboard *Übersicht* bietet die Möglichkeit, Details zu den folgenden Datendiensten anzuzeigen:
+
+* Cloud Volumes ONTAP
+* Notfallwiederherstellung
+* Ransomware-Resilienz
+* Sicherung und Wiederherstellung
+* Cloud-Tiering
+
+
+Beispielsweise können Administratoren, die mit der Verwaltung von Cloud Volumes ONTAP -Ressourcen beauftragt sind, die aktuelle Kapazität jeder Lizenz oder jedes Abonnements anzeigen, wodurch sie eine fokussierte Ansicht der Ressourcen in ihrem Zuständigkeitsbereich erhalten.
+
+
+NOTE: Obwohl Sie Lizenzen über das Dashboard aktualisieren und entfernen können, können Sie keine neue Lizenz oder kein neues Abonnement hinzufügen.
+
+link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen"^] . link:task-manage-subscriptions.html["Weitere Informationen zur Abonnementverwaltung"^] .
+
+.Schritte
+. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie *Übersicht*.
+. Wählen Sie *Anzeigen* für den jeweiligen Datendienst (einschließlich Cloud Volumes ONTAP), um Details anzuzeigen und Lizenzen und Abonnements zu verwalten.
++
+Jede Kachel bietet eine grafische Übersicht über die Kapazität.  Sie können die Detailseite anzeigen, um die Zahlungsmethoden für diese Kapazität anzuzeigen und zu verwalten.
+
+. Wählen Sie entweder die Registerkarte *Lizenzen* oder *Abonnements*.
+. Filtern Sie die Tabelle, indem Sie einen Spaltenfilter und einen Wert auswählen, nach dem gefiltert werden soll.  Beispielsweise können Sie auf der Registerkarte *Abonnements* die Spalte „Typ“ nach „Jahresvertrag“ oder „Abonnement“ filtern.
+. Passen Sie die in der Tabelle angezeigten Spalten an.  Sie können Spalten zur Tabelle hinzufügen oder daraus entfernen, indem Sie das Symbol *Spalte* auswählen, um anzugeben, welche Spalten Sie ein- oder ausblenden möchten.
+. Erweitern Sie eine beliebige Zeile, um Details zum Inhalt des Abonnements oder der Lizenz, zur erworbenen Kapazität und zu den Bedingungen anzuzeigen.
+. Verwenden Sie das Aktionsmenü, um eine bestimmte Lizenz oder ein bestimmtes Abonnement zu verwalten, z. B. um eine Lizenz zu aktualisieren oder ein Abonnement einer anderen Organisation zuzuordnen.
++
+Sie können von der Seite *Übersicht* aus keine neuen Lizenzen oder Abonnements für einen bestimmten Dienst hinzufügen.  Sie können Lizenzen oder Abonnements nur über die Registerkarte *Direktlizenzen* bzw. *Marketplace-Abonnements* hinzufügen.
+
++
+link:task-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen."] link:task-manage-subscriptions.html["Erfahren Sie mehr über die Verwaltung von Abonnements."]
+
+
+
+
+
+=== Beheben von Lizenz- oder Abonnementproblemen
+
+Sie können Lizenz- und Abonnementprobleme anzeigen, die gelöst werden müssen.  Zu den Problemen zählen Lizenzen und Abonnements, die ablaufen oder ihre Kapazitätsgrenze erreichen.
+
+. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie *Übersicht*.
+. Wählen Sie *Beheben* für die Kachel *Erfordert Aktion* aus, um Probleme anzuzeigen, die behoben werden müssen.  Wenn „Beheben“ nicht angezeigt wird, gibt es derzeit keine Probleme, die eine Aktion erfordern.
+. Wählen Sie auf der Seite *Aktion erforderlich* entweder die Registerkarte *Lizenzen* oder die Registerkarte *Abonnements* aus.
+. Verwenden Sie das Aktionsmenü, um das Problem zu beheben.
++
+link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen"^] . link:task-manage-subscriptions.html["Weitere Informationen zur Abonnementverwaltung"^] .
+
+

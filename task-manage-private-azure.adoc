@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-azure.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
+summary: Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgängigen Private Offer Process und die Akzeptanz- und Aktivierungsleitfäden für NetApp Intelligent Services für AWS, Azure und Google Cloud. 
+---
+= Akzeptieren und aktivieren Sie ein privates Azure-Angebot für die NetApp Konsole
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Akzeptieren und abonnieren Sie ein privates Marketplace-Angebot für die NetApp Konsole im Azure-Portal.  Konfigurieren Sie Azure-Anmeldeinformationen in der Konsole.
+
+.Bevor Sie beginnen
+* Arbeiten Sie mit dem NetApp -Vertrieb zusammen, um ein privates Angebot für Ihre Azure-Abrechnungs-ID zu erstellen.
+* Sie verfügen über die erforderlichen Berechtigungen, um ein privates Angebot im Azure Marketplace anzunehmen:
++
+** Enterprise Agreement (EA): *Enterprise-Administrator*
+** Microsoft-Kundenvereinbarung (MCA): *Inhaber des Abrechnungskontos* oder *Mitwirkender des Abrechnungskontos*
+
+
+* Sie müssen über die erforderlichen Berechtigungen verfügen, um ein privates Angebot im Azure Marketplace zu erwerben und ein Abonnement zu erstellen:
++
+** *Abonnementbesitzer* oder *Abonnementbeitragender* des verwendeten Azure-Abonnements
+
+
+* Eine einzelne Person kann das private Angebot sowohl annehmen als auch kaufen, wenn sie über die erforderlichen Berechtigungen verfügt.
+
+
+
+
+== Akzeptieren und Abonnieren des privaten Angebots im Azure-Portal
+
+Ein Azure-Abonnement kann nur mit einem Marketplace-Abonnement verknüpft werden. Wenn Sie zwei verschiedene Marketplace-Abonnements für Workloads im selben Azure-Abonnement verwenden möchten, müssen Sie zwei separate Konsolenkonten erstellen – eines für jedes Abonnement.  Wenn Sie über mehrere Cloud Volumes ONTAP Instanzen verfügen und die Abrechnung auf verschiedene Abonnements aufteilen möchten, erstellen Sie für jedes Abonnement separate Konsolenkonten.
+
+[IMPORTANT]
+====
+Sie müssen alle Schritte abschließen, um Ihr privates Angebot anzunehmen und zu aktivieren. Das Überspringen von Schritten kann zu Aktivierungsproblemen oder doppelter Belastung führen.
+
+Wenn Sie Unstimmigkeiten in den Angebotsbedingungen, Preisen oder Details feststellen oder unsicher sind, welches Angebot Sie annehmen sollen, nehmen Sie das Angebot nicht an. Wenden Sie sich an Ihr NetApp -Vertriebsteam.
+
+Bei mehrmaliger Annahme und Aktivierung des Angebots kommt es zu einer doppelten Abrechnung.
+
+====
+.Schritte
+. Klicken Sie auf den Link zum privaten Angebot, den Sie von Ihrem NetApp Vertriebsteam erhalten haben, und melden Sie sich an. Wenn kein Link verfügbar ist, melden Sie sich direkt beim Azure-Portal an.
+. Suchen oder wählen Sie *Marketplace* aus den Azure-Diensten aus.
+. Klicken Sie auf der Marketplace-Seite im Abschnitt *Verwaltung* auf *Private Angebotsverwaltung*.
+. Klicken Sie auf *Anzeigen + Akzeptieren*, um die Details des privaten Angebots zu überprüfen.
++
+.. Überprüfen Sie, ob die *Plandetails*, *Laufzeit* und *Preise* korrekt sind.
+.. Wenn die Angaben falsch sind, abonnieren Sie nicht. Wenden Sie sich an Ihr NetApp -Vertriebsteam, um das Angebot zu korrigieren.
+
+
+. Bestätigen Sie und klicken Sie auf *Privates Angebot annehmen*.
+. Klicken Sie auf *Kaufen*, um den Kaufvorgang abzuschließen.
++
+[NOTE]
+====
+Wenn die Schaltfläche *Kaufen* nicht verfügbar ist, bestätigen Sie, dass Sie über die erforderlichen Kaufberechtigungen verfügen. Wenn dies nicht der Fall ist, kopieren Sie den Link zum Kauffenster und geben Sie ihn an eine autorisierte Person in Ihrer Organisation weiter.
+
+====
+. Im Einkaufsworkflow:
++
+.. Wählen Sie das zu verwendende *Azure-Abonnement* aus.
+.. Wählen Sie die *Ressourcengruppe* aus, in der das Abonnement erstellt werden soll.
+.. Geben Sie einen *Namen* für das neue Abonnement ein.
+
+
+. Legen Sie optional *Tags* fest (für Produkt, Standort, Workload-Definition oder Namenskonvention).
+. Klicken Sie auf *Überprüfen und abonnieren*, bestätigen Sie die Angaben und klicken Sie dann auf *Abonnieren*.
+. Wenn das Abonnement erfolgreich erstellt wurde, klicken Sie auf *Konto jetzt konfigurieren*. Dadurch werden Sie zur NetApp Konsole weitergeleitet, um die Konfiguration abzuschließen.
++
+[NOTE]
+====
+Die Azure-seitige Automatisierung kann 30 Sekunden bis 5 Minuten dauern. Wenn die Seite geschlossen wurde, bevor Sie auf *Konto jetzt konfigurieren* geklickt haben, kehren Sie zum Dienst im Azure-Portal zurück. Das Abonnement wird als *Konfiguration ausstehend* angezeigt. Wählen Sie es aus, um mit der Konfiguration fortzufahren.
+
+====
+. Sie werden weitergeleitet zu https://console.netapp.com[] und zur Anmeldung aufgefordert.
+. Nach der Anmeldung werden Sie weitergeleitet zu https://console.netapp.com/licenses/overview[] . Sie werden aufgefordert:
++
+.. Geben Sie einen *Anzeigenamen* für das Marketplace-Abonnement ein.
+.. Wählen Sie die Konsolen-*Konten* aus, die Zugriff auf dieses Abonnement haben sollen.
+.. Optional können Sie *Vorhandenes Abonnement ersetzen* aktivieren, um ein vorhandenes Marketplace-Abonnement in einem Konsolenkonto automatisch zu ersetzen.
++
+[NOTE]
+====
+*** Diese Ersatzoption ist auf ein einzelnes Konsolenkonto beschränkt.
+*** Um mehrere Konsolenkonten mit demselben Marketplace-Abonnement zu verknüpfen, konfigurieren Sie die zusätzlichen Konten manuell.
+
+
+====
+
+
+. Klicken Sie auf *Zuordnen* und dann auf *Fertig*.
+
+
+[IMPORTANT]
+====
+Um den Kauf zu aktivieren und den ermäßigten Preis anzuwenden, ist es notwendig, die Abonnementzuweisung in der Konsole abzuschließen.
+
+====
+
+
+== Konfigurieren des Abonnements mit Azure-Anmeldeinformationen
+
+. Gehen Sie in der Konsole zu *Governance > Lizenzen und Abonnements* und wählen Sie die Registerkarte *Marketplace-Abonnements* aus.
+. Überprüfen Sie die Abonnementdetails:
++
+.. Suchen Sie das von Ihnen erstellte Marketplace-Abonnement.
+.. Erweitern Sie die Zeile, um die Details zu überprüfen und zu bestätigen, dass das Abonnement mit Ihrem Konsolenkonto verknüpft ist.
+
+
+. Klicken Sie auf das *Drei-Punkte-Menü* neben dem Abonnement und wählen Sie *Konfigurieren*.
+. Wählen Sie das entsprechende *Azure-Abonnement* aus und klicken Sie auf *Konfigurieren*.
+
+
+Die Marketplace-Gebühren für diese Azure-Anmeldeinformationen werden jetzt über das Marketplace-Abonnement abgerechnet. Bei Jahresverträgen wird die Nutzung dieser Anmeldeinformationen auf den Jahresvertrag angerechnet.
+
+[IMPORTANT]
+====
+Wiederholen Sie die Schritte 1–4 für jede Azure-Anmeldeinformation in Ihrem Konsolenkonto, die Sie mit dem Abonnement verknüpfen möchten.
+
+* Um Anmeldeinformationen einer anderen Konsolenorganisation zuzuordnen, wechseln Sie über das Dropdown-Menü *Organisation* die Organisation und wiederholen Sie die Schritte.
+* Um Anmeldeinformationen eines anderen Agenten zuzuordnen, wechseln Sie über das Dropdown-Menü *Agent* und wiederholen Sie die Schritte.
+
+
+====

@@ -1,0 +1,32 @@
+---
+indexpage:
+  title: Dokumentation zu Lizenzen und Abonnements
+  summary: Verwalten und überwachen Sie Ihre Lizenzen und Abonnements in der NetApp
+    Konsole.
+  keywords: netapp console, bluexp, documentation, licenses, subscriptions
+  lead: Verwalten und überwachen Sie Ihre Lizenzen und Abonnements in der NetApp Konsole.
+  tiles:
+  - title: Erste Schritte
+    links:
+    - title: Erfahren Sie mehr über Lizenzen und Abonnements
+      url: concept-digital-wallet.html
+  - title: Verwalten Sie Ihre Lizenzen
+    links:
+    - title: Verwalten Sie kapazitätsbasierte Lizenzen für Cloud Volumes ONTAP
+      url: task-manage-capacity-licenses.html
+    - title: Lizenzen für NetApp -Datendienste verwalten
+      url: task-manage-data-services-licenses.html
+  - title: Verwalten Sie Ihre Abonnements
+    links:
+    - title: Verwalten von Marketplace-Abonnements und -Verträgen
+      url: task-manage-subscriptions.html
+    - title: Keystone -Abonnements verwalten
+      url: task-manage-keystone.html
+  - title: Blogs und Community
+    links:
+    - title: NetApp Community
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP -Blog
+      url: https://bluexp.netapp.com/blog
+    - title: Cloud-Webinare
+      url: https://bluexp.netapp.com/events

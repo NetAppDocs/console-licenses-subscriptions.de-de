@@ -1,0 +1,10 @@
+= 
+:allow-uri-read: 
+
+
+Um Lizenzen zu verwalten, können Sie Lizenzen basierend auf dem Dienstnamen gruppieren.  Auf diese Weise können Sie alle Lizenzen anzeigen, die sich auf einen bestimmten Dienst beziehen.  Sie können eine Zeile erweitern, um detaillierte Informationen zu jeder Lizenz anzuzeigen, die mit dem Dienst in Zusammenhang steht.  In der Stammzeile jedes Dienstes werden der Dienstname und die für diesen Dienst verwendete Kapazität angezeigt.  Die Lizenzen werden automatisch nach Dienstnamen gruppiert.  Die Stammzeile für jeden Dienst zeigt den Dienstnamen und die für diesen Dienst verwendete Kapazität.
+
+.Schritte
+. Wählen Sie im BlueXP -Menü *Governance* > *Digital Wallet* und dann die Registerkarte *Direktlizenzen*.
+. Klicken Sie auf eine Dienstnamenzeile, um sie zu erweitern.  Hier werden alle Lizenzen angezeigt, die mit diesem Dienst in Zusammenhang stehen.  Jede erweiterte Zeile zeigt detaillierte Informationen zu den Lizenzen an, einschließlich Lizenz-ID, Seriennummer, Kapazität und Ablaufdatum.
+

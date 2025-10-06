@@ -1,0 +1,34 @@
+= 
+:allow-uri-read: 
+
+
+Die Konsole benachrichtigt Sie, wenn die Laufzeit Ihrer Lizenz bald abläuft oder wenn sich Ihre lizenzierte Kapazität dem Limit nähert.  Aktualisieren Sie Ihre Lizenz vor Ablauf, um Unterbrechungen Ihrer NetApp -Datendienste oder Cloud Volumes ONTAP zu vermeiden.
+
+Nachdem Sie zusätzliche Kapazität von NetApp erworben oder Ihre Lizenzlaufzeit verlängert haben, aktualisiert die Konsole die Lizenz automatisch, wenn beide Bedingungen erfüllt sind:
+
+* Ihr Konsolenkonto ist mit einem NetApp Support Site-Konto verknüpft
+* Die Konsole verfügt über einen Internetzugang
+
+
+Wenn Ihr Konsolenkonto nicht mit Ihrem NSS-Konto verknüpft ist oder die Konsole im privaten Modus ohne Internetzugang betrieben wird, müssen Sie die Lizenz manuell aktualisieren.
+
+Sie können eine Lizenz manuell mit einer der folgenden Methoden aktualisieren:
+
+* Geben Sie die Seriennummer und das zugehörige NSS-Konto ein
+* Laden Sie die NetApp -Lizenzdatei (oder Dateien für ein Cloud Volumes ONTAP HA-Paar) hoch.
+
+
+Wenn Sie eine Lizenz von einem NetApp -Vertriebsmitarbeiter erwerben, erhalten Sie eine E-Mail mit der Seriennummer und den Lizenzdetails.  Verwenden Sie diese Seriennummer, um die Lizenz zu aktualisieren.
+
+
+NOTE: Um die Seriennummer einzugeben, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["Fügen Sie Ihr NetApp Support Site-Konto zur Konsole hinzu"^] .  Dieses NSS-Konto muss für den Zugriff auf die Seriennummer autorisiert sein.
+
+.Schritte
+. Wenden Sie sich an Ihren NetApp -Vertreter, um eine neue Lizenz zu erwerben.
++
+Nachdem Sie die Zahlung abgeschlossen und die Lizenz bei der NetApp -Support-Site registriert haben, aktualisiert die Konsole die Lizenz automatisch.  Die Seite *Direktlizenzen* spiegelt die Änderung innerhalb von 5 bis 10 Minuten wider.
+
+. Wenn die Konsole die Lizenz nicht automatisch aktualisieren kann (z. B. beim Betrieb im privaten Modus), besorgen Sie sich vom Support eine NetApp -Lizenzdatei und laden Sie diese manuell hoch.<<obtain-license,Erfahren Sie, wie Sie eine Lizenzdatei erhalten.>>
+. Wählen Sie auf der Registerkarte *Direktlizenzen*image:icon-action.png["Symbol „Mehr“"] für die Seriennummer, die Sie aktualisieren, und wählen Sie *Lizenz aktualisieren*.
+. Laden Sie auf der Seite *Lizenz aktualisieren* die Lizenzdatei hoch und wählen Sie *Lizenz aktualisieren*.
+

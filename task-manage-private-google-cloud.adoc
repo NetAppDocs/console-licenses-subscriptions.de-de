@@ -1,0 +1,143 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-google-cloud.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud 
+summary: Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgängigen Private Offer Process und die Akzeptanz- und Aktivierungsleitfäden für NetApp Intelligent Services für AWS, Azure und Google Cloud. 
+---
+= Akzeptieren und konfigurieren Sie ein privates Google Cloud-Angebot für die NetApp Konsole
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+
+
+[role="lead"]
+Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Konsolenliste in der Google Cloud-Konsole.  Konfigurieren Sie die Google Cloud-Anmeldeinformationen in der Konsole.
+
+.Bevor Sie beginnen
+* Arbeiten Sie mit dem NetApp -Vertrieb zusammen, um ein privates Angebot zu erstellen. Den Angebotslink muss Ihnen Ihr Vertriebsteam zur Verfügung stellen.
+* Für Ihr Abrechnungskonto darf es sich nicht um eine kostenlose Testversion handeln. Kostenlose Testkonten können keine privaten Angebote annehmen. Wenn Sie versuchen, ein Testabrechnungskonto zu verwenden, erhalten Sie eine Fehlermeldung und benötigen Unterstützung vom NetApp Cloud-Team.
+* Um das Angebot anzunehmen, sind die folgenden Google Cloud-Berechtigungen erforderlich:
++
+** `roles/billing.admin`für das gewünschte Cloud-Rechnungskonto oder die Google Cloud-Organisation
+** `roles/viewer`für das Projekt, das über das Cloud Billing-Konto abgerechnet wird
+
+
+
+
+
+
+== Akzeptieren Sie das private Angebot in Google Cloud
+
+Ein Google Cloud-Projekt kann nur mit einem Marketplace-Abonnement verknüpft werden. Wenn Sie zwei verschiedene Abonnements für Workloads im selben Google Cloud-Projekt verwenden möchten, müssen Sie zwei separate Konsolenkonten erstellen – eines für jedes Abonnement.
+
+[IMPORTANT]
+====
+Sie müssen alle Schritte abschließen, um Ihr privates Angebot zu aktivieren. Das Überspringen von Schritten kann zu Problemen wie doppeltem Laden führen.
+
+Wenn Sie Unstimmigkeiten in den Angebotsbedingungen, Preisen oder Details feststellen oder unsicher sind, welches Angebot Sie annehmen sollen, nehmen Sie das Angebot nicht an. Wenden Sie sich zur Klärung an Ihr NetApp -Account-Team.
+
+====
+[NOTE]
+====
+Wenn Sie bereits über ein aktives PAYGO-Abonnement oder ein geändertes privates Angebot verfügen, müssen Sie nur die Annahmeschritte durchführen. In diesen Fällen aktualisiert der Marketplace den Plan innerhalb derselben Auflistung und behält dieselbe Abonnement-ID bei, sodass die Abonnementzuordnung in der Konsole intakt bleibt.
+
+====
+.Schritte
+. Klicken Sie auf den Aktivierungslink für das private Angebot, den Sie von Ihrem NetApp -Vertriebsteam erhalten haben. Der Link sollte ungefähr wie folgt aussehen:
+`https://console.cloud.google.com/marketplace/private-offers/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee`
+. Sie werden zum Google Cloud Marketplace weitergeleitet, wo Sie die Angebotsdetails überprüfen können:
++
+.. **Abrechnungskonto**
+.. **Produkt**: NetApp -Konsole
+.. **Angebotsdetails**
+.. **Preise**
++
+[NOTE]
+====
+Überprüfen Sie die Plandetails, die Laufzeit und die Preise sorgfältig. Wenn etwas nicht stimmt, nehmen Sie das Angebot nicht an. Wenden Sie sich für eine Änderung an Ihr NetApp -Account-Team.
+
+====
+
+
+. Bestätigen Sie die Richtigkeit der Angaben, akzeptieren Sie die Bedingungen und klicken Sie auf **Akzeptieren**.
+. Während der Erstellung des Abonnements wird ein Ladesymbol angezeigt.
+. Wenn das Abonnement erfolgreich erstellt wurde, wird ein Popup-Fenster angezeigt: *Ihre Bestellanfrage wurde an NetApp, Inc. gesendet.*
+. Klicken Sie auf **REGISTRIEREN SIE SICH BEI NETAPP, Inc.**. Sie werden zur NetApp Konsole weitergeleitet, um die Konfiguration Ihres Abonnements abzuschließen. Wenn das private Angebot von einer anderen Person in Ihrer Organisation angenommen wurde:
++
+.. Gehen Sie im Google Cloud Marketplace zu **Bestellungen**.
+.. Suchen Sie das Angebot mit dem Status **Ausstehend**.
+.. Klicken Sie auf das Drei-Punkte-Menü und wählen Sie **Bei NetApp, Inc. registrieren**.
+
+
+. Sie werden weitergeleitet zu `https://console.netapp.com` und zur Anmeldung aufgefordert.
+. Nach der Anmeldung werden Sie weitergeleitet zu `https://console.netapp.com/licenses/overview` . Es wird ein Popup angezeigt, in dem Sie Folgendes tun müssen:
++
+.. Geben Sie einen Anzeigenamen für das *SaaS Marketplace-Abonnement* ein.
+.. Wählen Sie die Konsolen-**Konten** aus, die Zugriff auf das Abonnement haben sollen.
+.. Optional können Sie **Vorhandenes Abonnement ersetzen** aktivieren, wenn Sie ein vorhandenes Marketplace-Abonnement in einem Konsolenkonto automatisch ersetzen möchten.
++
+[NOTE]
+====
+*** Diese Ersatzoption ist auf ein einzelnes Konsolenkonto beschränkt.
+*** Wenn Sie mehrere Konsolenkonten mit demselben Marketplace-Abonnement verknüpfen müssen, müssen Sie die zusätzlichen Konten manuell konfigurieren.
+
+
+====
+
+
+. Klicken Sie auf **Zuordnen** und dann auf **Fertig**.
+
+
+
+
+== Verknüpfen Sie das Abonnement mit den Google Cloud-Anmeldeinformationen
+
+. Gehen Sie in der Konsole zu **Governance > Lizenzen und Abonnements** und wählen Sie die Registerkarte **Marketplace-Abonnements** aus.
+. Überprüfen Sie die Abonnementdetails:
++
+.. Suchen Sie das im Annahmeprozess erstellte Abonnement.
+.. Überprüfen Sie, ob der richtige Plan angezeigt wird.
+.. Erweitern Sie die Zeile, um die private Angebotszuordnung zu bestätigen.
+
+
+
+
+[NOTE]
+====
+Aufgrund von Einschränkungen im Google Cloud Marketplace werden einige Felder möglicherweise angezeigt `N/A` . Diese Informationen sind nur in der Google Cloud-Konsole verfügbar.
+
+====
+. [Optional] So benennen Sie das Abonnement um:
++
+.. Klicken Sie neben dem Abonnement auf das **Drei-Punkte-Menü**.
+.. Wählen Sie **Abonnement umbenennen**.
+
+
+. Klicken Sie erneut auf das **Drei-Punkte-Menü** und wählen Sie **Konfigurieren**.
+. Wählen Sie die entsprechenden **Anmeldeinformationen** für das Google Cloud-Konto aus und klicken Sie auf **Konfigurieren**.
+
+
+Die Marketplace-Gebühren für diese Google Cloud-Anmeldeinformationen werden jetzt über das Marketplace-Abonnement abgerechnet. Bei Jahresverträgen wird die Nutzung dieser Anmeldeinformationen auf den Jahresvertrag angerechnet.
+
+[IMPORTANT]
+====
+Wiederholen Sie die Schritte 1–5 für alle Google Cloud-Anmeldeinformationen in Ihrem Konsolenkonto, die Sie mit dem Marketplace-Abonnement verknüpfen möchten.
+
+* Um Anmeldeinformationen von einem anderen Konsolenkonto zuzuordnen, verwenden Sie das Dropdown-Menü **Konto**, um zwischen Konten zu wechseln und die Schritte zu wiederholen.
+* Um Anmeldeinformationen für einen anderen Agenten zuzuordnen, verwenden Sie das Dropdown-Menü **Agent** und wiederholen Sie die Schritte.
+
+
+====
+
+
+== Google Cloud-Nutzung anzeigen
+
+So zeigen Sie den Status und die Nutzung des Google Cloud-Guthabens an:
+
+. Gehen Sie in der Google Cloud-Konsole zu **Cloud Marketplace**.
+. Klicken Sie auf **Ihre Bestellungen**.
+. Wählen Sie aus der Dropdown-Liste **Abrechnungskonto auswählen** das Abrechnungskonto aus, das Ihrem privaten Angebot zugeordnet ist.
+. Suchen Sie in der Tabelle nach Ihrem privaten Angebot, klicken Sie auf das **Drei-Punkte-Menü** und wählen Sie **Guthaben anzeigen**.
+

@@ -1,0 +1,79 @@
+---
+sidebar: sidebar 
+permalink: task-manage-on-prem-clusters.html 
+keywords: cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract, bluexp, netapp console 
+summary: Zeigen Sie Vertragsdetails für jeden Ihrer lokalen ONTAP Cluster an.  Wenn Sie in der Konsole noch keinen Cluster entdeckt haben, können Sie ihn auch entdecken. 
+---
+= Lizenzen für On-Premises ONTAP verwalten
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können Vertragsdetails für jeden Ihrer lokalen ONTAP Cluster in der Konsole anzeigen.  Wenn Sie noch keinen Cluster entdeckt haben, können Sie ihn auch entdecken.
+
+.Bevor Sie beginnen
+Die Konsole zeigt Details zu lokalen ONTAP Clustern an, die Sie als Systeme erkannt haben oder die mit einem NetApp Support Site-Konto verknüpft sind, das Sie der Konsole hinzugefügt haben.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Erfahren Sie, wie Sie einen lokalen ONTAP Cluster erkennen"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Erfahren Sie, wie Sie die mit Ihrer Konsolenorganisation oder Ihrem Konsolenkonto verknüpften NSS-Anmeldeinformationen verwalten."^]
+
+
+
+
+== Clusterinformationen und Vertragsdetails anzeigen
+
+Zeigen Sie den Status der Hardware- und Softwareverträge für Ihre lokalen ONTAP Cluster an, damit Sie sie vor Ablauf verlängern können.
+
+.Schritte
+. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie *On-Premises ONTAP*.
++
+Die Ablaufdaten des Software- und Hardwarevertrags werden in der Zeile für jeden Cluster angezeigt.
+
++
+Wenn Sie aufgefordert werden, zuerst die Anmeldeinformationen Ihres NetApp Support Site (NSS)-Kontos einzugeben, wählen Sie *NSS-Konto hinzufügen*.  Nachdem Sie das Konto hinzugefügt haben, werden die mit diesem NSS-Konto verknüpften Cluster angezeigt.
+
+. Wenn der Vertrag kurz vor dem Ablaufdatum steht oder bereits abgelaufen ist, können Sie über das Chat-Symbol unten rechts in der Konsole eine Vertragsverlängerung beantragen.
+. Um weitere Details anzuzeigen, wählen Sieimage:button_down_caret.png["Ein Abwärtspfeil-Symbol"] um die Clusterinformationen zu erweitern.
+
+
+
+
+== Cluster entdecken
+
+Wenn Sie keinen lokalen ONTAP Cluster als System erkannt haben, können Sie dies über die Konsole tun.  Nach der Erkennung steht Ihnen ein Cluster als System zur Verfügung, sodass Sie ihn verwalten können.
+
+.Bevor Sie beginnen
+Sie sollten Ihre Erkennungs- und Verwaltungsoptionen (Erkennung mithilfe eines Konsolenagenten oder direkte Erkennung ohne Agenten) sowie die Erkennungsanforderungen verstehen.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Informieren Sie sich über die Erkennungsoptionen und -anforderungen"^] .
+
+.Schritte
+. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie *On-Premises ONTAP*.
++
+Ihre ONTAP -Cluster werden mit einem Status angezeigt, der angibt, ob sie in der Konsole erkannt wurden.
+
++
+Wenn Sie aufgefordert werden, zuerst die Anmeldeinformationen Ihres NetApp Support Site (NSS)-Kontos einzugeben, wählen Sie *NSS-Konto hinzufügen*.  Nachdem Sie das Konto hinzugefügt haben, werden die mit diesem NSS-Konto verknüpften Cluster angezeigt.
+
+. Wählen Sie *Discover* für den Cluster aus, den Sie über die Konsole verwalten möchten.
+. Geben Sie auf der Seite „ONTAP -Cluster ermitteln“ das Kennwort für das Administratorbenutzerkonto ein und wählen Sie „Ermitteln“ aus.
+
+
+
+NOTE: Die IP-Adresse für die Clusterverwaltung wird anhand der Informationen aus Ihrem NetApp Support-Site-Konto ausgefüllt.
+
+.Ergebnis
+Die Konsole erkennt den Cluster und fügt ihn der Seite „Systeme“ als System hinzu.  Der Status des Clusters ändert sich auf der Seite _On-Premises ONTAP_ zu *Erkannt*.  Beachten Sie, dass der Systemname der Name des Clusters ist.
+
+Sie können jetzt mit der Verwaltung des Clusters beginnen.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["Erfahren Sie, wie Sie mit einem Konsolenagenten erkannte Cluster verwalten"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["Erfahren Sie, wie Sie erkannte Cluster direkt verwalten"^]
+

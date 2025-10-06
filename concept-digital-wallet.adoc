@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: concept-digital-wallet.html 
+keywords: license, licensing, licenses, subscriptions, 
+summary: Mit den Lizenzen und Abonnements können Sie NetApp Console-Lizenzen, NetApp Marketplace-Abonnements und NetApp Keystone verwalten und überwachen. 
+---
+= Erfahren Sie mehr über Lizenzen und Abonnements
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können von NetApp erworbene Lizenzen (BYOL), Marktplatzabonnements für NetApp -Datendienste (einschließlich Cloud Volumes ONTAP) und NetApp Keystone -Abonnements in der NetApp Konsole verwalten und überwachen.
+
+
+
+== So werden Lizenzen und Abonnements in der Konsole angezeigt
+
+Lizenz- und Abonnementinformationen werden automatisch in der Konsole angezeigt, wenn Ihr Konsolenkonto auch mit einem NetApp Support Site (NSS)-Konto verknüpft ist.  Wenn Ihr Konsolenkonto nicht mit einem NSS-Konto verknüpft ist, müssen Sie Lizenzen manuell hinzufügen.  Wenn Lizenzen manuell hinzugefügt werden, werden Nutzung, Kapazität und andere Details nicht automatisch aktualisiert.
+
+
+NOTE: Zum Anzeigen von Abonnementinformationen muss ein Konsolenagent bereitgestellt werden.  Zum Anzeigen von Knotenlizenzen für Cloud Volumes ONTAP ist außerdem ein Agent erforderlich.
+
+
+
+=== Automatische Lizenzerkennung
+
+Die Konsole fragt automatisch den NetApp -Lizenzierungsdienst ab, um Lizenzdetails zu erhalten, die mit Ihrem NetApp Support-Site-Konto verknüpft sind.  Wenn die Abfrage erfolgreich ist, fügt die Konsole die Lizenzen automatisch hinzu.
+
+
+
+=== Manuelles Hinzufügen einer Lizenz
+
+Wenn die Konsole keine Lizenzen automatisch hinzufügen kann, müssen Sie sie manuell hinzufügen.  Dies tritt auf, wenn Ihr Konsolenkonto nicht mit Ihrem NetApp Support Site-Konto verknüpft ist.
+
+Nachdem Sie eine Lizenz von Ihrem NetApp Vertriebsmitarbeiter erworben haben, sendet Ihnen NetApp eine E-Mail mit der Seriennummer und den Lizenzdetails.  Verwenden Sie diese Seriennummer, um die Lizenz in der Konsole hinzuzufügen oder zu aktualisieren.
+
+https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["Erfahren Sie, wie Sie Ihr NetApp Support Site-Konto zu den Konsolen-Anmeldeinformationen hinzufügen"^] .
+
+
+
+== Unterstützte Dienste
+
+Sie können Lizenzen und Abonnements für die folgenden Dienste in der Konsole verwalten:
+
+* https://docs.netapp.com/us-en/console-backup-recovery/index.html["Sicherung und Wiederherstellung"^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/index.html["Notfallwiederherstellung"^](Nur BYOL)
+* https://docs.netapp.com/us-en/console-ransomware-protection/index.html["Ransomware-Resilienz"^]
+* https://docs.netapp.com/us-en/console-tiering/index.html["Cloud-Tiering"^]
+

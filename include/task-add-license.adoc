@@ -1,0 +1,29 @@
+= 
+:allow-uri-read: 
+
+
+Lizenzinformationen werden automatisch im Abschnitt **Lizenzen und Abonnements** angezeigt, wenn das mit der Lizenz verknüpfte NetApp Konsolenkonto auch ein NetApp Support-Site-Konto ist und über Internetzugang verfügt.  Wenn Sie ein Konsolenkonto verwendet haben, das nicht mit Ihrem NSS-Konto verknüpft ist, müssen Sie manuell eine Lizenz hinzufügen.
+
+Sie können die Lizenz in der Konsole entweder durch Eingabe der Seriennummer und des zugehörigen NSS-Kontos oder durch Hochladen der NetApp -Lizenzdatei (NLF) hinzufügen.  Sie sollten eine NetApp Lizenzdatei zum Hochladen erhalten, wenn die Konsole keinen Internetzugang hat (Installationen im privaten Modus).
+
+Nachdem Sie eine Lizenz von Ihrem NetApp Vertriebsmitarbeiter erworben haben, sendet Ihnen NetApp eine E-Mail mit der Seriennummer und weiteren Lizenzdetails.  Sie benötigen diese Seriennummer, um die entsprechende Lizenz in der Konsole hinzuzufügen oder zu aktualisieren.
+
+
+NOTE: Um die Seriennummer einzugeben, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["Fügen Sie Ihr NetApp Support Site-Konto zur Konsole hinzu"^] .  Dies ist das NetApp Support Site-Konto, das zum Zugriff auf die Seriennummer berechtigt ist.
+
+.Schritte
+. Wählen Sie im Menü der NetApp -Konsole *Governance > Lizenzen und Abonnements* und dann die Registerkarte *Direkte Lizenzen*.
+. Wählen Sie *Lizenz hinzufügen*.
+. Geben Sie im Dialogfeld *Lizenz hinzufügen* die Lizenzinformationen ein und wählen Sie *Lizenz hinzufügen*:
++
+** Wenn Sie die Seriennummer haben und Ihr NSS-Konto kennen, wählen Sie *Seriennummer eingeben* und geben Sie diese Informationen ein.
++
+Wenn Sie eine Seriennummer eingegeben haben, müssen Sie auch das NetApp Support Site-Konto auswählen, das zum Zugriff auf die Seriennummer berechtigt ist.
+
++
+Wenn Ihr NetApp Support Site-Konto nicht in der Dropdown-Liste verfügbar ist, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["Fügen Sie das NSS-Konto zur Konsole hinzu"^]
+
+** Wenn Sie über die Lizenzdatei verfügen (erforderlich bei Verwendung der NetApp Konsole im privaten Modus), wählen Sie die Option *Lizenzdatei hochladen* und folgen Sie den Anweisungen zum Anhängen der Datei.
+
+
+
