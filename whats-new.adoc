@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, release notes, enhancements, fixes, licenses, subscriptions' 
-summary: Informieren Sie sich über die Neuerungen bei NetApp Console-Lizenzen und -Abonnements. 
+summary: Informieren Sie sich über die Neuerungen bei NetApp Console -Lizenzen und -Abonnements. 
 ---
 = Was ist neu
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Informieren Sie sich über die Neuerungen bei NetApp Console-Lizenzen u
 
 
 [role="lead"]
-Informieren Sie sich über die Neuerungen bei NetApp Console-Lizenzen und -Abonnements.
+Informieren Sie sich über die Neuerungen bei NetApp Console -Lizenzen und -Abonnements.
 
 
 
@@ -24,9 +24,9 @@ Informieren Sie sich über die Neuerungen bei NetApp Console-Lizenzen und -Abonn
 
 === BlueXP heißt jetzt NetApp Console
 
-Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp Storage und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Administration mit hoher Sicherheit und Konformität.
+Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp -Speicher und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Arbeitsabläufe und eine vereinfachte Verwaltung mit hoher Sicherheit und Konformität.
 
-Einzelheiten zu den Änderungen finden Sie imlink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Versionshinweise zur NetApp Konsole"] .
+Einzelheiten zu den Änderungen finden Sie imlink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Versionshinweise zur NetApp Console"] .
 
 
 
@@ -120,7 +120,7 @@ Die BlueXP digital wallet identifiziert jetzt Google Cloud Marketplace-Abonnemen
 
 === Aufschlüsselung der Ladenutzung
 
-Jetzt können Sie herausfinden, was Ihnen in Rechnung gestellt wird, wenn Sie kapazitätsbasierte Lizenzen abonniert haben.  Die folgenden Arten von Nutzungsberichten stehen zum Download aus der BlueXP digital wallet zur Verfügung.  Die Nutzungsberichte liefern Kapazitätsdetails zu Ihren Abonnements und informieren Sie darüber, wie Ihnen die Ressourcen in Ihren Cloud Volumes ONTAP Abonnements in Rechnung gestellt werden.  Die herunterladbaren Berichte können problemlos mit anderen geteilt werden.
+Jetzt können Sie herausfinden, was Ihnen in Rechnung gestellt wird, wenn Sie kapazitätsbasierte Lizenzen abonniert haben. Die folgenden Arten von Nutzungsberichten stehen zum Download aus der BlueXP digital wallet zur Verfügung. Die Nutzungsberichte liefern Kapazitätsdetails zu Ihren Abonnements und informieren Sie darüber, wie Ihnen die Ressourcen in Ihren Cloud Volumes ONTAP Abonnements in Rechnung gestellt werden. Die herunterladbaren Berichte können problemlos mit anderen geteilt werden.
 
 * Cloud Volumes ONTAP Paketnutzung
 * Nutzung auf hohem Niveau
@@ -186,7 +186,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === Lademethode ändern
 
-Sie können jetzt die Abrechnungsmethode für ein Cloud Volumes ONTAP -System ändern, das eine kapazitätsbasierte Lizenzierung verwendet.  Wenn Sie beispielsweise ein Cloud Volumes ONTAP -System mit dem Essentials-Paket bereitgestellt haben, können Sie es auf das Professional-Paket umstellen, wenn sich Ihre Geschäftsanforderungen ändern.
+Sie können jetzt die Abrechnungsmethode für ein Cloud Volumes ONTAP -System ändern, das eine kapazitätsbasierte Lizenzierung verwendet. Wenn Sie beispielsweise ein Cloud Volumes ONTAP -System mit dem Essentials-Paket bereitgestellt haben, können Sie es auf das Professional-Paket umstellen, wenn sich Ihre Geschäftsanforderungen ändern.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["Erfahren Sie, wie Sie die Lademethode ändern"] .
 
@@ -198,9 +198,9 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === Verbrauchte Kapazität
 
-Jetzt wird Ihnen die insgesamt verbrauchte Kapazität in Ihrem Konto und die verbrauchte Kapazität pro Lizenzpaket angezeigt.  Auf diese Weise können Sie besser nachvollziehen, welche Kosten Ihnen in Rechnung gestellt werden und ob Sie zusätzliche Kapazität erwerben müssen.
+Jetzt wird Ihnen die insgesamt verbrauchte Kapazität in Ihrem Konto und die verbrauchte Kapazität pro Lizenzpaket angezeigt. Auf diese Weise können Sie besser nachvollziehen, welche Kosten Ihnen in Rechnung gestellt werden und ob Sie zusätzliche Kapazität erwerben müssen.
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Ein Screenshot, der die Seite für kapazitätsbasierte Lizenzen zeigt.  Die Seite bietet einen Überblick über die verbrauchte Kapazität in Ihrem Konto und schlüsselt die verbrauchte Kapazität anschließend nach Lizenzpaket auf."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Ein Screenshot, der die Seite für kapazitätsbasierte Lizenzen zeigt. Die Seite bietet einen Überblick über die verbrauchte Kapazität in Ihrem Konto und schlüsselt die verbrauchte Kapazität anschließend nach Lizenzpaket auf."]
 
 
 
@@ -210,7 +210,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/ma
 
 === Lizenzen für On-Premises ONTAP -Cluster
 
-Sie können jetzt eine Bestandsaufnahme Ihrer lokalen ONTAP Cluster zusammen mit den Ablaufdaten ihrer Hardware und Serviceverträge anzeigen.  Darüber hinaus sind weitere Details zu den Clustern verfügbar.
+Sie können jetzt eine Bestandsaufnahme Ihrer lokalen ONTAP Cluster zusammen mit den Ablaufdaten ihrer Hardware und Serviceverträge anzeigen. Darüber hinaus sind weitere Details zu den Clustern verfügbar.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Erfahren Sie, wie Sie Lizenzen für lokale ONTAP Cluster verwalten"] .
 

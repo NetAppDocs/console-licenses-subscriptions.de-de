@@ -4,7 +4,7 @@ permalink: task-manage-private-azure.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
 summary: Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgängigen Private Offer Process und die Akzeptanz- und Aktivierungsleitfäden für NetApp Intelligent Services für AWS, Azure und Google Cloud. 
 ---
-= Akzeptieren und aktivieren Sie ein privates Azure-Angebot für die NetApp Konsole
+= Akzeptieren und aktivieren Sie ein privates Azure-Angebot für die NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgän
 
 
 [role="lead"]
-Akzeptieren und abonnieren Sie ein privates Marketplace-Angebot für die NetApp Konsole im Azure-Portal.  Konfigurieren Sie Azure-Anmeldeinformationen in der Konsole.
+Akzeptieren und abonnieren Sie ein privates Marketplace-Angebot für die NetApp Console im Azure-Portal.  Konfigurieren Sie Azure-Anmeldeinformationen in der Konsole.
 
 .Bevor Sie beginnen
 * Arbeiten Sie mit dem NetApp -Vertrieb zusammen, um ein privates Angebot für Ihre Azure-Abrechnungs-ID zu erstellen.
@@ -74,7 +74,7 @@ Wenn die Schaltfläche *Kaufen* nicht verfügbar ist, bestätigen Sie, dass Sie 
 
 . Legen Sie optional *Tags* fest (für Produkt, Standort, Workload-Definition oder Namenskonvention).
 . Klicken Sie auf *Überprüfen und abonnieren*, bestätigen Sie die Angaben und klicken Sie dann auf *Abonnieren*.
-. Wenn das Abonnement erfolgreich erstellt wurde, klicken Sie auf *Konto jetzt konfigurieren*. Dadurch werden Sie zur NetApp Konsole weitergeleitet, um die Konfiguration abzuschließen.
+. Wenn das Abonnement erfolgreich erstellt wurde, klicken Sie auf *Konto jetzt konfigurieren*. Dadurch werden Sie zur NetApp Console weitergeleitet, um die Konfiguration abzuschließen.
 +
 [NOTE]
 ====
@@ -109,7 +109,7 @@ Um den Kauf zu aktivieren und den ermäßigten Preis anzuwenden, ist es notwendi
 
 == Konfigurieren des Abonnements mit Azure-Anmeldeinformationen
 
-. Gehen Sie in der Konsole zu *Governance > Lizenzen und Abonnements* und wählen Sie die Registerkarte *Marketplace-Abonnements* aus.
+. Gehen Sie in der Konsole zu *Governance > Licenses and subscriptions* und wählen Sie die Registerkarte *Marketplace-Abonnements* aus.
 . Überprüfen Sie die Abonnementdetails:
 +
 .. Suchen Sie das von Ihnen erstellte Marketplace-Abonnement.

@@ -4,7 +4,7 @@ permalink: task-manage-private-aws.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
 summary: Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgängigen Private Offer Process und die Akzeptanz- und Aktivierungsleitfäden für NetApp Intelligent Services für AWS, Azure und Google Cloud. 
 ---
-= Akzeptieren und konfigurieren Sie ein privates AWS Marketplace-Angebot für die NetApp Konsole
+= Akzeptieren und konfigurieren Sie ein privates AWS Marketplace-Angebot für die NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgän
 
 
 [role="lead"]
-Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Konsole in der AWS-Konsole und konfigurieren Sie die AWS-Anmeldeinformationen in der Konsole.
+Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console in der AWS-Konsole und konfigurieren Sie die AWS-Anmeldeinformationen in der Konsole.
 
 .Bevor Sie beginnen
 * Arbeiten Sie mit dem NetApp -Vertrieb zusammen, um ein privates Angebot zu erstellen und den Aktivierungslink zu erhalten.
@@ -86,7 +86,7 @@ Bei Vertragsangeboten geben Sie bitte die vereinbarte Stückzahl an. Stellen Sie
 
 
 . Nach der Annahme bestätigt ein Banner das Abonnement und enthält Anweisungen zur Registrierung.
-. Klicken Sie auf *Konto einrichten*. Dadurch wird eine Weiterleitung zur NetApp Konsole zur Konfiguration des Abonnements durchgeführt.
+. Klicken Sie auf *Konto einrichten*. Dadurch wird eine Weiterleitung zur NetApp Console zur Konfiguration des Abonnements durchgeführt.
 +
 [NOTE]
 ====
@@ -122,7 +122,7 @@ Um den ermäßigten Preis anzuwenden, ist es notwendig, die Abonnementzuweisung 
 
 == Konfigurieren des Abonnements mit AWS-Anmeldeinformationen
 
-. Gehen Sie in der Konsole zu *Governance > Lizenzen und Abonnements* und wählen Sie die Registerkarte *Marketplace-Abonnements* aus.
+. Gehen Sie in der Konsole zu *Governance > Licenses and subscriptions* und wählen Sie die Registerkarte *Marketplace-Abonnements* aus.
 . Suchen Sie das zuvor erstellte Abonnement. Erweitern Sie die Zeile, um zu bestätigen, dass sie mit Ihrem Konsolenkonto verknüpft ist.
 +
 [NOTE]
@@ -144,7 +144,7 @@ Die Marketplace-Gebühren für diese Anmeldeinformationen werden über das Marke
 Wiederholen Sie die Schritte 1–4 für jede AWS-Anmeldeinformation in Ihrem Konsolenkonto, die Sie mit dem Abonnement verknüpfen möchten.
 
 * Für Anmeldeinformationen in anderen Konsolenorganisationen verwenden Sie das Dropdown-Menü *Organisation* und wiederholen Sie die Schritte.
-* Für Anmeldeinformationen in anderen Agenten verwenden Sie das Dropdown-Menü *Agent* und wiederholen Sie die Schritte.
+* Verwenden Sie für Anmeldeinformationen in anderen Agenten das Dropdown-Menü *Agent* und wiederholen Sie die Schritte.
 
 
 ====

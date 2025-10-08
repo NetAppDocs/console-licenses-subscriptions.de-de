@@ -12,7 +12,7 @@ Die BlueXP digital wallet identifiziert jetzt Google Cloud Marketplace-Abonnemen
 
 === Aufschlüsselung der Ladenutzung
 
-Jetzt können Sie herausfinden, was Ihnen in Rechnung gestellt wird, wenn Sie kapazitätsbasierte Lizenzen abonniert haben.  Die folgenden Arten von Nutzungsberichten stehen zum Download aus der BlueXP digital wallet zur Verfügung.  Die Nutzungsberichte liefern Kapazitätsdetails zu Ihren Abonnements und informieren Sie darüber, wie Ihnen die Ressourcen in Ihren Cloud Volumes ONTAP Abonnements in Rechnung gestellt werden.  Die herunterladbaren Berichte können problemlos mit anderen geteilt werden.
+Jetzt können Sie herausfinden, was Ihnen in Rechnung gestellt wird, wenn Sie kapazitätsbasierte Lizenzen abonniert haben. Die folgenden Arten von Nutzungsberichten stehen zum Download aus der BlueXP digital wallet zur Verfügung. Die Nutzungsberichte liefern Kapazitätsdetails zu Ihren Abonnements und informieren Sie darüber, wie Ihnen die Ressourcen in Ihren Cloud Volumes ONTAP Abonnements in Rechnung gestellt werden. Die herunterladbaren Berichte können problemlos mit anderen geteilt werden.
 
 * Cloud Volumes ONTAP Paketnutzung
 * Nutzung auf hohem Niveau

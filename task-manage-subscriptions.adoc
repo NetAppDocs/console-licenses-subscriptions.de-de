@@ -25,7 +25,7 @@ NOTE: Auf der Seite *Marketplace-Abonnements* sind alle Lizenzen aufgelistet.  L
 
 
 
-== Fügen Sie ein neues Marktplatzabonnement hinzu
+== Ein neues Marktplatz-Abonnement hinzufügen
 
 Sie können ein Marktplatz-Abonnement direkt über die Konsole abonnieren.
 
@@ -33,16 +33,16 @@ Sie können ein Marktplatz-Abonnement direkt über die Konsole abonnieren.
 ====
 .AWS
 --
-Das folgende Video zeigt die Schritte zum Abonnieren der NetApp Konsole über den AWS Marketplace:
+Das folgende Video zeigt die Schritte zum Abonnieren der NetApp Console über den AWS Marketplace:
 
-.Abonnieren Sie die NetApp Konsole vom AWS Marketplace
+.Abonnieren Sie die NetApp Console vom AWS Marketplace
 video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
 --
 .Azurblau
 --
-Das folgende Video zeigt die Schritte zum Abonnieren der NetApp Konsole über den Azure Marketplace:
+Das folgende Video zeigt die Schritte zum Abonnieren der NetApp Console über den Azure Marketplace:
 
-.Abonnieren Sie die NetApp Konsole vom Azure Marketplace
+.Abonnieren Sie die NetApp Console vom Azure Marketplace
 video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
 --
 .Google Cloud
@@ -54,7 +54,7 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 --
 ====
 .Schritte
-. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions* aus.
 . Wählen Sie *Marketplace-Abonnements* aus.
 . Wählen Sie über der Tabelle *Abonnements* die Option *Abonnement hinzufügen* aus.
 . Wählen Sie im Dialogfeld „Abonnement hinzufügen“ einen Cloud-Anbieter aus.
@@ -75,7 +75,7 @@ Sie können Details zu jedem PAYGO-Abonnement und Jahresvertrag anzeigen, der mi
 Für Google Cloud können Sie auch Marktplatzabonnements identifizieren, die mit einem privaten Angebot verknüpft sind. So können Sie überprüfen, ob Sie das Angebot erfolgreich angenommen haben.
 
 .Schritte
-. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions* aus.
 . Wählen Sie *Marketplace-Abonnements* aus.
 +
 Sie sehen nur Abonnements, die mit der Organisation verknüpft sind, die Sie gerade anzeigen.
@@ -86,7 +86,7 @@ Sie sehen nur Abonnements, die mit der Organisation verknüpft sind, die Sie ger
 ** Erweitern Sie eine Zeile, um weitere Details anzuzeigen.
 ** Wählenimage:icon-column-selector.png["das Plus-Symbol am Ende der Tabellenüberschrift"] um auszuwählen, welche Spalten in der Tabelle angezeigt werden.
 +
-Die Spalten „Laufzeit“ und „Automatische Verlängerung“ werden standardmäßig nicht angezeigt.  In der Spalte „Automatische Verlängerung“ werden nur Verlängerungsinformationen für Azure-Verträge angezeigt.
+Die Spalten „Laufzeit“ und „Automatische Verlängerung“ werden standardmäßig nicht angezeigt. In der Spalte „Automatische Verlängerung“ werden nur Verlängerungsinformationen für Azure-Verträge angezeigt.
 
 
 
@@ -118,7 +118,7 @@ Verträge::
 Sie können ein Abonnement umbenennen, um besser zu identifizieren, wie es von Ihrer Organisation verwendet wird.
 
 .Schritte
-. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions* aus.
 . Wählen Sie *Marketplace-Abonnements* aus.
 . Wählen Sie das Aktionsmenü in der Zeile aus, die dem Abonnement entspricht, das Sie verwalten möchten, und wählen Sie *Umbenennen*.
 
@@ -134,7 +134,7 @@ Das Anmeldeinformationsformat hängt vom von Ihnen verwendeten Marktplatz ab.  B
 Die Option „Konfigurieren“ ist ausgegraut, wenn Sie ein Abonnement gekündigt haben.
 
 .Schritte
-. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions* aus.
 . Wählen Sie *Marketplace-Abonnements* aus.
 . Wählen Sie das Aktionsmenü in der Zeile aus, die dem Abonnement entspricht, das Sie konfigurieren möchten, und wählen Sie *Konfigurieren*.
 . Wählen Sie im Dialogfeld „Konfigurieren“ die Anmeldeinformationen aus, die mit dem Abonnement konfiguriert werden sollen.  Sie können nur aus Anmeldeinformationen auswählen, die mit dem aktuell ausgewählten Agenten verknüpft sind.  Wenn Sie die Anmeldeinformationen, die Sie verwenden möchten, nicht sehen, versuchen Sie, zu einer anderen Agentenansicht zu wechseln.
@@ -154,7 +154,7 @@ Sie müssen über die Rolle des Organisationsadministrators verfügen, um ein Ab
 NOTE: Die Konsole unterstützt Identity and Access Management (IAM) im Standardmodus, der Organisationen zur Verwaltung von Benutzern und Ressourcen verwendet.  Wenn Sie die Konsole im privaten oder eingeschränkten Modus verwenden, verwenden Sie ein Konsolenkonto, um Benutzer und Ressourcen, einschließlich Abonnements, zu verwalten.
 
 .Schritte
-. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions* aus.
 . Wählen Sie *Marketplace-Abonnements* aus.
 . Öffnen Sie in der Zeile für das Abonnement, das Sie zuordnen möchten, das Aktionsmenü und wählen Sie *Zuordnen* aus.
 . Wählen Sie im Dialogfeld *Abonnement zuordnen* eine oder mehrere Organisationen aus, die dem Abonnement zugeordnet werden sollen.
@@ -171,7 +171,7 @@ Sie können die Anmeldeinformationen für ein bestimmtes Abonnement auf der Seit
 NOTE: Verwenden Sie das Dropdown-Menü „Agent“ in der oberen Navigationsleiste, um bei Bedarf den Agenten zu wechseln.
 
 .Schritte
-. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions* aus.
 . Wählen Sie *Marketplace-Abonnements* aus.
 . Wählen Sie in der Zeile mit dem Abonnement, dessen Anmeldeinformationen Sie anzeigen möchten, die Option Anzeigen aus.  Wenn einem Abonnement mehrere Anmeldeinformationen zugeordnet sind, werden möglicherweise keine Anmeldeinformationen angezeigt und Sie werden aufgefordert, einen anderen Agenten auszuwählen.
 
@@ -183,7 +183,7 @@ NOTE: Verwenden Sie das Dropdown-Menü „Agent“ in der oberen Navigationsleis
 Bevor Sie ein Abonnement entfernen können, müssen Sie es dekonfigurieren.  Dadurch werden alle zugehörigen Daten und Einstellungen gelöscht.
 
 .Schritte
-. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions*.
 . Wählen Sie *Marketplace-Abonnements* aus.
 . Klicken Sie in der Zeile für das Abonnement, das Sie dekonfigurieren möchten, auf das Aktionsmenü und wählen Sie *Dekonfigurieren* aus.
 . Folgen Sie den Anweisungen, um alle zugehörigen Einstellungen oder Daten zu entfernen oder zurückzusetzen.
@@ -206,7 +206,7 @@ Wenn das Abonnement noch konfiguriert ist, wird die Option *Entfernen* nicht ang
 
 ====
 .Schritte
-. Wählen Sie im Menü der NetApp Konsole *Governance > Lizenzen und Abonnements* aus.
+. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions*.
 . Wählen Sie *Marketplace-Abonnements* aus.
 . Öffnen Sie in der Zeile des Abonnements, das Sie entfernen möchten, das Aktionsmenü und wählen Sie *Entfernen*.
 +

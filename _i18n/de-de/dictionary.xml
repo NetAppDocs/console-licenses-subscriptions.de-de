@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
+  <block id="f272914b94d98181b4b5b5374a222ace" category="paragraph">Lizenzinformationen werden automatisch im Abschnitt ** Licenses and subscriptions** angezeigt, wenn das mit der Lizenz verknüpfte NetApp Console auch ein NetApp Support-Site-Konto ist und über Internetzugang verfügt.  Wenn Sie ein Konsolenkonto verwendet haben, das nicht mit Ihrem NSS-Konto verknüpft ist, müssen Sie manuell eine Lizenz hinzufügen.</block>
+  <block id="32ba7365dfc460f8c57339fc1c2a9f76" category="paragraph">Sie können die Lizenz in der Konsole entweder durch Eingabe der Seriennummer und des zugehörigen NSS-Kontos oder durch Hochladen der NetApp -Lizenzdatei (NLF) hinzufügen.  Sie sollten eine NetApp Lizenzdatei zum Hochladen erhalten, wenn die Konsole keinen Internetzugang hat (Installationen im privaten Modus).</block>
+  <block id="7e803dfc4831e069b5856fd52cb537ed" category="paragraph">Nachdem Sie eine Lizenz von Ihrem NetApp Vertriebsmitarbeiter erworben haben, sendet Ihnen NetApp eine E-Mail mit der Seriennummer und weiteren Lizenzdetails.  Sie benötigen diese Seriennummer, um die entsprechende Lizenz in der Konsole hinzuzufügen oder zu aktualisieren.</block>
+  <block id="64c3bf191a7a3aa11f89d25d0284c2a4" category="inline-link">Fügen Sie Ihr NetApp Support Site-Konto zur Konsole hinzu</block>
+  <block id="c0d26ee72011a383155a1ac972516b07" category="admonition">Um die Seriennummer einzugeben,<block ref="cd0ca1d0032a534b9da0eebdd3e962e6" category="inline-link-rx"></block> .  Dies ist das NetApp Support Site-Konto, das zum Zugriff auf die Seriennummer berechtigt ist.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Schritte</block>
+  <block id="1e287a793773a0dc0c78e536804c43e1" category="list-text">Wählen Sie im NetApp Console „Governance &gt; Licenses and subscriptions“ und dann die Registerkarte „Direkte Lizenzen“ aus.</block>
+  <block id="37fcb8e7d30cc5903f7318cd979d8ae4" category="list-text">Wählen Sie *Lizenz hinzufügen*.</block>
+  <block id="5b0603de038451942370226099e5125d" category="list-text">Geben Sie im Dialogfeld *Lizenz hinzufügen* die Lizenzinformationen ein und wählen Sie *Lizenz hinzufügen*:</block>
+  <block id="b20365c7ce019b6e1f4c2c98af493327" category="list-text">Wenn Sie die Seriennummer haben und Ihr NSS-Konto kennen, wählen Sie *Seriennummer eingeben* und geben Sie diese Informationen ein.</block>
+  <block id="204d2b4625a88f2700ea6c08a4f85014" category="paragraph">Wenn Sie eine Seriennummer eingegeben haben, müssen Sie auch das NetApp Support Site-Konto auswählen, das zum Zugriff auf die Seriennummer berechtigt ist.</block>
+  <block id="bd9c93cee386ed91aa5dc8049039c809" category="inline-link">Fügen Sie das NSS-Konto zur Konsole hinzu</block>
+  <block id="f7d5c0f386ab5ad458ade69cf5ab0a00" category="paragraph">Wenn Ihr NetApp Support Site-Konto nicht in der Dropdown-Liste verfügbar ist,<block ref="d3fb432f1a71fdd6fc4568fb070a943a" category="inline-link-rx"></block></block>
+  <block id="d048bd0aafa42d1bd84efa6a6295d8b0" category="list-text">Wenn Sie über die Lizenzdatei verfügen (erforderlich bei Verwendung der NetApp Console im privaten Modus), wählen Sie die Option *Lizenzdatei hochladen* und folgen Sie den Anweisungen zum Anhängen der Datei.</block>
+  <block id="50affd6ad4d0230c729736816aaa8a7f" category="paragraph">Sie sollten eine NetApp Lizenzdatei zum Hochladen erhalten, wenn die Konsole keinen Internetzugang hat (Installationen im privaten Modus).</block>
+  <block id="57722f38f0769837013f699d7a50ea2f" category="paragraph">Wenn Sie eine Lizenz von einem NetApp -Vertriebsmitarbeiter erwerben, erhalten Sie eine E-Mail mit der Seriennummer und den Lizenzdetails.  Verwenden Sie die Seriennummer, um die Lizenzdatei zu erhalten, wenn Lizenzen nicht automatisch in der Konsole angezeigt werden.</block>
+  <block id="01b303f7b3ef03f12696877f4c3e3aa7" category="list-text">Suchen Sie Ihre Konsolenkonto-ID:</block>
+  <block id="3a22d72e96eaed671b6481401ea5678f" category="inline-image-macro">Das Einstellungssymbol, das oben rechts in der Webkonsole angezeigt wird.</block>
+  <block id="fe492bd792914d6a6a736f1771046149" category="list-text">Wählen Sie oben rechts in der Konsole<block ref="598b4690da54e99b9c3d3ed3a0e90044" category="inline-image-macro-rx" type="image"></block> &gt; *Identitäts- und Zugriffsverwaltung*.</block>
+  <block id="3bcef3f6238058ae825d608e1557c538" category="list-text">Suchen Sie auf der Organisationsseite nach Ihrer Konto-ID und kopieren Sie sie.</block>
+  <block id="4eab72b3176dbce57d106f22b3eae44a" category="paragraph">Wenn keine Konto-ID aufgeführt ist und Sie nur eine Organisations-ID haben, kopieren Sie die ersten acht Zeichen der Organisations-ID und hängen Sie sie an *Konto-* an</block>
+  <block id="73d422631f1acfc181e143e47ab93172" category="paragraph">Wenn dies beispielsweise Ihre Organisations-ID ist:</block>
+  <block id="2740d3013330ec13ae7693ee76bc6509" category="paragraph">ea10e1c6-80cc-4219-8e99-3c3e6b161ba5</block>
+  <block id="efc397150f1dd599d7f7d185952dd710" category="paragraph">Ihre Konto-ID wäre:</block>
+  <block id="c0b58edc6437b03c81d24f7ded6f3648" category="paragraph">Konto-ea10e1c6</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp Support Site</block>
+  <block id="24586b03da03249c22a79822574b4e88" category="list-text">Sign in bei<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> und wählen Sie *Systeme &gt; Softwarelizenzen*.</block>
+  <block id="5f734fc198c7d1b1aaf7c6893cc13cd2" category="list-text">Geben Sie die Seriennummer Ihrer Lizenz ein.</block>
+  <block id="929a00c33ff1e797afba661a33f187d7" category="list-text">Wählen Sie in der Spalte *Lizenzschlüssel* die Option * NetApp -Lizenzdatei abrufen*.</block>
+  <block id="e314caf74bad83d328deff96d32d1ccc" category="list-text">Geben Sie Ihre Konsolenkonto-ID ein (diese wird auf der Support-Site als Mandanten-ID bezeichnet) und wählen Sie *Senden*, um die Lizenzdatei herunterzuladen.</block>
+  <block id="e09579f9572906d8a0d18955a30952bc" category="paragraph">Die Konsole benachrichtigt Sie, wenn die Laufzeit Ihrer Lizenz bald abläuft oder wenn sich Ihre lizenzierte Kapazität dem Limit nähert.  Aktualisieren Sie Ihre Lizenz vor Ablauf, um Unterbrechungen Ihrer NetApp -Datendienste oder Cloud Volumes ONTAP zu vermeiden.</block>
+  <block id="a454c51fc72968cff661d8bfbd93620a" category="paragraph">Nachdem Sie zusätzliche Kapazität von NetApp erworben oder Ihre Lizenzlaufzeit verlängert haben, aktualisiert die Konsole die Lizenz automatisch, wenn beide Bedingungen erfüllt sind:</block>
+  <block id="45ba27e09bcfcd6ce0093fca8b03012c" category="list-text">Ihr Konsolenkonto ist mit einem NetApp Support Site-Konto verknüpft</block>
+  <block id="f91551e63cd215502b2564330925938e" category="list-text">Die Konsole verfügt über einen Internetzugang</block>
+  <block id="f57d14bc06b867286aeb7cd3a0ed7f9c" category="paragraph">Wenn Ihr Konsolenkonto nicht mit Ihrem NSS-Konto verknüpft ist oder die Konsole im privaten Modus ohne Internetzugang betrieben wird, müssen Sie die Lizenz manuell aktualisieren.</block>
+  <block id="50eeb105c082cae7da72a71937a1fba7" category="paragraph">Sie können eine Lizenz manuell mit einer der folgenden Methoden aktualisieren:</block>
+  <block id="7f061475a33614b34ba0b8c0c41caf38" category="list-text">Geben Sie die Seriennummer und das zugehörige NSS-Konto ein</block>
+  <block id="00ad4aca8186d81c3fb81651a0aa41b7" category="list-text">Laden Sie die NetApp -Lizenzdatei (oder Dateien für ein Cloud Volumes ONTAP HA-Paar) hoch.</block>
+  <block id="497436fcceb1489927a762f9aa5ac135" category="paragraph">Wenn Sie eine Lizenz von einem NetApp -Vertriebsmitarbeiter erwerben, erhalten Sie eine E-Mail mit der Seriennummer und den Lizenzdetails.  Verwenden Sie diese Seriennummer, um die Lizenz zu aktualisieren.</block>
+  <block id="6846667eda1dd419dc43f80098c2d88c" category="admonition">Um die Seriennummer einzugeben,<block ref="cd0ca1d0032a534b9da0eebdd3e962e6" category="inline-link-rx"></block> .  Dieses NSS-Konto muss für den Zugriff auf die Seriennummer autorisiert sein.</block>
+  <block id="62ca97cf836f45c764a166cc79d1c91c" category="list-text">Wenden Sie sich an Ihren NetApp -Vertreter, um eine neue Lizenz zu erwerben.</block>
+  <block id="e840f33e74c506b01cf075aec6b19e8b" category="paragraph">Nachdem Sie die Zahlung abgeschlossen und die Lizenz bei der NetApp -Support-Site registriert haben, aktualisiert die Konsole die Lizenz automatisch.  Die Seite *Direktlizenzen* spiegelt die Änderung innerhalb von 5 bis 10 Minuten wider.</block>
+  <block id="5a25c9da253ea71b2f8779b02afe0ab3" category="inline-xref">Erfahren Sie, wie Sie eine Lizenzdatei erhalten.</block>
+  <block id="1986b67d4932e32eb4d4f16e109e3075" category="list-text">Wenn die Konsole die Lizenz nicht automatisch aktualisieren kann (z. B. beim Betrieb im privaten Modus), besorgen Sie sich vom Support eine NetApp -Lizenzdatei und laden Sie diese manuell hoch.<block ref="19f08aed796241a6f1136d21f3565562" category="inline-xref-macro-rx"></block></block>
+  <block id="8f0a75d2d5a82f31f2cf069c3b0ee684" category="inline-image-macro">Symbol „Mehr“</block>
+  <block id="e06c0fa5d89fae49d22ec1f1c9a90fa1" category="list-text">Wählen Sie auf der Registerkarte *Direktlizenzen*<block ref="c2d801cfb83353ade7055f5accb1a490" category="inline-image-macro-rx" type="image"></block> für die Seriennummer, die Sie aktualisieren, und wählen Sie *Lizenz aktualisieren*.</block>
+  <block id="8d41ba787c10f2cc6998265252545826" category="list-text">Laden Sie auf der Seite *Lizenz aktualisieren* die Lizenzdatei hoch und wählen Sie *Lizenz aktualisieren*.</block>
+  <block id="060a6559f6065c5058aca6b22d897bce" category="doc">Private Angebote von Google Cloud</block>
+  <block id="bfe876190faa5e7a4cd6d5029395b658" category="paragraph">Die BlueXP digital wallet identifiziert jetzt Google Cloud Marketplace-Abonnements, die mit einem privaten Angebot verknüpft sind, und zeigt das Enddatum und die Laufzeit des Abonnements an.  Mit dieser Erweiterung können Sie überprüfen, ob Sie das private Angebot erfolgreich angenommen haben, und dessen Bedingungen validieren.</block>
+  <block id="2cd5985150a2728c0c6295c5162b2b1d" category="section-title">Aufschlüsselung der Ladenutzung</block>
+  <block id="d0f5a029263e80e902caf444fa5e9080" category="paragraph">Jetzt können Sie herausfinden, was Ihnen in Rechnung gestellt wird, wenn Sie kapazitätsbasierte Lizenzen abonniert haben. Die folgenden Arten von Nutzungsberichten stehen zum Download aus der BlueXP digital wallet zur Verfügung. Die Nutzungsberichte liefern Kapazitätsdetails zu Ihren Abonnements und informieren Sie darüber, wie Ihnen die Ressourcen in Ihren Cloud Volumes ONTAP Abonnements in Rechnung gestellt werden. Die herunterladbaren Berichte können problemlos mit anderen geteilt werden.</block>
+  <block id="ed54fb55b53f11e61f612ff99520f4bc" category="list-text">Cloud Volumes ONTAP Paketnutzung</block>
+  <block id="160ba974abba347f5e939a1a0acd5982" category="list-text">Nutzung auf hohem Niveau</block>
+  <block id="bf951096cc9eea5fae867ec94f06dfa3" category="list-text">Nutzung von Speicher-VMs</block>
+  <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">Volume-Nutzung</block>
+  <block id="37532cd27e3c53471b1caed0ba1f90ed" category="inline-link">Nutzungsberichte herunterladen</block>
+  <block id="7cc7b7a6d80d31d0e4806abd9de3d8f3" category="paragraph">Weitere Informationen zu den Nutzungsberichten finden Sie unter<block ref="a7d17f594b62c1bde4179fc580d7da6f" category="inline-link-rx"></block> .</block>
+  <block id="ee4272223579f1299444d14f2d185eb5" category="doc">Verbesserungen bei Nutzungsberichten</block>
+  <block id="c1ab40aac4724ff5a3b9540c19eed579" category="paragraph">Es sind jetzt mehrere Verbesserungen für die Cloud Volumes ONTAP -Nutzungsberichte verfügbar:</block>
+  <block id="4c63050f1e33aa32db50cc80b682e805" category="list-text">Die Einheit TiB ist jetzt im Namen der Spalten enthalten.</block>
+  <block id="c352c835cf612ee328fb7dba772bce4d" category="list-text">Ein neues _Knoten(e)_-Feld für Seriennummern ist jetzt enthalten.</block>
+  <block id="f949b800c66bf942c10c1e2b5847f5cf" category="list-text">Im Bericht zur Nutzung von Storage-VMs ist jetzt eine neue Spalte „Workload-Typ“ enthalten.</block>
+  <block id="9f02e3f417792785e27aead6a388ce7b" category="list-text">Die Namen der Arbeitsumgebungen sind jetzt in den Berichten zur Speicher-VM- und Volume-Nutzung enthalten.</block>
+  <block id="001f2392fde5e9977a349af817fa07e9" category="list-text">Der Datenträgertyp _Datei_ trägt jetzt die Bezeichnung _Primär (Lesen/Schreiben)_.</block>
+  <block id="af30dca925032347d49fd49d710f0164" category="list-text">Der Volumetyp _sekundär_ trägt jetzt die Bezeichnung _Sekundär (DP)_.</block>
+  <block id="c08885153d0680dab7349b930f5310c4" category="doc">BlueXP disaster recovery</block>
+  <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">Mit der BlueXP digital wallet können Sie jetzt Lizenzen für die BlueXP disaster recovery verwalten.  Sie können Lizenzen hinzufügen, Lizenzen aktualisieren und Details zur lizenzierten Kapazität anzeigen.</block>
+  <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">Erfahren Sie, wie Sie Lizenzen für BlueXP -Datendienste verwalten</block>
+  <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
+  <block id="abbf3397e656c62394e67cdc1337be3c" category="doc">Neues Übersichts-Dashboard</block>
+  <block id="3aff149422876e5f443408fd802b4fb2" category="paragraph">Die BlueXP digital wallet wurde für eine einfachere Nutzung neu gestaltet und bietet jetzt zusätzliche Funktionen zur Abonnement- und Lizenzverwaltung.</block>
+  <block id="890f7a0157ba95ff799f6f457d82439a" category="paragraph">Auf der Homepage der digitalen Geldbörse finden Sie ein aktualisiertes Dashboard Ihrer NetApp -Lizenzen und Marketplace-Abonnements mit der Möglichkeit, detaillierte Informationen zu bestimmten Diensten, Lizenztypen und erforderlichen Aktionen anzuzeigen.</block>
+  <block id="f0d1256b3b97280543cbb16be1fea4b3" category="section-title">Konfigurieren von Abonnements für Anmeldeinformationen</block>
+  <block id="a2aa4487721a3b63f1893d33bdb67c28" category="paragraph">Mit der BlueXP digital wallet können Sie jetzt Ihre Abonnements für Anbieteranmeldeinformationen konfigurieren.  Normalerweise tun Sie dies, wenn Sie zum ersten Mal ein Marketplace-Abonnement oder einen Jahresvertrag abschließen.  Bisher konnten die Anmeldeinformationen des Abonnements nur auf der Seite „Anmeldeinformationen“ geändert werden.</block>
+  <block id="175fca0ca5f306258c490378dc2367db" category="section-title">Zuordnen von Abonnements zu Organisationen</block>
+  <block id="a5f7678a307b711643d239d80564147c" category="paragraph">Sie können jetzt die Organisation, mit der ein Abonnement verknüpft ist, direkt aus der digitalen Geldbörse aktualisieren.</block>
+  <block id="e8545e234450bbc06ae95bfd7828cfcd" category="section-title">Verwalten von Cloud Volume ONTAP Lizenzen</block>
+  <block id="0bc14678dfe9cde6019256774c92b34e" category="paragraph">Sie verwalten Cloud Volumes ONTAP -Lizenzen jetzt über die Startseite oder die Registerkarte *Direktlizenzen*.  Verwenden Sie die Registerkarte *Marketplace-Abonnements*, um Ihre Abonnementinformationen anzuzeigen.</block>
+  <block id="626a42c4b175379d9d0e723ada0cf740" category="doc">Möglichkeit zum Entfernen von Abonnements</block>
+  <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">Sie können jetzt Abonnements aus der digitalen Geldbörse entfernen, wenn Sie diese abbestellt haben.</block>
+  <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">Anzeigen der verbrauchten Kapazität für Marketplace-Abonnements</block>
+  <block id="0a85a2f78dadf31d5b3bcc7353bae9d1" category="paragraph">Beim Anzeigen von PAYGO-Abonnements können Sie jetzt die verbrauchte Kapazität des Abonnements anzeigen.</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP heißt jetzt NetApp Console</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp -Speicher und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Arbeitsabläufe und eine vereinfachte Verwaltung mit hoher Sicherheit und Konformität.</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">Versionshinweise zur NetApp Console</block>
+  <block id="9fad6bb6d30ac060d7377371e39b12c0" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> .</block>
+  <block id="15ab47d5fc648efe1f188a856f6bec01" category="summary">Mit den Lizenzen und Abonnements können Sie NetApp Console Lizenzen, NetApp Marketplace-Abonnements und NetApp Keystone verwalten und überwachen.</block>
+  <block id="1a64901c54ab09814efdf25e5f43e721" category="doc">Erfahren Sie mehr über Lizenzen und Abonnements</block>
+  <block id="095a6074d8cac073313583b5aec86563" category="paragraph">Sie können von NetApp erworbene Lizenzen (BYOL), Marktplatzabonnements für NetApp -Datendienste (einschließlich Cloud Volumes ONTAP) und NetApp Keystone -Abonnements in der NetApp Console verwalten und überwachen.</block>
+  <block id="a555aeea3ec67a6c83d73b1bfdefb4ab" category="section-title">So werden Lizenzen und Abonnements in der Konsole angezeigt</block>
+  <block id="de7d3dd9b9cde1be1ad6f0d2b933e1a2" category="paragraph">Lizenz- und Abonnementinformationen werden automatisch in der Konsole angezeigt, wenn Ihr Konsolenkonto auch mit einem NetApp Support Site (NSS)-Konto verknüpft ist.  Wenn Ihr Konsolenkonto nicht mit einem NSS-Konto verknüpft ist, müssen Sie Lizenzen manuell hinzufügen.  Wenn Lizenzen manuell hinzugefügt werden, werden Nutzung, Kapazität und andere Details nicht automatisch aktualisiert.</block>
+  <block id="0ce8098d87732b7ddaff9494e1959f72" category="admonition">Zum Anzeigen von Abonnementinformationen muss ein Konsolenagent bereitgestellt werden.  Zum Anzeigen von Knotenlizenzen für Cloud Volumes ONTAP ist außerdem ein Agent erforderlich.</block>
+  <block id="92d0f4057dd78c03677b13a3df9a24f0" category="section-title">Automatische Lizenzerkennung</block>
+  <block id="d4c8d0b101189503f6888a4d0e84fec5" category="paragraph">Die Konsole fragt automatisch den NetApp -Lizenzierungsdienst ab, um Lizenzdetails zu erhalten, die mit Ihrem NetApp Support-Site-Konto verknüpft sind.  Wenn die Abfrage erfolgreich ist, fügt die Konsole die Lizenzen automatisch hinzu.</block>
+  <block id="6fc732417eef67838e6035198387d225" category="section-title">Manuelles Hinzufügen einer Lizenz</block>
+  <block id="d17765d0bd586794bc42e672483dfa7e" category="paragraph">Wenn die Konsole keine Lizenzen automatisch hinzufügen kann, müssen Sie sie manuell hinzufügen.  Dies tritt auf, wenn Ihr Konsolenkonto nicht mit Ihrem NetApp Support Site-Konto verknüpft ist.</block>
+  <block id="29941f395c340d98e875b9b6a4531e8a" category="paragraph">Nachdem Sie eine Lizenz von Ihrem NetApp Vertriebsmitarbeiter erworben haben, sendet Ihnen NetApp eine E-Mail mit der Seriennummer und den Lizenzdetails.  Verwenden Sie diese Seriennummer, um die Lizenz in der Konsole hinzuzufügen oder zu aktualisieren.</block>
+  <block id="ff463599b3533c437bb7e54290f136e9" category="inline-link">Erfahren Sie, wie Sie Ihr NetApp Support Site-Konto zu den Konsolen-Anmeldeinformationen hinzufügen</block>
+  <block id="7b620a8ccd9da5dcdf297927bf94bd15" category="paragraph"><block ref="681ecab2b03b177eb7ca28ee3c5b91a4" category="inline-link-rx"></block> .</block>
+  <block id="ea22f9957523103248d84695e98b17ba" category="section-title">Unterstützte Dienste</block>
+  <block id="87d2fa29fe25a72abd1da044bf3e0021" category="paragraph">Sie können Lizenzen und Abonnements für die folgenden Dienste in der Konsole verwalten:</block>
+  <block id="f05ea9e0c9ccffc58a546b5b7a0d8608" category="inline-link">Sicherung und Wiederherstellung</block>
+  <block id="4938ada517361ec7a2e07204328e7617" category="list-text"><block ref="4938ada517361ec7a2e07204328e7617" category="inline-link-rx"></block></block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
+  <block id="c5df3096761f7d2f075a15fbdaa8b007" category="list-text"><block ref="c5df3096761f7d2f075a15fbdaa8b007" category="inline-link-rx"></block></block>
+  <block id="e413eba49b15917b0c9dbf2620f3e66e" category="inline-link">Notfallwiederherstellung</block>
+  <block id="7cbdc51e3262a6b28b8f9076a87714d1" category="list-text"><block ref="1608ff6f635486fdb3c47410d68b020d" category="inline-link-rx"></block>(Nur BYOL)</block>
+  <block id="c36b12344113082dcf8a9786e36a3536" category="inline-link">Ransomware-Resilienz</block>
+  <block id="37137db3211d64b5e51e67578857f45b" category="list-text"><block ref="37137db3211d64b5e51e67578857f45b" category="inline-link-rx"></block></block>
+  <block id="92d2b6aba6afa3f690540cf3dba9b633" category="inline-link">Cloud-Tiering</block>
+  <block id="ee9533cd820edc5f9c4ea09b73d5e8fc" category="list-text"><block ref="ee9533cd820edc5f9c4ea09b73d5e8fc" category="inline-link-rx"></block></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Rechtliche Hinweise</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Rechtliche Hinweise bieten Zugriff auf Urheberrechtserklärungen, Marken, Patente und mehr.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marken</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, das NETAPP-Logo und die auf der NetApp -Markenseite aufgeführten Marken sind Marken von NetApp, Inc. Andere Firmen- und Produktnamen können Marken ihrer jeweiligen Eigentümer sein.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patente</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Eine aktuelle Liste der Patente im Besitz von NetApp finden Sie unter:</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Datenschutzrichtlinie</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open Source</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Hinweisdateien enthalten Informationen zu Urheberrechten und Lizenzen Dritter, die in der NetApp -Software verwendet werden.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Hinweis für BlueXP</block>
+  <block id="abaec7963eb8222ed14431be024401a4" category="paragraph"><block ref="abaec7963eb8222ed14431be024401a4" category="inline-link-rx"></block></block>
+  <block id="a99fab69b8aa9775fe1767ce605ae8bd" category="summary">NetApp bietet auf verschiedene Weise Support für die NetApp Console . Umfangreiche kostenlose Self-Support-Optionen stehen rund um die Uhr zur Verfügung, beispielsweise Knowledgebase-Artikel (KB) und ein Community-Forum. Ihre Support-Registrierung beinhaltet technischen Remote-Support per Web-Ticketing.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Hilfe erhalten</block>
+  <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp bietet auf vielfältige Weise Support für die NetApp Console und ihre Cloud-Dienste. Umfangreiche kostenlose Selbsthilfeoptionen stehen rund um die Uhr zur Verfügung, beispielsweise Knowledge Base-Artikel (KB) und ein Community-Forum. Ihre Support-Registrierung beinhaltet technischen Remote-Support per Web-Ticketing.</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Erhalten Sie Unterstützung für den Dateidienst eines Cloud-Anbieters</block>
+  <block id="317cbd2c4fdbfd06a6c66bcd3f57d7ad" category="paragraph">Technischen Support zu einem Dateidienst eines Cloud-Anbieters, seiner Infrastruktur oder einer Lösung, die den Dienst nutzt, finden Sie in der Dokumentation zu diesem Produkt.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx für ONTAP</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="68e6fe8cde496154d24fd032b4262070" category="paragraph">Um technischen Support speziell für NetApp und seine Speicherlösungen und Datendienste zu erhalten, verwenden Sie die unten beschriebenen Supportoptionen.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Nutzen Sie Möglichkeiten zur Selbsthilfe</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Diese Optionen stehen Ihnen 24 Stunden am Tag, 7 Tage die Woche kostenlos zur Verfügung:</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Dokumentation</block>
+  <block id="5bb94d173380c00577f5e04b6f26bb94" category="paragraph">Die NetApp Console Konsolendokumentation, die Sie gerade anzeigen.</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Wissensdatenbank</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="0e20091afcea2d83d0033a933ba85092" category="paragraph">Durchsuchen Sie die NetApp Wissensdatenbank nach hilfreichen Artikeln zur Problembehebung.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Gemeinschaften</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="777d75a90b107e4f18469f82c4f81fe2" category="paragraph">Treten Sie der NetApp Console Community bei, um aktuelle Diskussionen zu verfolgen oder neue zu starten.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Erstellen Sie einen Fall mit dem NetApp Support</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Zusätzlich zu den oben genannten Self-Support-Optionen können Sie nach der Aktivierung des Supports mit einem NetApp -Support-Spezialisten zusammenarbeiten, um alle Probleme zu lösen.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">Bevor Sie beginnen</block>
+  <block id="c406bf0ac8ac87bc5bb7132a7351b2ae" category="inline-link">Erfahren Sie, wie Sie die mit Ihrer Konsolenanmeldung verknüpften Anmeldeinformationen verwalten.</block>
+  <block id="377118f28487e70bd456993144b72fc7" category="list-text">Um die Funktion *Fall erstellen* zu verwenden, müssen Sie zunächst Ihre Anmeldeinformationen für die NetApp -Support-Site mit Ihrem Konsolen-Login verknüpfen.<block ref="68c4321a756e3ffe955b62cff6fea46d" category="inline-link-rx"></block> .</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">Wenn Sie einen Fall für ein ONTAP -System mit einer Seriennummer eröffnen, muss Ihr NSS-Konto mit der Seriennummer für dieses System verknüpft sein.</block>
+  <block id="0ab80a63088581d58dcf067051f4c894" category="list-text">Wählen Sie in der NetApp Console*Hilfe &gt; Support*.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">Wählen Sie auf der Seite *Ressourcen* unter „Technischer Support“ eine der verfügbaren Optionen aus:</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Wählen Sie *Rufen Sie uns an*, wenn Sie mit jemandem telefonieren möchten. Sie werden zu einer Seite auf netapp.com weitergeleitet, auf der die Telefonnummern aufgeführt sind, die Sie anrufen können.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Wählen Sie *Fall erstellen*, um ein Ticket bei einem NetApp -Support-Spezialisten zu öffnen:</block>
+  <block id="a1123cd59d7bd876c080c33906ae65ce" category="list-text">*Dienst*: Wählen Sie den Dienst aus, mit dem das Problem verknüpft ist. Beispiel: * NetApp Console*, wenn es sich speziell um ein technisches Supportproblem mit Workflows oder Funktionen innerhalb der Konsole handelt.</block>
+  <block id="987df7518e2afb50a860647c832afd13" category="list-text">*System*: Wählen Sie, falls für den Speicher zutreffend, * Cloud Volumes ONTAP* oder *On-Prem* und dann die zugehörige Arbeitsumgebung aus.</block>
+  <block id="8f8e8a86e5f52b6186a37bdf266c4320" category="paragraph">Die Liste der Systeme liegt im Rahmen der Konsolenorganisation und des Konsolenagenten, den Sie im oberen Banner ausgewählt haben.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Fallpriorität*: Wählen Sie die Priorität für den Fall. Sie kann „Niedrig“, „Mittel“, „Hoch“ oder „Kritisch“ sein.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Um weitere Einzelheiten zu diesen Prioritäten zu erfahren, bewegen Sie die Maus über das Informationssymbol neben dem Feldnamen.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Problembeschreibung*: Geben Sie eine detaillierte Beschreibung Ihres Problems an, einschließlich aller zutreffenden Fehlermeldungen oder Schritte zur Fehlerbehebung, die Sie durchgeführt haben.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Zusätzliche E-Mail-Adressen*: Geben Sie zusätzliche E-Mail-Adressen ein, wenn Sie jemand anderen auf dieses Problem aufmerksam machen möchten.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Anhang (optional)*: Laden Sie bis zu fünf Anhänge hoch, einen nach dem anderen.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Anhänge sind auf 25 MB pro Datei begrenzt. Die folgenden Dateierweiterungen werden unterstützt: txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx und csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Ein Screenshot des Formulars „Fall erstellen“, mit dem Sie einen Fall beim NetApp Support erstellen können.</block>
+  <block id="77c89527ec8a9f89b24c5579d19b3b4b" category="paragraph"><block ref="77c89527ec8a9f89b24c5579d19b3b4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Nach Abschluss</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Es erscheint ein Popup mit Ihrer Support-Fallnummer. Ein NetApp -Support-Spezialist wird Ihren Fall prüfen und sich in Kürze bei Ihnen melden.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">Um einen Verlauf Ihrer Supportfälle anzuzeigen, können Sie *Einstellungen &gt; Zeitleiste* auswählen und nach Aktionen mit der Bezeichnung „Supportfall erstellen“ suchen. Über eine Schaltfläche ganz rechts können Sie die Aktion erweitern, um Details anzuzeigen.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Beim Versuch, einen Fall zu erstellen, kann es sein, dass die folgende Fehlermeldung angezeigt wird:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">„Sie sind nicht berechtigt, einen Fall für den ausgewählten Dienst zu erstellen.“</block>
+  <block id="178fdaf97b1d1577437f11ee9d5e5229" category="paragraph">Dieser Fehler könnte bedeuten, dass das NSS-Konto und das damit verknüpfte Unternehmen nicht dasselbe Unternehmen sind, für das die Seriennummer des NetApp Console gilt (d. h. 960xxxx) oder die Seriennummer der Arbeitsumgebung. Sie können auf eine der folgenden Arten Hilfe anfordern:</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Senden Sie einen nicht-technischen Fall an<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="e1100b46295d42ed50ba7a4630710164" category="section-title">Verwalten Sie Ihre Supportfälle</block>
+  <block id="316508a3483178100806a9d44b49aba2" category="paragraph">Sie können aktive und gelöste Supportfälle direkt von der Konsole aus anzeigen und verwalten. Sie können die mit Ihrem NSS-Konto und Ihrem Unternehmen verknüpften Fälle verwalten.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Beachten Sie Folgendes:</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">Das Fallmanagement-Dashboard oben auf der Seite bietet zwei Ansichten:</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">Die Ansicht links zeigt die Gesamtzahl der Fälle, die in den letzten drei Monaten von dem von Ihnen angegebenen NSS-Benutzerkonto eröffnet wurden.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">Die Ansicht rechts zeigt die Gesamtzahl der in den letzten drei Monaten auf Unternehmensebene eröffneten Fälle basierend auf Ihrem NSS-Benutzerkonto.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">Die Ergebnisse in der Tabelle spiegeln die Fälle wider, die mit der von Ihnen ausgewählten Ansicht in Zusammenhang stehen.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Sie können interessante Spalten hinzufügen oder entfernen und den Inhalt von Spalten wie „Priorität“ und „Status“ filtern. Andere Spalten bieten lediglich Sortierfunktionen.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Weitere Einzelheiten finden Sie in den folgenden Schritten.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">Auf Einzelfallebene bieten wir die Möglichkeit, Fallnotizen zu aktualisieren oder einen Fall zu schließen, der sich noch nicht im Status „Abgeschlossen“ oder „Ausstehend abgeschlossen“ befindet.</block>
+  <block id="9163e8bca6fd93c080d35ab49e3efdfa" category="list-text">Wählen Sie in der NetApp Console*Hilfe &gt; Support*.</block>
+  <block id="2019fd19051c3ef493dbbb9ca65bab87" category="list-text">Wählen Sie *Fallmanagement* und fügen Sie bei entsprechender Aufforderung Ihr NSS-Konto zur Konsole hinzu.</block>
+  <block id="75e54e3a6fdbf43ed890669e079d7594" category="paragraph">Auf der Seite *Fallverwaltung* werden offene Fälle angezeigt, die sich auf das NSS-Konto beziehen, das mit Ihrem Konsolenbenutzerkonto verknüpft ist. Dies ist dasselbe NSS-Konto, das oben auf der *NSS-Verwaltungsseite* angezeigt wird.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Ändern Sie optional die in der Tabelle angezeigten Informationen:</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">Wählen Sie unter *Fälle der Organisation* die Option *Anzeigen* aus, um alle mit Ihrem Unternehmen verknüpften Fälle anzuzeigen.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Ändern Sie den Datumsbereich, indem Sie einen genauen Datumsbereich oder einen anderen Zeitrahmen auswählen.</block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtern Sie den Inhalt der Spalten.</block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">Das Plus-Symbol, das in der Tabelle angezeigt wird</block>
+  <block id="8ac6be88c1aa79062825a147fb263b0e" category="list-text">Ändern Sie die in der Tabelle angezeigten Spalten, indem Sie<block ref="500a336e7ba1c54bcffba4e27bda4eb6" category="inline-image-macro-rx" type="image"></block> und wählen Sie dann die Spalten aus, die Sie anzeigen möchten.</block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Ein Symbol mit drei Punkten, das in der letzten Spalte der Tabelle erscheint</block>
+  <block id="049b7b9fab1242f5e715952973c9474d" category="list-text">Verwalten Sie einen vorhandenen Fall, indem Sie<block ref="7381d9baeaf62eb099ce84f1a21ed5ca" category="inline-image-macro-rx" type="image"></block> und wählen Sie eine der verfügbaren Optionen aus:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Fall anzeigen*: Alle Details zu einem bestimmten Fall anzeigen.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Fallnotizen aktualisieren*: Geben Sie zusätzliche Details zu Ihrem Problem an oder wählen Sie *Dateien hochladen*, um bis zu fünf Dateien anzuhängen.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Fall schließen*: Geben Sie Details zum Grund für das Schließen des Falls an und wählen Sie *Fall schließen* aus.</block>
+  <block id="03b153bc2d764b77f2cac255c25a9c44" category="summary">Verschaffen Sie sich im Übersichts-Dashboard in der Konsole einen Überblick über alle Abonnements und Lizenzen für Ihre Organisation.</block>
+  <block id="1422a70676b07393dc91f1692eb84c3a" category="doc">Verwenden der Dashboard-Übersicht</block>
+  <block id="99047c89ee9039cb58ca11db90ee0f4c" category="paragraph">Verwenden Sie das Dashboard *Übersicht* in der Konsole, um den Zustand Ihrer Lizenzen und Abonnements zu überwachen und sicherzustellen, dass Sie die Kosten verwalten und den Dienst aufrechterhalten können, wenn Abonnements Ablaufdaten oder Kapazitätsgrenzen erreichen.</block>
+  <block id="301dbc606c8f334574bafb1c7a450f13" category="paragraph">Sie können spezifische Lizenz- und Abonnementinformationen zu jedem Ihrer Datendienste (einschließlich Cloud Volumes ONTAP) anzeigen und für jeden Dienst eine Detailansicht anzeigen.</block>
+  <block id="08101f34e43d83aeb4f8cca226c41d9f" category="paragraph">Sie werden außerdem auf bevorstehende Kapazitätsgrenzen oder Ablaufdaten hingewiesen und zum Handeln aufgefordert.</block>
+  <block id="f32e0dc1a8e546cf508129c8548de21e" category="section-title">Details zu einem bestimmten Datendienst anzeigen</block>
+  <block id="56fab234456fa527f3acd23a65d45fc3" category="paragraph">Das Dashboard *Übersicht* bietet die Möglichkeit, Details zu den folgenden Datendiensten anzuzeigen:</block>
+  <block id="9772870a1dc0150f2bcd33d79bbae28f" category="paragraph">Beispielsweise können Administratoren, die mit der Verwaltung von Cloud Volumes ONTAP -Ressourcen beauftragt sind, die aktuelle Kapazität jeder Lizenz oder jedes Abonnements anzeigen, wodurch sie eine fokussierte Ansicht der Ressourcen in ihrem Zuständigkeitsbereich erhalten.</block>
+  <block id="592511f5f465bd0013130ee5b2d1cdec" category="admonition">Obwohl Sie Lizenzen über das Dashboard aktualisieren und entfernen können, können Sie keine neue Lizenz oder kein neues Abonnement hinzufügen.</block>
+  <block id="5e61525870b8ecb7cda0015f4b7208db" category="inline-link-macro">Erfahren Sie mehr über die Verwaltung von Lizenzen</block>
+  <block id="0bfbd2ad670f16ca87b68145ca0b64cf" category="inline-link-macro">Weitere Informationen zum Verwalten von Abonnements</block>
+  <block id="483b8e46eb21b512550083b13a6ba1de" category="paragraph"><block ref="f5d9875e96b8ed7153bab8f22c840330" category="inline-link-macro-rx"></block> . <block ref="f050330f0428b7d1c9a33b47b1e41be1" category="inline-link-macro-rx"></block> .</block>
+  <block id="0aa8bceb217782b5e4390aefe60d271f" category="list-text">Wählen Sie im Menü der NetApp Console *Governance &gt; Licenses and subscriptions* aus.</block>
+  <block id="32790cf377a1a575eece70f624d64118" category="list-text">Wählen Sie *Übersicht*.</block>
+  <block id="de9c819c70af50797f21116704502cee" category="list-text">Wählen Sie *Anzeigen* für den jeweiligen Datendienst (einschließlich Cloud Volumes ONTAP), um Details anzuzeigen und Lizenzen und Abonnements zu verwalten.</block>
+  <block id="77f5141787aa2cd1e98caca9f5ff20ed" category="paragraph">Jede Kachel bietet eine grafische Übersicht über die Kapazität.  Sie können die Detailseite anzeigen, um die Zahlungsmethoden für diese Kapazität anzuzeigen und zu verwalten.</block>
+  <block id="d3a8f85cb0b390c3875d9014a9f0e6a1" category="list-text">Wählen Sie entweder die Registerkarte *Lizenzen* oder *Abonnements*.</block>
+  <block id="661d4023a402ca9354d866c7cb4a3bf7" category="list-text">Filtern Sie die Tabelle, indem Sie einen Spaltenfilter und einen Wert auswählen, nach dem gefiltert werden soll.  Beispielsweise können Sie auf der Registerkarte *Abonnements* die Spalte „Typ“ nach „Jahresvertrag“ oder „Abonnement“ filtern.</block>
+  <block id="0413b8d744f898335195f39542d7ebc0" category="list-text">Passen Sie die in der Tabelle angezeigten Spalten an.  Sie können Spalten zur Tabelle hinzufügen oder daraus entfernen, indem Sie das Symbol *Spalte* auswählen, um anzugeben, welche Spalten Sie ein- oder ausblenden möchten.</block>
+  <block id="57cba9caf80ab7bb6590dd12a1c40e9a" category="list-text">Erweitern Sie eine beliebige Zeile, um Details zum Inhalt des Abonnements oder der Lizenz, zur erworbenen Kapazität und zu den Bedingungen anzuzeigen.</block>
+  <block id="9243d7dd2d44fbffa034fd50ceb6daeb" category="list-text">Verwenden Sie das Aktionsmenü, um eine bestimmte Lizenz oder ein bestimmtes Abonnement zu verwalten, z. B. um eine Lizenz zu aktualisieren oder ein Abonnement einer anderen Organisation zuzuordnen.</block>
+  <block id="50d836849f90d9b3c57e6f88060c361e" category="paragraph">Sie können von der Seite *Übersicht* aus keine neuen Lizenzen oder Abonnements für einen bestimmten Dienst hinzufügen.  Sie können Lizenzen oder Abonnements nur über die Registerkarte *Direktlizenzen* bzw. *Marketplace-Abonnements* hinzufügen.</block>
+  <block id="ca23b039c5d1d583cc53022c31a54485" category="inline-link-macro">Erfahren Sie mehr über die Verwaltung von Lizenzen.</block>
+  <block id="4b2167e14a21898c791009b50b46ec9e" category="inline-link-macro">Erfahren Sie mehr über die Verwaltung von Abonnements.</block>
+  <block id="edf4dbcbd1200ec7acd2d146b799e81e" category="paragraph"><block ref="1126b2e5fef6a9209f75e5a91faff8ca" category="inline-link-macro-rx"></block> <block ref="841d65307797c9e89f68fecb565ac37f" category="inline-link-macro-rx"></block></block>
+  <block id="fbd2684546a6cae5f9a894684eaa9c6a" category="section-title">Beheben von Lizenz- oder Abonnementproblemen</block>
+  <block id="39cc53a4b658b6eadd0d5b6dba23db59" category="paragraph">Sie können Lizenz- und Abonnementprobleme anzeigen, die gelöst werden müssen.  Zu den Problemen zählen Lizenzen und Abonnements, die ablaufen oder ihre Kapazitätsgrenze erreichen.</block>
+  <block id="83b5f3a5fb05f69da2408855be2db387" category="list-text">Wählen Sie *Beheben* für die Kachel *Erfordert Aktion* aus, um Probleme anzuzeigen, die behoben werden müssen.  Wenn „Beheben“ nicht angezeigt wird, gibt es derzeit keine Probleme, die eine Aktion erfordern.</block>
+  <block id="b082a603fd1e4f128d09f1041b260d65" category="list-text">Wählen Sie auf der Seite *Aktion erforderlich* entweder die Registerkarte *Lizenzen* oder die Registerkarte *Abonnements* aus.</block>
+  <block id="4b394fc77dc85e2d296bba38de906efe" category="list-text">Verwenden Sie das Aktionsmenü, um das Problem zu beheben.</block>
+  <block id="1827ef91dcbc868f9c589f010df6effd" category="summary">Verwalten Sie Ihre kapazitätsbasierten Lizenzen über die Konsole, um sicherzustellen, dass Ihr NetApp -Konto über genügend Kapazität für Ihre Cloud Volumes ONTAP Systeme verfügt.</block>
+  <block id="43c4357f2e2861af46d95bae9c7873e1" category="doc">Verwalten Sie kapazitätsbasierte Cloud Volume ONTAP Lizenzen</block>
+  <block id="2eb14dc3edd9fb392b8095df85f2f222" category="paragraph">Verwalten Sie Ihre kapazitätsbasierten Lizenzen über die NetApp Console, um sicherzustellen, dass Ihr NetApp Konto über genügend Kapazität für Ihre Cloud Volumes ONTAP Systeme verfügt.</block>
+  <block id="93ed65a89f306426be7980ddc22595e8" category="paragraph">_Kapazitätsbasierte Lizenzen_ ermöglichen Ihnen die Zahlung für Cloud Volumes ONTAP pro TiB Kapazität.</block>
+  <block id="96a603641f48a14047d20b26a1cfeefa" category="paragraph">Sie können kapazitätsbasierte Cloud Volumes ONTAP Lizenzen über die NetApp Console verwalten.</block>
+  <block id="d3c2fb9e07de60e097ad32d8e9ad56eb" category="admonition">Während die tatsächliche Nutzung und Messung der in der Konsole verwalteten Produkte und Dienste immer in GiB und TiB berechnet wird, werden die Begriffe GB/GiB und TB/TiB synonym verwendet. Dies spiegelt sich in den Cloud Marketplace-Angeboten, Preisangeboten, Angebotsbeschreibungen und anderen unterstützenden Dokumenten wider</block>
+  <block id="8caaaa4afae93c31b741be21eed669cc" category="inline-link">Erfahren Sie mehr über Cloud Volumes ONTAP -Lizenzen</block>
+  <block id="25e7b507c919c21847b291c84a88ba36" category="paragraph"><block ref="73e1a6a2075a5d292111b694a644abf3" category="inline-link-rx"></block> .</block>
+  <block id="a5e948b3ddd458b93125330e6dde9f94" category="section-title">So werden Lizenzen zur NetApp Console hinzugefügt</block>
+  <block id="792eeb7f686f2ad37b664f6478d40bed" category="paragraph">Nachdem Sie eine Lizenz von Ihrem NetApp Vertriebsmitarbeiter erworben haben, sendet Ihnen NetApp eine E-Mail mit der Seriennummer und weiteren Lizenzdetails.</block>
+  <block id="8948f0f0bc878d55b118339a79ece349" category="paragraph">In der Zwischenzeit fragt die Konsole automatisch den Lizenzierungsdienst von NetApp ab, um Details zu den Lizenzen zu erhalten, die mit Ihrem NetApp Support Site-Konto verknüpft sind. Wenn keine Fehler vorliegen, werden die Lizenzen hinzugefügt.</block>
+  <block id="ad0be4bc913a8026a3f5e42fc7656d23" category="inline-link">Erfahren Sie, wie Sie Ihrem Konto erworbene Lizenzen hinzufügen</block>
+  <block id="4db74114ac6514de873c5bc9b5b30cf1" category="paragraph">Wenn die Konsole die Lizenz nicht hinzufügen kann, müssen Sie sie manuell hinzufügen. Wenn der Konsolenagent beispielsweise an einem Ort ohne Internetzugang installiert ist, müssen Sie die Lizenzen selbst hinzufügen.<block ref="21379db3c6d74c3a5d2d6d121cdcf537" category="inline-link-rx"></block> .</block>
+  <block id="03021ab228ad1d1c921bbf536e2913a4" category="section-title">Zeigen Sie die verbrauchte Kapazität in Ihrem Konto an</block>
+  <block id="61233c99902f0b66422b062168ba63a5" category="paragraph">Die Konsole zeigt Ihnen die insgesamt verbrauchte Kapazität in Ihrem Konto und die verbrauchte Kapazität nach Lizenzpaket an. Auf diese Weise können Sie besser nachvollziehen, welche Kosten Ihnen in Rechnung gestellt werden und ob Sie zusätzliche Kapazität erwerben müssen.</block>
+  <block id="f6d5cd6d364915d1012d5e7d29aa3d78" category="list-text">Wählen Sie im linken Navigationsbereich *Verwaltung &gt; Licenses and subscriptions* aus.</block>
+  <block id="a495aa39c60dc5d48d7bb146e6f7265a" category="list-text">Auf der Registerkarte *Übersicht* wird auf der Kachel „Cloud Volumes ONTAP“ die aktuell für Ihr Konto bereitgestellte Kapazität angezeigt.</block>
+  <block id="85ac3ef33729a6408e85a09c9b5ebc4f" category="inline-image-macro">width=300 Ein Screenshot, der die Kapazitätsübersicht für Ihre Cloud Volumes ONTAP Lizenzen und -Abonnements anzeigt.</block>
+  <block id="ef94465b68195bb5523f36cf2d8ea3bd" category="paragraph"><block ref="ef94465b68195bb5523f36cf2d8ea3bd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b989e51822e011c35b6e3fc2f6e007cf" category="list-text">_Direktlizenz_ ist die gesamte bereitgestellte Kapazität aller Cloud Volumes ONTAP Systeme in Ihrem NetApp Konto. Die Abrechnung erfolgt auf Grundlage der bereitgestellten Größe jedes Volumes, unabhängig vom lokalen, genutzten, gespeicherten oder effektiven Speicherplatz innerhalb des Volumes.</block>
+  <block id="80495a5c91b6e7cae60c8c5c750734bc" category="list-text">_Jahresvertrag_ ist die gesamte lizenzierte Kapazität (Bring Your Own License (BYOL) oder Marketplace-Vertrag), die Sie von NetApp erworben haben.</block>
+  <block id="18ef4a3a3844dea97bcae43ccdf60b1e" category="list-text">_PAYGO_ ist die gesamte bereitgestellte Kapazität mithilfe von Cloud-Marktplatz-Abonnements. Die Abrechnung über PAYGO erfolgt nur, wenn die verbrauchte Kapazität höher ist als die lizenzierte Kapazität oder wenn in der Konsole keine BYOL-Lizenz verfügbar ist.</block>
+  <block id="d02d58b5b8770f720f9d912913a80f1a" category="list-text">Wählen Sie *Anzeigen*, um die verbrauchte Kapazität für jedes Ihrer Lizenzpakete anzuzeigen.</block>
+  <block id="a4f95858d82d890dcc9a5123e1f315e6" category="list-text">Wählen Sie die Registerkarte *Lizenzen* aus, um Details zu jeder von Ihnen erworbenen Paketlizenz anzuzeigen.</block>
+  <block id="d30bc4bd5cee7ac23a1df54311d1f4b3" category="inline-link">Informieren Sie sich über die Gebühren für das Essentials-Paket</block>
+  <block id="b2678f2b003e23f7f5f3a7cd8451a26b" category="paragraph">Um die angezeigten Kapazitäten für das Essentials-Paket besser zu verstehen, sollten Sie mit der Funktionsweise des Ladevorgangs vertraut sein.<block ref="8d04d0643798fbb69d5260f477ea213c" category="inline-link-rx"></block> .</block>
+  <block id="452cf2122664eef3e8c620ec413c8d43" category="list-text">Wählen Sie die Registerkarte *Abonnements* aus, um die verbrauchte Kapazität nach Lizenzverbrauchsmodell anzuzeigen. Diese Registerkarte umfasst sowohl PAYGO- als auch Jahresvertragslizenzen.</block>
+  <block id="a6fd7fff8d44ac917f29be623cc64da2" category="paragraph">Sie sehen nur die Abonnements, die mit der Organisation verknüpft sind, die Sie gerade anzeigen.</block>
+  <block id="24456dcfa7781b6f3a972b5f11ed0d88" category="list-text">Während Sie die Informationen zu Ihren Abonnements anzeigen, können Sie mit den Details in der Tabelle interagieren. Erweitern Sie eine Zeile, um weitere Details anzuzeigen.</block>
+  <block id="56594b7222b35921f9fe676eadf6bbdf" category="inline-image-macro">das Plus-Symbol am Ende der Tabellenüberschrift</block>
+  <block id="2eab7ff26639a8d2e45cece515ff781f" category="list-text">Wählen<block ref="98b11313fea6c4106e5a3c018f0ffbc9" category="inline-image-macro-rx" type="image"></block> um auszuwählen, welche Spalten in der Tabelle angezeigt werden. Beachten Sie, dass die Spalten „Laufzeit“ und „Automatische Verlängerung“ nicht standardmäßig angezeigt werden. In der Spalte „Automatische Verlängerung“ werden nur Verlängerungsinformationen für Azure-Verträge angezeigt.</block>
+  <block id="8ac1ecc7ceb7a49d071b4f1b71f0e176" category="section-title">Paketdetails anzeigen</block>
+  <block id="f88e8fee4b6b78cbc9779b73098653b5" category="paragraph">Sie können Details zur pro Paket genutzten Kapazität anzeigen, indem Sie auf der Cloud Volumes ONTAP -Seite in den Legacy-Modus wechseln.</block>
+  <block id="4a95292c803539c8cf72591c54db0644" category="list-text">Wählen Sie *Anzeigen*, um die bereitgestellte Kapazität für jedes Ihrer Lizenzpakete anzuzeigen.</block>
+  <block id="40d1f3228e91a00383279859612f7ba5" category="list-text">Wählen Sie *Zur erweiterten Ansicht wechseln*.</block>
+  <block id="3df898a44cd4e747f0651fff3683bca8" category="inline-image-macro">Ein Screenshot der Schaltfläche „Zur erweiterten Ansicht wechseln“</block>
+  <block id="4247aeb98dbe93036110943452fb15a7" category="paragraph"><block ref="4247aeb98dbe93036110943452fb15a7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf5e0e2d5e3b97433dcea18ed2c97b91" category="list-text">Zeigen Sie die Details des Pakets an, das Sie sehen möchten.</block>
+  <block id="f651647ac9ca970bf81f92917731dcbb" category="inline-image-macro">Ein Screenshot der Schaltfläche zum Wechseln zur Standardansicht</block>
+  <block id="322ba871ee257d334ca304536b56b324" category="paragraph"><block ref="322ba871ee257d334ca304536b56b324" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="662442d32a5fd91298fcf8b6391fdf17" category="section-title">Lademethoden ändern</block>
+  <block id="3a320310638e1b673183daababec1ba0" category="paragraph">Die kapazitätsbasierte Lizenzierung ist in Form eines _Pakets_ verfügbar. Wenn Sie ein Cloud Volumes ONTAP -System erstellen, können Sie je nach Ihren Geschäftsanforderungen aus mehreren Lizenzpaketen wählen. Sollten sich Ihre Anforderungen nach der Erstellung des Systems ändern, können Sie das Paket jederzeit ändern. Beispielsweise könnten Sie vom Essentials-Paket zum Professional-Paket wechseln.</block>
+  <block id="58dcfad3183b701a8f1b8781a5644d09" category="inline-link">Erfahren Sie mehr über kapazitätsbasierte Lizenzpakete</block>
+  <block id="6b5c2460f150173d3723de8a857a4d33" category="paragraph"><block ref="179c8a3ed717f2c4de3149f0e9edf685" category="inline-link-rx"></block> .</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">Informationen zu diesem Vorgang</block>
+  <block id="31ccaa5879eee7a69ef3c48f1004c59c" category="list-text">Das Ändern der Abrechnungsmethode hat keinen Einfluss darauf, ob Ihnen die Kosten über eine von NetApp erworbene Lizenz (BYOL) oder über das Pay-as-you-go-Abonnement (PAYGO) Ihres Cloud-Anbieters berechnet werden.</block>
+  <block id="ac2e949b0b6c58b83082083327f0fd77" category="paragraph">Die Konsole versucht immer zuerst, eine Lizenz abzurechnen. Wenn keine Lizenz verfügbar ist, wird dies über ein Marktplatz-Abonnement abgerechnet. Sie müssen ein BYOL-Abonnement nicht in ein Marktplatz-Abonnement umwandeln oder umgekehrt.</block>
+  <block id="cfdb32f80009b1e5c5c0468dda9f013d" category="list-text">Wenn Sie über ein privates Angebot oder einen Vertrag vom Marktplatz Ihres Cloud-Anbieters verfügen, führt der Wechsel zu einer Abrechnungsmethode, die nicht in Ihrem Vertrag enthalten ist, dazu, dass Ihnen BYOL (wenn Sie eine Lizenz von NetApp erworben haben) oder PAYGO in Rechnung gestellt wird.</block>
+  <block id="2daabc6822724771970f17e8ae6a4cee" category="list-text">Wählen Sie die Registerkarte *Übersicht*.</block>
+  <block id="5b37c7034b369fcc6d9b931180eef46f" category="list-text">Wählen Sie auf der Kachel „Cloud Volumes ONTAP“ *Anzeigen* aus.</block>
+  <block id="13bb1907bdca20408e78b483332beab6" category="inline-image-macro">Ein Screenshot der Schaltfläche „Zur Legacy-Ansicht wechseln“</block>
+  <block id="07d6c0208f77e132c7e96286497713f8" category="paragraph"><block ref="07d6c0208f77e132c7e96286497713f8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0e4bc6fa91df5edc0eafb52c324b38f3" category="list-text">Scrollen Sie nach unten zur Tabelle *Kapazitätsbasierte Lizenz* und wählen Sie *Abrechnungsmethode ändern*.</block>
+  <block id="7c32cfa3b543a8f69513e758629bc263" category="inline-image-macro">Ein Screenshot der Cloud Volumes ONTAP -Seite in der Konsole, auf der sich die Schaltfläche „Abrechnungsmethode ändern“ direkt über der Tabelle befindet.</block>
+  <block id="7c3ea09c5ec07ba244bc674f632d4c79" category="paragraph"><block ref="7c3ea09c5ec07ba244bc674f632d4c79" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e6e33712a923fd615674fad11214317f" category="list-text">Wählen Sie im Popup-Fenster *Abrechnungsmethode ändern* ein Cloud Volumes ONTAP System aus, wählen Sie die neue Abrechnungsmethode und bestätigen Sie dann, dass Sie verstanden haben, dass sich die Änderung des Pakettyps auf die Servicegebühren auswirkt.</block>
+  <block id="c2a404ae45ebabafb7f3598bcd8a1a18" category="list-text">Wählen Sie *Lademethode ändern*.</block>
+  <block id="85be1733025dd0b3e190d956ed6e380c" category="paragraph">Sie können vier Nutzungsberichte von der Konsole herunterladen. Diese Nutzungsberichte liefern Kapazitätsdetails zu Ihren Abonnements und informieren Sie darüber, wie Ihnen die Ressourcen in Ihren Cloud Volumes ONTAP Abonnements in Rechnung gestellt werden. Die herunterladbaren Berichte erfassen Daten zu einem bestimmten Zeitpunkt und können problemlos mit anderen geteilt werden.</block>
+  <block id="fe1db4ddb29c070770259869ba7aa5bb" category="inline-image-macro">Der Screenshot zeigt die kapazitätsbasierte Lizenzseite von Cloud Volumes ONTAP und hebt die Schaltfläche „Nutzungsbericht“ hervor.</block>
+  <block id="61b0c512c4663de969f8c21e23e50f0e" category="paragraph"><block ref="61b0c512c4663de969f8c21e23e50f0e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d11dcbec58d47bd13de1dcccfbd640ff" category="paragraph">Die folgenden Berichte stehen zum Download bereit. Die angezeigten Kapazitätswerte sind in TiB angegeben.</block>
+  <block id="a9bcc09a5114887c29b3f365ee72e9e5" category="list-text">*Nutzung auf hoher Ebene*: Dieser Bericht enthält die folgenden Informationen:</block>
+  <block id="c596c9291f76a11af1aefc235c262de6" category="list-text">Gesamte verbrauchte Kapazität</block>
+  <block id="8dd7541d6c4e83402d88448119068a02" category="list-text">Gesamte vorab festgelegte Kapazität</block>
+  <block id="b01a146aed01aa8af61e034befc116ce" category="list-text">Gesamte BYOL-Kapazität</block>
+  <block id="109323142d354af9ccc7eb636b1dcbce" category="list-text">Gesamtkapazität der Marketplace-Verträge</block>
+  <block id="baf09c6c43fd26effd8f15e252649384" category="list-text">Gesamte PAYGO-Kapazität</block>
+  <block id="219fa750a13ad456df1d25524d9f6ad9" category="list-text">* Cloud Volumes ONTAP -Paketnutzung*: Dieser Bericht enthält die folgenden Informationen für jedes Paket:</block>
+  <block id="a65d4ec7ff2941ad2ea2bc688a6dbbb3" category="list-text">*Nutzung von Storage-VMs*: Dieser Bericht zeigt, wie die berechnete Kapazität auf Cloud Volumes ONTAP Systeme und Storage Virtual Machines (SVMs) aufgeteilt ist. Diese Informationen sind nur im Bericht verfügbar. Es enthält die folgenden Informationen:</block>
+  <block id="16f96639acdb5e88fcbe97e6d8720ba6" category="list-text">System-ID und Name (wird als UUID angezeigt)</block>
+  <block id="c8e2277ecfb1427838c488c217f99466" category="list-text">Wolke</block>
+  <block id="4736cd35bf5b3fe63e1b1785fb2aa664" category="list-text">NetApp Konto-ID</block>
+  <block id="3c4e32d95f12c00d16a76057a7af18f6" category="list-text">Systemkonfiguration</block>
+  <block id="203c4205822c007d08ecafe163b02ea2" category="list-text">SVM-Name</block>
+  <block id="b567847dd629376ac84ed4958fd61687" category="list-text">Bereitgestellte Kapazität</block>
+  <block id="a09b8df9fd0007770b0a8c10f9a17d81" category="list-text">Übersicht der geladenen Kapazität</block>
+  <block id="671095c17b0e9e0deda06cff2fa103e6" category="list-text">Abrechnungszeitraum für den Marktplatz</block>
+  <block id="d38764d5edf26bd9b744840cd2ea3c17" category="list-text">Cloud Volumes ONTAP Paket oder -Funktion</block>
+  <block id="a016fcdfd1d7159ffd537d78d4b68f74" category="list-text">Name des SaaS Marketplace-Abonnements wird aufgeladen</block>
+  <block id="fe6ac599d13d94a0ee0800482bec7e41" category="list-text">Abrechnung der SaaS Marketplace-Abonnement-ID</block>
+  <block id="427af860f9733f0c5427a1408195bb2b" category="list-text">Arbeitslasttyp</block>
+  <block id="2d0394437aca88cac134fb1bce72e08f" category="list-text">*Volume-Nutzung*: Dieser Bericht zeigt, wie die berechnete Kapazität nach Volumes in einem Cloud Volumes ONTAP System aufgeschlüsselt ist. Diese Informationen sind auf keinem Bildschirm der Konsole verfügbar. Es enthält die folgenden Informationen:</block>
+  <block id="3edb9123c69629ec86469d96d3feb0aa" category="list-text">SVN-Name</block>
+  <block id="cccc95b62282240886ee975a3f122adb" category="list-text">Datenträger-ID</block>
+  <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="list-text">Datenträgertyp</block>
+  <block id="3756f66a273f440893f16ee968ce3450" category="list-text">Vom Volumen bereitgestellte Kapazität</block>
+  <block id="8b3da2ed858ee5c956acde26c9ef7dd0" category="admonition">FlexClone -Volumes sind in diesem Bericht nicht enthalten, da für diese Volume-Typen keine Gebühren anfallen.</block>
+  <block id="b2b74732b80350970fadfac4db3ba17e" category="list-text">Wählen Sie auf der Registerkarte *Übersicht* in der Kachel „Cloud Volumes ONTAP“ die Option *Anzeigen* aus.</block>
+  <block id="f4c2ce2a853a74c3742ccc54482c074e" category="list-text">Wählen Sie *Nutzungsbericht*.</block>
+  <block id="23e918e9f1c9f1bb5769dcc236489de2" category="paragraph">Der Nutzungsbericht wird heruntergeladen.</block>
+  <block id="05655bb3cbd3604d6c71a1db823ad94f" category="list-text">Öffnen Sie die heruntergeladene Datei, um auf die Berichte zuzugreifen.</block>
+  <block id="99368e41fe86f03ceb9c0b049772ef29" category="summary">Verwalten Sie Lizenzen, die Sie direkt von NetApp (BYOL) zur Verwendung mit NetApp -Datendiensten erworben haben.  Sie können die genutzte Lizenzkapazität und die verbleibende freie Kapazität anzeigen und erhalten Benachrichtigungen, wenn Sie das Kapazitätslimit oder das Ablaufdatum erreicht haben.</block>
+  <block id="0b8de14fb3434085b0be4b2778f365e0" category="doc">Lizenzen für NetApp -Datendienste verwalten</block>
+  <block id="655a48b4a07bad11b97ddb1f7de8b150" category="paragraph">Sie können Lizenzen verwalten, die Sie direkt von NetApp (BYOL) zur Verwendung mit NetApp -Datendiensten, einschließlich Cloud Volumes ONTAP, erworben haben.  Sie können die genutzte Lizenzkapazität und die verbleibende freie Kapazität anzeigen und erhalten Benachrichtigungen, wenn Sie das Kapazitätslimit oder das Ablaufdatum erreichen.</block>
+  <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link-macro">Weitere Informationen zum Übersichts-Dashboard</block>
+  <block id="2ef1ddd95077dddfd70d5ab07187d1f8" category="admonition">Auf der Seite *Direktlizenzen* sind alle Lizenzen aufgelistet.  Wenn Sie Lizenzdetails für einen bestimmten Datendienst wünschen, verwenden Sie die Datendienstkacheln im Dashboard *Übersicht*. <block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block> .</block>
+  <block id="9733849463a86c6a043ab58c8ddf1ac4" category="paragraph">Die Anweisungen auf dieser Seite enthalten Informationen, die für jeden Dienst gelten.  Genauere Informationen zur Lizenzierung dieser Dienste finden Sie auf den folgenden Seiten:</block>
+  <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">Einrichten der Lizenzierung für NetApp Backup and Recovery</block>
+  <block id="7c2a90c11b23f49e26dfb6d98b2f294a" category="list-text"><block ref="7c2a90c11b23f49e26dfb6d98b2f294a" category="inline-link-rx"></block></block>
+  <block id="ee93b1d439ecea7d556ad659d00a499f" category="inline-link">Einrichten der Lizenzierung für NetApp Disaster Recovery</block>
+  <block id="b548e91c76ffa0a847b7391d807382b7" category="list-text"><block ref="b548e91c76ffa0a847b7391d807382b7" category="inline-link-rx"></block></block>
+  <block id="8c4e51cf0af97fc084c32c7697ac400c" category="inline-link">Einrichten der Lizenzierung für NetApp Ransomware Resilience</block>
+  <block id="0756aa27fe61dae2fde62385bb00a616" category="list-text"><block ref="0756aa27fe61dae2fde62385bb00a616" category="inline-link-rx"></block></block>
+  <block id="d4cdf3ad28a947017bac9a28090b4755" category="inline-link">Einrichten der Lizenzierung für NetApp Cloud Tiering</block>
+  <block id="83f337ebda6ebd9464706f5c1c9630d5" category="list-text"><block ref="83f337ebda6ebd9464706f5c1c9630d5" category="inline-link-rx"></block></block>
+  <block id="353c347239342af7353680135c05995b" category="inline-link">Einrichten der Lizenzierung für Cloud Volumes ONTAP</block>
+  <block id="db5f4e2c0efdad7e19e2179ef05db67e" category="list-text"><block ref="db5f4e2c0efdad7e19e2179ef05db67e" category="inline-link-rx"></block></block>
+  <block id="73acd586df3bf9938d39f0e738d5c161" category="section-title">Erhalten Sie eine Lizenzdatei</block>
+  <block id="ec01ce5d7a75843507cddc0f1e980f6a" category="section-title">Hinzufügen einer Lizenz</block>
+  <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="section-title">Aktualisieren einer Lizenz</block>
+  <block id="6d6c2071320d39aedc7f752f83e093e6" category="section-title">Lizenzstatus anzeigen</block>
+  <block id="6e79c672327d05321fb0d16a797aca70" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::_include/task-view-license-status.adoc[]</block>
+  <block id="a58a19877ed0bf7f9b6d06fdd8387763" category="summary">Verwalten Sie Ihre Keystone -Abonnements in der NetApp Console , indem Sie Abonnements für die Verwendung mit Cloud Volumes ONTAP aktivieren und Änderungen an der zugesagten Kapazität für die Service-Levels Ihres Abonnements anfordern.  Durch die Anforderung zusätzlicher Kapazität für ein Servicelevel wird mehr Speicherplatz für Cloud Volumes ONTAP Systeme bereitgestellt.</block>
+  <block id="52ba144dbaac8239e9b6d8e287db93dc" category="doc">Keystone -Abonnements verwalten</block>
+  <block id="a3b1d6e06d4fd8ccc20c61ce51e45853" category="paragraph">NetApp Keystone ist ein flexibler, abonnementbasierter Pay-as-you-grow-Service, der Kunden, die OpEx gegenüber CapEx oder Leasing bevorzugen, ein Hybrid-Cloud-Erlebnis bietet.</block>
+  <block id="8635fd9dae0faf14591abf5c00ba4c36" category="inline-link">Erfahren Sie mehr über Keystone</block>
+  <block id="d9e1f569a60d13d4540b611846d761f5" category="paragraph"><block ref="d9e1f569a60d13d4540b611846d761f5" category="inline-link-rx"></block></block>
+  <block id="4edb70089cdbc18de22fa9ead5189bc8" category="section-title">Autorisieren Sie Ihr Konto</block>
+  <block id="df5e66b5e7999995b53a0f100212d79f" category="paragraph">Bevor Sie Keystone -Abonnements in der Konsole verwenden und verwalten können, müssen Sie sich an NetApp wenden, um Ihr Konsolenkonto mit Ihren Keystone -Abonnements zu autorisieren.</block>
+  <block id="1ce97cc664bad2b8b354b3220e6331e7" category="list-text">Wählen Sie * Keystone -Abonnements* aus.</block>
+  <block id="daf4ae396784c74ec2cbf002eaaa25f4" category="list-text">Wenn Sie die Seite *Willkommen bei NetApp Keystone* sehen, senden Sie eine E-Mail an die auf der Seite angegebene Adresse.</block>
+  <block id="a53c428d90f592127da49a8d5a558130" category="paragraph">Ein NetApp -Mitarbeiter wird Ihre Anfrage bearbeiten, indem er Ihr Konto für den Zugriff auf die Abonnements autorisiert.</block>
+  <block id="23698106a2d9dc1f2df20e97a71a625c" category="list-text">Kehren Sie zur Registerkarte * Keystone -Abonnements* zurück, um Ihre Abonnements anzuzeigen.</block>
+  <block id="06f358c39bc3b4633cefd78beb67e671" category="section-title">Verknüpfen eines Abonnements</block>
+  <block id="8afaab6946e4a914b70539d7502e26ac" category="paragraph">Nachdem NetApp Ihr ​​Konto autorisiert hat, können Sie Keystone Abonnements zur Verwendung mit Cloud Volumes ONTAP verknüpfen. Mit dieser Aktion können Benutzer das Abonnement als Abrechnungsmethode für neue Cloud Volumes ONTAP Systeme auswählen.</block>
+  <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">Ein Symbol, das aus drei nebeneinander liegenden Punkten besteht</block>
+  <block id="fc6ada65ff8f08c80e7d6167f68c89c2" category="list-text">Klicken Sie für das Abonnement, das Sie verknüpfen möchten, auf<block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> und wählen Sie *Link*.</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Ergebnis</block>
+  <block id="9c2f6d6e4376237ad065b1baa0ad822d" category="paragraph">Das Abonnement ist jetzt mit Ihrer Konsolenorganisation oder Ihrem Konsolenkonto verknüpft und kann beim Erstellen einer Cloud Volumes ONTAP Arbeitsumgebung ausgewählt werden.</block>
+  <block id="1b02ed65c5ea56c85fffa6b88378d762" category="section-title">Fordern Sie mehr oder weniger zugesicherte Kapazität an</block>
+  <block id="10d2905ee5dfcb309d64e3633fb774c1" category="paragraph">Wenn Sie die zugesagte Kapazität für die Service-Levels Ihres Abonnements ändern möchten, können Sie direkt von der Konsole aus eine Anfrage an NetApp senden.  Durch die Anforderung zusätzlicher Kapazität für ein Servicelevel wird mehr Speicherplatz für Cloud Volumes ONTAP Systeme bereitgestellt.</block>
+  <block id="e45b542fbde799582edd5059bc1991a9" category="list-text">Klicken Sie für das Abonnement, dessen Kapazität Sie anpassen möchten, auf<block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> und wählen Sie *Details anzeigen und bearbeiten*.</block>
+  <block id="56ecf988dec174f4d23028e78eeed82c" category="list-text">Geben Sie die angeforderte zugesagte Kapazität für ein oder mehrere Abonnements ein.</block>
+  <block id="dbae9df22f08344d5508b91cb73c6d15" category="list-text">Scrollen Sie nach unten, geben Sie zusätzliche Details für die Anfrage ein und klicken Sie dann auf *Senden*.</block>
+  <block id="8f140d9c4d508c36e3d4c57102f117eb" category="paragraph">Ihre Anfrage erstellt zur Bearbeitung ein Ticket im NetApp-System.</block>
+  <block id="ec6e0d1bd46f010ced65478c609b1636" category="section-title">Überwachen der Nutzung</block>
+  <block id="a3a13a09504a7f25eb72dede89db4f24" category="paragraph">Mit dem Digital Advisor -Dashboard können Sie die Nutzung des Keystone Abonnements überwachen und Berichte erstellen.</block>
+  <block id="20ea4c62f4c9e4254314fe7fbbef0319" category="inline-link">Erfahren Sie mehr über die Überwachung der Abonnementnutzung</block>
+  <block id="d7105dd212dc96a8b292b6b48f84916f" category="paragraph"><block ref="d7105dd212dc96a8b292b6b48f84916f" category="inline-link-rx"></block></block>
+  <block id="0c0401d1e9169d6dd38462b1e0d04126" category="section-title">Aufheben der Verknüpfung eines Abonnements</block>
+  <block id="e29343f0ee1c0051a367e02b49c1c5ff" category="paragraph">Wenn Sie ein Keystone -Abonnement nicht mehr mit der Konsole verwenden möchten, können Sie die Verknüpfung des Abonnements aufheben. Beachten Sie, dass Sie die Verknüpfung eines Abonnements nur aufheben können, wenn es nicht mit einem vorhandenen Cloud Volumes ONTAP Abonnement verknüpft ist.</block>
+  <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">Wählen Sie * Keystone*.</block>
+  <block id="a666a430e484ea214384aefaa30da852" category="list-text">Klicken Sie für das Abonnement, dessen Verknüpfung Sie aufheben möchten, auf<block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> und wählen Sie *Verknüpfung aufheben*.</block>
+  <block id="0e1096776546966fb22c4752766d55a9" category="paragraph">Die Verknüpfung des Abonnements mit Ihrer Konsolenorganisation oder Ihrem Konto wird aufgehoben und steht beim Erstellen einer Cloud Volumes ONTAP Arbeitsumgebung nicht mehr zur Auswahl.</block>
+  <block id="84d46f62b819e413ba1572fee9e31acc" category="summary">Verwalten Sie Ihre knotenbasierten Lizenzen in der Konsole, um sicherzustellen, dass jedes Cloud Volumes ONTAP -System über eine gültige Lizenz mit der erforderlichen Kapazität verfügt.</block>
+  <block id="de94398a333e3b7bdafad2ddf3232331" category="doc">Knotenbasierte Lizenzen verwalten</block>
+  <block id="63e5ea33dc9b9a10458ac73abae91075" category="paragraph">Verwalten Sie knotenbasierte Lizenzen in der NetApp Console, um sicherzustellen, dass jedes Cloud Volumes ONTAP -System über eine gültige Lizenz mit der erforderlichen Kapazität verfügt.</block>
+  <block id="4627bd080634e9380c75a1cc04a09486" category="paragraph">_Knotenbasierte Lizenzen_ sind das Lizenzmodell der vorherigen Generation (und für Neukunden nicht verfügbar):</block>
+  <block id="0d4e36aae457a1001b3373de2fd510f1" category="list-text">Bring Your Own License (BYOL)-Lizenzen, die bei NetApp erworben wurden</block>
+  <block id="17ac9e85cf5b6f7b77acf61fb7721242" category="list-text">Stündliche Pay-as-you-go-Abonnements (PAYGO) vom Marktplatz Ihres Cloud-Anbieters</block>
+  <block id="3501754bb69f70ed8f72d23562bab97c" category="paragraph">Sie können knotenbasierte Cloud Volumes ONTAP -Lizenzen über die NetApp Console verwalten.</block>
+  <block id="9426b05d2fc423b761e34f9d75b4066d" category="section-title">PAYGO-Lizenzen verwalten</block>
+  <block id="fcd2026c30c1b902d032e35337e8888c" category="paragraph">Über das Menü „Licenses and subscriptions“ können Sie Details zu jedem Ihrer PAYGO Cloud Volumes ONTAP Systeme anzeigen, einschließlich der Seriennummer und des PAYGO-Lizenztyps.</block>
+  <block id="343c7ed77049523f4d99e8d4c436a330" category="list-text">Wählen Sie *Knotenbasierte Lizenzen* aus der Dropdown-Liste aus.</block>
+  <block id="87089bacab591352ad6ad6579e34d93e" category="list-text">Klicken Sie auf *PAYGO*.</block>
+  <block id="82be8e06ac169a3de0fce42cd01f5760" category="list-text">Sehen Sie sich in der Tabelle Details zu jeder Ihrer PAYGO-Lizenzen an.</block>
+  <block id="bbfa86a1d5f6c6f85f7a434a983b34e1" category="inline-image-macro">Ein Screenshot, der eine Tabelle auf der Seite „Licenses and subscriptions“ mit drei Paygo-Lizenzen zeigt. Jede Zeile zeigt den Namen, den Systemtyp, die Seriennummer, das Paket und einen Link zur Verwaltung der Lizenz.</block>
+  <block id="cf03ba6c2dea0eb29457f99fdcd69b82" category="paragraph"><block ref="cf03ba6c2dea0eb29457f99fdcd69b82" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a45c9786e45613660f519d740b30671a" category="list-text">Klicken Sie bei Bedarf auf *PAYGO-Lizenz verwalten*, um die PAYGO-Lizenz zu ändern oder den Instanztyp zu ändern.</block>
+  <block id="00b61e8d20d055a6505bd5bc88e18aeb" category="section-title">BYOL-Lizenzen verwalten</block>
+  <block id="33375e3f722897194d509130054856dd" category="paragraph">Verwalten Sie Lizenzen, die Sie direkt von NetApp erworben haben, indem Sie Systemlizenzen und Lizenzen für zusätzliche Kapazität hinzufügen und entfernen.</block>
+  <block id="6bcfb67e751fc7a3d8dba22f37cbb570" category="inline-link">Eingeschränkte Verfügbarkeit der BYOL-Lizenzierung für Cloud Volumes ONTAP</block>
+  <block id="ceb2294714463ec73c3bb76a991ef103" category="admonition">NetApp hat den Erwerb, die Verlängerung und die Erneuerung von BYOL-Lizenzen eingeschränkt. Weitere Informationen finden Sie unter <block ref="73dc1b5468c2405a47da63a28335f079" category="inline-link-rx"></block> .</block>
+  <block id="4742f5b0c38f7c105542ecb15a214212" category="section-title">Nicht zugewiesene Lizenzen hinzufügen</block>
+  <block id="d0052e7943aa77623453a3374803765d" category="paragraph">Fügen Sie der Konsole eine knotenbasierte Lizenz hinzu, damit Sie die Lizenz auswählen können, wenn Sie ein neues Cloud Volumes ONTAP -System erstellen. Die Konsole identifiziert diese Lizenzen als _nicht zugewiesen_.</block>
+  <block id="9827486f8d28067db0a9918ee807f05e" category="list-text">Klicken Sie auf *Nicht zugewiesen*.</block>
+  <block id="7fa863d81a4b4f5f46596207ce29dc50" category="list-text">Klicken Sie auf *Nicht zugewiesene Lizenzen hinzufügen*.</block>
+  <block id="851df848340ac5c43d036a7c8ab531e8" category="list-text">Geben Sie die Seriennummer der Lizenz ein oder laden Sie die Lizenzdatei hoch.</block>
+  <block id="bec033f0535da0f58c9f0a7ccd96e793" category="paragraph">Wenn Sie die Lizenzdatei noch nicht haben, lesen Sie den folgenden Abschnitt.</block>
+  <block id="ea9a2b9ac34c9aab133f21aa5b67976e" category="list-text">Klicken Sie auf *Lizenz hinzufügen*.</block>
+  <block id="684d5df2e069e529d4a4c518d654dc44" category="paragraph">Die Konsole fügt die Lizenz hinzu. Die Lizenz wird als nicht zugewiesen gekennzeichnet, bis Sie sie einem neuen Cloud Volumes ONTAP -System zuordnen. Danach wird die Lizenz auf die Registerkarte *BYOL* unter * Licenses and subscriptions* verschoben.</block>
+  <block id="df5b9d272738b4adaa43e7eb4949a0e5" category="section-title">Austausch nicht zugewiesener knotenbasierter Lizenzen</block>
+  <block id="76a67f9205ca80ce535686592126df9d" category="paragraph">Wenn Sie über eine nicht zugewiesene knotenbasierte Lizenz für Cloud Volumes ONTAP verfügen, die Sie nicht verwendet haben, können Sie die Lizenz austauschen, indem Sie sie in eine NetApp Backup and Recovery -Lizenz, eine NetApp Data Classification -Lizenz oder eine NetApp Cloud Tiering -Lizenz umwandeln.</block>
+  <block id="82330159ba1b86113008185841af38f9" category="paragraph">Durch den Austausch der Lizenz wird die Cloud Volumes ONTAP -Lizenz widerrufen und eine Lizenz im Gegenwert von einem Dollar für den Dienst erstellt:</block>
+  <block id="488b3f4a79a8819dabc209f2405c7ba7" category="list-text">Die Lizenzierung für ein Cloud Volumes ONTAP HA-Paar wird in eine 51 TiB Direktlizenz umgewandelt</block>
+  <block id="d8961eb56e3c50e0da29ec362dcb385a" category="list-text">Die Lizenzierung für einen Cloud Volumes ONTAP Einzelknoten wird in eine 32 TiB-Direktlizenz umgewandelt</block>
+  <block id="89f1c05b91f27a0ccc4736c51deee49f" category="paragraph">Die konvertierte Lizenz hat dasselbe Ablaufdatum wie die Cloud Volumes ONTAP -Lizenz.</block>
+  <block id="e0225acc5a75bb0346dd94ed24206c81" category="inline-link-macro">Sehen Sie sich die Anleitung zum Austausch knotenbasierter Lizenzen an.</block>
+  <block id="d82de0388f091aa9d43371708eb95310" category="paragraph"><block ref="b4c22b5293d3ee433dee9c4b3632dbee" category="inline-link-macro-rx"></block></block>
+  <block id="fff69e388498c7da2216c0a49587cbc8" category="list-text">Klicken Sie auf *Lizenz austauschen*.</block>
+  <block id="25abdaf706ab9bbfe1775de2626f958f" category="inline-image-macro">Ein Screenshot der Exchange-Lizenzoption, die auf der Seite „Nicht zugewiesene Lizenz“ angezeigt wird.</block>
+  <block id="59069c86e2c388bcb56b4ec04ba7c1b1" category="paragraph"><block ref="59069c86e2c388bcb56b4ec04ba7c1b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b2bcb667f1a3e2cd665dce56fa38946c" category="list-text">Wählen Sie den Dienst aus, bei dem Sie die Lizenz eintauschen möchten.</block>
+  <block id="d54ac11d311c4a7a85e11a557ee305e3" category="list-text">Wählen Sie bei entsprechender Aufforderung eine zusätzliche Lizenz für das HA-Paar aus.</block>
+  <block id="1e4109afcb540c886b450b6944b83567" category="list-text">Lesen Sie die rechtlichen Einwilligungserklärungen und klicken Sie auf *Zustimmen*.</block>
+  <block id="f56693ead48da8f8372b53a387f22165" category="paragraph">Die Konsole konvertiert die nicht zugewiesene Lizenz in den von Ihnen ausgewählten Dienst. Sie können die neue Lizenz auf der Registerkarte *Data Services-Lizenzen* anzeigen.</block>
+  <block id="bed8ee00b54ae810def15122c80a9dba" category="section-title">Erhalten Sie eine Systemlizenzdatei</block>
+  <block id="022919ed552faad7f4de98d1abe88fc1" category="paragraph">In den meisten Fällen kann die Konsole Ihre Lizenzdatei automatisch über Ihr NetApp Support Site-Konto abrufen. Wenn dies jedoch nicht möglich ist, müssen Sie die Lizenzdatei manuell hochladen. Wenn Sie die Lizenzdatei nicht haben, können Sie sie von netapp.com beziehen.</block>
+  <block id="eeb818d6636d7675fb1108e834a0fed1" category="inline-link">NetApp Lizenzdateigenerator</block>
+  <block id="3eff90cc077e6c35c01b4fa2ce08352e" category="list-text">Gehen Sie zum<block ref="d4604fbd185a778fcb9e2d4bce6d880d" category="inline-link-rx"></block> und melden Sie sich mit Ihren Anmeldeinformationen für die NetApp Support-Site an.</block>
+  <block id="fd714c8e7c7967952f8eefe7a8c25c48" category="list-text">Geben Sie Ihr Passwort ein, wählen Sie Ihr Produkt aus, geben Sie die Seriennummer ein, bestätigen Sie, dass Sie die Datenschutzrichtlinie gelesen und akzeptiert haben, und klicken Sie dann auf *Senden*.</block>
+  <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">*Beispiel*</block>
+  <block id="7260bbc39295ef94e60be19b73affac6" category="inline-image-macro">Screenshot: Zeigt ein Beispiel der NetApp License Generator-Webseite mit den verfügbaren Produktlinien.</block>
+  <block id="c7db6ec8c72cc25c90f19ebafe2ddfbd" category="paragraph"><block ref="c7db6ec8c72cc25c90f19ebafe2ddfbd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="74fd2dac6a51b8a94f6612bae65dcbdf" category="list-text">Wählen Sie, ob Sie die JSON-Datei „serialnumber.NLF“ per E-Mail oder durch direkten Download erhalten möchten.</block>
+  <block id="58f676020d30c00d4b3fb18fc835e7ca" category="section-title">Aktualisieren einer Systemlizenz</block>
+  <block id="b0f33031496e38b99d72e702000365e8" category="paragraph">Wenn Sie ein BYOL-Abonnement verlängern, indem Sie sich an einen NetApp -Vertreter wenden, erhält die Konsole automatisch die neue Lizenz von NetApp und installiert sie auf dem Cloud Volumes ONTAP System. Wenn die Konsole über die sichere Internetverbindung nicht auf die Lizenzdatei zugreifen kann, können Sie die Datei selbst abrufen und dann manuell hochladen.</block>
+  <block id="eda4b0f5ee71694deda064c01799f329" category="list-text">Erweitern Sie auf der Registerkarte *BYOL* die Details für ein Cloud Volumes ONTAP System.</block>
+  <block id="d91a847294f18b5d31d438a059c2532d" category="list-text">Klicken Sie auf das Aktionsmenü neben der Systemlizenz und wählen Sie *Lizenz aktualisieren*.</block>
+  <block id="98022931ad96bfc8db710666a48e0416" category="list-text">Laden Sie die Lizenzdatei (oder Dateien, wenn Sie ein HA-Paar haben) hoch.</block>
+  <block id="1c523ff18e24f3b5d4d5fa45c4410b01" category="list-text">Klicken Sie auf *Lizenz aktualisieren*.</block>
+  <block id="825a0cb9a8312e85f3aa745487c0dbe9" category="paragraph">Die Konsole aktualisiert die Lizenz auf dem Cloud Volumes ONTAP -System.</block>
+  <block id="2c2e7695734e076306fc8ba50ca70c1b" category="section-title">Verwalten von Lizenzen für zusätzliche Kapazität</block>
+  <block id="d452bdec5cf94a61fe23690b513f4a71" category="paragraph">Sie können zusätzliche Kapazitätslizenzen für ein Cloud Volumes ONTAP BYOL-System erwerben, um mehr als die 368 TiB Kapazität zuzuweisen, die mit einer BYOL-Systemlizenz bereitgestellt werden. Sie können beispielsweise eine zusätzliche Lizenzkapazität erwerben, um Cloud Volumes ONTAP bis zu 736 TiB Kapazität zuzuweisen. Oder Sie erwerben drei zusätzliche Kapazitätslizenzen, um bis zu 1,4 PiB zu erhalten.</block>
+  <block id="5e26587c8f074cc4f0455ff005cb744c" category="paragraph">Die Anzahl der Lizenzen, die Sie für ein Einzelknotensystem oder ein HA-Paar erwerben können, ist unbegrenzt.</block>
+  <block id="6e869ff6c9fd5eb76baa394c52e2ef18" category="section-title">Kapazitätslizenzen hinzufügen</block>
+  <block id="41a0a4fe38c3f00a9fae3056955c9f80" category="paragraph">Erwerben Sie eine Lizenz für zusätzliche Kapazität, indem Sie uns über das Chat-Symbol unten rechts in der Konsole kontaktieren. Nachdem Sie die Lizenz erworben haben, können Sie sie auf ein Cloud Volumes ONTAP System anwenden.</block>
+  <block id="423cdc57679399d47229e2f74dfc102b" category="list-text">Klicken Sie auf *Kapazitätslizenz hinzufügen*.</block>
+  <block id="b0bfc70f0e7f3f10c4334bd53c2c2a27" category="list-text">Geben Sie die Seriennummer ein oder laden Sie die Lizenzdatei (oder Dateien, wenn Sie ein HA-Paar haben) hoch.</block>
+  <block id="c4e9cc48e592b9354b10b9d54e14525c" category="section-title">Aktualisieren von Kapazitätslizenzen</block>
+  <block id="2526a0404b7268bca72e19dd834baa1e" category="paragraph">Wenn Sie die Laufzeit einer Lizenz für zusätzliche Kapazität verlängert haben, müssen Sie die Lizenz in der Konsole aktualisieren.</block>
+  <block id="555efdea73381bcd8582646f75b68253" category="list-text">Klicken Sie auf das Aktionsmenü neben der Kapazitätslizenz und wählen Sie *Lizenz aktualisieren*.</block>
+  <block id="df478b8a8dcb38cfbba69a02ff5cae20" category="section-title">Kapazitätslizenzen entfernen</block>
+  <block id="9906134ee224bc081497b19c4269cc34" category="paragraph">Wenn eine Lizenz für zusätzliche Kapazität abgelaufen ist und nicht mehr verwendet wird, können Sie sie jederzeit entfernen.</block>
+  <block id="c320af21170d1ca43751b7580a1125f4" category="list-text">Klicken Sie auf das Aktionsmenü neben der Kapazitätslizenz und wählen Sie *Lizenz entfernen*.</block>
+  <block id="03b194a23dcb353466fbfb7acff64363" category="list-text">Klicken Sie auf *Entfernen*.</block>
+  <block id="594cb44c6500d8855ad820b0653e02c7" category="section-title">Wechsel zwischen PAYGO und BYOL</block>
+  <block id="a704128156d562fe5860508e9584ee34" category="paragraph">Die Konvertierung eines Systems von der PAYGO-By-Node-Lizenzierung zur BYOL-By-Node-Lizenzierung (und umgekehrt) wird nicht unterstützt. Wenn Sie zwischen einem Pay-as-you-go-Abonnement und einem BYOL-Abonnement wechseln möchten, müssen Sie ein neues System bereitstellen und Daten vom vorhandenen System auf das neue System replizieren.</block>
+  <block id="c019dbada10848ba4363bd4710a34f6b" category="list-text">Erstellen Sie ein neues Cloud Volumes ONTAP System.</block>
+  <block id="9bd20ffd5e91ec2bb61bc593be38bb13" category="list-text">Richten Sie für jedes Volume, das Sie replizieren müssen, eine einmalige Datenreplikation zwischen den Systemen ein.</block>
+  <block id="95b10ad2ca24b4c8bd5673b7383531a2" category="inline-link">Erfahren Sie, wie Sie Daten zwischen Systemen replizieren</block>
+  <block id="882d5f98206dd8157654127073c920f2" category="paragraph"><block ref="882d5f98206dd8157654127073c920f2" category="inline-link-rx"></block></block>
+  <block id="ebf88a96d90d43fcac8c0ab5a9fda0dd" category="list-text">Beenden Sie das Cloud Volumes ONTAP -System, das Sie nicht mehr benötigen, indem Sie das ursprüngliche System löschen.</block>
+  <block id="f979ec1d84a4416797fae20cc61f839b" category="inline-link">Erfahren Sie, wie Sie ein Cloud Volumes ONTAP -System löschen</block>
+  <block id="0d0947c9b1ebe3ee650df057f8192855" category="paragraph"><block ref="87175a08736eca79154ad91c69792fcd" category="inline-link-rx"></block> .</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="paragraph-title">Weiterführende Links</block>
+  <block id="90df487d076cd9295a7192268b4439ee" category="inline-link-macro">Ende der Verfügbarkeit von knotenbasierten Lizenzen</block>
+  <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link-macro">Konvertieren Sie knotenbasierte Lizenzen in kapazitätsbasierte</block>
+  <block id="cb90b48918ed9cd8ea355c04c171177b" category="paragraph">Link:<block ref="7f9a8649ca2d86db235ba56502d14f92" category="inline-link-macro-rx"></block> <block ref="431f655d5a9ac309b561fc62a4c619ea" category="inline-link-macro-rx"></block></block>
+  <block id="8d90649cbc48862e96a3f1f139e803fa" category="summary">Zeigen Sie Vertragsdetails für jeden Ihrer lokalen ONTAP Cluster an.  Wenn Sie in der Konsole noch keinen Cluster entdeckt haben, können Sie ihn auch entdecken.</block>
+  <block id="7b157739a85d3d5c67c903118518835e" category="doc">Lizenzen für On-Premises ONTAP verwalten</block>
+  <block id="712aeceaab91f33fd5739a8bbd6738fd" category="paragraph">Sie können Vertragsdetails für jeden Ihrer lokalen ONTAP Cluster in der Konsole anzeigen.  Wenn Sie noch keinen Cluster entdeckt haben, können Sie ihn auch entdecken.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Bevor Sie beginnen</block>
+  <block id="857f422578a1e03dfc3a054866eabaeb" category="paragraph">Die Konsole zeigt Details zu lokalen ONTAP Clustern an, die Sie als Systeme erkannt haben oder die mit einem NetApp Support Site-Konto verknüpft sind, das Sie der Konsole hinzugefügt haben.</block>
+  <block id="422bab6ebf30e7a3f981f61427aaba19" category="inline-link">Erfahren Sie, wie Sie einen lokalen ONTAP Cluster erkennen</block>
+  <block id="b23696557397783ca9c44bd2c80b335d" category="list-text"><block ref="b23696557397783ca9c44bd2c80b335d" category="inline-link-rx"></block></block>
+  <block id="c627ab41d97c61821845349a4880080b" category="inline-link">Erfahren Sie, wie Sie die mit Ihrer Konsolenorganisation oder Ihrem Konsolenkonto verknüpften NSS-Anmeldeinformationen verwalten.</block>
+  <block id="f8969c7525255a4701b49192dd720200" category="list-text"><block ref="f8969c7525255a4701b49192dd720200" category="inline-link-rx"></block></block>
+  <block id="4bbcdd6338e8631576e63f1156b1c51d" category="section-title">Clusterinformationen und Vertragsdetails anzeigen</block>
+  <block id="dfaa8df1d6444411a1429b0866742025" category="paragraph">Zeigen Sie den Status der Hardware- und Softwareverträge für Ihre lokalen ONTAP Cluster an, damit Sie sie vor Ablauf verlängern können.</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">Wählen Sie *On-Premises ONTAP*.</block>
+  <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">Die Ablaufdaten des Software- und Hardwarevertrags werden in der Zeile für jeden Cluster angezeigt.</block>
+  <block id="6723aa6a44348a3e74720156abb41f28" category="paragraph">Wenn Sie aufgefordert werden, zuerst die Anmeldeinformationen Ihres NetApp Support Site (NSS)-Kontos einzugeben, wählen Sie *NSS-Konto hinzufügen*.  Nachdem Sie das Konto hinzugefügt haben, werden die mit diesem NSS-Konto verknüpften Cluster angezeigt.</block>
+  <block id="1c962c716cf9d1c072d4252a94056d5a" category="list-text">Wenn der Vertrag kurz vor dem Ablaufdatum steht oder bereits abgelaufen ist, können Sie über das Chat-Symbol unten rechts in der Konsole eine Vertragsverlängerung beantragen.</block>
+  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">Ein Abwärtspfeil-Symbol</block>
+  <block id="093ebe6e7f093a5d0ba33d387ce15bd0" category="list-text">Um weitere Details anzuzeigen, wählen Sie<block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> um die Clusterinformationen zu erweitern.</block>
+  <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">Cluster entdecken</block>
+  <block id="1cf9d33301fa4cb07a99ed5ba256d866" category="paragraph">Wenn Sie keinen lokalen ONTAP Cluster als System erkannt haben, können Sie dies über die Konsole tun.  Nach der Erkennung steht Ihnen ein Cluster als System zur Verfügung, sodass Sie ihn verwalten können.</block>
+  <block id="92421df1db7978a6de6c77c10608c02a" category="paragraph">Sie sollten Ihre Erkennungs- und Verwaltungsoptionen (Erkennung mithilfe eines Konsolenagenten oder direkte Erkennung ohne Agenten) sowie die Erkennungsanforderungen verstehen.</block>
+  <block id="01b0421859ec2fed2ce4dff333e190ee" category="inline-link">Informieren Sie sich über die Erkennungsoptionen und -anforderungen</block>
+  <block id="da810fa51a2b9119147838a70412015f" category="paragraph"><block ref="a07feb0a336d59a2369adfa9ca88e728" category="inline-link-rx"></block> .</block>
+  <block id="f6cecdb846b23a4aac2b02906d51d210" category="paragraph">Ihre ONTAP -Cluster werden mit einem Status angezeigt, der angibt, ob sie in der Konsole erkannt wurden.</block>
+  <block id="49d43c2b09f782977f5c343a450651ae" category="list-text">Wählen Sie *Discover* für den Cluster aus, den Sie über die Konsole verwalten möchten.</block>
+  <block id="65fd12713cafdbaee90c518b8e719b8a" category="list-text">Geben Sie auf der Seite „ONTAP -Cluster ermitteln“ das Kennwort für das Administratorbenutzerkonto ein und wählen Sie „Ermitteln“ aus.</block>
+  <block id="b2d17e7f9f19a98eddebda3400555598" category="admonition">Die IP-Adresse für die Clusterverwaltung wird anhand der Informationen aus Ihrem NetApp Support-Site-Konto ausgefüllt.</block>
+  <block id="145be65ce972b71bb40e463e2bf3acbd" category="paragraph">Die Konsole erkennt den Cluster und fügt ihn der Seite „Systeme“ als System hinzu.  Der Status des Clusters ändert sich auf der Seite _On-Premises ONTAP_ zu *Erkannt*.  Beachten Sie, dass der Systemname der Name des Clusters ist.</block>
+  <block id="d123a6bdeb75e456b3adf0e79646234d" category="paragraph">Sie können jetzt mit der Verwaltung des Clusters beginnen.</block>
+  <block id="0453a9f0adad145b25cfdf23836cf986" category="inline-link">Erfahren Sie, wie Sie mit einem Konsolenagenten erkannte Cluster verwalten</block>
+  <block id="43c3be2707abdedd2af74a90af5871ba" category="list-text"><block ref="43c3be2707abdedd2af74a90af5871ba" category="inline-link-rx"></block></block>
+  <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">Erfahren Sie, wie Sie erkannte Cluster direkt verwalten</block>
+  <block id="e82c60430ac236acfc954acd22ea737d" category="list-text"><block ref="e82c60430ac236acfc954acd22ea737d" category="inline-link-rx"></block></block>
+  <block id="486c0e58304417d548694e3073643b23" category="summary">Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgängigen Private Offer Process und die Akzeptanz- und Aktivierungsleitfäden für NetApp Intelligent Services für AWS, Azure und Google Cloud.</block>
+  <block id="9248cc8bc8852d71cca7f73f6d36eea5" category="doc">Akzeptieren und konfigurieren Sie ein privates AWS Marketplace-Angebot für die NetApp Console</block>
+  <block id="ff13fa6d7bc903be5ecf4d041ce5aa5c" category="paragraph">Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console in der AWS-Konsole und konfigurieren Sie die AWS-Anmeldeinformationen in der Konsole.</block>
+  <block id="e42fe00103b11c26a130efa909bb5a84" category="list-text">Arbeiten Sie mit dem NetApp -Vertrieb zusammen, um ein privates Angebot zu erstellen und den Aktivierungslink zu erhalten.</block>
+  <block id="514210ca19d963f85ab4ed1d6e72df32" category="list-text">Stellen Sie sicher, dass Sie über die erforderlichen AWS Marketplace-Berechtigungen verfügen:</block>
+  <block id="9b0cad6850cfb6b3550c8a17e7be435b" category="inline-link-macro">Anzeigen und Abonnieren eines privaten Angebots</block>
+  <block id="c3f1185d398ba0919b1e1de888c27261" category="list-text"><block ref="c3f1185d398ba0919b1e1de888c27261" category="inline-link-macro-rx"></block></block>
+  <block id="eddabc606d42f919a6957cf8c062b45b" category="inline-link-macro">Validierung der Käuferberechtigungen</block>
+  <block id="5669e814cce268752252c43ffbb097b9" category="list-text"><block ref="5669e814cce268752252c43ffbb097b9" category="inline-link-macro-rx"></block></block>
+  <block id="09d9df0afa016eba24d822b0fab07ad9" category="section-title">Akzeptieren Sie das private Angebot in der AWS-Konsole</block>
+  <block id="01fe1bcb4f23578a5739afabaf15081c" category="paragraph">Um den Kauf zu aktivieren und den ermäßigten Preis anzuwenden, muss die Abonnementzuweisung in der Konsole abgeschlossen werden.</block>
+  <block id="5277c9848e0bbe319cb5f8129fe4c77b" category="paragraph">Sie müssen alle Schritte abschließen, um Ihr privates Angebot zu aktivieren. Das Überspringen von Schritten kann zu Abrechnungsfehlern führen. Bei mehrmaliger Annahme und Aktivierung des Angebots kommt es zu einer doppelten Abrechnung.</block>
+  <block id="69ab7cbfb20290fc5a153bd4d1e77e2d" category="list-text">Klicken Sie auf den Aktivierungslink für das private Angebot Ihres NetApp -Vertriebsteams. Der Link sollte ungefähr wie folgt aussehen:<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
+  <block id="3aa206f6a7574e314eb4973a2b96b331" category="list-text">Verwenden von AWS-verwalteten Richtlinien: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* oder *AWSMarketplaceFullAccess*</block>
+  <block id="bc5572c241330df8ef51ced4284b0bdf" category="list-text">Verwenden benutzerdefinierter IAM-Richtlinien:<block ref="ff04429efaed7625c69c6d08008313b5" prefix=" " category="inline-code"></block> Und<block ref="326720e7bae8966d6ca9815f71034380" prefix=" " category="inline-code"></block></block>
+  <block id="e0d6be37107f0e0cac8ae690935c3953" category="list-text">Sie werden zum AWS Marketplace weitergeleitet, um das private Angebot anzuzeigen.</block>
+  <block id="ed531c62409749839128abc4ac3024b2" category="paragraph">Private Angebote werden zusätzlich zu öffentlichen Angeboten erstellt. Verwenden Sie das Dropdown-Menü *Angebotsauswahl*, um zwischen öffentlichen und privaten Angeboten zu wechseln.</block>
+  <block id="1052057eae38b60ef2718c5db26314fd" category="list-text">Überprüfen Sie die Details des privaten Angebots und bestätigen Sie, dass sie mit Ihrer Vereinbarung übereinstimmen. Wenn sie falsch sind, akzeptieren Sie sie nicht. Wenden Sie sich an Ihr NetApp -Account-Team.</block>
+  <block id="137e4e5a2d3b2312abe2fdc399f7a015" category="paragraph">Es gibt zwei Arten von privaten Angeboten:</block>
+  <block id="b1f68330f38d69d3686f740e31c6d5b1" category="list-text">*On-Demand-Nutzung*</block>
+  <block id="989c9d336b48f059c4d11f6a24942a33" category="list-text">Preisinformationen</block>
+  <block id="b0f259fa317864ce24dbbe5ad867e3a4" category="list-text">Rechtliche Hinweise</block>
+  <block id="38051ece51b996f233648f7f33667245" category="list-text">*Vertrag*</block>
+  <block id="9a827e338cd6868f9e816f40ee21a2ad" category="list-text">Dauer und Termine</block>
+  <block id="877816703aaff9a793d10b57c4f3d74b" category="list-text">Erneuerungseinstellungen</block>
+  <block id="3c2829dbb4c3ce0e6c77b1ca57204aac" category="list-text">Vertragsoptionen</block>
+  <block id="dde6c83692973edca761850557257be5" category="list-text">Gesamtvertragspreis</block>
+  <block id="b43c2b4893351e438e51acfa55e878f2" category="paragraph">Bei Vertragsangeboten geben Sie bitte die vereinbarte Stückzahl an. Stellen Sie bei Cloud Volumes ONTAP sicher, dass Sie vor dem Abonnieren die richtige Lizenz auswählen.</block>
+  <block id="260570d179a259556c7bafc6eb55af17" category="list-text">Um das private Angebot anzunehmen, gehen Sie wie folgt vor:</block>
+  <block id="6e0d4ea20631710cd0475440fa61cba7" category="list-text">Klicken Sie für die On-Demand-Nutzung auf *Abonnieren*.</block>
+  <block id="2120ac26a0fb66eb1e68af4f82592f26" category="list-text">Bei Vertragsangeboten geben Sie die Stückzahl der einzelnen Leistungen ein und klicken auf *Vertrag erstellen*.</block>
+  <block id="20d4f676d944ace93b6fd5ea20a1cd60" category="list-text">Nach der Annahme bestätigt ein Banner das Abonnement und enthält Anweisungen zur Registrierung.</block>
+  <block id="9a964a2e84212b282e85422fa8a70544" category="list-text">Klicken Sie auf *Konto einrichten*. Dadurch wird eine Weiterleitung zur NetApp Console zur Konfiguration des Abonnements durchgeführt.</block>
+  <block id="45a07e7bbaedb6a22c302c7002488d2a" category="paragraph">Wenn Sie das Angebot angenommen, die Registrierung jedoch nicht abgeschlossen haben, kehren Sie zur Produktseite zurück. Klicken Sie bei Vertragslisten auf *Kaufoptionen anzeigen*, um das Angebot anzuzeigen, und wählen Sie dann *Konto einrichten*.</block>
+  <block id="2e64edfe7c5204394d8441cd657b2892" category="list-text">Sign in bei<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block> mit Ihrem Konsolenkonto.</block>
+  <block id="5e1b8f033801f9e6066729a408b4da2f" category="list-text">Navigieren Sie nach der Anmeldung zu<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block> . Sie werden aufgefordert:</block>
+  <block id="e6927100ca6999c8078a1524ea9d9039" category="list-text">Geben Sie einen *Anzeigenamen* für das Marketplace-Abonnement ein.</block>
+  <block id="2cd221344150a3626a43e90a5a658fe9" category="list-text">Wählen Sie die Konsolen-*Konten* mit Zugriff auf das Abonnement aus.</block>
+  <block id="0d44bad6f11273328ea95f1f049c4238" category="list-text">[Optional] Aktivieren Sie *Vorhandenes Abonnement ersetzen*, um ein vorhandenes Abonnement für ein Konto zu überschreiben.</block>
+  <block id="75593b03eb6aef440911b04a96cd04dc" category="list-text">Der Ersatz gilt nur für ein Konsolenkonto.</block>
+  <block id="3de849c536c7d2a1b083f7cc3a929f1e" category="list-text">Um mehrere Konten mit demselben Abonnement zu verknüpfen, konfigurieren Sie zusätzliche Konten manuell.</block>
+  <block id="ac15313b1dc2741a5095bcc225efa2d9" category="list-text">Wenn Anmeldeinformationen nie mit einem Abonnement verknüpft wurden, verknüpfen Sie sie manuell, wie im nächsten Abschnitt beschrieben.</block>
+  <block id="db4240b8b0057b7e98188fd2b9da80e5" category="list-text">Klicken Sie auf *Zuordnen* und dann auf *Fertig*.</block>
+  <block id="20030a3656e288ae4a8515cef9b4bce1" category="paragraph">Um den ermäßigten Preis anzuwenden, ist es notwendig, die Abonnementzuweisung in der Konsole abzuschließen.</block>
+  <block id="c0c0e5a70f02630ad210596fabf7c505" category="section-title">Konfigurieren des Abonnements mit AWS-Anmeldeinformationen</block>
+  <block id="14c5fcb481153b273bbfcb2c619cfb34" category="list-text">Gehen Sie in der Konsole zu *Governance &gt; Licenses and subscriptions* und wählen Sie die Registerkarte *Marketplace-Abonnements* aus.</block>
+  <block id="0a4a12ddfb9989eae12565966aa1759f" category="list-text">Suchen Sie das zuvor erstellte Abonnement. Erweitern Sie die Zeile, um zu bestätigen, dass sie mit Ihrem Konsolenkonto verknüpft ist.</block>
+  <block id="31755614a692882f0fd1545120b934e4" category="paragraph">Aufgrund von Einschränkungen des AWS Marketplace werden einige Details privater Angebote nicht außerhalb der AWS-Konsole angezeigt. Wenn ein Feld angezeigt wird<block ref="382b0f5185773fa0f67a8ed8056c7759" prefix=" " category="inline-code"></block> , überprüfen Sie die Informationen direkt in der AWS-Konsole.</block>
+  <block id="2cf5224bbe9daa91b23d4edc583a8e45" category="list-text">Klicken Sie auf das Drei-Punkte-Menü neben dem Abonnement und wählen Sie *Konfigurieren*.</block>
+  <block id="8a8c90cee4f37eb6a5c4592bc73448b8" category="list-text">Wählen Sie die entsprechenden *AWS-Kontoanmeldeinformationen* aus und klicken Sie auf *Konfigurieren*.</block>
+  <block id="231e32eb4ed511a6945d523370b753b4" category="paragraph">Die Marketplace-Gebühren für diese Anmeldeinformationen werden über das Marketplace-Abonnement abgerechnet. Bei Jahresverträgen werden die Kosten auf die Vertragsnutzung angerechnet.</block>
+  <block id="0704f5cf43f12c7f851c183b85e05c23" category="paragraph">Wiederholen Sie die Schritte 1–4 für jede AWS-Anmeldeinformation in Ihrem Konsolenkonto, die Sie mit dem Abonnement verknüpfen möchten.</block>
+  <block id="f74e6250ad3a804ed3b29ea80addbf10" category="list-text">Für Anmeldeinformationen in anderen Konsolenorganisationen verwenden Sie das Dropdown-Menü *Organisation* und wiederholen Sie die Schritte.</block>
+  <block id="4b9c0a07d54c4dbb9f63c21c34e71669" category="list-text">Verwenden Sie für Anmeldeinformationen in anderen Agenten das Dropdown-Menü *Agent* und wiederholen Sie die Schritte.</block>
+  <block id="2416b5ee6956fb393f9674655620082f" category="doc">Akzeptieren und aktivieren Sie ein privates Azure-Angebot für die NetApp Console</block>
+  <block id="226265d4efbcdb68ca9dca7a20dc4a59" category="paragraph">Akzeptieren und abonnieren Sie ein privates Marketplace-Angebot für die NetApp Console im Azure-Portal.  Konfigurieren Sie Azure-Anmeldeinformationen in der Konsole.</block>
+  <block id="dc4e613e69e859f3be40de01f63ef1a2" category="list-text">Arbeiten Sie mit dem NetApp -Vertrieb zusammen, um ein privates Angebot für Ihre Azure-Abrechnungs-ID zu erstellen.</block>
+  <block id="cbd25df866b9c26c2205191e25632c69" category="list-text">Sie verfügen über die erforderlichen Berechtigungen, um ein privates Angebot im Azure Marketplace anzunehmen:</block>
+  <block id="3882306bc383e0907d92c44200b57542" category="list-text">Enterprise Agreement (EA): *Enterprise-Administrator*</block>
+  <block id="5a17015c1797f9b3611d0d9767abd522" category="list-text">Microsoft-Kundenvereinbarung (MCA): *Inhaber des Abrechnungskontos* oder *Mitwirkender des Abrechnungskontos*</block>
+  <block id="b7ecccb6d9814347f79dd394e0ce015d" category="list-text">Sie müssen über die erforderlichen Berechtigungen verfügen, um ein privates Angebot im Azure Marketplace zu erwerben und ein Abonnement zu erstellen:</block>
+  <block id="0df5d9a9ae7c8623fef019f860f731c5" category="list-text">*Abonnementbesitzer* oder *Abonnementbeitragender* des verwendeten Azure-Abonnements</block>
+  <block id="2e4c4ee48a5f2caac03de8943a1fdc43" category="list-text">Eine einzelne Person kann das private Angebot sowohl annehmen als auch kaufen, wenn sie über die erforderlichen Berechtigungen verfügt.</block>
+  <block id="cf76a106489c34d8d815ce8e836402f9" category="section-title">Akzeptieren und Abonnieren des privaten Angebots im Azure-Portal</block>
+  <block id="e52dafa1a46b15a6c93d8cc9b48c0590" category="paragraph">Ein Azure-Abonnement kann nur mit einem Marketplace-Abonnement verknüpft werden. Wenn Sie zwei verschiedene Marketplace-Abonnements für Workloads im selben Azure-Abonnement verwenden möchten, müssen Sie zwei separate Konsolenkonten erstellen – eines für jedes Abonnement.  Wenn Sie über mehrere Cloud Volumes ONTAP Instanzen verfügen und die Abrechnung auf verschiedene Abonnements aufteilen möchten, erstellen Sie für jedes Abonnement separate Konsolenkonten.</block>
+  <block id="47f26de5d5f809041d484473468f9e1e" category="paragraph">Sie müssen alle Schritte abschließen, um Ihr privates Angebot anzunehmen und zu aktivieren. Das Überspringen von Schritten kann zu Aktivierungsproblemen oder doppelter Belastung führen.</block>
+  <block id="5b91f544615def8157e9739a509448c2" category="paragraph">Wenn Sie Unstimmigkeiten in den Angebotsbedingungen, Preisen oder Details feststellen oder unsicher sind, welches Angebot Sie annehmen sollen, nehmen Sie das Angebot nicht an. Wenden Sie sich an Ihr NetApp -Vertriebsteam.</block>
+  <block id="8894c60d409fc720e1cb540f53b239d5" category="paragraph">Bei mehrmaliger Annahme und Aktivierung des Angebots kommt es zu einer doppelten Abrechnung.</block>
+  <block id="80fe6f318fd4a7ea6ad9a4a59226a8d4" category="list-text">Klicken Sie auf den Link zum privaten Angebot, den Sie von Ihrem NetApp Vertriebsteam erhalten haben, und melden Sie sich an. Wenn kein Link verfügbar ist, melden Sie sich direkt beim Azure-Portal an.</block>
+  <block id="b8d22f94e23c3841d89314fa73eee281" category="list-text">Suchen oder wählen Sie *Marketplace* aus den Azure-Diensten aus.</block>
+  <block id="01d52254404cff7607242f7525a5d9b5" category="list-text">Klicken Sie auf der Marketplace-Seite im Abschnitt *Verwaltung* auf *Private Angebotsverwaltung*.</block>
+  <block id="0a0f4af873ce479f6cd264bdbc69c46a" category="list-text">Klicken Sie auf *Anzeigen + Akzeptieren*, um die Details des privaten Angebots zu überprüfen.</block>
+  <block id="d6d5f4c87a78b99fabcaa4703996f9f1" category="list-text">Überprüfen Sie, ob die *Plandetails*, *Laufzeit* und *Preise* korrekt sind.</block>
+  <block id="2e875515d0c4ffc7b932a081dce75482" category="list-text">Wenn die Angaben falsch sind, abonnieren Sie nicht. Wenden Sie sich an Ihr NetApp -Vertriebsteam, um das Angebot zu korrigieren.</block>
+  <block id="75d15cf3a199a24423c04db8c6229fa7" category="list-text">Bestätigen Sie und klicken Sie auf *Privates Angebot annehmen*.</block>
+  <block id="f6c5449120372658cd480801157add92" category="list-text">Klicken Sie auf *Kaufen*, um den Kaufvorgang abzuschließen.</block>
+  <block id="c835e219d7545abd5344ea09fe7ba5b9" category="paragraph">Wenn die Schaltfläche *Kaufen* nicht verfügbar ist, bestätigen Sie, dass Sie über die erforderlichen Kaufberechtigungen verfügen. Wenn dies nicht der Fall ist, kopieren Sie den Link zum Kauffenster und geben Sie ihn an eine autorisierte Person in Ihrer Organisation weiter.</block>
+  <block id="f5e55f8f93d46fa2e348730347e0114b" category="list-text">Im Einkaufsworkflow:</block>
+  <block id="91a14b2790c4789bde6375a6c412e970" category="list-text">Wählen Sie das zu verwendende *Azure-Abonnement* aus.</block>
+  <block id="aa41804b7f278699a1900d8c288a14a3" category="list-text">Wählen Sie die *Ressourcengruppe* aus, in der das Abonnement erstellt werden soll.</block>
+  <block id="8eca803eab6a65681b87d1ee4e176522" category="list-text">Geben Sie einen *Namen* für das neue Abonnement ein.</block>
+  <block id="3460a7ac34077d5cddfc99b0f205478c" category="list-text">Legen Sie optional *Tags* fest (für Produkt, Standort, Workload-Definition oder Namenskonvention).</block>
+  <block id="1a3a645cf42eafbdd06b4843afc9596f" category="list-text">Klicken Sie auf *Überprüfen und abonnieren*, bestätigen Sie die Angaben und klicken Sie dann auf *Abonnieren*.</block>
+  <block id="66e4d81fac45c89822d86dd90ffec210" category="list-text">Wenn das Abonnement erfolgreich erstellt wurde, klicken Sie auf *Konto jetzt konfigurieren*. Dadurch werden Sie zur NetApp Console weitergeleitet, um die Konfiguration abzuschließen.</block>
+  <block id="9a563c483cf139d09ed5790b6644bd40" category="paragraph">Die Azure-seitige Automatisierung kann 30 Sekunden bis 5 Minuten dauern. Wenn die Seite geschlossen wurde, bevor Sie auf *Konto jetzt konfigurieren* geklickt haben, kehren Sie zum Dienst im Azure-Portal zurück. Das Abonnement wird als *Konfiguration ausstehend* angezeigt. Wählen Sie es aus, um mit der Konfiguration fortzufahren.</block>
+  <block id="28aeb99ad7fa714f50ee0dba31b74247" category="list-text">Sie werden weitergeleitet zu<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block> und zur Anmeldung aufgefordert.</block>
+  <block id="f0456057cee7cc1dd8dba0eea97afb99" category="list-text">Nach der Anmeldung werden Sie weitergeleitet zu<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block> . Sie werden aufgefordert:</block>
+  <block id="39adb4da3012b43be809229537dd4480" category="list-text">Geben Sie einen *Anzeigenamen* für das Marketplace-Abonnement ein.</block>
+  <block id="08203a12c0659c3a962694a2bedabdd2" category="list-text">Wählen Sie die Konsolen-*Konten* aus, die Zugriff auf dieses Abonnement haben sollen.</block>
+  <block id="c971675f678da35b74e0d7fcf448705b" category="list-text">Optional können Sie *Vorhandenes Abonnement ersetzen* aktivieren, um ein vorhandenes Marketplace-Abonnement in einem Konsolenkonto automatisch zu ersetzen.</block>
+  <block id="bdd177ac7c3a61f270d7d1424cc6bf1f" category="list-text">Diese Ersatzoption ist auf ein einzelnes Konsolenkonto beschränkt.</block>
+  <block id="d939375aaed073b9eac9e5beb4ba0a3b" category="list-text">Um mehrere Konsolenkonten mit demselben Marketplace-Abonnement zu verknüpfen, konfigurieren Sie die zusätzlichen Konten manuell.</block>
+  <block id="b8e7f149b5ff2d9ffc6ecbc62e2350f1" category="paragraph">Um den Kauf zu aktivieren und den ermäßigten Preis anzuwenden, ist es notwendig, die Abonnementzuweisung in der Konsole abzuschließen.</block>
+  <block id="901d81e7a9533af8349427e17f415710" category="section-title">Konfigurieren des Abonnements mit Azure-Anmeldeinformationen</block>
+  <block id="b341a3d298535291adc28f4788d6bda4" category="list-text">Überprüfen Sie die Abonnementdetails:</block>
+  <block id="83c3810644be0d2dacba1e7e4c54862d" category="list-text">Suchen Sie das von Ihnen erstellte Marketplace-Abonnement.</block>
+  <block id="2a64fb30a899b7862fa6657ab067d63f" category="list-text">Erweitern Sie die Zeile, um die Details zu überprüfen und zu bestätigen, dass das Abonnement mit Ihrem Konsolenkonto verknüpft ist.</block>
+  <block id="ae1a47c80571694a1b615759eb3b5cd8" category="list-text">Klicken Sie auf das *Drei-Punkte-Menü* neben dem Abonnement und wählen Sie *Konfigurieren*.</block>
+  <block id="ac76c135e0b2e37bb199dfccf3e593e0" category="list-text">Wählen Sie das entsprechende *Azure-Abonnement* aus und klicken Sie auf *Konfigurieren*.</block>
+  <block id="af4e61dcda0487052f8f263523f3b339" category="paragraph">Die Marketplace-Gebühren für diese Azure-Anmeldeinformationen werden jetzt über das Marketplace-Abonnement abgerechnet. Bei Jahresverträgen wird die Nutzung dieser Anmeldeinformationen auf den Jahresvertrag angerechnet.</block>
+  <block id="9b6c167143b79b1e5610924ddea3deb3" category="paragraph">Wiederholen Sie die Schritte 1–4 für jede Azure-Anmeldeinformation in Ihrem Konsolenkonto, die Sie mit dem Abonnement verknüpfen möchten.</block>
+  <block id="2cf6806ac517b317bcb834ad8600d8e3" category="list-text">Um Anmeldeinformationen einer anderen Konsolenorganisation zuzuordnen, wechseln Sie über das Dropdown-Menü *Organisation* die Organisation und wiederholen Sie die Schritte.</block>
+  <block id="a27fd486ca02e23f4e210e49dd1d78d0" category="list-text">Um Anmeldeinformationen eines anderen Agenten zuzuordnen, wechseln Sie über das Dropdown-Menü *Agent* und wiederholen Sie die Schritte.</block>
+  <block id="c9ca68f69753eaca0ec0228921c617fa" category="doc">Akzeptieren und konfigurieren Sie ein privates Google Cloud-Angebot für die NetApp Console</block>
+  <block id="ffe15d142ef4f8262288c1f23dc731f7" category="paragraph">Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console in der Google Cloud-Konsole.  Konfigurieren Sie die Google Cloud-Anmeldeinformationen in der Konsole.</block>
+  <block id="51f02975d44e73cb2d235f25a2f0cef5" category="list-text">Arbeiten Sie mit dem NetApp -Vertrieb zusammen, um ein privates Angebot zu erstellen. Den Angebotslink muss Ihnen Ihr Vertriebsteam zur Verfügung stellen.</block>
+  <block id="feeb32431af9e3e0a47bfb99af23c132" category="list-text">Für Ihr Abrechnungskonto darf es sich nicht um eine kostenlose Testversion handeln. Kostenlose Testkonten können keine privaten Angebote annehmen. Wenn Sie versuchen, ein Testabrechnungskonto zu verwenden, erhalten Sie eine Fehlermeldung und benötigen Unterstützung vom NetApp Cloud-Team.</block>
+  <block id="60f5daee3203a778fb9602ff72136dca" category="list-text">Um das Angebot anzunehmen, sind die folgenden Google Cloud-Berechtigungen erforderlich:</block>
+  <block id="1e0f04e311f715ce8ea177fbb1e72905" category="list-text"><block ref="31e027d96bb2f1edadd2510bb8aef75e" prefix="" category="inline-code"></block>für das gewünschte Cloud-Rechnungskonto oder die Google Cloud-Organisation</block>
+  <block id="dd254233486ecf83785247cac06950fc" category="list-text"><block ref="9aaa5b08341c4d5f1dd465ffcfa419fd" prefix="" category="inline-code"></block>für das Projekt, das über das Cloud Billing-Konto abgerechnet wird</block>
+  <block id="3262a39e9cebdc3849200e49774587bd" category="section-title">Akzeptieren Sie das private Angebot in Google Cloud</block>
+  <block id="6215667fee10cd07541c98f73186c92c" category="paragraph">Ein Google Cloud-Projekt kann nur mit einem Marketplace-Abonnement verknüpft werden. Wenn Sie zwei verschiedene Abonnements für Workloads im selben Google Cloud-Projekt verwenden möchten, müssen Sie zwei separate Konsolenkonten erstellen – eines für jedes Abonnement.</block>
+  <block id="54ea7f5728b4fe3047e1bed3564400bf" category="paragraph">Sie müssen alle Schritte abschließen, um Ihr privates Angebot zu aktivieren. Das Überspringen von Schritten kann zu Problemen wie doppeltem Laden führen.</block>
+  <block id="0f42a5bd113a6793bdfb54ff1c208d97" category="paragraph">Wenn Sie Unstimmigkeiten in den Angebotsbedingungen, Preisen oder Details feststellen oder unsicher sind, welches Angebot Sie annehmen sollen, nehmen Sie das Angebot nicht an. Wenden Sie sich zur Klärung an Ihr NetApp -Account-Team.</block>
+  <block id="9348292a72d4f417166e1fd8b106c7c8" category="paragraph">Wenn Sie bereits über ein aktives PAYGO-Abonnement oder ein geändertes privates Angebot verfügen, müssen Sie nur die Annahmeschritte durchführen. In diesen Fällen aktualisiert der Marketplace den Plan innerhalb derselben Auflistung und behält dieselbe Abonnement-ID bei, sodass die Abonnementzuordnung in der Konsole intakt bleibt.</block>
+  <block id="290bbb83a89ab08e84b67b872e1882b9" category="list-text">Klicken Sie auf den Aktivierungslink für das private Angebot, den Sie von Ihrem NetApp -Vertriebsteam erhalten haben. Der Link sollte ungefähr wie folgt aussehen:<block ref="7d9578c0f61bb46b3c15bbcf093caa47" prefix=" " category="inline-code"></block></block>
+  <block id="c06f390cc77930ad800760399f795901" category="list-text">Sie werden zum Google Cloud Marketplace weitergeleitet, wo Sie die Angebotsdetails überprüfen können:</block>
+  <block id="6c3d8751216e46ce88977f0a36da3bcd" category="list-text">**Abrechnungskonto**</block>
+  <block id="6c3a16e063e7de47eb80c62e71151c2e" category="list-text">**Produkt**: NetApp Console</block>
+  <block id="a370fb40448c1a9cfd60035cbf486153" category="list-text">**Angebotsdetails**</block>
+  <block id="d187556677277eb1fac2454e9173b115" category="list-text">**Preise**</block>
+  <block id="dbafd25ecc4a1bd157a51b6df56ad0c4" category="paragraph">Überprüfen Sie die Plandetails, die Laufzeit und die Preise sorgfältig. Wenn etwas nicht stimmt, nehmen Sie das Angebot nicht an. Wenden Sie sich für eine Änderung an Ihr NetApp -Account-Team.</block>
+  <block id="c5cd3c98a99c425040223e4b93fa3292" category="list-text">Bestätigen Sie die Richtigkeit der Angaben, akzeptieren Sie die Bedingungen und klicken Sie auf **Akzeptieren**.</block>
+  <block id="85d9763d3791c88a822fb6f9a7689d51" category="list-text">Während der Erstellung des Abonnements wird ein Ladesymbol angezeigt.</block>
+  <block id="bd57a36b79c39cc2107f5d54656ea4e2" category="list-text">Wenn das Abonnement erfolgreich erstellt wurde, wird ein Popup-Fenster angezeigt: *Ihre Bestellanfrage wurde an NetApp, Inc. gesendet.*</block>
+  <block id="fedfe1dd578adf183aa0564e9868eb0a" category="list-text">Klicken Sie auf **REGISTRIEREN SIE SICH BEI NETAPP, Inc.**. Sie werden zur NetApp Console weitergeleitet, um die Konfiguration Ihres Abonnements abzuschließen. Wenn das private Angebot von einer anderen Person in Ihrer Organisation angenommen wurde:</block>
+  <block id="4eb83948e70f96f003401374e672121a" category="list-text">Gehen Sie im Google Cloud Marketplace zu **Bestellungen**.</block>
+  <block id="988a06cb0560fd8ac30cad8db115da85" category="list-text">Suchen Sie das Angebot mit dem Status **Ausstehend**.</block>
+  <block id="0418114406a14ea85606e27fbe1ee330" category="list-text">Klicken Sie auf das Drei-Punkte-Menü und wählen Sie **Bei NetApp, Inc. registrieren**.</block>
+  <block id="e58b6bbe6eb23bea3dd1681ec6a9af11" category="list-text">Sie werden weitergeleitet zu<block ref="7c376aef5250afe71efcebf7a7a3f4b9" prefix=" " category="inline-code"></block> und zur Anmeldung aufgefordert.</block>
+  <block id="58fd0c4f67d67b5379d45ee8a3db553f" category="list-text">Nach der Anmeldung werden Sie weitergeleitet zu<block ref="24d15e59be383cd22c6b17c55af710c1" prefix=" " category="inline-code"></block> . Es wird ein Popup angezeigt, in dem Sie Folgendes tun müssen:</block>
+  <block id="109deb83c524752969863db2154396e3" category="list-text">Geben Sie einen Anzeigenamen für das *SaaS Marketplace-Abonnement* ein.</block>
+  <block id="98a69ff93ac7f606e9ffc0f0ad3c2be6" category="list-text">Wählen Sie die Konsolen-**Konten** aus, die Zugriff auf das Abonnement haben sollen.</block>
+  <block id="f42189975a0067b88050cff9b07f38b3" category="list-text">Optional können Sie **Vorhandenes Abonnement ersetzen** aktivieren, wenn Sie ein vorhandenes Marketplace-Abonnement in einem Konsolenkonto automatisch ersetzen möchten.</block>
+  <block id="35a234d8ec57d77057c7e83dd833a391" category="list-text">Wenn Sie mehrere Konsolenkonten mit demselben Marketplace-Abonnement verknüpfen müssen, müssen Sie die zusätzlichen Konten manuell konfigurieren.</block>
+  <block id="5d80793259e7331456ddff3f91a5456b" category="list-text">Klicken Sie auf **Zuordnen** und dann auf **Fertig**.</block>
+  <block id="a378083fbc7ec3f353dbe9d5b064d0f6" category="section-title">Verknüpfen Sie das Abonnement mit den Google Cloud-Anmeldeinformationen</block>
+  <block id="056138e0e575aec0fc8b81b39d17b481" category="list-text">Gehen Sie in der Konsole zu **Governance &gt; Licenses and subscriptions** und wählen Sie die Registerkarte **Marketplace-Abonnements** aus.</block>
+  <block id="8fbe217ff0b9b7194904a0d5b0c3cb0d" category="list-text">Suchen Sie das im Annahmeprozess erstellte Abonnement.</block>
+  <block id="099fe4ce960f301e1509b85f07456fec" category="list-text">Überprüfen Sie, ob der richtige Plan angezeigt wird.</block>
+  <block id="a7dd4d4083c70bf36edc2215bcf1d392" category="list-text">Erweitern Sie die Zeile, um die private Angebotszuordnung zu bestätigen.</block>
+  <block id="df5938543de3aeab258d6bb444cb19bb" category="paragraph">Aufgrund von Einschränkungen im Google Cloud Marketplace werden einige Felder möglicherweise angezeigt<block ref="382b0f5185773fa0f67a8ed8056c7759" prefix=" " category="inline-code"></block> . Diese Informationen sind nur in der Google Cloud-Konsole verfügbar.</block>
+  <block id="95672b9c651ec0ed6ec25a849f943b6d" category="list-text">[Optional] So benennen Sie das Abonnement um:</block>
+  <block id="102533fc3349affbde8eed3f0119055a" category="list-text">Klicken Sie neben dem Abonnement auf das **Drei-Punkte-Menü**.</block>
+  <block id="bb9d726ae34d1dd317cb722b46752963" category="list-text">Wählen Sie **Abonnement umbenennen**.</block>
+  <block id="14652e6a008507211ad2e3f7ec7082c0" category="list-text">Klicken Sie erneut auf das **Drei-Punkte-Menü** und wählen Sie **Konfigurieren**.</block>
+  <block id="a2716289bc8357bf8ed654777881b95b" category="list-text">Wählen Sie die entsprechenden **Anmeldeinformationen** für das Google Cloud-Konto aus und klicken Sie auf **Konfigurieren**.</block>
+  <block id="84656ffcb4b3afd9fc277e779c534a20" category="paragraph">Die Marketplace-Gebühren für diese Google Cloud-Anmeldeinformationen werden jetzt über das Marketplace-Abonnement abgerechnet. Bei Jahresverträgen wird die Nutzung dieser Anmeldeinformationen auf den Jahresvertrag angerechnet.</block>
+  <block id="637051383e4daa671cb785abd12cb014" category="paragraph">Wiederholen Sie die Schritte 1–5 für alle Google Cloud-Anmeldeinformationen in Ihrem Konsolenkonto, die Sie mit dem Marketplace-Abonnement verknüpfen möchten.</block>
+  <block id="c501484feb6b7b802af6d880ccfa4919" category="list-text">Um Anmeldeinformationen von einem anderen Konsolenkonto zuzuordnen, verwenden Sie das Dropdown-Menü **Konto**, um zwischen Konten zu wechseln und die Schritte zu wiederholen.</block>
+  <block id="6ff676ed2c5670a6a4ca2dcdf4e3b4be" category="list-text">Um Anmeldeinformationen für einen anderen Agenten zuzuordnen, verwenden Sie das Dropdown-Menü **Agent** und wiederholen Sie die Schritte.</block>
+  <block id="390eba2474f396f3e3c52f5eda09bd78" category="section-title">Google Cloud-Nutzung anzeigen</block>
+  <block id="b22fe978436068666bd5697ee5f14cf8" category="paragraph">So zeigen Sie den Status und die Nutzung des Google Cloud-Guthabens an:</block>
+  <block id="1afb41bd6758d43e8e21093a19c57c09" category="list-text">Gehen Sie in der Google Cloud-Konsole zu **Cloud Marketplace**.</block>
+  <block id="4ff28d68fee060aaa1dc530e74b6dfd5" category="list-text">Klicken Sie auf **Ihre Bestellungen**.</block>
+  <block id="9bf1f05e9fbef21e2ad4a15f4f8f4069" category="list-text">Wählen Sie aus der Dropdown-Liste **Abrechnungskonto auswählen** das Abrechnungskonto aus, das Ihrem privaten Angebot zugeordnet ist.</block>
+  <block id="c33037b135d0f0c2a1ec0f24e1d17c91" category="list-text">Suchen Sie in der Tabelle nach Ihrem privaten Angebot, klicken Sie auf das **Drei-Punkte-Menü** und wählen Sie **Guthaben anzeigen**.</block>
+  <block id="c38a5b5bc8ce7c5e70620128d5b70df7" category="summary">Abonnieren Sie NetApp -Datendienste (einschließlich Cloud Volumes ONTAP) über den Marktplatz eines Cloud-Anbieters.</block>
+  <block id="b01b1be092b95233172f870dc729234b" category="doc">Verwalten Sie PAYGO-Abonnements und -Verträge</block>
+  <block id="67902908617b3450355aaa46279af065" category="paragraph">Wenn Sie NetApp -Datendienste (einschließlich Cloud Volumes ONTAP) über den Marktplatz eines Cloud-Anbieters abonnieren, werden Sie auf die Konsolen-Website weitergeleitet, wo Sie Ihr Abonnement speichern und es Ihrer Konsolenorganisation zuordnen.  Nach der Anmeldung steht jedes Abonnement zur Verwaltung in der Konsole zur Verfügung.</block>
+  <block id="8d667715a159d86d1b904662382ebd14" category="inline-link">Erfahren Sie, wie Sie NetApp Datendienste abonnieren (Standardmodus)</block>
+  <block id="2d1664e9c561a4d8448ca272b632b070" category="list-text"><block ref="2d1664e9c561a4d8448ca272b632b070" category="inline-link-rx"></block></block>
+  <block id="f2de349fa0961a04852f2d19e9ef3ef8" category="inline-link">Erfahren Sie, wie Sie NetApp Datendienste abonnieren (eingeschränkter Modus)</block>
+  <block id="857eda0579a011309e9d26f062d34f8d" category="list-text"><block ref="857eda0579a011309e9d26f062d34f8d" category="inline-link-rx"></block></block>
+  <block id="85bb8fe222d28237b7a61c8962355819" category="admonition">Auf der Seite *Marketplace-Abonnements* sind alle Lizenzen aufgelistet.  Lizenzdetails für einen bestimmten Datendienst erhalten Sie über die Datendienstkacheln im Dashboard „Übersicht“. <block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block> .</block>
+  <block id="aea9c467234db8f0360906cb49a2233c" category="section-title">Ein neues Marktplatz-Abonnement hinzufügen</block>
+  <block id="2739fe5739941e5e38c954a74ec97f61" category="paragraph">Sie können ein Marktplatz-Abonnement direkt über die Konsole abonnieren.</block>
+  <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="open-title">AWS</block>
+  <block id="41b6d60e8d41db820ad4cf8cf2c7c386" category="paragraph">Das folgende Video zeigt die Schritte zum Abonnieren der NetApp Console über den AWS Marketplace:</block>
+  <block id="cdffc0d26bd5aa0e2753286066e04346" category="video-title">Abonnieren Sie die NetApp Console vom AWS Marketplace</block>
+  <block id="3a580f142203677f1f0bc30898f63f53" category="open-title">Azurblau</block>
+  <block id="e89fcc67b26f0b69a8d1e19c39ae032b" category="paragraph">Das folgende Video zeigt die Schritte zum Abonnieren der NetApp Console über den Azure Marketplace:</block>
+  <block id="1a5380f621efd9053933198ae41492c5" category="video-title">Abonnieren Sie die NetApp Console vom Azure Marketplace</block>
+  <block id="56ef2682280ac110060b881925a87b80" category="open-title">Google Cloud</block>
+  <block id="7eadeab2df6abb5312f9466d99e55ce9" category="paragraph">Das folgende Video zeigt die Schritte zum Abonnieren der NetApp Console über den Google Cloud Marketplace:</block>
+  <block id="3516b78aeda2902a39d727952bf5db9a" category="video-title">Abonnieren Sie die NetApp Console vom Google Cloud Marketplace</block>
+  <block id="2be16f237d558bd6b00788d28d21b37e" category="list-text">Wählen Sie *Marketplace-Abonnements* aus.</block>
+  <block id="5aa066be2a651f3b22275be1f4cc2b4e" category="list-text">Wählen Sie über der Tabelle *Abonnements* die Option *Abonnement hinzufügen* aus.</block>
+  <block id="04a880965367eaf965a6ae341940ab0d" category="list-text">Wählen Sie im Dialogfeld „Abonnement hinzufügen“ einen Cloud-Anbieter aus.</block>
+  <block id="03863fd8ecb98c1d2286d087aaa70e52" category="list-text">Wenn Sie sich für ein AWS-Abonnement entscheiden, wählen Sie, ob Sie einen Jahresvertrag oder ein PAYGO-Abonnement wünschen.</block>
+  <block id="b3883d339b720269f1092a8f0dffcc59" category="list-text">Wählen Sie *Abonnement hinzufügen*, um zum Marktplatz des Anbieters zu navigieren und die angegebenen Schritte abzuschließen.</block>
+  <block id="3b32a98dd42670af00af73ef3e4b0007" category="list-text">Wenn Sie mit dem Cloud-Provider-Marktplatz fertig sind, kehren Sie zur Konsole zurück, um den Vorgang abzuschließen.</block>
+  <block id="e858f445394700e621aa67dd8e3fe958" category="section-title">Ihre Abonnements anzeigen</block>
+  <block id="5007494d42102b978c07ca3a177b922e" category="paragraph">Sie können Details zu jedem PAYGO-Abonnement und Jahresvertrag anzeigen, der mit Ihrer Konsolenorganisation oder Ihrem Konsolenkonto verknüpft ist.</block>
+  <block id="bf62a531d6a478f50eedbb8552baa137" category="paragraph">Für Google Cloud können Sie auch Marktplatzabonnements identifizieren, die mit einem privaten Angebot verknüpft sind. So können Sie überprüfen, ob Sie das Angebot erfolgreich angenommen haben.</block>
+  <block id="417d4df9df2a37df2d0cc6002d70267c" category="paragraph">Sie sehen nur Abonnements, die mit der Organisation verknüpft sind, die Sie gerade anzeigen.</block>
+  <block id="9522a31711d708f54807bf22724f9503" category="list-text">Beim Anzeigen der Abonnementinformationen können Sie wie folgt mit den Tabellendetails interagieren:</block>
+  <block id="143796c8d7a2647d259f8e7dd3978b59" category="list-text">Verwenden Sie die erweiterte Suche und Filterung, um zu bestimmen, welche Abonnements in der Tabelle angezeigt werden.  Sie können nach einem bestimmten Abonnementnamen suchen und nach verschiedenen Abonnementparametern wie Typ und Konfiguration filtern.</block>
+  <block id="6a1de13d318f22872902849cd26467b4" category="list-text">Erweitern Sie eine Zeile, um weitere Details anzuzeigen.</block>
+  <block id="33d90cc16eaedf37738a3faf06f00f36" category="list-text">Wählen<block ref="98b11313fea6c4106e5a3c018f0ffbc9" category="inline-image-macro-rx" type="image"></block> um auszuwählen, welche Spalten in der Tabelle angezeigt werden.</block>
+  <block id="eac8d0af64c0a4995da5b7692c81b935" category="paragraph">Die Spalten „Laufzeit“ und „Automatische Verlängerung“ werden standardmäßig nicht angezeigt. In der Spalte „Automatische Verlängerung“ werden nur Verlängerungsinformationen für Azure-Verträge angezeigt.</block>
+  <block id="9cbfac1c0c1dfe59da2da797a5a82d26" category="paragraph">Beachten Sie Folgendes zu den Tabelleninformationen:</block>
+  <block id="4d34f1097f6c8b9cee28bca8b78bbee9" category="list-text">Startdatum</block>
+  <block id="d1686d74b72c58f44c6fceaf3011df0b" category="list-text">Als Startdatum gilt der Zeitpunkt, an dem Sie das Abonnement erfolgreich mit Ihrem Konto verknüpft und mit der Abrechnung begonnen haben.</block>
+  <block id="382b0f5185773fa0f67a8ed8056c7759" category="list-text">k. A.</block>
+  <block id="213d5ccdac27f697fc375ec6ab7c710a" category="list-text">Wenn in der Tabelle N/A angezeigt wird, sind die Informationen derzeit nicht über die API des Cloud-Anbieters verfügbar.</block>
+  <block id="cf5f3091e30dee6597885d8c0e0c357f" category="list-text">Begriff</block>
+  <block id="e2f00c4d78bc3eacc3fb7745410be1d8" category="list-text">Wenn Ihr Google Cloud-Abonnement mit einem privaten Angebot verknüpft ist, das nach der Erstellung und Annahme geändert wurde, wird für den Begriff „N/A“ angezeigt.  In diesem Szenario enthält die API-Antwort von Google Cloud Marketplace keine begriffsbezogenen Informationen.</block>
+  <block id="cd494d76449d5dfe0c0adfb2f3447761" category="list-text">Verträge</block>
+  <block id="7079272a1c7a44f03be2a0d0b3124b35" category="list-text">Wenn Sie die Vertragsdetails erweitern, zeigt die Konsole die verfügbaren Vertragsoptionen und Einheiten (Kapazität oder Anzahl der Knoten) für Ihren aktuellen Plan an.</block>
+  <block id="8b12bf014be3e062a16f26c7bef54b9e" category="list-text">Die Konsole erkennt das Enddatum und ob der Vertrag bald verlängert wird, bald endet oder bereits beendet ist.</block>
+  <block id="96e38f1c6a4a0c08aa18da531b61d89b" category="list-text">Wenn Sie einen AWS-Vertrag haben und nach dem Startdatum Vertragsoptionen geändert haben, validieren Sie Ihre Vertragsoptionen im AWS Marketplace.</block>
+  <block id="3b3f3f7253f4c57a7eb145d69d119e28" category="list-text">Wenn Sie über ein privates Google Cloud-Angebot verfügen, sind keine Vertragsoptionen verfügbar.</block>
+  <block id="900feaf6f8a2d7d036666533c1550150" category="section-title">Umbenennen eines Abonnements</block>
+  <block id="94a146aef6c9eb11c53b4ce9e78f582f" category="paragraph">Sie können ein Abonnement umbenennen, um besser zu identifizieren, wie es von Ihrer Organisation verwendet wird.</block>
+  <block id="2894ad7fa729f923f763a91ccd7ef757" category="list-text">Wählen Sie das Aktionsmenü in der Zeile aus, die dem Abonnement entspricht, das Sie verwalten möchten, und wählen Sie *Umbenennen*.</block>
+  <block id="8c7ebaed40d327a704a96ce939d99c1c" category="section-title">Konfigurieren eines Abonnements mit Anbieteranmeldeinformationen</block>
+  <block id="27539ca89abdac045936bccded4b5173" category="paragraph">Abonnements werden normalerweise mit den Anbieteranmeldeinformationen konfiguriert, die Sie beim Abonnieren erstellt haben.  In einigen Fällen müssen Sie ein Abonnement möglicherweise neu konfigurieren, um andere Anmeldeinformationen zu verwenden und so die Abrechnungsmethode zu ändern.  Die Anmeldeinformationen, die Sie einem Abonnement zuordnen, müssen auch einem Agenten zugeordnet sein.</block>
+  <block id="7c010cb37094c0d3e77e7cc0c7e2b4ff" category="paragraph">Das Anmeldeinformationsformat hängt vom von Ihnen verwendeten Marktplatz ab.  Beispielsweise sind Azure Marketplace-Abonnements mit dem Azure-Abonnementnamen verknüpft, während AWS Marketplace-Abonnements die AWS-Konto-ID verwenden.  Auf der Seite „Anmeldeinformationen“ können Sie eine Liste der verfügbaren Anmeldeinformationen anzeigen.</block>
+  <block id="f1988b9cd89140978002ed72faca6b53" category="paragraph">Die Option „Konfigurieren“ ist ausgegraut, wenn Sie ein Abonnement gekündigt haben.</block>
+  <block id="6ba982f758d275db5ab623bf88d95f26" category="list-text">Wählen Sie das Aktionsmenü in der Zeile aus, die dem Abonnement entspricht, das Sie konfigurieren möchten, und wählen Sie *Konfigurieren*.</block>
+  <block id="256529ab75b0ec631391cea57e89eb11" category="list-text">Wählen Sie im Dialogfeld „Konfigurieren“ die Anmeldeinformationen aus, die mit dem Abonnement konfiguriert werden sollen.  Sie können nur aus Anmeldeinformationen auswählen, die mit dem aktuell ausgewählten Agenten verknüpft sind.  Wenn Sie die Anmeldeinformationen, die Sie verwenden möchten, nicht sehen, versuchen Sie, zu einer anderen Agentenansicht zu wechseln.</block>
+  <block id="2436039191bf901b1eeef718fd0cf4e4" category="section-title">Zuordnen eines Abonnements zu einer Konsolenorganisation</block>
+  <block id="4fc5aba83426c92655253bdaac73b763" category="paragraph">Durch die Verknüpfung eines Abonnements mit einer Organisation wird sichergestellt, dass Mitglieder dieser Organisation dieses Abonnement zum Aufladen verwenden können.</block>
+  <block id="ca35b157a89bbc8ba6a6d0d4692fe2fb" category="paragraph">Sie können die Abonnementnutzung auf eine bestimmte Organisation beschränken oder das Abonnement zwischen mehreren Organisationen teilen.</block>
+  <block id="bda5c6e4132d7f1bfcaa387aa9bcb6ec" category="paragraph">Sie müssen über die Rolle des Organisationsadministrators verfügen, um ein Abonnement einer Organisation zuzuordnen.</block>
+  <block id="c53adc94271638b800aab67861b845fc" category="admonition">Die Konsole unterstützt Identity and Access Management (IAM) im Standardmodus, der Organisationen zur Verwaltung von Benutzern und Ressourcen verwendet.  Wenn Sie die Konsole im privaten oder eingeschränkten Modus verwenden, verwenden Sie ein Konsolenkonto, um Benutzer und Ressourcen, einschließlich Abonnements, zu verwalten.</block>
+  <block id="b3170678c3c61ffc94af47ef973eeb35" category="list-text">Öffnen Sie in der Zeile für das Abonnement, das Sie zuordnen möchten, das Aktionsmenü und wählen Sie *Zuordnen* aus.</block>
+  <block id="7d3a30fe2668092a63decc90304c25c5" category="list-text">Wählen Sie im Dialogfeld *Abonnement zuordnen* eine oder mehrere Organisationen aus, die dem Abonnement zugeordnet werden sollen.</block>
+  <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">Wählen Sie *Zuordnen* aus.</block>
+  <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">Anzeigen der mit einem Abonnement verknüpften Anmeldeinformationen</block>
+  <block id="002d431b6337f0842f2c8f341268a2ad" category="paragraph">Sie können die Anmeldeinformationen für ein bestimmtes Abonnement auf der Seite *Marketplace-Abonnements* anzeigen.  So können Sie überprüfen, wie das Abonnement abgerechnet wird.  Da die Anmeldeinformationen an den von Ihnen verwendeten Agenten gebunden sind, müssen Sie den Agenten auswählen, der dem Abonnement zugeordnet ist, das Sie anzeigen möchten.</block>
+  <block id="305572f28aa8e98572395f6c22011dee" category="admonition">Verwenden Sie das Dropdown-Menü „Agent“ in der oberen Navigationsleiste, um bei Bedarf den Agenten zu wechseln.</block>
+  <block id="54a532ed5b57b0751dc3bc4333f738c5" category="list-text">Wählen Sie in der Zeile mit dem Abonnement, dessen Anmeldeinformationen Sie anzeigen möchten, die Option Anzeigen aus.  Wenn einem Abonnement mehrere Anmeldeinformationen zugeordnet sind, werden möglicherweise keine Anmeldeinformationen angezeigt und Sie werden aufgefordert, einen anderen Agenten auszuwählen.</block>
+  <block id="5f2584f9079ec37953d08854e13410ab" category="section-title">Aufheben der Konfiguration eines Abonnements</block>
+  <block id="3eeaae02c9959c91b45646bc49679ed8" category="paragraph">Bevor Sie ein Abonnement entfernen können, müssen Sie es dekonfigurieren.  Dadurch werden alle zugehörigen Daten und Einstellungen gelöscht.</block>
+  <block id="459fb716cff28b2c01ce618e81f58770" category="list-text">Wählen Sie im Menü der NetApp Console *Governance &gt; Licenses and subscriptions*.</block>
+  <block id="8f401d09de150d1b370bd812c149ef02" category="list-text">Klicken Sie in der Zeile für das Abonnement, das Sie dekonfigurieren möchten, auf das Aktionsmenü und wählen Sie *Dekonfigurieren* aus.</block>
+  <block id="25f9b23bd620e2b7744e0ee585d450c4" category="list-text">Folgen Sie den Anweisungen, um alle zugehörigen Einstellungen oder Daten zu entfernen oder zurückzusetzen.</block>
+  <block id="c967e7e2ec19dfbde4242e266c145df0" category="list-text">Warten Sie, bis der Status auf *Nicht konfiguriert* aktualisiert wird.</block>
+  <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">Entfernen eines Abonnements</block>
+  <block id="78fa7824e76cd8274cf9d050c0ce8cc1" category="paragraph">Wenn Sie ein Abonnement bei Ihrem Cloud-Anbieter (AWS, Google Cloud oder Azure) kündigen, zeigt die Konsole den Abonnementstatus als *Abgemeldet* an.</block>
+  <block id="cd8d98e20f3508cb708db6a30ce5c9dc" category="paragraph">Sie können *Abgemeldete* Abonnements aus der Konsole entfernen, sodass sie nicht mehr angezeigt werden.</block>
+  <block id="091ca7aa552eef4b6b760ed64babc1bc" category="paragraph">Sie können nur Abonnements entfernen, die sowohl *Abgemeldet* als auch *Nicht konfiguriert* sind.  Vor der Entfernung müssen alle zugehörigen Einstellungen, Daten und Konfigurationen gelöscht oder zurückgesetzt werden.</block>
+  <block id="1cdf55c4f07b4e6c150fa4314c119aa5" category="paragraph">Wenn das Abonnement noch konfiguriert ist, wird die Option *Entfernen* nicht angezeigt.  Um die Option verfügbar zu machen, dekonfigurieren Sie das Abonnement, indem Sie alle zugehörigen Einstellungen, Dienste oder Daten löschen.</block>
+  <block id="f718d4efc769e352af879333b97563c1" category="list-text">Öffnen Sie in der Zeile des Abonnements, das Sie entfernen möchten, das Aktionsmenü und wählen Sie *Entfernen*.</block>
+  <block id="d945569d4f85da82c21c1eedda61f245" category="paragraph">Sie können nur Abonnements mit dem Status *Abgemeldet* und *Nicht konfiguriert* entfernen.</block>
+  <block id="328bc94c6a18dd3a8b5eacb533435091" category="list-text">Bestätigen Sie im Dialogfeld *Abonnement entfernen*, dass Sie das Abonnement entfernen möchten.</block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">Bevor Sie einen Supportfall beim technischen Support von NetApp eröffnen können, müssen Sie der NetApp Console ein NetApp -Support-Site-Konto hinzufügen und sich dann für den Support registrieren.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Für Support registrieren</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">Um technischen Support speziell für die NetApp Console und ihre Speicherlösungen und Datendienste zu erhalten, ist eine Support-Registrierung erforderlich. Eine Support-Registrierung ist auch erforderlich, um wichtige Workflows für Cloud Volumes ONTAP Systeme zu aktivieren.</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">Durch die Registrierung für den Support wird kein NetApp Support für den Dateidienst eines Cloud-Anbieters aktiviert. Technischen Support für den Dateidienst eines Cloud-Anbieters, seine Infrastruktur oder eine Lösung, die den Dienst nutzt, erhalten Sie unter „Hilfe erhalten“ in der Dokumentation des jeweiligen Produkts.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Übersicht zur Support-Registrierung</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Zur Aktivierung des Supportanspruchs stehen zwei Registrierungsformen zur Verfügung:</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">Registrieren Sie die Seriennummer Ihres NetApp Console (Ihre 20-stellige Seriennummer 960xxxxxxxxx, die Sie auf der Seite „Supportressourcen“ in der Konsole finden).</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">Dies dient als Ihre einzige Support-Abonnement-ID für alle Dienste innerhalb der Konsole. Jedes Konsolenkonto muss registriert werden.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrieren Sie die mit einem Abonnement verknüpften Cloud Volumes ONTAP Seriennummern im Marktplatz Ihres Cloud-Anbieters (dies sind 20-stellige 909201xxxxxxxx-Seriennummern).</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">Diese Seriennummern werden allgemein als _PAYGO-Seriennummern_ bezeichnet und von der NetApp Console zum Zeitpunkt der Bereitstellung von Cloud Volumes ONTAP generiert.</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">Durch die Registrierung beider Seriennummerntypen werden Funktionen wie das Öffnen von Support-Tickets und die automatische Fallgenerierung ermöglicht. Die Registrierung wird abgeschlossen, indem Sie der Konsole NetApp Support Site (NSS)-Konten hinzufügen, wie unten beschrieben.</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">Registrieren Sie die NetApp Console für den NetApp Support</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">Um sich für den Support zu registrieren und den Supportanspruch zu aktivieren, muss ein Benutzer in Ihrem NetApp Console seinem Konsolen-Login ein NetApp Support-Site-Konto zuordnen. Wie Sie sich für den NetApp Support registrieren, hängt davon ab, ob Sie bereits über ein NetApp Support Site (NSS)-Konto verfügen.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Bestandskunde mit NSS-Konto</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">Wenn Sie ein NetApp -Kunde mit einem NSS-Konto sind, müssen Sie sich lediglich über die Konsole für den Support registrieren.</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">Wählen Sie *Administration* &gt; *Anmeldeinformationen*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Wählen Sie *Benutzeranmeldeinformationen*.</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">Wählen Sie *NSS-Anmeldeinformationen hinzufügen* und folgen Sie der Authentifizierungsaufforderung der NetApp Support Site (NSS).</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Um zu bestätigen, dass der Registrierungsvorgang erfolgreich war, wählen Sie das Hilfesymbol und dann *Support*.</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">Auf der Seite *Ressourcen* sollte angezeigt werden, dass Ihr Konsolenkonto für den Support registriert ist.</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">Beachten Sie, dass anderen Konsolenbenutzern dieser Support-Registrierungsstatus nicht angezeigt wird, wenn sie ihrem Login kein NetApp Support Site-Konto zugeordnet haben. Dies bedeutet jedoch nicht, dass Ihr Konto nicht für den Support registriert ist. Sofern ein Benutzer in der Organisation diese Schritte befolgt hat, wurde Ihr Konto registriert.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Bestandskunde, aber kein NSS-Konto</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">Wenn Sie bereits NetApp -Kunde mit vorhandenen Lizenzen und Seriennummern, aber _keinem_ NSS-Konto sind, müssen Sie ein NSS-Konto erstellen und es mit Ihrem Konsolen-Login verknüpfen.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Registrierungsformular für Benutzer der NetApp Support-Site</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Erstellen Sie ein NetApp Support Site-Konto, indem Sie das<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Achten Sie darauf, die entsprechende Benutzerebene auszuwählen, in der Regel „NetApp -Kunde/Endbenutzer“.</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">Denken Sie daran, die Seriennummer des Konsolenkontos (960xxxx) zu kopieren, die oben für das Feld „Seriennummer“ verwendet wurde. Dies beschleunigt die Kontobearbeitung.</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">Verknüpfen Sie Ihr neues NSS-Konto mit Ihrem Konsolen-Login, indem Sie die folgenden Schritte ausführen<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Ganz neu bei NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Wenn Sie NetApp noch nicht kennen und kein NSS-Konto haben, befolgen Sie die nachstehenden Schritte.</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">Wählen Sie oben rechts in der Konsole das Hilfesymbol und dann *Support* aus.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Suchen Sie auf der Support-Registrierungsseite nach der Seriennummer Ihrer Konto-ID.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist.</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Support-Registrierungssite von NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navigieren Sie zu<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> und wählen Sie *Ich bin kein registrierter NetApp -Kunde*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Füllen Sie die Pflichtfelder (mit roten Sternchen gekennzeichnet) aus.</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Wählen Sie im Feld *Produktlinie* *Cloud Manager* und dann Ihren entsprechenden Abrechnungsanbieter aus.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Kopieren Sie die Seriennummer Ihres Kontos aus Schritt 2 oben, schließen Sie die Sicherheitsüberprüfung ab und bestätigen Sie anschließend, dass Sie die globale Datenschutzrichtlinie von NetApp gelesen haben.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Um diese sichere Transaktion abzuschließen, wird umgehend eine E-Mail an das angegebene Postfach gesendet. Überprüfen Sie unbedingt Ihren Spam-Ordner, wenn die Bestätigungs-E-Mail nicht innerhalb weniger Minuten eintrifft.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Bestätigen Sie die Aktion in der E-Mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">Durch die Bestätigung wird Ihre Anfrage an NetApp übermittelt und es wird empfohlen, dass Sie ein NetApp Support Site-Konto erstellen.</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">Denken Sie daran, die oben für das Seriennummernfeld verwendete Kontoseriennummer (960xxxx) zu kopieren. Dadurch wird die Bearbeitung beschleunigt.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp sollte sich während dieses Vorgangs mit Ihnen in Verbindung setzen. Dies ist eine einmalige Onboarding-Übung für neue Benutzer.</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">Sobald Sie über Ihr NetApp Support Site-Konto verfügen, verknüpfen Sie das Konto mit Ihrem Konsolen-Login, indem Sie die folgenden Schritte ausführen<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">NSS-Anmeldeinformationen für Cloud Volumes ONTAP Support zuordnen</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">Um die folgenden wichtigen Workflows für Cloud Volumes ONTAP zu aktivieren, müssen Sie Ihrem Konsolenkonto Anmeldeinformationen für die NetApp Support Site zuordnen:</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">Registrieren von Pay-as-you-go Cloud Volumes ONTAP Systemen für den Support</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">Die Angabe Ihres NSS-Kontos ist erforderlich, um den Support für Ihr System zu aktivieren und Zugriff auf die technischen Supportressourcen von NetApp zu erhalten.</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">Bereitstellen von Cloud Volumes ONTAP mit eigener Lizenz (BYOL)</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">Die Angabe Ihres NSS-Kontos ist erforderlich, damit die Konsole Ihren Lizenzschlüssel hochladen und das Abonnement für die von Ihnen erworbene Laufzeit aktivieren kann. Hierzu gehören automatische Updates bei Laufzeitverlängerungen.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Aktualisieren der Cloud Volumes ONTAP -Software auf die neueste Version</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">Die Zuordnung von NSS-Anmeldeinformationen zu Ihrem NetApp Console unterscheidet sich von der Zuordnung des NSS-Kontos zu einer Konsolenbenutzeranmeldung.</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">Diese NSS-Anmeldeinformationen sind mit Ihrer spezifischen Konsolenkonto-ID verknüpft. Benutzer, die zur Konsolenorganisation gehören, können über *Support &gt; NSS-Verwaltung* auf diese Anmeldeinformationen zugreifen.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Wenn Sie über ein Konto auf Kundenebene verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Wenn Sie über ein Partner- oder Reseller-Konto verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen, diese können jedoch nicht zusammen mit Konten auf Kundenebene hinzugefügt werden.</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Wählen Sie *NSS-Verwaltung &gt; NSS-Konto hinzufügen*.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Wenn Sie dazu aufgefordert werden, wählen Sie *Weiter*, um zu einer Microsoft-Anmeldeseite weitergeleitet zu werden.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp verwendet Microsoft Entra ID als Identitätsanbieter für Authentifizierungsdienste speziell für Support und Lizenzierung.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Geben Sie auf der Anmeldeseite Ihre bei der NetApp Support Site registrierte E-Mail-Adresse und Ihr Kennwort ein, um den Authentifizierungsprozess durchzuführen.</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">Diese Aktionen ermöglichen der Konsole, Ihr NSS-Konto für Dinge wie Lizenzdownloads, Überprüfung von Software-Upgrades und zukünftige Support-Registrierungen zu verwenden.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">Das NSS-Konto muss ein Konto auf Kundenebene sein (kein Gast- oder temporäres Konto). Sie können mehrere NSS-Konten auf Kundenebene haben.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Es kann nur ein NSS-Konto geben, wenn es sich bei diesem Konto um ein Konto auf Partnerebene handelt. Wenn Sie versuchen, NSS-Konten auf Kundenebene hinzuzufügen und ein Konto auf Partnerebene vorhanden ist, erhalten Sie die folgende Fehlermeldung:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">„Der NSS-Kundentyp ist für dieses Konto nicht zulässig, da bereits NSS-Benutzer eines anderen Typs vorhanden sind.“</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Dasselbe gilt, wenn Sie bereits über NSS-Konten auf Kundenebene verfügen und versuchen, ein Konto auf Partnerebene hinzuzufügen.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Nach erfolgreicher Anmeldung speichert NetApp den NSS-Benutzernamen.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Ein Symbol mit drei horizontalen Punkten</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Dies ist eine vom System generierte ID, die Ihrer E-Mail-Adresse zugeordnet ist. Auf der Seite *NSS-Verwaltung* können Sie Ihre E-Mail-Adresse aus dem<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> Speisekarte.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Wenn Sie Ihre Anmeldeinformationen aktualisieren müssen, gibt es auch die Option *Anmeldeinformationen aktualisieren* im<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> Speisekarte.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Bei Verwendung dieser Option werden Sie aufgefordert, sich erneut anzumelden. Beachten Sie, dass das Token für diese Konten nach 90 Tagen abläuft. Sie werden durch eine entsprechende Benachrichtigung darauf aufmerksam gemacht.</block>
+  <block id="80f48cc4cb64860e960ab9e9145cc67e" category="paragraph">Um Lizenzen zu verwalten, können Sie Lizenzen basierend auf dem Dienstnamen gruppieren.  Auf diese Weise können Sie alle Lizenzen anzeigen, die sich auf einen bestimmten Dienst beziehen.  Sie können eine Zeile erweitern, um detaillierte Informationen zu jeder Lizenz anzuzeigen, die mit dem Dienst in Zusammenhang steht.  In der Stammzeile jedes Dienstes werden der Dienstname und die für diesen Dienst verwendete Kapazität angezeigt.  Die Lizenzen werden automatisch nach Dienstnamen gruppiert.  Die Stammzeile für jeden Dienst zeigt den Dienstnamen und die für diesen Dienst verwendete Kapazität.</block>
+  <block id="7a31e490cd0c8ad68b05578ab24c91cb" category="list-text">Wählen Sie im BlueXP -Menü *Governance* &gt; *Digital Wallet* und dann die Registerkarte *Direktlizenzen*.</block>
+  <block id="f82297c58511adf82f03f07c94881e8b" category="list-text">Klicken Sie auf eine Dienstnamenzeile, um sie zu erweitern.  Hier werden alle Lizenzen angezeigt, die mit diesem Dienst in Zusammenhang stehen.  Jede erweiterte Zeile zeigt detaillierte Informationen zu den Lizenzen an, einschließlich Lizenz-ID, Seriennummer, Kapazität und Ablaufdatum.</block>
+  <block id="bb7f3fec4d3c3aaa10956abf2960654c" category="summary">Informieren Sie sich über die Neuerungen bei NetApp Console -Lizenzen und -Abonnements.</block>
+  <block id="490414e0366b091220802d406e52c076" category="doc">Was ist neu</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06. Oktober 2025</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">10. März 2025</block>
+  <block id="c523b074da0b63e607578686184d5981" category="section-title">10. Februar 2025</block>
+  <block id="592997dde366d5775e7e052816854f74" category="section-title">5. März 2024</block>
+  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">30. Juli 2023</block>
+  <block id="71bff2737bdd059023a4784358e71a64" category="section-title">7. Mai 2023</block>
+  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">3. April 2023</block>
+  <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">E-Mail-Benachrichtigungen</block>
+  <block id="d128bda2634e1051cc984231da065144" category="paragraph">E-Mail-Benachrichtigungen werden jetzt mit der BlueXP digital wallet unterstützt.</block>
+  <block id="380d0a0b2cec998dcd9f52b91b24304c" category="paragraph">Wenn Sie Ihre Benachrichtigungseinstellungen konfigurieren, können Sie E-Mail-Benachrichtigungen erhalten, wenn Ihre BYOL-Lizenzen bald ablaufen (eine „Warnungsbenachrichtigung“) oder wenn sie bereits abgelaufen sind (eine „Fehler“-Benachrichtigung).</block>
+  <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">Erfahren Sie, wie Sie E-Mail-Benachrichtigungen einrichten</block>
+  <block id="9af2177d45256182d52759c9d5b918a6" category="paragraph"><block ref="9af2177d45256182d52759c9d5b918a6" category="inline-link-rx"></block></block>
+  <block id="164bf9dea8d8396a2e7501258b908616" category="section-title">Lizenzierte Kapazität für Marktplatz-Abonnements</block>
+  <block id="016c818ed3128119f94a31cbec32bf1f" category="paragraph">Beim Anzeigen der kapazitätsbasierten Lizenzierung für Cloud Volumes ONTAP zeigt die BlueXP digital wallet jetzt die lizenzierte Kapazität an, die Sie mit privaten Angeboten auf dem Marktplatz erworben haben.</block>
+  <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">Erfahren Sie, wie Sie die verbrauchte Kapazität in Ihrem Konto anzeigen können</block>
+  <block id="1e9f781ad3dabc2f942313854ce94883" category="paragraph"><block ref="bcd8bf14da5e102dbc4b48dd0870869e" category="inline-link-rx"></block> .</block>
+  <block id="5a4346a01828d72104a6540080377b25" category="section-title">6. November 2022</block>
+  <block id="36e33f823d687cad39366d44fd0b326d" category="section-title">Abonnements und Jahresverträge</block>
+  <block id="b3e680bd6b6b80e2fd4f5bd19f3ad015" category="paragraph">Ihre PAYGO-Abonnements und Jahresverträge für BlueXP können jetzt in der BlueXP digital wallet angezeigt und verwaltet werden.</block>
+  <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">Erfahren Sie, wie Sie Ihre Abonnements verwalten</block>
+  <block id="02a7eedc354fe91b04b9ff906dc9c760" category="paragraph"><block ref="dcb08a7187e62f8d5d6c3eba08ea6b8f" category="inline-link-rx"></block> .</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18. September 2022</block>
+  <block id="b269d65b4fd592fc59288f3c9c3917b9" category="section-title">Optimierte E/A- und WORM-Kapazität</block>
+  <block id="dfc3d3012360c41f119ce032ebb3ed8b" category="paragraph">Die BlueXP digital wallet zeigt jetzt eine Zusammenfassung des optimierten E/A-Lizenzpakets und der bereitgestellten WORM-Kapazität für Cloud Volumes ONTAP Systeme in Ihrem gesamten Konto an.</block>
+  <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">Mithilfe dieser Angaben können Sie besser verstehen, welche Kosten Ihnen in Rechnung gestellt werden und ob Sie zusätzliche Kapazität erwerben müssen.</block>
+  <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">31. Juli 2022</block>
+  <block id="b69737a8aa6d54e160fd215ef53825b5" category="section-title">Lademethode ändern</block>
+  <block id="f999ecec0a946b40cdd04ca71d0ac5e0" category="paragraph">Sie können jetzt die Abrechnungsmethode für ein Cloud Volumes ONTAP -System ändern, das eine kapazitätsbasierte Lizenzierung verwendet. Wenn Sie beispielsweise ein Cloud Volumes ONTAP -System mit dem Essentials-Paket bereitgestellt haben, können Sie es auf das Professional-Paket umstellen, wenn sich Ihre Geschäftsanforderungen ändern.</block>
+  <block id="63b54c0d3b4fb8e35270bfdf7b2bdcbb" category="inline-link">Erfahren Sie, wie Sie die Lademethode ändern</block>
+  <block id="8c8503ff8c21813561363b608190163e" category="paragraph"><block ref="24cab88ee4e7cc87558a54f6745deabe" category="inline-link-rx"></block> .</block>
+  <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">3. Juli 2022</block>
+  <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">Verbrauchte Kapazität</block>
+  <block id="290fbe7a9d91cd4191566b8d26837eb2" category="paragraph">Jetzt wird Ihnen die insgesamt verbrauchte Kapazität in Ihrem Konto und die verbrauchte Kapazität pro Lizenzpaket angezeigt. Auf diese Weise können Sie besser nachvollziehen, welche Kosten Ihnen in Rechnung gestellt werden und ob Sie zusätzliche Kapazität erwerben müssen.</block>
+  <block id="61589f40a840f6f60d0d36160690dc0e" category="inline-image-macro">Ein Screenshot, der die Seite für kapazitätsbasierte Lizenzen zeigt. Die Seite bietet einen Überblick über die verbrauchte Kapazität in Ihrem Konto und schlüsselt die verbrauchte Kapazität anschließend nach Lizenzpaket auf.</block>
+  <block id="4b661d618c68b40651187ff1169d6947" category="paragraph"><block ref="4b661d618c68b40651187ff1169d6947" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ba26e4556a0f160834687982b0479336" category="section-title">27. Februar 2022</block>
+  <block id="ad542dc76a1c13d716648648c7052561" category="section-title">Lizenzen für On-Premises ONTAP -Cluster</block>
+  <block id="cc6992a66b9fc6bd5f23a20beff49e2a" category="paragraph">Sie können jetzt eine Bestandsaufnahme Ihrer lokalen ONTAP Cluster zusammen mit den Ablaufdaten ihrer Hardware und Serviceverträge anzeigen. Darüber hinaus sind weitere Details zu den Clustern verfügbar.</block>
+  <block id="af7d9848ad6bc871344453ac12a13027" category="inline-link">Erfahren Sie, wie Sie Lizenzen für lokale ONTAP Cluster verwalten</block>
+  <block id="770294ba582707dbf5d21f7add8b531e" category="paragraph"><block ref="d28003d0743d6fc8a920f6982b9bd603" category="inline-link-rx"></block> .</block>
+  <block id="586301717819197e24001cac47efdaaa" category="section-title">2. Januar 2022</block>
+  <block id="d5ce756f503ae6211b9ef6c827e757be" category="section-title">Lizenzbedingungen werden automatisch aktualisiert</block>
+  <block id="ccb04438d71ca79f2a97704ba47b5adf" category="paragraph">Wenn Sie die Kapazität oder Laufzeit einer Ihrer Lizenzen ändern, werden die Lizenzbedingungen jetzt automatisch im aktualisiert.  Sie müssen die Lizenz nicht selbst manuell aktualisieren.</block>
+  <block id="b2d68f8e07e0e6ca8d81ba9d15e96e7e" category="paragraph">Das automatische Lizenzupdate funktioniert mit allen Arten von Cloud Volumes ONTAP Lizenzen und allen Lizenzen für Datendienste.</block>
+  <block id="a146b21fc1601ef799629d7c85b849b9" category="sidebar">Verwalten und überwachen Sie Ihre Lizenzen und Abonnements in der NetApp Console.</block>
+  <block id="34d74eac914313be8abc81cd59f94d4d" category="sidebar">Dokumentation zu Licenses and subscriptions</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Erste Schritte</block>
+  <block id="25b1fde564bb1fc860069167d8668df6" category="sidebar">Verwalten Sie Ihre Lizenzen</block>
+  <block id="7cbe4872773ca07492a76acf7d557fef" category="sidebar">Verwalten Sie kapazitätsbasierte Lizenzen für Cloud Volumes ONTAP</block>
+  <block id="6942b724002d90bb0f705f478cdd6bf3" category="sidebar">Verwalten Sie Ihre Abonnements</block>
+  <block id="e74b98af0a0d10cc27c402c02fac1fda" category="sidebar">Verwalten von Marketplace-Abonnements und -Verträgen</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs und Community</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetApp Console</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
+  <block id="c19e034a7ae60fb90287c5050a076d5a" category="sidebar">Licenses and subscriptions</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Versionshinweise</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Was ist neu</block>
+  <block id="0ff3fcd44035e3f54a2216140f6b51ae" category="sidebar">Erfahren Sie mehr über</block>
+  <block id="104ab36dc0e3605e2bfc5fac87bee923" category="sidebar">Verwenden Sie Lizenzen und Abonnements</block>
+  <block id="a35e94495c93c5d785f8b1240c15be6a" category="sidebar">Verwenden des Übersichts-Dashboards</block>
+  <block id="9f0562c731b8981f21e8a7ac75bd947f" category="sidebar">Lizenzen verwalten</block>
+  <block id="22a93e112ce29f0d1e8dfc0ede83e119" category="sidebar">Direktlizenzen verwalten</block>
+  <block id="fbf5bb26f6374732410ccc529ef29ffa" category="sidebar">Lizenzen für Cloud Volumes ONTAP verwalten</block>
+  <block id="c7031958abe0c6bca3058548b703b37f" category="sidebar">Kapazitätsbasierte Lizenzen für Cloud Volumes ONTAP</block>
+  <block id="f34953a70b4a66823b7c335bccdd1df4" category="sidebar">Knotenbasierte Lizenzen für Cloud Volumes ONTAP</block>
+  <block id="03d8ffc661918290fbea573239c62f5a" category="sidebar">Private Angebote verwalten</block>
+  <block id="21677e75a8fa5c435a73182243b106bf" category="sidebar">Verwalten eines privaten AWS-Angebots</block>
+  <block id="b3f0b3ed456c94edb01f453c1e1cdf1f" category="sidebar">Verwalten eines privaten Azure-Angebots</block>
+  <block id="7088a1a0a9ded3e2d3db863329dd5edd" category="sidebar">Verwalten eines privaten Google Cloud-Angebots</block>
+  <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">Verwalten von Marketplace-Abonnements</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Unterstützung</block>
+</blocks>
