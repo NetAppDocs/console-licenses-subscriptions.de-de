@@ -9,7 +9,7 @@ settings:
   langs: de-de,us-en,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: Dokumentation zu Lizenzen und Abonnements
+  - title: Lizenz- und Abonnementdokumente
     url: "/index.html"
   - title: Versionshinweise
     entries:
@@ -18,7 +18,7 @@ sidebar:
   - title: Erste Schritte
     entries:
     - title: Erfahren Sie mehr über
-      url: "/concept-digital-wallet.html"
+      url: "/concept-licenses-subscriptions.html"
   - title: Verwenden Sie Lizenzen und Abonnements
     entries:
     - title: Verwenden des Übersichts-Dashboards

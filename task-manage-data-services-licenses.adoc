@@ -21,30 +21,113 @@ NOTE: Auf der Seite *Direktlizenzen* sind alle Lizenzen aufgelistet.  Wenn Sie L
 
 Die Anweisungen auf dieser Seite enthalten Informationen, die für jeden Dienst gelten.  Genauere Informationen zur Lizenzierung dieser Dienste finden Sie auf den folgenden Seiten:
 
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["Einrichten der Lizenzierung für BlueXP backup and recovery"^]
-* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Einrichten der Lizenzierung für die BlueXP disaster recovery"^]
-* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["Einrichten der Lizenzierung für den BlueXP ransomware protection"^]
-* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["Einrichten der Lizenzierung für BlueXP tiering"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Einrichten der Lizenzierung für Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html["Einrichten der Lizenzierung für NetApp Backup and Recovery"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["Einrichten der Lizenzierung für NetApp Disaster Recovery"^]
+* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["Einrichten der Lizenzierung für NetApp Ransomware Resilience"^]
+* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["Einrichten der Lizenzierung für NetApp Cloud Tiering"^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html["Einrichten der Lizenzierung für Cloud Volumes ONTAP"^]
 
 
 
 
 == Erhalten Sie eine Lizenzdatei
 
-Ungelöste Direktive in <stdin> – include::_include/task-obtain-license.adoc[]
+Sie sollten eine NetApp Lizenzdatei zum Hochladen erhalten, wenn die Konsole keinen Internetzugang hat (Installationen im privaten Modus).
+
+Wenn Sie eine Lizenz von einem NetApp -Vertriebsmitarbeiter erwerben, erhalten Sie eine E-Mail mit der Seriennummer und den Lizenzdetails.  Verwenden Sie die Seriennummer, um die Lizenzdatei zu erhalten, wenn Lizenzen nicht automatisch in der Konsole angezeigt werden.
+
+.Schritte
+. Suchen Sie Ihre Konsolenkonto-ID:
++
+.. Wählen Sie oben rechts in der Konsoleimage:icon-settings-option.png["Das Einstellungssymbol, das oben rechts in der Webkonsole angezeigt wird."] > *Identitäts- und Zugriffsverwaltung*.
+.. Suchen Sie auf der Organisationsseite nach Ihrer Konto-ID und kopieren Sie sie.
++
+Wenn keine Konto-ID aufgeführt ist und Sie nur eine Organisations-ID haben, kopieren Sie die ersten acht Zeichen der Organisations-ID und hängen Sie sie an *Konto-* an
+
++
+Wenn dies beispielsweise Ihre Organisations-ID ist:
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+Ihre Konto-ID wäre:
+
++
+Konto-ea10e1c6
+
+
+
+. Sign in bei https://mysupport.netapp.com["NetApp Support Site"^] und wählen Sie *Systeme > Softwarelizenzen*.
+. Geben Sie die Seriennummer Ihrer Lizenz ein.
+. Wählen Sie in der Spalte *Lizenzschlüssel* die Option * NetApp -Lizenzdatei abrufen*.
+. Geben Sie Ihre Konsolenkonto-ID ein (diese wird auf der Support-Site als Mandanten-ID bezeichnet) und wählen Sie *Senden*, um die Lizenzdatei herunterzuladen.
+
 
 
 
 == Hinzufügen einer Lizenz
 
-Ungelöste Direktive in <stdin> – include::_include/task-add-license.adoc[]
+Lizenzinformationen werden automatisch im Abschnitt **Lizenzen und Abonnements** angezeigt, wenn das mit der Lizenz verknüpfte NetApp Konsolenkonto auch ein NetApp Support-Site-Konto ist und über Internetzugang verfügt.  Wenn Sie ein Konsolenkonto verwendet haben, das nicht mit Ihrem NSS-Konto verknüpft ist, müssen Sie manuell eine Lizenz hinzufügen.
+
+Sie können die Lizenz in der Konsole entweder durch Eingabe der Seriennummer und des zugehörigen NSS-Kontos oder durch Hochladen der NetApp -Lizenzdatei (NLF) hinzufügen.  Sie sollten eine NetApp Lizenzdatei zum Hochladen erhalten, wenn die Konsole keinen Internetzugang hat (Installationen im privaten Modus).
+
+Nachdem Sie eine Lizenz von Ihrem NetApp Vertriebsmitarbeiter erworben haben, sendet Ihnen NetApp eine E-Mail mit der Seriennummer und weiteren Lizenzdetails.  Sie benötigen diese Seriennummer, um die entsprechende Lizenz in der Konsole hinzuzufügen oder zu aktualisieren.
+
+
+NOTE: Um die Seriennummer einzugeben, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["Fügen Sie Ihr NetApp Support Site-Konto zur Konsole hinzu"^] .  Dies ist das NetApp Support Site-Konto, das zum Zugriff auf die Seriennummer berechtigt ist.
+
+.Schritte
+. Wählen Sie im Menü der NetApp -Konsole *Governance > Lizenzen und Abonnements* und dann die Registerkarte *Direkte Lizenzen*.
+. Wählen Sie *Lizenz hinzufügen*.
+. Geben Sie im Dialogfeld *Lizenz hinzufügen* die Lizenzinformationen ein und wählen Sie *Lizenz hinzufügen*:
++
+** Wenn Sie die Seriennummer haben und Ihr NSS-Konto kennen, wählen Sie *Seriennummer eingeben* und geben Sie diese Informationen ein.
++
+Wenn Sie eine Seriennummer eingegeben haben, müssen Sie auch das NetApp Support Site-Konto auswählen, das zum Zugriff auf die Seriennummer berechtigt ist.
+
++
+Wenn Ihr NetApp Support Site-Konto nicht in der Dropdown-Liste verfügbar ist, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["Fügen Sie das NSS-Konto zur Konsole hinzu"^]
+
+** Wenn Sie über die Lizenzdatei verfügen (erforderlich bei Verwendung der NetApp Konsole im privaten Modus), wählen Sie die Option *Lizenzdatei hochladen* und folgen Sie den Anweisungen zum Anhängen der Datei.
+
+
+
 
 
 
 == Aktualisieren einer Lizenz
 
-Ungelöste Direktive in <stdin> – include::_include/task-update-license.adoc[]
+Die Konsole benachrichtigt Sie, wenn die Laufzeit Ihrer Lizenz bald abläuft oder wenn sich Ihre lizenzierte Kapazität dem Limit nähert.  Aktualisieren Sie Ihre Lizenz vor Ablauf, um Unterbrechungen Ihrer NetApp -Datendienste oder Cloud Volumes ONTAP zu vermeiden.
+
+Nachdem Sie zusätzliche Kapazität von NetApp erworben oder Ihre Lizenzlaufzeit verlängert haben, aktualisiert die Konsole die Lizenz automatisch, wenn beide Bedingungen erfüllt sind:
+
+* Ihr Konsolenkonto ist mit einem NetApp Support Site-Konto verknüpft
+* Die Konsole verfügt über einen Internetzugang
+
+
+Wenn Ihr Konsolenkonto nicht mit Ihrem NSS-Konto verknüpft ist oder die Konsole im privaten Modus ohne Internetzugang betrieben wird, müssen Sie die Lizenz manuell aktualisieren.
+
+Sie können eine Lizenz manuell mit einer der folgenden Methoden aktualisieren:
+
+* Geben Sie die Seriennummer und das zugehörige NSS-Konto ein
+* Laden Sie die NetApp -Lizenzdatei (oder Dateien für ein Cloud Volumes ONTAP HA-Paar) hoch.
+
+
+Wenn Sie eine Lizenz von einem NetApp -Vertriebsmitarbeiter erwerben, erhalten Sie eine E-Mail mit der Seriennummer und den Lizenzdetails.  Verwenden Sie diese Seriennummer, um die Lizenz zu aktualisieren.
+
+
+NOTE: Um die Seriennummer einzugeben, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["Fügen Sie Ihr NetApp Support Site-Konto zur Konsole hinzu"^] .  Dieses NSS-Konto muss für den Zugriff auf die Seriennummer autorisiert sein.
+
+.Schritte
+. Wenden Sie sich an Ihren NetApp -Vertreter, um eine neue Lizenz zu erwerben.
++
+Nachdem Sie die Zahlung abgeschlossen und die Lizenz bei der NetApp -Support-Site registriert haben, aktualisiert die Konsole die Lizenz automatisch.  Die Seite *Direktlizenzen* spiegelt die Änderung innerhalb von 5 bis 10 Minuten wider.
+
+. Wenn die Konsole die Lizenz nicht automatisch aktualisieren kann (z. B. beim Betrieb im privaten Modus), besorgen Sie sich vom Support eine NetApp -Lizenzdatei und laden Sie diese manuell hoch.<<obtain-license,Erfahren Sie, wie Sie eine Lizenzdatei erhalten.>>
+. Wählen Sie auf der Registerkarte *Direktlizenzen*image:icon-action.png["Symbol „Mehr“"] für die Seriennummer, die Sie aktualisieren, und wählen Sie *Lizenz aktualisieren*.
+. Laden Sie auf der Seite *Lizenz aktualisieren* die Lizenzdatei hoch und wählen Sie *Lizenz aktualisieren*.
+
 
 
 
