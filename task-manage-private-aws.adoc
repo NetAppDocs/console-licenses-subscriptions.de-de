@@ -110,41 +110,11 @@ Wenn Sie das Angebot angenommen, die Registrierung jedoch nicht abgeschlossen ha
 ====
 
 
-. Klicken Sie auf *Zuordnen* und dann auf *Fertig*.
+. Klicken Sie auf **Partner**.
+. Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen.  Klicken Sie anschließend auf **Verknüpfen**.
+. Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.
+. Prüfen Sie die Abonnementoptionen des Marktplatzes.
+. Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.
+. Wählen Sie **Änderungen speichern**.
+. Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei verschiedenen Hyperscalern vorhanden sind.
 
-
-[IMPORTANT]
-====
-Um den ermäßigten Preis anzuwenden, ist es notwendig, die Abonnementzuweisung in der Konsole abzuschließen.
-
-====
-
-
-== Konfigurieren des Abonnements mit AWS-Anmeldeinformationen
-
-. Gehen Sie in der Konsole zu *Governance > Licenses and subscriptions* und wählen Sie die Registerkarte *Marketplace-Abonnements* aus.
-. Suchen Sie das zuvor erstellte Abonnement. Erweitern Sie die Zeile, um zu bestätigen, dass sie mit Ihrem Konsolenkonto verknüpft ist.
-+
-[NOTE]
-====
-Aufgrund von Einschränkungen des AWS Marketplace werden einige Details privater Angebote nicht außerhalb der AWS-Konsole angezeigt. Wenn ein Feld angezeigt wird `N/A` , überprüfen Sie die Informationen direkt in der AWS-Konsole.
-
-====
-. Klicken Sie auf das Drei-Punkte-Menü neben dem Abonnement und wählen Sie *Konfigurieren*.
-. Wählen Sie die entsprechenden *AWS-Kontoanmeldeinformationen* aus und klicken Sie auf *Konfigurieren*.
-
-
-[NOTE]
-====
-Die Marketplace-Gebühren für diese Anmeldeinformationen werden über das Marketplace-Abonnement abgerechnet. Bei Jahresverträgen werden die Kosten auf die Vertragsnutzung angerechnet.
-
-====
-[IMPORTANT]
-====
-Wiederholen Sie die Schritte 1–4 für jede AWS-Anmeldeinformation in Ihrem Konsolenkonto, die Sie mit dem Abonnement verknüpfen möchten.
-
-* Für Anmeldeinformationen in anderen Konsolenorganisationen verwenden Sie das Dropdown-Menü *Organisation* und wiederholen Sie die Schritte.
-* Verwenden Sie für Anmeldeinformationen in anderen Agenten das Dropdown-Menü *Agent* und wiederholen Sie die Schritte.
-
-
-====

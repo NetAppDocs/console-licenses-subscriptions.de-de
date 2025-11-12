@@ -18,6 +18,18 @@ Informieren Sie sich über die Neuerungen bei NetApp Console -Lizenzen und -Abon
 
 
 
+== 10. November 2025
+
+
+
+=== Abrechnungseinstellungen verwalten
+
+Sie können Ihre *Abrechnungseinstellungen* jetzt direkt in der NetApp Console konfigurieren und verwalten.  Diese Erweiterung ermöglicht es Administratoren, zu definieren und einzusehen, wie Kapazitätsnutzung, Verlängerungen und Kosten über direkte NetApp Lizenzen, Cloud-Marketplace-Abonnements und Keystone Verträge abgerechnet werden.
+
+Weitere Informationen finden Sie imlink:https://docs.netapp.com/us-en/console/concept-billing-preferences.html["Dokumentation der Abrechnungseinstellungen"] .
+
+
+
 == 06. Oktober 2025
 
 

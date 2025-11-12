@@ -1,0 +1,117 @@
+---
+sidebar: sidebar 
+permalink: task-manage-billing-preferences.html 
+keywords: billing, configure, license, licensing, licenses, subscriptions, marketplace, keystone, cvo 
+summary: Konfigurieren Sie die Abrechnungseinstellungen in der NetApp Console, um zu steuern, wie Lizenzen, Marketplace-Abonnements und Keystone Verträge abgerechnet und verlängert werden. 
+---
+= Abrechnungseinstellungen verwalten
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+In der NetApp Console können Sie die Abrechnungseinstellungen konfigurieren und verwalten, um zu steuern, wie Kapazitätsnutzung, Verlängerungen und Rechnungen den Konten Ihrer Organisation zugeordnet werden.  Die Abrechnungseinstellungen legen fest, ob die Nutzungsgebühren aus NetApp -Lizenzen, Cloud-Marketplace-Verträgen oder Keystone Vereinbarungen stammen.
+
+.Bevor Sie beginnen
+* Sie haben die Rolle *Abrechnungsadministrator* oder *Organisationsadministrator*.
+* Alle relevanten Marktplatz-Abonnements sind mit Ihrer Organisation verknüpft.
+* Sie haben die bestehende Konfiguration unter * Licenses and subscriptions* überprüft.
+
+
+
+
+== Abrechnungseinstellungen festlegen
+
+Sie können auswählen, wie die Konsole die Nutzungsgebühren auf die verschiedenen Abrechnungsquellen aufteilt.  Hierdurch wird festgelegt, welche Konten zuerst belastet werden und wie Verlängerungen abgewickelt werden.
+
+.Schritte
+. In der NetApp Console wählen Sie *Governance > Licenses and subscriptions*.
+. Wählen Sie *Abrechnungseinstellungen*.
+. Wählen Sie eine der folgenden Abrechnungsarten:
++
+** * NetApp -Lizenzen zuerst* – Verwenden Sie zuerst NetApp -Lizenzen, dann Marketplace-Abonnements für die zusätzliche Nutzung.
+** *Nur Marketplace-Abonnements* – Die gesamte Nutzung wird direkt über Marketplace-Abonnements abgerechnet.
+
+
+. Unter *Marketplace-Abonnements* wählen Sie das Abonnement für jeden Hyperscaler (AWS, Azure und Google Cloud) aus.
+. Wenn Sie mehrere Abonnements unter einem einzigen Hyperscaler verwenden, aktivieren Sie die *Benutzerdefinierte CVO-Konfiguration*.
+. (Optional) *Rechnungskontakte* und *Benachrichtigungskontakte* aktualisieren.
+. (Optional) Geben Sie ein *Kostenstellen-Tag* ein, um die Abrechnung internen Buchhaltungscodes zuzuordnen.
+. Wählen Sie *Änderungen speichern*.
+. Wenn Sie dazu aufgefordert werden, überprüfen Sie den Bestätigungsdialog und wählen Sie *Bestätigen*.
+
+
+.Ergebnis
+Die NetApp Console aktualisiert die Abrechnungszuordnungen.  Zukünftige Servicegebühren und Verlängerungen basieren nun auf der ausgewählten Konfiguration.
+
+
+NOTE: Durch die Änderung des Abrechnungsmodus ändert sich die Verteilung der Servicegebühren.  Neue Cloud Volumes ONTAP (CVO)-Instanzen übernehmen automatisch die ausgewählte Konfiguration.
+
+
+
+== Benutzerdefinierte CVO-Konfiguration aktivieren
+
+Die benutzerdefinierte CVO-Konfiguration ermöglicht es Ihnen, mehrere Marketplace-Abonnements demselben Hyperscaler zuzuordnen.  Verwenden Sie diesen Modus, wenn Ihre Organisation unterschiedliche Abrechnungskonten für separate Geschäftsbereiche oder Umgebungen führt.
+
+.Schritte
+. In der NetApp Console wählen Sie *Governance > Licenses and subscriptions*.
+. Wählen Sie *Abrechnungseinstellungen*.
+. Aktivieren Sie unter **Marketplace-Abonnements** die *Benutzerdefinierte CVO-Konfiguration*.
+. Wählen Sie **Änderungen speichern**.
+
+
+.Ergebnis
+Sie können nun einzelnen Cloud Volumes ONTAP Instanzen unter demselben Hyperscaler spezifische Marketplace-Abonnements zuweisen.
+
+
+WARNING: Sobald diese Funktion aktiviert ist, können benutzerdefinierte CVO-Konfigurationen nicht mehr über die Registerkarte **Abrechnungseinstellungen** rückgängig gemacht werden.  Durch Deaktivierung wird die gesamte CVO-Abrechnung auf die Standard-Abrechnungskonfiguration für Ihre Datendienste zurückgesetzt.
+
+
+
+== Marktplatzkonfiguration bearbeiten
+
+Sie können die Konfigurationsdetails des Marktplatzes bearbeiten, um Abonnements mit Cloud-Projekten zu verknüpfen oder Vertragsinformationen zu aktualisieren.
+
+.Schritte
+. Offene * Licenses and subscriptions*.
+. Wählen Sie *Abrechnungseinstellungen*.
+. Wählen Sie die Ansicht für Folgendes aus:
++
+** *Name des Marktplatz-Abonnements*
+** *Cloud-Projekt* (nur Google Cloud)
+** *Abonnementart* (jährlich oder PAYGO)
+
+
+. Wählen Sie *Änderungen speichern*.
+
+
+.Ergebnis
+Die neue Konfiguration tritt sofort in Kraft, und die Abrechnungsdaten werden mit dem Cloud-Anbieter synchronisiert.
+
+
+TIP: Um ein Abonnement mehreren Cloud-Projekten zuzuordnen, muss zunächst die *Benutzerdefinierte CVO-Konfiguration* aktiviert werden.
+
+
+
+== Rechnungsänderungen bestätigen oder rückgängig machen
+
+Jede Aktualisierung der Abrechnungseinstellungen erfordert eine Bestätigung, um versehentliche Änderungen zu vermeiden.
+
+.Änderungen bestätigen
+. Nachdem Sie die Abrechnungseinstellungen bearbeitet haben, wählen Sie *Änderungen speichern*.
+. Überprüfen Sie die Zusammenfassung im Bestätigungsdialog.
+. Wählen Sie *Speichern*, um die Aktualisierungen anzuwenden, oder *Abbrechen*, um sie zu verwerfen.
+
+
+.Zur Standardabrechnung zurückkehren
+. Öffnen Sie die *Zahlungseinstellungen*.
+. Deaktivieren Sie die *Benutzerdefinierte CVO-Konfiguration*.
+. Bestätigen Sie auf Aufforderung, dass Sie zur Standardkonfiguration zurückkehren möchten.
+
+
+.Ergebnis
+Bei CVO-Instanzen wird wieder die standardmäßige Abrechnungsmethode verwendet, die auch für die anderen Datendienste gilt.

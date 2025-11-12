@@ -87,57 +87,11 @@ Wenn Sie bereits über ein aktives PAYGO-Abonnement oder ein geändertes private
 ====
 
 
-. Klicken Sie auf **Zuordnen** und dann auf **Fertig**.
-
-
-
-
-== Verknüpfen Sie das Abonnement mit den Google Cloud-Anmeldeinformationen
-
-. Gehen Sie in der Konsole zu **Governance > Licenses and subscriptions** und wählen Sie die Registerkarte **Marketplace-Abonnements** aus.
-. Überprüfen Sie die Abonnementdetails:
-+
-.. Suchen Sie das im Annahmeprozess erstellte Abonnement.
-.. Überprüfen Sie, ob der richtige Plan angezeigt wird.
-.. Erweitern Sie die Zeile, um die private Angebotszuordnung zu bestätigen.
-
-
-
-
-[NOTE]
-====
-Aufgrund von Einschränkungen im Google Cloud Marketplace werden einige Felder möglicherweise angezeigt `N/A` . Diese Informationen sind nur in der Google Cloud-Konsole verfügbar.
-
-====
-. [Optional] So benennen Sie das Abonnement um:
-+
-.. Klicken Sie neben dem Abonnement auf das **Drei-Punkte-Menü**.
-.. Wählen Sie **Abonnement umbenennen**.
-
-
-. Klicken Sie erneut auf das **Drei-Punkte-Menü** und wählen Sie **Konfigurieren**.
-. Wählen Sie die entsprechenden **Anmeldeinformationen** für das Google Cloud-Konto aus und klicken Sie auf **Konfigurieren**.
-
-
-Die Marketplace-Gebühren für diese Google Cloud-Anmeldeinformationen werden jetzt über das Marketplace-Abonnement abgerechnet. Bei Jahresverträgen wird die Nutzung dieser Anmeldeinformationen auf den Jahresvertrag angerechnet.
-
-[IMPORTANT]
-====
-Wiederholen Sie die Schritte 1–5 für alle Google Cloud-Anmeldeinformationen in Ihrem Konsolenkonto, die Sie mit dem Marketplace-Abonnement verknüpfen möchten.
-
-* Um Anmeldeinformationen von einem anderen Konsolenkonto zuzuordnen, verwenden Sie das Dropdown-Menü **Konto**, um zwischen Konten zu wechseln und die Schritte zu wiederholen.
-* Um Anmeldeinformationen für einen anderen Agenten zuzuordnen, verwenden Sie das Dropdown-Menü **Agent** und wiederholen Sie die Schritte.
-
-
-====
-
-
-== Google Cloud-Nutzung anzeigen
-
-So zeigen Sie den Status und die Nutzung des Google Cloud-Guthabens an:
-
-. Gehen Sie in der Google Cloud-Konsole zu **Cloud Marketplace**.
-. Klicken Sie auf **Ihre Bestellungen**.
-. Wählen Sie aus der Dropdown-Liste **Abrechnungskonto auswählen** das Abrechnungskonto aus, das Ihrem privaten Angebot zugeordnet ist.
-. Suchen Sie in der Tabelle nach Ihrem privaten Angebot, klicken Sie auf das **Drei-Punkte-Menü** und wählen Sie **Guthaben anzeigen**.
+. Klicken Sie auf **Partner**.
+. Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen.  Klicken Sie anschließend auf **Verknüpfen**.
+. Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.
+. Prüfen Sie die Abonnementoptionen des Marktplatzes.
+. Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.
+. Wählen Sie **Änderungen speichern**.
+. Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei verschiedenen Hyperscalern vorhanden sind.
 

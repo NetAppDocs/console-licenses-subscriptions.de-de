@@ -1,0 +1,40 @@
+= 
+:allow-uri-read: 
+
+
+--
+Seitenleiste: Permalink zur Seitenleiste: concept-billing-preferences-terms.html Stichwörter: Lizenz, Lizenzierung, Lizenzen, Abonnements, Zusammenfassung: „Mit den Lizenzen und Abonnements können Sie NetApp Console Lizenzen, NetApp Marketplace-Abonnements und NetApp Keystone verwalten und überwachen.“ ---
+
+= Begriffe und Definitionen :hardbreaks: :nofooter: :icons: font :linkattrs: :imagesdir: ./media/
+
+[role="lead"]
+Die Abrechnungseinstellungen steuern, wie die NetApp Console Zahlungen, Rechnungen und das Verlängerungsverhalten für Ihre Lizenzen und Abonnements handhabt.  Sie können Ihre Präferenzen auf einer von zwei Ebenen festlegen:
+
+* *Global* — gilt für Direktlizenzen, Marktplatz-Abonnements und Keystone Abonnements.
+* *Pro Abonnement* — gilt nur für einen bestimmten Marktplatz oder einen direkten Lizenzvertrag.
+
+
+Die Rechnungsquelle kann folgende sein:
+
+* *Marktplatz-Abonnements* — Die Abrechnung erfolgt über AWS Marketplace, Azure Marketplace oder Google Cloud Marketplace.  Sie können das Abrechnungskonto, die Region und die Verlängerungsoptionen auswählen, die vom Cloud-Marktplatz angeboten werden.
+* *Direktlizenzen* — Die Abrechnung erfolgt über NetApp.  Sie verwalten Lizenzschlüssel, Rechnungskontakte und die automatische Verlängerung in der NetApp Console.
+* * Keystone Abonnements* — Die Abrechnung erfolgt über Ihren Keystone Vertrag.  Sie verwalten Rechnungsempfänger und Kostenstellenkennzeichnungen in der NetApp Console.
+
+
+== Berechtigungen Sie benötigen die Rolle *Kontoadministrator* oder *Abrechnungsadministrator*, um die Abrechnungseinstellungen zu ändern.  Die Bediener können die Einstellungen einsehen, aber nicht ändern.
+
+== Abrechnungseinstellungen festlegen
+
+Mit den Abrechnungseinstellungen können Sie: - eine einheitliche Rechnungskontaktliste für alle Dienste erzwingen, - die Nutzung Kostenstellen zuordnen, - automatische Verlängerungs- und Ablaufbenachrichtigungen verwalten, - sicherstellen, dass neue Cloud Volumes ONTAP (CVO)-Systeme das richtige Abrechnungskonto übernehmen.
+
+= Abrechnungsfelder :page-role: Referenz
+
+== Marketplace-Felder * *Marketplace-Anbieter* — AWS, Azure oder Google Cloud.  * *Abrechnungskonto / Abonnement-ID* — Das Cloud-Abrechnungskonto, das belastet werden soll.  * *Vertragslaufzeit* — Vertragsdauer und Verlängerungsverhalten.
+
+= Abrechnungsoptionen und Definitionen :page-role: Referenz
+
+== Bedingungen und Optionen * ** NetApp -Lizenzen zuerst** — Abrechnung auf Basis aktiver NetApp Lizenzen.  Weitere Nutzungsverlagerungen erfolgen auf dem Markt.  * **Nur Marktplatz-Abonnements** — Die gesamte Nutzung wird über Marktplatz-Verträge abgerechnet.  * **PAYGO (Pay-As-You-Go)** — Flexibles Abonnement, abgerechnet nach tatsächlicher Nutzung.  * **Jahresvertrag** — Abonnement für den Marktplatz mit fester Laufzeit.  * **Automatische Verlängerung** — Der Vertrag wird bei Ablauf automatisch verlängert.  * **Benutzerdefinierte CVO-Konfiguration** — Erweiterter Modus für die Zuordnung mehrerer Abonnements pro Hyperscaler.  * **Direktlizenz** — Von NetApp verwaltete Lizenz, die vor der Nutzung der Marketplace-Kapazität verwendet wurde.  * **Hyperscaler** — AWS-, Azure- oder Google Cloud-Anbieter.  * **Dialog zur Bestätigung der Änderungen** — Wird vor der Anwendung von Aktualisierungen angezeigt, um versehentliche Änderungen der Abrechnung zu verhindern.
+
+== Typische Konfigurationspfade | Szenario | Empfohlene Abrechnungsoption | |-----------|-----------------------------| | Gekaufte NetApp Kapazität nutzen | NetApp Lizenzen zuerst | | Nur Marketplace-Verträge nutzen | Nur Marketplace-Abonnements nutzen | | Mehrere Projekte bei einem Cloud-Anbieter abrechnen | Benutzerdefinierte CVO-Konfiguration aktivieren | | Zur Standardabrechnung zurückkehren | Benutzerdefinierte CVO-Konfiguration deaktivieren |
+
+--

@@ -97,37 +97,11 @@ Die Azure-seitige Automatisierung kann 30 Sekunden bis 5 Minuten dauern. Wenn di
 ====
 
 
-. Klicken Sie auf *Zuordnen* und dann auf *Fertig*.
+. Klicken Sie auf **Partner**.
+. Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen.  Klicken Sie anschließend auf **Verknüpfen**.
+. Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.
+. Prüfen Sie die Abonnementoptionen des Marktplatzes.
+. Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.
+. Wählen Sie **Änderungen speichern**.
+. Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei verschiedenen Hyperscalern vorhanden sind.
 
-
-[IMPORTANT]
-====
-Um den Kauf zu aktivieren und den ermäßigten Preis anzuwenden, ist es notwendig, die Abonnementzuweisung in der Konsole abzuschließen.
-
-====
-
-
-== Konfigurieren des Abonnements mit Azure-Anmeldeinformationen
-
-. Gehen Sie in der Konsole zu *Governance > Licenses and subscriptions* und wählen Sie die Registerkarte *Marketplace-Abonnements* aus.
-. Überprüfen Sie die Abonnementdetails:
-+
-.. Suchen Sie das von Ihnen erstellte Marketplace-Abonnement.
-.. Erweitern Sie die Zeile, um die Details zu überprüfen und zu bestätigen, dass das Abonnement mit Ihrem Konsolenkonto verknüpft ist.
-
-
-. Klicken Sie auf das *Drei-Punkte-Menü* neben dem Abonnement und wählen Sie *Konfigurieren*.
-. Wählen Sie das entsprechende *Azure-Abonnement* aus und klicken Sie auf *Konfigurieren*.
-
-
-Die Marketplace-Gebühren für diese Azure-Anmeldeinformationen werden jetzt über das Marketplace-Abonnement abgerechnet. Bei Jahresverträgen wird die Nutzung dieser Anmeldeinformationen auf den Jahresvertrag angerechnet.
-
-[IMPORTANT]
-====
-Wiederholen Sie die Schritte 1–4 für jede Azure-Anmeldeinformation in Ihrem Konsolenkonto, die Sie mit dem Abonnement verknüpfen möchten.
-
-* Um Anmeldeinformationen einer anderen Konsolenorganisation zuzuordnen, wechseln Sie über das Dropdown-Menü *Organisation* die Organisation und wiederholen Sie die Schritte.
-* Um Anmeldeinformationen eines anderen Agenten zuzuordnen, wechseln Sie über das Dropdown-Menü *Agent* und wiederholen Sie die Schritte.
-
-
-====
