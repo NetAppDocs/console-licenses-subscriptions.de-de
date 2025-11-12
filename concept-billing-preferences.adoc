@@ -18,7 +18,6 @@ Die Abrechnungseinstellungen legen fest, wie Sie Zahlungen, Rechnungen und das V
 
 * *Marktplatz-Abonnements* entsprechen Cloud-Marktplatz-Verträgen (AWS, Azure oder Google Cloud), bei denen die Nutzungsgebühren über ein Hyperscaler-Konto abgerechnet werden.
 * *Direktlizenzen* sind Lizenzen, die direkt von NetApp erworben wurden und in der NetApp Console über Lizenzschlüssel, Rechnungsempfänger und Verlängerungsoptionen verwaltet werden.
-* * Keystone Abonnements* werden im Rahmen Ihres Keystone Vertrags verwaltet, wobei Rechnungsempfänger und Kostenstellenkennzeichnungen über dieselbe Schnittstelle gehandhabt werden.
 
 
 Sie können je nach Ihrem Beschaffungsmodell konfigurieren, wie Ihre Organisation Dienstleistungen zuweist und bezahlt.
@@ -92,7 +91,6 @@ Sie können je nach Beschaffungsstrategie Ihres Unternehmens zwischen verschiede
 * *Jahresvertrag* — Legt eine definierte Abonnementlaufzeit fest.
 * *Automatische Verlängerung* — Ermöglicht die automatische Fortsetzung von Lizenzen oder Marktplatzverträgen nach deren Ablauf.  Wenn diese Option deaktiviert ist, muss die Dienstleistung manuell erneuert werden, um eine Unterbrechung zu vermeiden.
 * *Benutzerdefinierte CVO-Konfiguration* — Ermöglicht die Zuordnung mehrerer Marktplatz-Abonnements zu einem einzigen Hyperscaler.  Dies könnte nützlich sein, wenn verschiedene Geschäftsbereiche oder Projekte unterschiedliche Abrechnungskonten innerhalb derselben Cloud-Umgebung benötigen.
-* *Dialog zur Bestätigung der Änderungen* — Wird vor der Anwendung der Abrechnungsaktualisierungen angezeigt und ermöglicht Administratoren, die Änderungen zu überprüfen und zu bestätigen.  Diese Sicherheitsvorkehrung hilft, versehentliche Konfigurationsänderungen zu verhindern, die dazu führen könnten, dass Gebühren dem falschen Konto zugeordnet werden.
 
 
 
