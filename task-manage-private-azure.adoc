@@ -105,3 +105,5 @@ Die Azure-seitige Automatisierung kann 30 Sekunden bis 5 Minuten dauern. Wenn di
 . Wählen Sie **Änderungen speichern**.
 . Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei verschiedenen Hyperscalern vorhanden sind.
 
+
+Weitere Informationen zu Marktplatz-Abonnements und zur Abrechnung von Direktlizenzen finden Sie unterlink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Dokumentation der Abrechnungseinstellungen"] Die

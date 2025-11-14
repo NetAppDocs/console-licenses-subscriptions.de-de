@@ -14,7 +14,7 @@ summary: Konfigurieren Sie die Abrechnungseinstellungen in der NetApp Console, u
 
 
 [role="lead"]
-In der NetApp Console können Sie die Abrechnungseinstellungen konfigurieren und verwalten, um zu steuern, wie Kapazitätsnutzung, Verlängerungen und Rechnungen den Konten Ihrer Organisation zugeordnet werden.  Die Abrechnungseinstellungen legen fest, ob die Nutzungsgebühren aus NetApp -Lizenzen, Cloud-Marketplace-Verträgen oder Keystone Vereinbarungen stammen.
+In der NetApp Console können Sie die Abrechnungseinstellungen konfigurieren und verwalten, um zu steuern, wie Kapazitätsnutzung, Verlängerungen und Rechnungen den Konten Ihrer Organisation zugeordnet werden. Die Abrechnungseinstellungen legen fest, ob die Nutzungsgebühren aus NetApp -Lizenzen, Cloud-Marketplace-Verträgen oder Keystone Vereinbarungen stammen.
 
 .Bevor Sie beginnen
 * Sie haben die Rolle *Abrechnungsadministrator* oder *Organisationsadministrator*.
@@ -29,7 +29,7 @@ In der NetApp Console können Sie die Abrechnungseinstellungen konfigurieren und
 Sie können auswählen, wie die Konsole die Nutzungsgebühren auf die verschiedenen Abrechnungsquellen aufteilt.  Hierdurch wird festgelegt, welche Konten zuerst belastet werden und wie Verlängerungen abgewickelt werden.
 
 .Schritte
-. In der NetApp Console wählen Sie *Governance > Licenses and subscriptions*.
+. In der NetApp Console wählen Sie *Administration > Licenses and subscriptions*.
 . Wählen Sie *Abrechnungseinstellungen*.
 . Wählen Sie eine der folgenden Abrechnungsarten:
 +
@@ -58,7 +58,7 @@ NOTE: Durch die Änderung des Abrechnungsmodus ändert sich die Verteilung der S
 Die benutzerdefinierte CVO-Konfiguration ermöglicht es Ihnen, mehrere Marketplace-Abonnements demselben Hyperscaler zuzuordnen.  Verwenden Sie diesen Modus, wenn Ihre Organisation unterschiedliche Abrechnungskonten für separate Geschäftsbereiche oder Umgebungen führt.
 
 .Schritte
-. In der NetApp Console wählen Sie *Governance > Licenses and subscriptions*.
+. In der NetApp Console wählen Sie *Administration > Licenses and subscriptions*.
 . Wählen Sie *Abrechnungseinstellungen*.
 . Aktivieren Sie unter **Marketplace-Abonnements** die *Benutzerdefinierte CVO-Konfiguration*.
 . Wählen Sie **Änderungen speichern**.
@@ -82,7 +82,7 @@ Sie können die Konfigurationsdetails des Marktplatzes bearbeiten, um Abonnement
 . Wählen Sie die Ansicht für Folgendes aus:
 +
 ** *Name des Marktplatz-Abonnements*
-** *Cloud-Projekt* (nur Google Cloud)
+** *Cloud-Projekt*
 ** *Abonnementart* (jährlich oder PAYGO)
 
 

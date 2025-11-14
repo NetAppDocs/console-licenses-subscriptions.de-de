@@ -40,7 +40,7 @@ NOTE: Obwohl Sie Lizenzen über das Dashboard aktualisieren und entfernen könne
 link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen"^] . link:task-manage-subscriptions.html["Weitere Informationen zum Verwalten von Abonnements"^] .
 
 .Schritte
-. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions* aus.
+. Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
 . Wählen Sie *Übersicht*.
 . Wählen Sie *Anzeigen* für den jeweiligen Datendienst (einschließlich Cloud Volumes ONTAP), um Details anzuzeigen und Lizenzen und Abonnements zu verwalten.
 +
@@ -65,7 +65,7 @@ link:task-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung vo
 
 Sie können Lizenz- und Abonnementprobleme anzeigen, die gelöst werden müssen.  Zu den Problemen zählen Lizenzen und Abonnements, die ablaufen oder ihre Kapazitätsgrenze erreichen.
 
-. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions* aus.
+. Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
 . Wählen Sie *Übersicht*.
 . Wählen Sie *Beheben* für die Kachel *Erfordert Aktion* aus, um Probleme anzuzeigen, die behoben werden müssen.  Wenn „Beheben“ nicht angezeigt wird, gibt es derzeit keine Probleme, die eine Aktion erfordern.
 . Wählen Sie auf der Seite *Aktion erforderlich* entweder die Registerkarte *Lizenzen* oder die Registerkarte *Abonnements* aus.

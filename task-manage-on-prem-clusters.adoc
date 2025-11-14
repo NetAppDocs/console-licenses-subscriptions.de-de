@@ -30,7 +30,7 @@ Die Konsole zeigt Details zu lokalen ONTAP Clustern an, die Sie als Systeme erka
 Zeigen Sie den Status der Hardware- und Softwareverträge für Ihre lokalen ONTAP Cluster an, damit Sie sie vor Ablauf verlängern können.
 
 .Schritte
-. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions* aus.
+. Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
 . Wählen Sie *On-Premises ONTAP*.
 +
 Die Ablaufdaten des Software- und Hardwarevertrags werden in der Zeile für jeden Cluster angezeigt.
@@ -54,7 +54,7 @@ Sie sollten Ihre Erkennungs- und Verwaltungsoptionen (Erkennung mithilfe eines K
 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Informieren Sie sich über die Erkennungsoptionen und -anforderungen"^] .
 
 .Schritte
-. Wählen Sie im Menü der NetApp Console *Governance > Licenses and subscriptions* aus.
+. Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
 . Wählen Sie *On-Premises ONTAP*.
 +
 Ihre ONTAP -Cluster werden mit einem Status angezeigt, der angibt, ob sie in der Konsole erkannt wurden.

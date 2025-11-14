@@ -7,7 +7,6 @@
   <block id="64c3bf191a7a3aa11f89d25d0284c2a4" category="inline-link">Fügen Sie Ihr NetApp Support Site-Konto zur Konsole hinzu</block>
   <block id="c0d26ee72011a383155a1ac972516b07" category="admonition">Um die Seriennummer einzugeben,<block ref="cd0ca1d0032a534b9da0eebdd3e962e6" category="inline-link-rx"></block> .  Dies ist das NetApp Support Site-Konto, das zum Zugriff auf die Seriennummer berechtigt ist.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Schritte</block>
-  <block id="1e287a793773a0dc0c78e536804c43e1" category="list-text">Wählen Sie im NetApp Console „Governance &gt; Licenses and subscriptions“ und dann die Registerkarte „Direkte Lizenzen“ aus.</block>
   <block id="37fcb8e7d30cc5903f7318cd979d8ae4" category="list-text">Wählen Sie *Lizenz hinzufügen*.</block>
   <block id="5b0603de038451942370226099e5125d" category="list-text">Geben Sie im Dialogfeld *Lizenz hinzufügen* die Lizenzinformationen ein und wählen Sie *Lizenz hinzufügen*:</block>
   <block id="b20365c7ce019b6e1f4c2c98af493327" category="list-text">Wenn Sie die Seriennummer haben und Ihr NSS-Konto kennen, wählen Sie *Seriennummer eingeben* und geben Sie diese Informationen ein.</block>
@@ -218,7 +217,6 @@
   <block id="5e61525870b8ecb7cda0015f4b7208db" category="inline-link-macro">Erfahren Sie mehr über die Verwaltung von Lizenzen</block>
   <block id="0bfbd2ad670f16ca87b68145ca0b64cf" category="inline-link-macro">Weitere Informationen zum Verwalten von Abonnements</block>
   <block id="483b8e46eb21b512550083b13a6ba1de" category="paragraph"><block ref="f5d9875e96b8ed7153bab8f22c840330" category="inline-link-macro-rx"></block> . <block ref="f050330f0428b7d1c9a33b47b1e41be1" category="inline-link-macro-rx"></block> .</block>
-  <block id="0aa8bceb217782b5e4390aefe60d271f" category="list-text">Wählen Sie im Menü der NetApp Console *Governance &gt; Licenses and subscriptions* aus.</block>
   <block id="32790cf377a1a575eece70f624d64118" category="list-text">Wählen Sie *Übersicht*.</block>
   <block id="de9c819c70af50797f21116704502cee" category="list-text">Wählen Sie *Anzeigen* für den jeweiligen Datendienst (einschließlich Cloud Volumes ONTAP), um Details anzuzeigen und Lizenzen und Abonnements zu verwalten.</block>
   <block id="77f5141787aa2cd1e98caca9f5ff20ed" category="paragraph">Jede Kachel bietet eine grafische Übersicht über die Kapazität.  Sie können die Detailseite anzeigen, um die Zahlungsmethoden für diese Kapazität anzuzeigen und zu verwalten.</block>
@@ -612,9 +610,7 @@
   <block id="b01b1be092b95233172f870dc729234b" category="doc">Verwalten Sie PAYGO-Abonnements und -Verträge</block>
   <block id="67902908617b3450355aaa46279af065" category="paragraph">Wenn Sie NetApp -Datendienste (einschließlich Cloud Volumes ONTAP) über den Marktplatz eines Cloud-Anbieters abonnieren, werden Sie auf die Konsolen-Website weitergeleitet, wo Sie Ihr Abonnement speichern und es Ihrer Konsolenorganisation zuordnen.  Nach der Anmeldung steht jedes Abonnement zur Verwaltung in der Konsole zur Verfügung.</block>
   <block id="8d667715a159d86d1b904662382ebd14" category="inline-link">Erfahren Sie, wie Sie NetApp Datendienste abonnieren (Standardmodus)</block>
-  <block id="2d1664e9c561a4d8448ca272b632b070" category="list-text"><block ref="2d1664e9c561a4d8448ca272b632b070" category="inline-link-rx"></block></block>
   <block id="f2de349fa0961a04852f2d19e9ef3ef8" category="inline-link">Erfahren Sie, wie Sie NetApp Datendienste abonnieren (eingeschränkter Modus)</block>
-  <block id="857eda0579a011309e9d26f062d34f8d" category="list-text"><block ref="857eda0579a011309e9d26f062d34f8d" category="inline-link-rx"></block></block>
   <block id="85bb8fe222d28237b7a61c8962355819" category="admonition">Auf der Seite *Marketplace-Abonnements* sind alle Lizenzen aufgelistet.  Lizenzdetails für einen bestimmten Datendienst erhalten Sie über die Datendienstkacheln im Dashboard „Übersicht“. <block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block> .</block>
   <block id="aea9c467234db8f0360906cb49a2233c" category="section-title">Ein neues Marktplatz-Abonnement hinzufügen</block>
   <block id="2739fe5739941e5e38c954a74ec97f61" category="paragraph">Sie können ein Marktplatz-Abonnement direkt über die Konsole abonnieren.</block>
@@ -668,7 +664,6 @@
   <block id="54a532ed5b57b0751dc3bc4333f738c5" category="list-text">Wählen Sie in der Zeile mit dem Abonnement, dessen Anmeldeinformationen Sie anzeigen möchten, die Option Anzeigen aus.  Wenn einem Abonnement mehrere Anmeldeinformationen zugeordnet sind, werden möglicherweise keine Anmeldeinformationen angezeigt und Sie werden aufgefordert, einen anderen Agenten auszuwählen.</block>
   <block id="5f2584f9079ec37953d08854e13410ab" category="section-title">Aufheben der Konfiguration eines Abonnements</block>
   <block id="3eeaae02c9959c91b45646bc49679ed8" category="paragraph">Bevor Sie ein Abonnement entfernen können, müssen Sie es dekonfigurieren.  Dadurch werden alle zugehörigen Daten und Einstellungen gelöscht.</block>
-  <block id="459fb716cff28b2c01ce618e81f58770" category="list-text">Wählen Sie im Menü der NetApp Console *Governance &gt; Licenses and subscriptions*.</block>
   <block id="8f401d09de150d1b370bd812c149ef02" category="list-text">Klicken Sie in der Zeile für das Abonnement, das Sie dekonfigurieren möchten, auf das Aktionsmenü und wählen Sie *Dekonfigurieren* aus.</block>
   <block id="25f9b23bd620e2b7744e0ee585d450c4" category="list-text">Folgen Sie den Anweisungen, um alle zugehörigen Einstellungen oder Daten zu entfernen oder zurückzusetzen.</block>
   <block id="c967e7e2ec19dfbde4242e266c145df0" category="list-text">Warten Sie, bis der Status auf *Nicht konfiguriert* aktualisiert wird.</block>
@@ -830,7 +825,6 @@
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Abrechnungseinstellungen verwalten</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Sie können Ihre *Abrechnungseinstellungen* jetzt direkt in der NetApp Console konfigurieren und verwalten.  Diese Erweiterung ermöglicht es Administratoren, zu definieren und einzusehen, wie Kapazitätsnutzung, Verlängerungen und Kosten über direkte NetApp Lizenzen, Cloud-Marketplace-Abonnements und Keystone Verträge abgerechnet werden.</block>
   <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">Dokumentation der Abrechnungseinstellungen</block>
-  <block id="2b2febbc6e70870b1335116227b6f5da" category="paragraph">Weitere Informationen finden Sie im<block ref="a04f7fc8553e4925fecf791dbfbbad42" category="inline-link-macro-rx"></block> .</block>
   <block id="ece16d101819a0a984bc19dd31e93766" category="paragraph">Seitenleiste: Permalink zur Seitenleiste: concept-billing-preferences-terms.html Stichwörter: Lizenz, Lizenzierung, Lizenzen, Abonnements, Zusammenfassung: „Mit den Lizenzen und Abonnements können Sie NetApp Console Lizenzen, NetApp Marketplace-Abonnements und NetApp Keystone verwalten und überwachen.“ ---</block>
   <block id="5b64210d3d0fdd140a4a300b82341072" category="paragraph">= Begriffe und Definitionen :hardbreaks: :nofooter: :icons: font :linkattrs: :imagesdir: ./media/</block>
   <block id="4b843d9eef057518b9ed64591ad8cc70" category="paragraph">Die Abrechnungseinstellungen steuern, wie die NetApp Console Zahlungen, Rechnungen und das Verlängerungsverhalten für Ihre Lizenzen und Abonnements handhabt.  Sie können Ihre Präferenzen auf einer von zwei Ebenen festlegen:</block>
@@ -853,7 +847,6 @@
   <block id="599c9b0b724ff40d712e8b1a323b8f8d" category="paragraph">Die Abrechnungseinstellungen legen fest, wie Sie Zahlungen, Rechnungen und das Verlängerungsverhalten für die aktiven Lizenzen und Abonnements Ihrer Organisation handhaben.  Sie können diese Einstellungen global anwenden, sodass sie sich auf alle Abrechnungsbeziehungen innerhalb Ihrer Organisation auswirken, oder auf Ebene des einzelnen Abonnements, wenn ein bestimmter Vertrag eine eigene Konfiguration erfordert.</block>
   <block id="8dc8efc61c3e8d351d2761bd0cd8d331" category="list-text">*Marktplatz-Abonnements* entsprechen Cloud-Marktplatz-Verträgen (AWS, Azure oder Google Cloud), bei denen die Nutzungsgebühren über ein Hyperscaler-Konto abgerechnet werden.</block>
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">*Direktlizenzen* sind Lizenzen, die direkt von NetApp erworben wurden und in der NetApp Console über Lizenzschlüssel, Rechnungsempfänger und Verlängerungsoptionen verwaltet werden.</block>
-  <block id="4deefbe09cfc76181afc6762b7b6d4c4" category="list-text">* Keystone Abonnements* werden im Rahmen Ihres Keystone Vertrags verwaltet, wobei Rechnungsempfänger und Kostenstellenkennzeichnungen über dieselbe Schnittstelle gehandhabt werden.</block>
   <block id="40ed87604c1cdf10c1530d65c122c3f4" category="paragraph">Sie können je nach Ihrem Beschaffungsmodell konfigurieren, wie Ihre Organisation Dienstleistungen zuweist und bezahlt.</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="section-title">Berechtigungen</block>
   <block id="6e70716fedade61a999818a444a40c58" category="paragraph">Nur Benutzer mit der Rolle *Kontoadministrator* oder *Abrechnungsadministrator* können die Abrechnungseinstellungen ändern.  Diese Rollen gewährleisten, dass nur autorisierte Benutzer Rechnungskontakte, Kostenstellen oder Verlängerungseinstellungen ändern können, die sich auf die Abrechnungsdaten der Organisation auswirken.  Benutzer mit der Rolle *Operator* können bestehende Einstellungen einsehen, haben aber keine Berechtigung, diese zu bearbeiten.</block>
@@ -885,7 +878,6 @@
   <block id="33208471678e93cf28f2247670d0909f" category="list-text">*Jahresvertrag* — Legt eine definierte Abonnementlaufzeit fest.</block>
   <block id="ad877409cd2ed77740e023a10d0724cd" category="list-text">*Automatische Verlängerung* — Ermöglicht die automatische Fortsetzung von Lizenzen oder Marktplatzverträgen nach deren Ablauf.  Wenn diese Option deaktiviert ist, muss die Dienstleistung manuell erneuert werden, um eine Unterbrechung zu vermeiden.</block>
   <block id="2cac16fed84c2d4fd5dd6777759dfad7" category="list-text">*Benutzerdefinierte CVO-Konfiguration* — Ermöglicht die Zuordnung mehrerer Marktplatz-Abonnements zu einem einzigen Hyperscaler.  Dies könnte nützlich sein, wenn verschiedene Geschäftsbereiche oder Projekte unterschiedliche Abrechnungskonten innerhalb derselben Cloud-Umgebung benötigen.</block>
-  <block id="9309fae135034fbc99491b93dd395820" category="list-text">*Dialog zur Bestätigung der Änderungen* — Wird vor der Anwendung der Abrechnungsaktualisierungen angezeigt und ermöglicht Administratoren, die Änderungen zu überprüfen und zu bestätigen.  Diese Sicherheitsvorkehrung hilft, versehentliche Konfigurationsänderungen zu verhindern, die dazu führen könnten, dass Gebühren dem falschen Konto zugeordnet werden.</block>
   <block id="6ed4edc7faa33c9719cd01e4b40f2483" category="section-title">Typische Konfigurationspfade</block>
   <block id="ad3f68cadbc36ae20d3c338318c7e9c0" category="paragraph">Die folgenden Beispiele veranschaulichen, wie unterschiedliche Abrechnungsmodelle mit gängigen Anwendungsfällen übereinstimmen:</block>
   <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">Szenario</block>
@@ -901,13 +893,11 @@
   <block id="5435d0c2ab2affaf5e146abe5dcdf92d" category="paragraph">Betrachten wir beispielsweise eine Organisation, die sowohl direkte NetApp Lizenzen als auch Marketplace-Abonnements kombiniert.  Eine typische Konfiguration würde * NetApp -Lizenzen zuerst* als Standardabrechnungsmodus festlegen, um Prepaid-Kapazität vor der Abrechnung über den Marktplatz zu nutzen.  Anschließend würde unter *Custom CVO configuration* jedem Hyperscaler (AWS, Azure, Google Cloud) seine entsprechende Abonnement-ID zugewiesen.</block>
   <block id="a3bc016aa80a8b7ecc67c3ff4f3f16a7" category="paragraph">Nach dem Speichern dieser Einstellungen können Administratoren die Zuordnungen unter * Licenses and subscriptions* überprüfen, um sicherzustellen, dass jeder Dienst auf das richtige Konto verweist.  Zur zusätzlichen Validierung können sie die Nutzungsdaten in der NetApp Console mit den Cloud-Abrechnungs-Dashboards vergleichen und gegebenenfalls Kostenstellen-Tags oder Kontakte anpassen, um die Konsistenz der Berichterstattung zu gewährleisten.</block>
   <block id="e6f95da84fc231235869778f84686fab" category="summary">Konfigurieren Sie die Abrechnungseinstellungen in der NetApp Console, um zu steuern, wie Lizenzen, Marketplace-Abonnements und Keystone Verträge abgerechnet und verlängert werden.</block>
-  <block id="a06290c2e517b18ed98c41f83e5896b1" category="paragraph">In der NetApp Console können Sie die Abrechnungseinstellungen konfigurieren und verwalten, um zu steuern, wie Kapazitätsnutzung, Verlängerungen und Rechnungen den Konten Ihrer Organisation zugeordnet werden.  Die Abrechnungseinstellungen legen fest, ob die Nutzungsgebühren aus NetApp -Lizenzen, Cloud-Marketplace-Verträgen oder Keystone Vereinbarungen stammen.</block>
   <block id="531f703ee6ea7df16c5a41c3d86dbca1" category="list-text">Sie haben die Rolle *Abrechnungsadministrator* oder *Organisationsadministrator*.</block>
   <block id="9b5b2baaae7db459fd9d75d10938da0d" category="list-text">Alle relevanten Marktplatz-Abonnements sind mit Ihrer Organisation verknüpft.</block>
   <block id="501d44233b9d81f23f07411ed57f5152" category="list-text">Sie haben die bestehende Konfiguration unter * Licenses and subscriptions* überprüft.</block>
   <block id="0b2612372a98d97a0ca0b61bdbdea261" category="section-title">Abrechnungseinstellungen festlegen</block>
   <block id="142c2c7e22727e1a1c35317131d3de9b" category="paragraph">Sie können auswählen, wie die Konsole die Nutzungsgebühren auf die verschiedenen Abrechnungsquellen aufteilt.  Hierdurch wird festgelegt, welche Konten zuerst belastet werden und wie Verlängerungen abgewickelt werden.</block>
-  <block id="6e0519d84190875b19782474cade4a6d" category="list-text">In der NetApp Console wählen Sie *Governance &gt; Licenses and subscriptions*.</block>
   <block id="f40ec4f154501ac20f03c9cbaae03f9e" category="list-text">Wählen Sie *Abrechnungseinstellungen*.</block>
   <block id="0a6726bc9108e08ebb13bc6fe5a55e5b" category="list-text">Wählen Sie eine der folgenden Abrechnungsarten:</block>
   <block id="18dd1fddbff47223752aa7cbe0ce2d30" category="list-text">* NetApp -Lizenzen zuerst* – Verwenden Sie zuerst NetApp -Lizenzen, dann Marketplace-Abonnements für die zusätzliche Nutzung.</block>
@@ -931,7 +921,6 @@
   <block id="5d4b73c76a591653e1df0169162ac88d" category="list-text">Offene * Licenses and subscriptions*.</block>
   <block id="019059e6fc62772ce7ae07627cfdaf67" category="list-text">Wählen Sie die Ansicht für Folgendes aus:</block>
   <block id="0d5509b5bd172a3b0a7f80b76ebd40e6" category="list-text">*Name des Marktplatz-Abonnements*</block>
-  <block id="66f86ba858d315676f13c08fec98b41c" category="list-text">*Cloud-Projekt* (nur Google Cloud)</block>
   <block id="b32c11687b0957c71696f4c5be82f283" category="list-text">*Abonnementart* (jährlich oder PAYGO)</block>
   <block id="cf5991e7f4b5f0e6a9f125d69ae38f54" category="paragraph">Die neue Konfiguration tritt sofort in Kraft, und die Abrechnungsdaten werden mit dem Cloud-Anbieter synchronisiert.</block>
   <block id="8b2a47a9c8b0859b03b33fc6110b32ae" category="admonition">Um ein Abonnement mehreren Cloud-Projekten zuzuordnen, muss zunächst die *Benutzerdefinierte CVO-Konfiguration* aktiviert werden.</block>
@@ -946,14 +935,23 @@
   <block id="f8947715618c321a3794e787f7aecd94" category="list-text">Deaktivieren Sie die *Benutzerdefinierte CVO-Konfiguration*.</block>
   <block id="f44a159781425e53cf2e7e568e18930f" category="list-text">Bestätigen Sie auf Aufforderung, dass Sie zur Standardkonfiguration zurückkehren möchten.</block>
   <block id="5b6bd15b73cadb42962618d3ebd1dc68" category="paragraph">Bei CVO-Instanzen wird wieder die standardmäßige Abrechnungsmethode verwendet, die auch für die anderen Datendienste gilt.</block>
-  <block id="56504a2ccf6872b888cb88cdba810cce" category="list-text">Wählen Sie im Konsolenmenü *Governance* &gt; *Digitale Geldbörse* und anschließend die Registerkarte *Direktlizenzen*.</block>
   <block id="a56efbb0b90cd4068ca8a8992f33400e" category="list-text">Klicken Sie auf **Partner**.</block>
   <block id="cd674dd3286e68276bf76f6117b9d5be" category="list-text">Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen.  Klicken Sie anschließend auf **Verknüpfen**.</block>
   <block id="07b5c65992e18ea1f96d4431ed697e21" category="list-text">Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.</block>
   <block id="c405cb4ee0a4475b96f30fb0962daa3e" category="list-text">Prüfen Sie die Abonnementoptionen des Marktplatzes.</block>
   <block id="c0ab08cc5546a8c99ef8010e4cb766a0" category="list-text">Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.</block>
-  <block id="1fa9daf5fe59e57211e856c6726cfadd" category="list-text">Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei verschiedenen Hyperscalern vorhanden sind.</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10. November 2025</block>
   <block id="8db289a22d511fb89896cd05e3039ca2" category="sidebar">Erfahren Sie mehr über Ihre Abrechnungseinstellungen.</block>
-  <block id="bd37aa06c2029c58b0902884ca934e5e" category="sidebar">Begriffe und Definitionen</block>
+  <block id="0b4efcd7fda8e806d38bca8ddb9e57b9" category="list-text">Wählen Sie im Menü der NetApp Console *Administration &gt; Licenses and subscriptions* und anschließend die Registerkarte *Direktlizenzen*.</block>
+  <block id="9c279367f9689e87b3033ad9104199ca" category="paragraph">Weitere Informationen finden Sie unter .<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block></block>
+  <block id="9ef810f213faea9695f8494f68387049" category="list-text">Wählen Sie im Menü der NetApp Console *Administration &gt; Licenses and subscriptions*.</block>
+  <block id="bb6a3f5790fd10ced1f6845ea4d3ba04" category="paragraph">In der NetApp Console können Sie die Abrechnungseinstellungen konfigurieren und verwalten, um zu steuern, wie Kapazitätsnutzung, Verlängerungen und Rechnungen den Konten Ihrer Organisation zugeordnet werden. Die Abrechnungseinstellungen legen fest, ob die Nutzungsgebühren aus NetApp -Lizenzen, Cloud-Marketplace-Verträgen oder Keystone Vereinbarungen stammen.</block>
+  <block id="9b2143cc5779100e7a55ef93f5906f84" category="list-text">In der NetApp Console wählen Sie *Administration &gt; Licenses and subscriptions*.</block>
+  <block id="42855d09afacbcf14c2e402fe229af93" category="list-text">*Cloud-Projekt*</block>
+  <block id="7122970c90188deca8583df3506aa39c" category="list-text">Wählen Sie im Konsolenmenü *Administration* &gt; * Licenses and subscriptions* und anschließend die Registerkarte *Direktlizenzen*.</block>
+  <block id="13ad11ec7b9bd0fe7c52fc12e83f93d4" category="list-text">Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei verschiedenen Hyperscalern vorhanden sind.</block>
+  <block id="652e4824afa6b50187425c72ff981fe6" category="paragraph">Weitere Informationen zu Marktplatz-Abonnements und zur Abrechnung von Direktlizenzen finden Sie unter<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block> Die</block>
+  <block id="dce3a4835fb0cd80cf119820cc31f008" category="list-text"><block ref="dce3a4835fb0cd80cf119820cc31f008" category="inline-link-rx"></block></block>
+  <block id="ba181f9b0a33d0306573d0de387efad4" category="list-text"><block ref="ba181f9b0a33d0306573d0de387efad4" category="inline-link-rx"></block></block>
+  <block id="7effa26776dad56a362038eae76fd1d8" category="list-text">Im Menü der NetApp Console wählen Sie *Administration &gt; Licenses and subscriptions*.</block>
 </blocks>
