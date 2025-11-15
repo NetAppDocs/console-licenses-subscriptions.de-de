@@ -14,7 +14,7 @@ summary: Erfahren Sie, wie Lizenzen und Abonnements definieren, wie die NetApp C
 
 
 [role="lead"]
-Die Abrechnungseinstellungen legen fest, wie Sie Zahlungen, Rechnungen und das Verlängerungsverhalten für die aktiven Lizenzen und Abonnements Ihrer Organisation handhaben.  Sie können diese Einstellungen global anwenden, sodass sie sich auf alle Abrechnungsbeziehungen innerhalb Ihrer Organisation auswirken, oder auf Ebene des einzelnen Abonnements, wenn ein bestimmter Vertrag eine eigene Konfiguration erfordert.
+Mit den Abrechnungseinstellungen können Sie festlegen, wie Sie Zahlungen und das Verlängerungsverhalten für Ihre aktiven Lizenzen und Abonnements handhaben. Sie können diese Einstellungen global anwenden, sodass sie sich auf alle Abrechnungsbeziehungen auswirken, oder auf Ebene des einzelnen Abonnements, wenn ein bestimmter Vertrag eine eigene Konfiguration erfordert.
 
 * *Marktplatz-Abonnements* entsprechen Cloud-Marktplatz-Verträgen (AWS, Azure oder Google Cloud), bei denen die Nutzungsgebühren über ein Hyperscaler-Konto abgerechnet werden.
 * *Direktlizenzen* sind Lizenzen, die direkt von NetApp erworben wurden und in der NetApp Console über Lizenzschlüssel, Rechnungsempfänger und Verlängerungsoptionen verwaltet werden.
@@ -38,7 +38,12 @@ Beispielsweise können globale Abrechnungseinstellungen Ihre Rechnungskontaktlis
 
 Die Abrechnungseinstellungen werden im Abschnitt * Licenses and subscriptions* der NetApp Console konfiguriert.
 
-Dort können Sie: – Abrechnungseinstellungen für Ihre Organisation festlegen – Benutzerdefinierte CVO-Konfiguration für erweitertes Mapping aktivieren – Marketplace-Abonnementdetails bearbeiten oder aktualisieren
+Von dort aus können Sie:
+
+* Legen Sie die Abrechnungseinstellungen für Ihre Organisation fest.
+* Aktivieren Sie die benutzerdefinierte CVO-Konfiguration für die erweiterte Zuordnung.
+* Marktplatz-Abonnementdetails bearbeiten oder aktualisieren
+
 
 
 
