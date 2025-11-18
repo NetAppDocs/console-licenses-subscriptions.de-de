@@ -26,8 +26,32 @@ Sie können je nach Ihrem Beschaffungsmodell konfigurieren, wie Ihre Organisatio
 
 == Berechtigungen
 
-Nur Benutzer mit der Rolle *Kontoadministrator* oder *Abrechnungsadministrator* können die Abrechnungseinstellungen ändern.  Diese Rollen gewährleisten, dass nur autorisierte Benutzer Rechnungskontakte, Kostenstellen oder Verlängerungseinstellungen ändern können, die sich auf die Abrechnungsdaten der Organisation auswirken.  Benutzer mit der Rolle *Operator* können bestehende Einstellungen einsehen, haben aber keine Berechtigung, diese zu bearbeiten.
+Die Verwaltung von Lizenzen und Abonnements innerhalb der NetApp Console wird über Benutzerrollen gesteuert. Diese Rollen bieten unterschiedliche Zugriffsebenen, die bestimmte Aktionen ermöglichen oder einschränken, die Benutzer für diese Funktion durchführen können.
 
+[cols="2,5"]
+|===
+| Rolle | Beschreibung 
+
+
+| *Admin*  a| 
+Benutzer mit dieser Rolle haben die volle Kontrolle über Lizenzen und Abonnements. Administratoren können:
+
+* Alle Lizenzen und Abonnements anzeigen.
+* Neue Lizenzen hinzufügen.
+* Verknüpfen Sie Abonnements mit Konten.
+* Bestehende Lizenzdetails ändern.
+* Lizenzen löschen oder Abonnements trennen.
+
+
+
+
+| *Zuschauer*  a| 
+Benutzer mit dieser Rolle haben nur Lesezugriff. Nutzer des Viewers können:
+
+* Alle Lizenzen und Abonnements anzeigen.
+
+
+|===
 
 
 == Abrechnungseinstellungen

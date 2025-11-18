@@ -17,9 +17,9 @@ summary: Konfigurieren Sie die Abrechnungseinstellungen in der NetApp Console, u
 In der NetApp Console können Sie die Abrechnungseinstellungen konfigurieren und verwalten, um zu steuern, wie Kapazitätsnutzung, Verlängerungen und Rechnungen den Konten Ihrer Organisation zugeordnet werden. Die Abrechnungseinstellungen legen fest, ob die Nutzungsgebühren aus NetApp -Lizenzen, Cloud-Marketplace-Verträgen oder Keystone Vereinbarungen stammen.
 
 .Bevor Sie beginnen
-* Sie haben die Rolle *Abrechnungsadministrator* oder *Organisationsadministrator*.
+* Sie haben Zugriff auf die *Admin*-Rolle.
 * Alle relevanten Marktplatz-Abonnements sind mit Ihrer Organisation verknüpft.
-* Sie haben die bestehende Konfiguration unter * Licenses and subscriptions* überprüft.
+* Sie haben die bestehende Konfiguration für *Lizenzen und Abonnements* überprüft.
 
 
 
@@ -68,7 +68,7 @@ Die benutzerdefinierte CVO-Konfiguration ermöglicht es Ihnen, mehrere Marketpla
 Sie können nun einzelnen Cloud Volumes ONTAP Instanzen unter demselben Hyperscaler spezifische Marketplace-Abonnements zuweisen.
 
 
-WARNING: Sobald diese Funktion aktiviert ist, können benutzerdefinierte CVO-Konfigurationen nicht mehr über die Registerkarte **Abrechnungseinstellungen** rückgängig gemacht werden.  Durch Deaktivierung wird die gesamte CVO-Abrechnung auf die Standard-Abrechnungskonfiguration für Ihre Datendienste zurückgesetzt.
+WARNING: Sobald diese Funktion aktiviert ist, können benutzerdefinierte CVO-Konfigurationen nicht mehr über die **Abrechnungseinstellungen** rückgängig gemacht werden. Durch Deaktivieren dieser Option wird die gesamte CVO-Abrechnung auf die Standard-Abrechnungskonfiguration für Ihre Datendienste zurückgesetzt.
 
 
 
