@@ -37,7 +37,7 @@ Beispielsweise können Administratoren, die mit der Verwaltung von Cloud Volumes
 
 NOTE: Obwohl Sie Lizenzen über das Dashboard aktualisieren und entfernen können, können Sie keine neue Lizenz oder kein neues Abonnement hinzufügen.
 
-link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen"^] . link:task-manage-subscriptions.html["Weitere Informationen zum Verwalten von Abonnements"^] .
+link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen"]. link:task-manage-subscriptions.html["Weitere Informationen zum Verwalten von Abonnements"].
 
 .Schritte
 . Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
@@ -55,7 +55,7 @@ Jede Kachel bietet eine grafische Übersicht über die Kapazität.  Sie können 
 Sie können von der Seite *Übersicht* aus keine neuen Lizenzen oder Abonnements für einen bestimmten Dienst hinzufügen.  Sie können Lizenzen oder Abonnements nur über die Registerkarte *Direktlizenzen* bzw. *Marketplace-Abonnements* hinzufügen.
 
 +
-link:task-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen."] link:task-manage-subscriptions.html["Erfahren Sie mehr über die Verwaltung von Abonnements."]
+link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen."] link:task-manage-subscriptions.html["Erfahren Sie mehr über die Verwaltung von Abonnements."]
 
 
 
@@ -71,6 +71,6 @@ Sie können Lizenz- und Abonnementprobleme anzeigen, die gelöst werden müssen.
 . Wählen Sie auf der Seite *Aktion erforderlich* entweder die Registerkarte *Lizenzen* oder die Registerkarte *Abonnements* aus.
 . Verwenden Sie das Aktionsmenü, um das Problem zu beheben.
 +
-link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen"^] . link:task-manage-subscriptions.html["Weitere Informationen zum Verwalten von Abonnements"^] .
+link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen"]. link:task-manage-subscriptions.html["Weitere Informationen zum Verwalten von Abonnements"].
 
 

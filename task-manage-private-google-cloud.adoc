@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-private-google-cloud.html 
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud 
-summary: Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgängigen Private Offer Process und die Akzeptanz- und Aktivierungsleitfäden für NetApp Intelligent Services für AWS, Azure und Google Cloud. 
+summary: Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console in der Google Cloud-Konsole.  Konfigurieren Sie die Google Cloud-Anmeldeinformationen in der Konsole. 
 ---
 = Akzeptieren und konfigurieren Sie ein privates Google Cloud-Angebot für die NetApp Console
 :hardbreaks:
@@ -10,6 +10,7 @@ summary: Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgän
 :nofooter: 
 :icons: font
 :linkattrs: 
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -93,7 +94,7 @@ Wenn Sie bereits über ein aktives PAYGO-Abonnement oder ein geändertes private
 . Prüfen Sie die Abonnementoptionen des Marktplatzes.
 . Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.
 . Wählen Sie **Änderungen speichern**.
-. Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei verschiedenen Hyperscalern vorhanden sind.
+. Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei mehreren Cloud-Anbietern bestehen.
 
 
 Weitere Informationen zu Marktplatz-Abonnements und der Abrechnung von Direktlizenzen finden Sie unter link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Dokumentation der Abrechnungseinstellungen"]Die

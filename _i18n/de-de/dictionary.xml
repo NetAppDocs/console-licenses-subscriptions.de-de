@@ -85,7 +85,6 @@
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP heißt jetzt NetApp Console</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp -Speicher und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Arbeitsabläufe und eine vereinfachte Verwaltung mit hoher Sicherheit und Konformität.</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">Versionshinweise zur NetApp Console</block>
-  <block id="9fad6bb6d30ac060d7377371e39b12c0" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> .</block>
   <block id="15ab47d5fc648efe1f188a856f6bec01" category="summary">Mit den Lizenzen und Abonnements können Sie NetApp Console Lizenzen, NetApp Marketplace-Abonnements und NetApp Keystone verwalten und überwachen.</block>
   <block id="1a64901c54ab09814efdf25e5f43e721" category="doc">Erfahren Sie mehr über Lizenzen und Abonnements</block>
   <block id="095a6074d8cac073313583b5aec86563" category="paragraph">Sie können von NetApp erworbene Lizenzen (BYOL), Marktplatzabonnements für NetApp -Datendienste (einschließlich Cloud Volumes ONTAP) und NetApp Keystone -Abonnements in der NetApp Console verwalten und überwachen.</block>
@@ -102,15 +101,10 @@
   <block id="ea22f9957523103248d84695e98b17ba" category="section-title">Unterstützte Dienste</block>
   <block id="87d2fa29fe25a72abd1da044bf3e0021" category="paragraph">Sie können Lizenzen und Abonnements für die folgenden Dienste in der Konsole verwalten:</block>
   <block id="f05ea9e0c9ccffc58a546b5b7a0d8608" category="inline-link">Sicherung und Wiederherstellung</block>
-  <block id="4938ada517361ec7a2e07204328e7617" category="list-text"><block ref="4938ada517361ec7a2e07204328e7617" category="inline-link-rx"></block></block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
-  <block id="c5df3096761f7d2f075a15fbdaa8b007" category="list-text"><block ref="c5df3096761f7d2f075a15fbdaa8b007" category="inline-link-rx"></block></block>
   <block id="e413eba49b15917b0c9dbf2620f3e66e" category="inline-link">Notfallwiederherstellung</block>
-  <block id="7cbdc51e3262a6b28b8f9076a87714d1" category="list-text"><block ref="1608ff6f635486fdb3c47410d68b020d" category="inline-link-rx"></block>(Nur BYOL)</block>
   <block id="c36b12344113082dcf8a9786e36a3536" category="inline-link">Ransomware-Resilienz</block>
-  <block id="37137db3211d64b5e51e67578857f45b" category="list-text"><block ref="37137db3211d64b5e51e67578857f45b" category="inline-link-rx"></block></block>
   <block id="92d2b6aba6afa3f690540cf3dba9b633" category="inline-link">Cloud-Tiering</block>
-  <block id="ee9533cd820edc5f9c4ea09b73d5e8fc" category="list-text"><block ref="ee9533cd820edc5f9c4ea09b73d5e8fc" category="inline-link-rx"></block></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Rechtliche Hinweise</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Rechtliche Hinweise bieten Zugriff auf Urheberrechtserklärungen, Marken, Patente und mehr.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
@@ -216,7 +210,6 @@
   <block id="592511f5f465bd0013130ee5b2d1cdec" category="admonition">Obwohl Sie Lizenzen über das Dashboard aktualisieren und entfernen können, können Sie keine neue Lizenz oder kein neues Abonnement hinzufügen.</block>
   <block id="5e61525870b8ecb7cda0015f4b7208db" category="inline-link-macro">Erfahren Sie mehr über die Verwaltung von Lizenzen</block>
   <block id="0bfbd2ad670f16ca87b68145ca0b64cf" category="inline-link-macro">Weitere Informationen zum Verwalten von Abonnements</block>
-  <block id="483b8e46eb21b512550083b13a6ba1de" category="paragraph"><block ref="f5d9875e96b8ed7153bab8f22c840330" category="inline-link-macro-rx"></block> . <block ref="f050330f0428b7d1c9a33b47b1e41be1" category="inline-link-macro-rx"></block> .</block>
   <block id="32790cf377a1a575eece70f624d64118" category="list-text">Wählen Sie *Übersicht*.</block>
   <block id="de9c819c70af50797f21116704502cee" category="list-text">Wählen Sie *Anzeigen* für den jeweiligen Datendienst (einschließlich Cloud Volumes ONTAP), um Details anzuzeigen und Lizenzen und Abonnements zu verwalten.</block>
   <block id="77f5141787aa2cd1e98caca9f5ff20ed" category="paragraph">Jede Kachel bietet eine grafische Übersicht über die Kapazität.  Sie können die Detailseite anzeigen, um die Zahlungsmethoden für diese Kapazität anzuzeigen und zu verwalten.</block>
@@ -228,7 +221,6 @@
   <block id="50d836849f90d9b3c57e6f88060c361e" category="paragraph">Sie können von der Seite *Übersicht* aus keine neuen Lizenzen oder Abonnements für einen bestimmten Dienst hinzufügen.  Sie können Lizenzen oder Abonnements nur über die Registerkarte *Direktlizenzen* bzw. *Marketplace-Abonnements* hinzufügen.</block>
   <block id="ca23b039c5d1d583cc53022c31a54485" category="inline-link-macro">Erfahren Sie mehr über die Verwaltung von Lizenzen.</block>
   <block id="4b2167e14a21898c791009b50b46ec9e" category="inline-link-macro">Erfahren Sie mehr über die Verwaltung von Abonnements.</block>
-  <block id="edf4dbcbd1200ec7acd2d146b799e81e" category="paragraph"><block ref="1126b2e5fef6a9209f75e5a91faff8ca" category="inline-link-macro-rx"></block> <block ref="841d65307797c9e89f68fecb565ac37f" category="inline-link-macro-rx"></block></block>
   <block id="fbd2684546a6cae5f9a894684eaa9c6a" category="section-title">Beheben von Lizenz- oder Abonnementproblemen</block>
   <block id="39cc53a4b658b6eadd0d5b6dba23db59" category="paragraph">Sie können Lizenz- und Abonnementprobleme anzeigen, die gelöst werden müssen.  Zu den Problemen zählen Lizenzen und Abonnements, die ablaufen oder ihre Kapazitätsgrenze erreichen.</block>
   <block id="83b5f3a5fb05f69da2408855be2db387" category="list-text">Wählen Sie *Beheben* für die Kachel *Erfordert Aktion* aus, um Probleme anzuzeigen, die behoben werden müssen.  Wenn „Beheben“ nicht angezeigt wird, gibt es derzeit keine Probleme, die eine Aktion erfordern.</block>
@@ -332,15 +324,10 @@
   <block id="2ef1ddd95077dddfd70d5ab07187d1f8" category="admonition">Auf der Seite *Direktlizenzen* sind alle Lizenzen aufgelistet.  Wenn Sie Lizenzdetails für einen bestimmten Datendienst wünschen, verwenden Sie die Datendienstkacheln im Dashboard *Übersicht*. <block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block> .</block>
   <block id="9733849463a86c6a043ab58c8ddf1ac4" category="paragraph">Die Anweisungen auf dieser Seite enthalten Informationen, die für jeden Dienst gelten.  Genauere Informationen zur Lizenzierung dieser Dienste finden Sie auf den folgenden Seiten:</block>
   <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">Einrichten der Lizenzierung für NetApp Backup and Recovery</block>
-  <block id="7c2a90c11b23f49e26dfb6d98b2f294a" category="list-text"><block ref="7c2a90c11b23f49e26dfb6d98b2f294a" category="inline-link-rx"></block></block>
   <block id="ee93b1d439ecea7d556ad659d00a499f" category="inline-link">Einrichten der Lizenzierung für NetApp Disaster Recovery</block>
-  <block id="b548e91c76ffa0a847b7391d807382b7" category="list-text"><block ref="b548e91c76ffa0a847b7391d807382b7" category="inline-link-rx"></block></block>
   <block id="8c4e51cf0af97fc084c32c7697ac400c" category="inline-link">Einrichten der Lizenzierung für NetApp Ransomware Resilience</block>
-  <block id="0756aa27fe61dae2fde62385bb00a616" category="list-text"><block ref="0756aa27fe61dae2fde62385bb00a616" category="inline-link-rx"></block></block>
   <block id="d4cdf3ad28a947017bac9a28090b4755" category="inline-link">Einrichten der Lizenzierung für NetApp Cloud Tiering</block>
-  <block id="83f337ebda6ebd9464706f5c1c9630d5" category="list-text"><block ref="83f337ebda6ebd9464706f5c1c9630d5" category="inline-link-rx"></block></block>
   <block id="353c347239342af7353680135c05995b" category="inline-link">Einrichten der Lizenzierung für Cloud Volumes ONTAP</block>
-  <block id="db5f4e2c0efdad7e19e2179ef05db67e" category="list-text"><block ref="db5f4e2c0efdad7e19e2179ef05db67e" category="inline-link-rx"></block></block>
   <block id="73acd586df3bf9938d39f0e738d5c161" category="section-title">Erhalten Sie eine Lizenzdatei</block>
   <block id="ec01ce5d7a75843507cddc0f1e980f6a" category="section-title">Hinzufügen einer Lizenz</block>
   <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="section-title">Aktualisieren einer Lizenz</block>
@@ -437,7 +424,6 @@
   <block id="825a0cb9a8312e85f3aa745487c0dbe9" category="paragraph">Die Konsole aktualisiert die Lizenz auf dem Cloud Volumes ONTAP -System.</block>
   <block id="2c2e7695734e076306fc8ba50ca70c1b" category="section-title">Verwalten von Lizenzen für zusätzliche Kapazität</block>
   <block id="d452bdec5cf94a61fe23690b513f4a71" category="paragraph">Sie können zusätzliche Kapazitätslizenzen für ein Cloud Volumes ONTAP BYOL-System erwerben, um mehr als die 368 TiB Kapazität zuzuweisen, die mit einer BYOL-Systemlizenz bereitgestellt werden. Sie können beispielsweise eine zusätzliche Lizenzkapazität erwerben, um Cloud Volumes ONTAP bis zu 736 TiB Kapazität zuzuweisen. Oder Sie erwerben drei zusätzliche Kapazitätslizenzen, um bis zu 1,4 PiB zu erhalten.</block>
-  <block id="5e26587c8f074cc4f0455ff005cb744c" category="paragraph">Die Anzahl der Lizenzen, die Sie für ein Einzelknotensystem oder ein HA-Paar erwerben können, ist unbegrenzt.</block>
   <block id="6e869ff6c9fd5eb76baa394c52e2ef18" category="section-title">Kapazitätslizenzen hinzufügen</block>
   <block id="41a0a4fe38c3f00a9fae3056955c9f80" category="paragraph">Erwerben Sie eine Lizenz für zusätzliche Kapazität, indem Sie uns über das Chat-Symbol unten rechts in der Konsole kontaktieren. Nachdem Sie die Lizenz erworben haben, können Sie sie auf ein Cloud Volumes ONTAP System anwenden.</block>
   <block id="423cdc57679399d47229e2f74dfc102b" category="list-text">Klicken Sie auf *Kapazitätslizenz hinzufügen*.</block>
@@ -494,7 +480,6 @@
   <block id="43c3be2707abdedd2af74a90af5871ba" category="list-text"><block ref="43c3be2707abdedd2af74a90af5871ba" category="inline-link-rx"></block></block>
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">Erfahren Sie, wie Sie erkannte Cluster direkt verwalten</block>
   <block id="e82c60430ac236acfc954acd22ea737d" category="list-text"><block ref="e82c60430ac236acfc954acd22ea737d" category="inline-link-rx"></block></block>
-  <block id="486c0e58304417d548694e3073643b23" category="summary">Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgängigen Private Offer Process und die Akzeptanz- und Aktivierungsleitfäden für NetApp Intelligent Services für AWS, Azure und Google Cloud.</block>
   <block id="9248cc8bc8852d71cca7f73f6d36eea5" category="doc">Akzeptieren und konfigurieren Sie ein privates AWS Marketplace-Angebot für die NetApp Console</block>
   <block id="ff13fa6d7bc903be5ecf4d041ce5aa5c" category="paragraph">Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console in der AWS-Konsole und konfigurieren Sie die AWS-Anmeldeinformationen in der Konsole.</block>
   <block id="e42fe00103b11c26a130efa909bb5a84" category="list-text">Arbeiten Sie mit dem NetApp -Vertrieb zusammen, um ein privates Angebot zu erstellen und den Aktivierungslink zu erhalten.</block>
@@ -708,7 +693,6 @@
   <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">Wählen Sie oben rechts in der Konsole das Hilfesymbol und dann *Support* aus.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Suchen Sie auf der Support-Registrierungsseite nach der Seriennummer Ihrer Konto-ID.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist.</block>
-  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Support-Registrierungssite von NetApp</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navigieren Sie zu<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> und wählen Sie *Ich bin kein registrierter NetApp -Kunde*.</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Füllen Sie die Pflichtfelder (mit roten Sternchen gekennzeichnet) aus.</block>
@@ -731,7 +715,6 @@
   <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">Diese NSS-Anmeldeinformationen sind mit Ihrer spezifischen Konsolenkonto-ID verknüpft. Benutzer, die zur Konsolenorganisation gehören, können über *Support &gt; NSS-Verwaltung* auf diese Anmeldeinformationen zugreifen.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Wenn Sie über ein Konto auf Kundenebene verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Wenn Sie über ein Partner- oder Reseller-Konto verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen, diese können jedoch nicht zusammen mit Konten auf Kundenebene hinzugefügt werden.</block>
-  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Wählen Sie *NSS-Verwaltung &gt; NSS-Konto hinzufügen*.</block>
   <block id="85b9386ed443776127e099931d73448a" category="list-text">Wenn Sie dazu aufgefordert werden, wählen Sie *Weiter*, um zu einer Microsoft-Anmeldeseite weitergeleitet zu werden.</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp verwendet Microsoft Entra ID als Identitätsanbieter für Authentifizierungsdienste speziell für Support und Lizenzierung.</block>
@@ -743,8 +726,6 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Dasselbe gilt, wenn Sie bereits über NSS-Konten auf Kundenebene verfügen und versuchen, ein Konto auf Partnerebene hinzuzufügen.</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Nach erfolgreicher Anmeldung speichert NetApp den NSS-Benutzernamen.</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Ein Symbol mit drei horizontalen Punkten</block>
-  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Dies ist eine vom System generierte ID, die Ihrer E-Mail-Adresse zugeordnet ist. Auf der Seite *NSS-Verwaltung* können Sie Ihre E-Mail-Adresse aus dem<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> Speisekarte.</block>
-  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Wenn Sie Ihre Anmeldeinformationen aktualisieren müssen, gibt es auch die Option *Anmeldeinformationen aktualisieren* im<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> Speisekarte.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Bei Verwendung dieser Option werden Sie aufgefordert, sich erneut anzumelden. Beachten Sie, dass das Token für diese Konten nach 90 Tagen abläuft. Sie werden durch eine entsprechende Benachrichtigung darauf aufmerksam gemacht.</block>
   <block id="80f48cc4cb64860e960ab9e9145cc67e" category="paragraph">Um Lizenzen zu verwalten, können Sie Lizenzen basierend auf dem Dienstnamen gruppieren.  Auf diese Weise können Sie alle Lizenzen anzeigen, die sich auf einen bestimmten Dienst beziehen.  Sie können eine Zeile erweitern, um detaillierte Informationen zu jeder Lizenz anzuzeigen, die mit dem Dienst in Zusammenhang steht.  In der Stammzeile jedes Dienstes werden der Dienstname und die für diesen Dienst verwendete Kapazität angezeigt.  Die Lizenzen werden automatisch nach Dienstnamen gruppiert.  Die Stammzeile für jeden Dienst zeigt den Dienstnamen und die für diesen Dienst verwendete Kapazität.</block>
   <block id="f82297c58511adf82f03f07c94881e8b" category="list-text">Klicken Sie auf eine Dienstnamenzeile, um sie zu erweitern.  Hier werden alle Lizenzen angezeigt, die mit diesem Dienst in Zusammenhang stehen.  Jede erweiterte Zeile zeigt detaillierte Informationen zu den Lizenzen an, einschließlich Lizenz-ID, Seriennummer, Kapazität und Ablaufdatum.</block>
@@ -761,7 +742,6 @@
   <block id="d128bda2634e1051cc984231da065144" category="paragraph">E-Mail-Benachrichtigungen werden jetzt mit der BlueXP digital wallet unterstützt.</block>
   <block id="380d0a0b2cec998dcd9f52b91b24304c" category="paragraph">Wenn Sie Ihre Benachrichtigungseinstellungen konfigurieren, können Sie E-Mail-Benachrichtigungen erhalten, wenn Ihre BYOL-Lizenzen bald ablaufen (eine „Warnungsbenachrichtigung“) oder wenn sie bereits abgelaufen sind (eine „Fehler“-Benachrichtigung).</block>
   <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">Erfahren Sie, wie Sie E-Mail-Benachrichtigungen einrichten</block>
-  <block id="9af2177d45256182d52759c9d5b918a6" category="paragraph"><block ref="9af2177d45256182d52759c9d5b918a6" category="inline-link-rx"></block></block>
   <block id="164bf9dea8d8396a2e7501258b908616" category="section-title">Lizenzierte Kapazität für Marktplatz-Abonnements</block>
   <block id="016c818ed3128119f94a31cbec32bf1f" category="paragraph">Beim Anzeigen der kapazitätsbasierten Lizenzierung für Cloud Volumes ONTAP zeigt die BlueXP digital wallet jetzt die lizenzierte Kapazität an, die Sie mit privaten Angeboten auf dem Marktplatz erworben haben.</block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">Erfahren Sie, wie Sie die verbrauchte Kapazität in Ihrem Konto anzeigen können</block>
@@ -808,7 +788,6 @@
   <block id="c19e034a7ae60fb90287c5050a076d5a" category="sidebar">Licenses and subscriptions</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Versionshinweise</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Was ist neu</block>
-  <block id="0ff3fcd44035e3f54a2216140f6b51ae" category="sidebar">Erfahren Sie mehr über</block>
   <block id="104ab36dc0e3605e2bfc5fac87bee923" category="sidebar">Verwenden Sie Lizenzen und Abonnements</block>
   <block id="a35e94495c93c5d785f8b1240c15be6a" category="sidebar">Verwenden des Übersichts-Dashboards</block>
   <block id="9f0562c731b8981f21e8a7ac75bd947f" category="sidebar">Lizenzen verwalten</block>
@@ -825,8 +804,6 @@
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Abrechnungseinstellungen verwalten</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Sie können Ihre *Abrechnungseinstellungen* jetzt direkt in der NetApp Console konfigurieren und verwalten.  Diese Erweiterung ermöglicht es Administratoren, zu definieren und einzusehen, wie Kapazitätsnutzung, Verlängerungen und Kosten über direkte NetApp Lizenzen, Cloud-Marketplace-Abonnements und Keystone Verträge abgerechnet werden.</block>
   <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">Dokumentation der Abrechnungseinstellungen</block>
-  <block id="ece16d101819a0a984bc19dd31e93766" category="paragraph">Seitenleiste: Permalink zur Seitenleiste: concept-billing-preferences-terms.html Stichwörter: Lizenz, Lizenzierung, Lizenzen, Abonnements, Zusammenfassung: „Mit den Lizenzen und Abonnements können Sie NetApp Console Lizenzen, NetApp Marketplace-Abonnements und NetApp Keystone verwalten und überwachen.“ ---</block>
-  <block id="5b64210d3d0fdd140a4a300b82341072" category="paragraph">= Begriffe und Definitionen :hardbreaks: :nofooter: :icons: font :linkattrs: :imagesdir: ./media/</block>
   <block id="4b843d9eef057518b9ed64591ad8cc70" category="paragraph">Die Abrechnungseinstellungen steuern, wie die NetApp Console Zahlungen, Rechnungen und das Verlängerungsverhalten für Ihre Lizenzen und Abonnements handhabt.  Sie können Ihre Präferenzen auf einer von zwei Ebenen festlegen:</block>
   <block id="717a296215af1e0b2af5244b76c74280" category="list-text">*Global* — gilt für Direktlizenzen, Marktplatz-Abonnements und Keystone Abonnements.</block>
   <block id="0d92132a500b2b420133d918adb91673" category="list-text">*Pro Abonnement* — gilt nur für einen bestimmten Marktplatz oder einen direkten Lizenzvertrag.</block>
@@ -834,17 +811,9 @@
   <block id="fc7df403728dc99ac0c868da1b409680" category="list-text">*Marktplatz-Abonnements* — Die Abrechnung erfolgt über AWS Marketplace, Azure Marketplace oder Google Cloud Marketplace.  Sie können das Abrechnungskonto, die Region und die Verlängerungsoptionen auswählen, die vom Cloud-Marktplatz angeboten werden.</block>
   <block id="f9e1a1e0db42fa8cf2bef3c509a09c09" category="list-text">*Direktlizenzen* — Die Abrechnung erfolgt über NetApp.  Sie verwalten Lizenzschlüssel, Rechnungskontakte und die automatische Verlängerung in der NetApp Console.</block>
   <block id="bc27ccb754d1eb812e4d84c6aa69941b" category="list-text">* Keystone Abonnements* — Die Abrechnung erfolgt über Ihren Keystone Vertrag.  Sie verwalten Rechnungsempfänger und Kostenstellenkennzeichnungen in der NetApp Console.</block>
-  <block id="9294684fe97da7a62a56a378ea1e1af0" category="paragraph">== Berechtigungen Sie benötigen die Rolle *Kontoadministrator* oder *Abrechnungsadministrator*, um die Abrechnungseinstellungen zu ändern.  Die Bediener können die Einstellungen einsehen, aber nicht ändern.</block>
-  <block id="af7ea84d2436f146a133992199e0aa18" category="paragraph">== Abrechnungseinstellungen festlegen</block>
   <block id="6cf13260cfd390e66379c0ccf1393abc" category="paragraph">Mit den Abrechnungseinstellungen können Sie: - eine einheitliche Rechnungskontaktliste für alle Dienste erzwingen, - die Nutzung Kostenstellen zuordnen, - automatische Verlängerungs- und Ablaufbenachrichtigungen verwalten, - sicherstellen, dass neue Cloud Volumes ONTAP (CVO)-Systeme das richtige Abrechnungskonto übernehmen.</block>
-  <block id="db182a35400f6b2f24d75d4add4ede9d" category="paragraph">= Abrechnungsfelder :page-role: Referenz</block>
-  <block id="d6886fb292af47009d301374ee554d68" category="paragraph">== Marketplace-Felder * *Marketplace-Anbieter* — AWS, Azure oder Google Cloud.  * *Abrechnungskonto / Abonnement-ID* — Das Cloud-Abrechnungskonto, das belastet werden soll.  * *Vertragslaufzeit* — Vertragsdauer und Verlängerungsverhalten.</block>
-  <block id="f40c0ad42fc41517d145c6a3f3dee46d" category="paragraph">= Abrechnungsoptionen und Definitionen :page-role: Referenz</block>
-  <block id="9699387466515d34a5fe44422f16e392" category="paragraph">== Bedingungen und Optionen * ** NetApp -Lizenzen zuerst** — Abrechnung auf Basis aktiver NetApp Lizenzen.  Weitere Nutzungsverlagerungen erfolgen auf dem Markt.  * **Nur Marktplatz-Abonnements** — Die gesamte Nutzung wird über Marktplatz-Verträge abgerechnet.  * **PAYGO (Pay-As-You-Go)** — Flexibles Abonnement, abgerechnet nach tatsächlicher Nutzung.  * **Jahresvertrag** — Abonnement für den Marktplatz mit fester Laufzeit.  * **Automatische Verlängerung** — Der Vertrag wird bei Ablauf automatisch verlängert.  * **Benutzerdefinierte CVO-Konfiguration** — Erweiterter Modus für die Zuordnung mehrerer Abonnements pro Hyperscaler.  * **Direktlizenz** — Von NetApp verwaltete Lizenz, die vor der Nutzung der Marketplace-Kapazität verwendet wurde.  * **Hyperscaler** — AWS-, Azure- oder Google Cloud-Anbieter.  * **Dialog zur Bestätigung der Änderungen** — Wird vor der Anwendung von Aktualisierungen angezeigt, um versehentliche Änderungen der Abrechnung zu verhindern.</block>
-  <block id="9fd469469f54b4e3870fda1513aae9b4" category="paragraph">== Typische Konfigurationspfade | Szenario | Empfohlene Abrechnungsoption | |-----------|-----------------------------| | Gekaufte NetApp Kapazität nutzen | NetApp Lizenzen zuerst | | Nur Marketplace-Verträge nutzen | Nur Marketplace-Abonnements nutzen | | Mehrere Projekte bei einem Cloud-Anbieter abrechnen | Benutzerdefinierte CVO-Konfiguration aktivieren | | Zur Standardabrechnung zurückkehren | Benutzerdefinierte CVO-Konfiguration deaktivieren |</block>
   <block id="9881eb87c4c1f6e3415d4a31b78cc0b8" category="summary">Erfahren Sie, wie Lizenzen und Abonnements definieren, wie die NetApp Console Nutzung, Abrechnung und Verlängerungen für Direktlizenzen, Cloud-Marketplace-Verträge und NetApp Keystone verwaltet.</block>
   <block id="f94c83bcf4a8ed377dfb56f9bda7f82c" category="doc">Erfahren Sie mehr über die Abrechnungseinstellungen für Lizenzen und Abonnements.</block>
-  <block id="8dc8efc61c3e8d351d2761bd0cd8d331" category="list-text">*Marktplatz-Abonnements* entsprechen Cloud-Marktplatz-Verträgen (AWS, Azure oder Google Cloud), bei denen die Nutzungsgebühren über ein Hyperscaler-Konto abgerechnet werden.</block>
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">*Direktlizenzen* sind Lizenzen, die direkt von NetApp erworben wurden und in der NetApp Console über Lizenzschlüssel, Rechnungsempfänger und Verlängerungsoptionen verwaltet werden.</block>
   <block id="40ed87604c1cdf10c1530d65c122c3f4" category="paragraph">Sie können je nach Ihrem Beschaffungsmodell konfigurieren, wie Ihre Organisation Dienstleistungen zuweist und bezahlt.</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="section-title">Berechtigungen</block>
@@ -874,7 +843,6 @@
   <block id="52d0542426a76b37f65cfbdf0619b429" category="list-text">*PAYGO (Pay-As-You-Go)* — Abrechnung nur für tatsächliche Nutzung.</block>
   <block id="33208471678e93cf28f2247670d0909f" category="list-text">*Jahresvertrag* — Legt eine definierte Abonnementlaufzeit fest.</block>
   <block id="ad877409cd2ed77740e023a10d0724cd" category="list-text">*Automatische Verlängerung* — Ermöglicht die automatische Fortsetzung von Lizenzen oder Marktplatzverträgen nach deren Ablauf.  Wenn diese Option deaktiviert ist, muss die Dienstleistung manuell erneuert werden, um eine Unterbrechung zu vermeiden.</block>
-  <block id="2cac16fed84c2d4fd5dd6777759dfad7" category="list-text">*Benutzerdefinierte CVO-Konfiguration* — Ermöglicht die Zuordnung mehrerer Marktplatz-Abonnements zu einem einzigen Hyperscaler.  Dies könnte nützlich sein, wenn verschiedene Geschäftsbereiche oder Projekte unterschiedliche Abrechnungskonten innerhalb derselben Cloud-Umgebung benötigen.</block>
   <block id="6ed4edc7faa33c9719cd01e4b40f2483" category="section-title">Typische Konfigurationspfade</block>
   <block id="ad3f68cadbc36ae20d3c338318c7e9c0" category="paragraph">Die folgenden Beispiele veranschaulichen, wie unterschiedliche Abrechnungsmodelle mit gängigen Anwendungsfällen übereinstimmen:</block>
   <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">Szenario</block>
@@ -887,7 +855,6 @@
   <block id="3eb2ff6dc243b133606cdae1c7974687" category="cell">*Benutzerdefinierte CVO-Konfiguration aktivieren*</block>
   <block id="25597f812790df4d241bf9b7329db654" category="cell">Sie möchten zu einem einfachen Abrechnungssystem mit nur einer Abrechnungsquelle zurückkehren.</block>
   <block id="c7f42989cb9233e66f14dd5b8c4fc765" category="cell">*Benutzerdefinierte CVO-Konfiguration deaktivieren*</block>
-  <block id="5435d0c2ab2affaf5e146abe5dcdf92d" category="paragraph">Betrachten wir beispielsweise eine Organisation, die sowohl direkte NetApp Lizenzen als auch Marketplace-Abonnements kombiniert.  Eine typische Konfiguration würde * NetApp -Lizenzen zuerst* als Standardabrechnungsmodus festlegen, um Prepaid-Kapazität vor der Abrechnung über den Marktplatz zu nutzen.  Anschließend würde unter *Custom CVO configuration* jedem Hyperscaler (AWS, Azure, Google Cloud) seine entsprechende Abonnement-ID zugewiesen.</block>
   <block id="a3bc016aa80a8b7ecc67c3ff4f3f16a7" category="paragraph">Nach dem Speichern dieser Einstellungen können Administratoren die Zuordnungen unter * Licenses and subscriptions* überprüfen, um sicherzustellen, dass jeder Dienst auf das richtige Konto verweist.  Zur zusätzlichen Validierung können sie die Nutzungsdaten in der NetApp Console mit den Cloud-Abrechnungs-Dashboards vergleichen und gegebenenfalls Kostenstellen-Tags oder Kontakte anpassen, um die Konsistenz der Berichterstattung zu gewährleisten.</block>
   <block id="e6f95da84fc231235869778f84686fab" category="summary">Konfigurieren Sie die Abrechnungseinstellungen in der NetApp Console, um zu steuern, wie Lizenzen, Marketplace-Abonnements und Keystone Verträge abgerechnet und verlängert werden.</block>
   <block id="9b5b2baaae7db459fd9d75d10938da0d" category="list-text">Alle relevanten Marktplatz-Abonnements sind mit Ihrer Organisation verknüpft.</block>
@@ -897,19 +864,13 @@
   <block id="0a6726bc9108e08ebb13bc6fe5a55e5b" category="list-text">Wählen Sie eine der folgenden Abrechnungsarten:</block>
   <block id="18dd1fddbff47223752aa7cbe0ce2d30" category="list-text">* NetApp -Lizenzen zuerst* – Verwenden Sie zuerst NetApp -Lizenzen, dann Marketplace-Abonnements für die zusätzliche Nutzung.</block>
   <block id="d25910c477ea028d9255a48945715553" category="list-text">*Nur Marketplace-Abonnements* – Die gesamte Nutzung wird direkt über Marketplace-Abonnements abgerechnet.</block>
-  <block id="a4381ba9209ffe0e9f897a6b13135189" category="list-text">Unter *Marketplace-Abonnements* wählen Sie das Abonnement für jeden Hyperscaler (AWS, Azure und Google Cloud) aus.</block>
-  <block id="aeceeb8ebd2218ba9897ba3ed5915310" category="list-text">Wenn Sie mehrere Abonnements unter einem einzigen Hyperscaler verwenden, aktivieren Sie die *Benutzerdefinierte CVO-Konfiguration*.</block>
   <block id="529449d891dd58043109a5fd2c03e18e" category="list-text">(Optional) *Rechnungskontakte* und *Benachrichtigungskontakte* aktualisieren.</block>
   <block id="645717e077f5e3230fa79efe02fcea05" category="list-text">(Optional) Geben Sie ein *Kostenstellen-Tag* ein, um die Abrechnung internen Buchhaltungscodes zuzuordnen.</block>
   <block id="302ef561e28f7d7cd13d1042cece78e1" category="list-text">Wählen Sie *Änderungen speichern*.</block>
   <block id="108c7e8f13bbc93814f67368581b2ce0" category="list-text">Wenn Sie dazu aufgefordert werden, überprüfen Sie den Bestätigungsdialog und wählen Sie *Bestätigen*.</block>
   <block id="17741aaf0ce5304ce281496e14f3c373" category="paragraph">Die NetApp Console aktualisiert die Abrechnungszuordnungen.  Zukünftige Servicegebühren und Verlängerungen basieren nun auf der ausgewählten Konfiguration.</block>
   <block id="bd46b5654a0a24c4b8c111c40e5f21a9" category="admonition">Durch die Änderung des Abrechnungsmodus ändert sich die Verteilung der Servicegebühren.  Neue Cloud Volumes ONTAP (CVO)-Instanzen übernehmen automatisch die ausgewählte Konfiguration.</block>
-  <block id="33d61141d2c7a06a7135aec72ef3d94a" category="section-title">Benutzerdefinierte CVO-Konfiguration aktivieren</block>
-  <block id="b6de153de38d98648b6ddbf53efda2e1" category="paragraph">Die benutzerdefinierte CVO-Konfiguration ermöglicht es Ihnen, mehrere Marketplace-Abonnements demselben Hyperscaler zuzuordnen.  Verwenden Sie diesen Modus, wenn Ihre Organisation unterschiedliche Abrechnungskonten für separate Geschäftsbereiche oder Umgebungen führt.</block>
-  <block id="40d30756ab89016fe82ba2526a295213" category="list-text">Aktivieren Sie unter **Marketplace-Abonnements** die *Benutzerdefinierte CVO-Konfiguration*.</block>
   <block id="77e323811c3d488cfff7cab6c2087d26" category="list-text">Wählen Sie **Änderungen speichern**.</block>
-  <block id="9e7b72435a33e4f2cf071cb9b2cb1ce1" category="paragraph">Sie können nun einzelnen Cloud Volumes ONTAP Instanzen unter demselben Hyperscaler spezifische Marketplace-Abonnements zuweisen.</block>
   <block id="c81a2ae0cc1277c522901ce2c6a4e502" category="section-title">Marktplatzkonfiguration bearbeiten</block>
   <block id="69476e8919a2f56846d34ab0189304c4" category="paragraph">Sie können die Konfigurationsdetails des Marktplatzes bearbeiten, um Abonnements mit Cloud-Projekten zu verknüpfen oder Vertragsinformationen zu aktualisieren.</block>
   <block id="5d4b73c76a591653e1df0169162ac88d" category="list-text">Offene * Licenses and subscriptions*.</block>
@@ -927,7 +888,6 @@
   <block id="fb76b0a0d9556954b60d57166a9a58ff" category="list-text">Öffnen Sie die *Zahlungseinstellungen*.</block>
   <block id="f8947715618c321a3794e787f7aecd94" category="list-text">Deaktivieren Sie die *Benutzerdefinierte CVO-Konfiguration*.</block>
   <block id="f44a159781425e53cf2e7e568e18930f" category="list-text">Bestätigen Sie auf Aufforderung, dass Sie zur Standardkonfiguration zurückkehren möchten.</block>
-  <block id="5b6bd15b73cadb42962618d3ebd1dc68" category="paragraph">Bei CVO-Instanzen wird wieder die standardmäßige Abrechnungsmethode verwendet, die auch für die anderen Datendienste gilt.</block>
   <block id="a56efbb0b90cd4068ca8a8992f33400e" category="list-text">Klicken Sie auf **Partner**.</block>
   <block id="cd674dd3286e68276bf76f6117b9d5be" category="list-text">Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen.  Klicken Sie anschließend auf **Verknüpfen**.</block>
   <block id="07b5c65992e18ea1f96d4431ed697e21" category="list-text">Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.</block>
@@ -941,7 +901,6 @@
   <block id="9b2143cc5779100e7a55ef93f5906f84" category="list-text">In der NetApp Console wählen Sie *Administration &gt; Licenses and subscriptions*.</block>
   <block id="42855d09afacbcf14c2e402fe229af93" category="list-text">*Cloud-Projekt*</block>
   <block id="7122970c90188deca8583df3506aa39c" category="list-text">Wählen Sie im Konsolenmenü *Administration* &gt; * Licenses and subscriptions* und anschließend die Registerkarte *Direktlizenzen*.</block>
-  <block id="13ad11ec7b9bd0fe7c52fc12e83f93d4" category="list-text">Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei verschiedenen Hyperscalern vorhanden sind.</block>
   <block id="dce3a4835fb0cd80cf119820cc31f008" category="list-text"><block ref="dce3a4835fb0cd80cf119820cc31f008" category="inline-link-rx"></block></block>
   <block id="ba181f9b0a33d0306573d0de387efad4" category="list-text"><block ref="ba181f9b0a33d0306573d0de387efad4" category="inline-link-rx"></block></block>
   <block id="7effa26776dad56a362038eae76fd1d8" category="list-text">Im Menü der NetApp Console wählen Sie *Administration &gt; Licenses and subscriptions*.</block>
@@ -949,7 +908,6 @@
   <block id="0bbe14145d06970fb76480d91f62735d" category="paragraph">Mit den Abrechnungseinstellungen können Sie festlegen, wie Sie Zahlungen und das Verlängerungsverhalten für Ihre aktiven Lizenzen und Abonnements handhaben. Sie können diese Einstellungen global anwenden, sodass sie sich auf alle Abrechnungsbeziehungen auswirken, oder auf Ebene des einzelnen Abonnements, wenn ein bestimmter Vertrag eine eigene Konfiguration erfordert.</block>
   <block id="7167322ea9975145e470debb0dd9682c" category="paragraph">Von dort aus können Sie:</block>
   <block id="c612120099cf9dd3f393ed9419ca02db" category="list-text">Legen Sie die Abrechnungseinstellungen für Ihre Organisation fest.</block>
-  <block id="2d71cedb2928350b6ef9e9d588d51e0d" category="list-text">Aktivieren Sie die benutzerdefinierte CVO-Konfiguration für die erweiterte Zuordnung.</block>
   <block id="65bc511f5575c8f9267c515646eb9fa8" category="list-text">Marktplatz-Abonnementdetails bearbeiten oder aktualisieren</block>
   <block id="821825341ee77cae5e1bfc15788cb576" category="paragraph">Weitere Informationen zu Marktplatz-Abonnements und der Abrechnung von Direktlizenzen finden Sie unter <block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block>Die</block>
   <block id="33386a34a14a0561eb19403a93d36f22" category="paragraph">Die Verwaltung von Lizenzen und Abonnements innerhalb der NetApp Console wird über Benutzerrollen gesteuert. Diese Rollen bieten unterschiedliche Zugriffsebenen, die bestimmte Aktionen ermöglichen oder einschränken, die Benutzer für diese Funktion durchführen können.</block>
@@ -966,6 +924,54 @@
   <block id="1d2f900fae86a6b1fedf8da639320914" category="paragraph">Benutzer mit dieser Rolle haben nur Lesezugriff. Nutzer des Viewers können:</block>
   <block id="eecec32a54a34e2a72e8e5f9f7f4f254" category="list-text">Sie haben Zugriff auf die *Admin*-Rolle.</block>
   <block id="0d598f94fd99fabd7c4e6f69c91456f9" category="list-text">Sie haben die bestehende Konfiguration für *Lizenzen und Abonnements* überprüft.</block>
-  <block id="d82371f41195b8bd95134fdb4b66488e" category="admonition">Sobald diese Funktion aktiviert ist, können benutzerdefinierte CVO-Konfigurationen nicht mehr über die **Abrechnungseinstellungen** rückgängig gemacht werden. Durch Deaktivieren dieser Option wird die gesamte CVO-Abrechnung auf die Standard-Abrechnungskonfiguration für Ihre Datendienste zurückgesetzt.</block>
   <block id="f1396f3668b9ac6ec69042ebd868ed35" category="list-text">Wählen Sie *Speichern*, um die Aktualisierungen anzuwenden, oder *Abbrechen*, um sie zu verwerfen.</block>
+  <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">Einzelheiten zu den Änderungen finden Sie unter <block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block>.</block>
+  <block id="bd37aa06c2029c58b0902884ca934e5e" category="doc">Begriffe und Definitionen</block>
+  <block id="2efdddb631a543a2ad67578e037161a3" category="paragraph">Sie benötigen die Rolle *Account Admin* oder *Billing Admin*, um Abrechnungseinstellungen zu ändern. Operatoren können die Einstellungen einsehen, aber nicht bearbeiten.</block>
+  <block id="4ea81f8a69139787ca61e7697fd2ae4f" category="section-title">Abrechnungsfelder</block>
+  <block id="de5d6535f02a78de89a948f550f51d76" category="list-text">*Marktplatzanbieter* — AWS, Azure oder Google Cloud.</block>
+  <block id="6c213a0f6bfaa832c881a7e6dd442cc3" category="list-text">*Abrechnungskonto / Abonnement-ID* — Das Cloud-Abrechnungskonto, das belastet wird.</block>
+  <block id="a49cb6e70cf0f2e7f8ba373daf3f4d25" category="list-text">*Vertragslaufzeit* — Vertragsdauer und Verlängerungsverhalten.</block>
+  <block id="dc93a0f9fbcf2f1dddd61cf3655b0681" category="list-text">**NetApp licenses first** — Abrechnung auf Basis aktiver NetApp-Lizenzen. Zusätzliche Nutzung erfolgt über den Marktplatz.</block>
+  <block id="79b82eff65449f7600af5836e03e48c3" category="list-text">**Nur Marketplace-Abonnements** — Die gesamte Nutzung wird über Marketplace-Verträge abgerechnet.</block>
+  <block id="c53e706d7c692386152c58cd70e0ac2d" category="list-text">**PAYGO (Pay-As-You-Go)** — Flexibles Abonnement, abgerechnet nach tatsächlicher Nutzung.</block>
+  <block id="783ffa0d9dc6178367739c0826aafde8" category="list-text">**Jahresvertrag** — Marktplatz-Abonnement mit fester Laufzeit.</block>
+  <block id="367c4d3c9a7f8e521868f134ebea90e7" category="list-text">**Automatische Verlängerung** — Verlängert den Vertrag bei Ablauf automatisch.</block>
+  <block id="75d1799660dc5ad8fb212c2db059f014" category="list-text">**Benutzerdefinierte CVO-Konfiguration** — Erweiterter Modus für die Zuordnung mehrerer Abonnements pro Cloud Provider.</block>
+  <block id="11732b5b63a7e4369465ad45e7b2f8d1" category="list-text">**Direktlizenz** — NetApp-verwaltete Lizenz, die vor der Marketplace-Kapazität verwendet wird.</block>
+  <block id="ad32f0863d6f14e2d9551805e23ae323" category="list-text">**Hyperscaler** — AWS-, Azure- oder Google Cloud-Anbieter.</block>
+  <block id="e2499bfbea70502da5b64d43bb910c91" category="list-text">**Dialog zur Bestätigung der Änderungen** — Erscheint vor der Anwendung von Updates, um versehentliche Abrechnungsänderungen zu verhindern.</block>
+  <block id="3b2f681409f2a10e7041cea70815ccde" category="paragraph">| Szenario | Empfohlene Abrechnungsoption | |-----------|-----------------------------| | Nutzung gekaufter NetApp Kapazität | NetApp Lizenzen zuerst | | Nutzung ausschließlich von Marketplace-Verträgen | Nur Marketplace-Abonnements | | Abrechnung mehrerer Projekte unter einem Cloud-Anbieter | Benutzerdefinierte CVO-Konfiguration aktivieren | | Rückkehr zur Standardabrechnung | Benutzerdefinierte CVO-Konfiguration deaktivieren |</block>
+  <block id="1f53fda1033a98943930c3ec2b8523bf" category="list-text">*Marktplatz-Abonnements* entsprechen Cloud-Marktplatzverträgen (AWS, Azure oder Google Cloud), bei denen die Nutzungsgebühren über ein Cloud-Anbieterkonto abgerechnet werden</block>
+  <block id="f0d4e9a62cff20e37439e08114cc3a6e" category="list-text">Erweiterte Zuordnung von Cloud Volumes ONTAP Instanzen zu Marketplace-Abonnements aktivieren</block>
+  <block id="fc8cec049cd357fc6adde025d9d97c4d" category="list-text">*Benutzerdefinierte Cloud Volumes ONTAP-Konfiguration* — Ermöglicht die Zuordnung mehrerer Marketplace-Abonnements zu einem Cloud-Anbieter. Dies kann hilfreich sein, wenn verschiedene Geschäftsbereiche oder Projekte unterschiedliche Abrechnungskonten innerhalb derselben Cloud-Umgebung benötigen.</block>
+  <block id="158d5b51bd102e5a6b93eeb3e569529c" category="paragraph">Nehmen wir beispielsweise eine Organisation, die sowohl direkte NetApp-Lizenzen als auch Marketplace-Abonnements kombiniert. In einer typischen Konfiguration würde *NetApp-Lizenzen zuerst* als Standardabrechnungsmodus festgelegt, um die Prepaid-Kapazität vor der Marketplace-Abrechnung zu verwenden. Anschließend würde unter *Benutzerdefinierte CVO-Konfiguration* jedem Cloud-Anbieter (AWS, Azure, Google Cloud) die entsprechende Abonnement-ID zugewiesen.</block>
+  <block id="d971cd0949eb6079557740f89ce094ca" category="list-text"><block ref="d971cd0949eb6079557740f89ce094ca" category="inline-link-rx"></block></block>
+  <block id="e64786dd7cb8f0f615d7953baadfe93d" category="list-text"><block ref="e64786dd7cb8f0f615d7953baadfe93d" category="inline-link-rx"></block></block>
+  <block id="5e0c5b0a69b0693a689f6d264b4af0e4" category="list-text"><block ref="7efd91cec00d6ae6d92167ee1081aeb8" category="inline-link-rx"></block> (nur BYOL)</block>
+  <block id="de0bb2878cf294825df1dfcec4009619" category="list-text"><block ref="de0bb2878cf294825df1dfcec4009619" category="inline-link-rx"></block></block>
+  <block id="532cbe7e5d625d7a0236887d114f837c" category="list-text"><block ref="532cbe7e5d625d7a0236887d114f837c" category="inline-link-rx"></block></block>
+  <block id="90a4dff858448a408d39effd635971ce" category="paragraph"><block ref="6002f1f030715bc59708cf8f1b924fe3" category="inline-link-macro-rx"></block>. <block ref="9d10c472e1675ca6fce5c4e74a4b8028" category="inline-link-macro-rx"></block>.</block>
+  <block id="cc091892b7a1a34ea60d842785eeb4af" category="paragraph"><block ref="38e28a1ae41bcb2c802620605f7bb907" category="inline-link-macro-rx"></block> <block ref="841d65307797c9e89f68fecb565ac37f" category="inline-link-macro-rx"></block></block>
+  <block id="84971b2e6fc80d92ae8aa0e4bebb0d34" category="list-text">Unter *Marketplace subscriptions* wählen Sie das Abonnement für jeden Cloud-Anbieter (AWS, Azure und Google Cloud) aus.</block>
+  <block id="9992d6c3f9c752eddae1124d83b5d6a9" category="list-text">Wenn Sie mehrere Abonnements unter einem einzigen Cloud-Anbieter verwenden, aktivieren Sie die *Benutzerdefinierte CVO-Konfiguration*.</block>
+  <block id="02324009a732ac11a3011a29e03b1196" category="section-title">Aktivieren Sie die benutzerdefinierte Cloud Volumes ONTAP Konfiguration</block>
+  <block id="e72de17ff4fe2d3c98fda67c8a1c19ef" category="paragraph">Sie können nun einzelnen Cloud Volumes ONTAP-Instanzen desselben Cloud-Anbieters spezifische Marketplace-Abonnements zuweisen. Verwenden Sie diesen Modus, wenn Ihr Unternehmen unterschiedliche Abrechnungskonten für separate Geschäftsbereiche oder Umgebungen verwaltet.</block>
+  <block id="43d7b15997385613e1335411c7b22c40" category="list-text">Aktivieren Sie unter **Marketplace subscriptions** die *Custom CVO configuration*.</block>
+  <block id="8ce3dfab75a8995c1363d52e0d5d498e" category="paragraph">Sie können nun bestimmten Marketplace-Abonnements einzelnen Cloud Volumes ONTAP Instanzen unter demselben Cloud-Anbieter zuweisen.</block>
+  <block id="a7c9e3851e09853175c53e3de809b027" category="admonition">Nach der Aktivierung dieser Option kann die benutzerdefinierte Cloud Volumes ONTAP Konfiguration nicht mehr über die **Abrechnungseinstellungen** zurückgesetzt werden. Durch Deaktivieren dieser Option wird die gesamte Cloud Volumes ONTAP Abrechnung auf die Standardabrechnungskonfiguration für Ihre Datendienste zurückgesetzt.</block>
+  <block id="84d4bd06c72524b7f1232b4278b96e30" category="paragraph">Cloud Volumes ONTAP Instanzen kehren zur standardmäßigen Abrechnungsmethode zurück, die für die anderen Datendienste verwendet wird.</block>
+  <block id="a2b91f15c0d9976f14ea620d7cc5d72e" category="list-text"><block ref="a2b91f15c0d9976f14ea620d7cc5d72e" category="inline-link-rx"></block></block>
+  <block id="c96f2d29774bba05dcfc0afe3bbf66b6" category="list-text"><block ref="c96f2d29774bba05dcfc0afe3bbf66b6" category="inline-link-rx"></block></block>
+  <block id="6ce8632be8b5412a45fd3fbb490274d8" category="list-text"><block ref="6ce8632be8b5412a45fd3fbb490274d8" category="inline-link-rx"></block></block>
+  <block id="5792b2f64acac4a03d52863e503bb06e" category="list-text"><block ref="5792b2f64acac4a03d52863e503bb06e" category="inline-link-rx"></block></block>
+  <block id="df8952271e7ef38725532907301bdd0b" category="list-text"><block ref="df8952271e7ef38725532907301bdd0b" category="inline-link-rx"></block></block>
+  <block id="691e9010d46bcb06693d90df5c955334" category="paragraph">Die Anzahl der Lizenzen, die Sie für ein Einzelknotensystem oder ein HA-Paar erwerben können, ist unbegrenzt.</block>
+  <block id="eab5a9beec18731066e3d914b1b777d6" category="list-text">Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei mehreren Cloud-Anbietern bestehen.</block>
+  <block id="bd4fe280572cb5715cd19a1acca358c1" category="list-text">Diese Austauschoption ist auf eine einzelne Console-Organisation beschränkt.</block>
+  <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">Dies ist eine systemgenerierte ID, die Ihrer E-Mail-Adresse zugeordnet ist. Auf der Seite *NSS Management* können Sie Ihre E-Mail-Adresse über das <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> Menü anzeigen.</block>
+  <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">Wenn Sie Ihre Anmelde-Credential-Tokens jemals aktualisieren müssen, gibt es im <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> Menü auch die Option *Anmeldeinformationen aktualisieren*.</block>
+  <block id="3ac14e8b0ff8be035f2bf4d15b62a698" category="paragraph"><block ref="3ac14e8b0ff8be035f2bf4d15b62a698" category="inline-link-rx"></block></block>
 </blocks>

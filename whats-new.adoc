@@ -38,7 +38,7 @@ Weitere Informationen finden Sie imlink:https://docs.netapp.com/us-en/console-li
 
 Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp -Speicher und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Arbeitsabläufe und eine vereinfachte Verwaltung mit hoher Sicherheit und Konformität.
 
-Einzelheiten zu den Änderungen finden Sie imlink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Versionshinweise zur NetApp Console"] .
+Einzelheiten zu den Änderungen finden Sie unter link:https://docs.netapp.com/us-en/console-relnotes/index.html["Versionshinweise zur NetApp Console"].
 
 
 
@@ -154,7 +154,7 @@ E-Mail-Benachrichtigungen werden jetzt mit der BlueXP digital wallet unterstütz
 
 Wenn Sie Ihre Benachrichtigungseinstellungen konfigurieren, können Sie E-Mail-Benachrichtigungen erhalten, wenn Ihre BYOL-Lizenzen bald ablaufen (eine „Warnungsbenachrichtigung“) oder wenn sie bereits abgelaufen sind (eine „Fehler“-Benachrichtigung).
 
-https://docs.netapp.com/us-en/consosetup-admin/task-monitor-cm-operations.html["Erfahren Sie, wie Sie E-Mail-Benachrichtigungen einrichten"^]
+https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html["Erfahren Sie, wie Sie E-Mail-Benachrichtigungen einrichten"^]
 
 
 

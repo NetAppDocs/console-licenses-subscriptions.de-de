@@ -10,7 +10,7 @@ summary: Verwalten Sie Ihre knotenbasierten Lizenzen in der Konsole, um sicherzu
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/console-cloud-volumes-ontap/media/
+:imagesdir: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/media/
 
 
 [role="lead lead"]

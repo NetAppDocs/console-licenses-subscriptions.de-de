@@ -16,7 +16,7 @@ summary: Erfahren Sie, wie Lizenzen und Abonnements definieren, wie die NetApp C
 [role="lead"]
 Mit den Abrechnungseinstellungen können Sie festlegen, wie Sie Zahlungen und das Verlängerungsverhalten für Ihre aktiven Lizenzen und Abonnements handhaben. Sie können diese Einstellungen global anwenden, sodass sie sich auf alle Abrechnungsbeziehungen auswirken, oder auf Ebene des einzelnen Abonnements, wenn ein bestimmter Vertrag eine eigene Konfiguration erfordert.
 
-* *Marktplatz-Abonnements* entsprechen Cloud-Marktplatz-Verträgen (AWS, Azure oder Google Cloud), bei denen die Nutzungsgebühren über ein Hyperscaler-Konto abgerechnet werden.
+* *Marktplatz-Abonnements* entsprechen Cloud-Marktplatzverträgen (AWS, Azure oder Google Cloud), bei denen die Nutzungsgebühren über ein Cloud-Anbieterkonto abgerechnet werden
 * *Direktlizenzen* sind Lizenzen, die direkt von NetApp erworben wurden und in der NetApp Console über Lizenzschlüssel, Rechnungsempfänger und Verlängerungsoptionen verwaltet werden.
 
 
@@ -65,7 +65,7 @@ Die Abrechnungseinstellungen werden im Abschnitt * Licenses and subscriptions* d
 Von dort aus können Sie:
 
 * Legen Sie die Abrechnungseinstellungen für Ihre Organisation fest.
-* Aktivieren Sie die benutzerdefinierte CVO-Konfiguration für die erweiterte Zuordnung.
+* Erweiterte Zuordnung von Cloud Volumes ONTAP Instanzen zu Marketplace-Abonnements aktivieren
 * Marktplatz-Abonnementdetails bearbeiten oder aktualisieren
 
 
@@ -119,7 +119,7 @@ Sie können je nach Beschaffungsstrategie Ihres Unternehmens zwischen verschiede
 * *PAYGO (Pay-As-You-Go)* — Abrechnung nur für tatsächliche Nutzung.
 * *Jahresvertrag* — Legt eine definierte Abonnementlaufzeit fest.
 * *Automatische Verlängerung* — Ermöglicht die automatische Fortsetzung von Lizenzen oder Marktplatzverträgen nach deren Ablauf.  Wenn diese Option deaktiviert ist, muss die Dienstleistung manuell erneuert werden, um eine Unterbrechung zu vermeiden.
-* *Benutzerdefinierte CVO-Konfiguration* — Ermöglicht die Zuordnung mehrerer Marktplatz-Abonnements zu einem einzigen Hyperscaler.  Dies könnte nützlich sein, wenn verschiedene Geschäftsbereiche oder Projekte unterschiedliche Abrechnungskonten innerhalb derselben Cloud-Umgebung benötigen.
+* *Benutzerdefinierte Cloud Volumes ONTAP-Konfiguration* — Ermöglicht die Zuordnung mehrerer Marketplace-Abonnements zu einem Cloud-Anbieter. Dies kann hilfreich sein, wenn verschiedene Geschäftsbereiche oder Projekte unterschiedliche Abrechnungskonten innerhalb derselben Cloud-Umgebung benötigen.
 
 
 
@@ -143,6 +143,6 @@ Die folgenden Beispiele veranschaulichen, wie unterschiedliche Abrechnungsmodell
 
 | Sie möchten zu einem einfachen Abrechnungssystem mit nur einer Abrechnungsquelle zurückkehren. | *Benutzerdefinierte CVO-Konfiguration deaktivieren* 
 |===
-Betrachten wir beispielsweise eine Organisation, die sowohl direkte NetApp Lizenzen als auch Marketplace-Abonnements kombiniert.  Eine typische Konfiguration würde * NetApp -Lizenzen zuerst* als Standardabrechnungsmodus festlegen, um Prepaid-Kapazität vor der Abrechnung über den Marktplatz zu nutzen.  Anschließend würde unter *Custom CVO configuration* jedem Hyperscaler (AWS, Azure, Google Cloud) seine entsprechende Abonnement-ID zugewiesen.
+Nehmen wir beispielsweise eine Organisation, die sowohl direkte NetApp-Lizenzen als auch Marketplace-Abonnements kombiniert. In einer typischen Konfiguration würde *NetApp-Lizenzen zuerst* als Standardabrechnungsmodus festgelegt, um die Prepaid-Kapazität vor der Marketplace-Abrechnung zu verwenden. Anschließend würde unter *Benutzerdefinierte CVO-Konfiguration* jedem Cloud-Anbieter (AWS, Azure, Google Cloud) die entsprechende Abonnement-ID zugewiesen.
 
 Nach dem Speichern dieser Einstellungen können Administratoren die Zuordnungen unter * Licenses and subscriptions* überprüfen, um sicherzustellen, dass jeder Dienst auf das richtige Konto verweist.  Zur zusätzlichen Validierung können sie die Nutzungsdaten in der NetApp Console mit den Cloud-Abrechnungs-Dashboards vergleichen und gegebenenfalls Kostenstellen-Tags oder Kontakte anpassen, um die Konsistenz der Berichterstattung zu gewährleisten.

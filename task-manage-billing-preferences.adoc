@@ -37,8 +37,8 @@ Sie können auswählen, wie die Konsole die Nutzungsgebühren auf die verschiede
 ** *Nur Marketplace-Abonnements* – Die gesamte Nutzung wird direkt über Marketplace-Abonnements abgerechnet.
 
 
-. Unter *Marketplace-Abonnements* wählen Sie das Abonnement für jeden Hyperscaler (AWS, Azure und Google Cloud) aus.
-. Wenn Sie mehrere Abonnements unter einem einzigen Hyperscaler verwenden, aktivieren Sie die *Benutzerdefinierte CVO-Konfiguration*.
+. Unter *Marketplace subscriptions* wählen Sie das Abonnement für jeden Cloud-Anbieter (AWS, Azure und Google Cloud) aus.
+. Wenn Sie mehrere Abonnements unter einem einzigen Cloud-Anbieter verwenden, aktivieren Sie die *Benutzerdefinierte CVO-Konfiguration*.
 . (Optional) *Rechnungskontakte* und *Benachrichtigungskontakte* aktualisieren.
 . (Optional) Geben Sie ein *Kostenstellen-Tag* ein, um die Abrechnung internen Buchhaltungscodes zuzuordnen.
 . Wählen Sie *Änderungen speichern*.
@@ -53,22 +53,22 @@ NOTE: Durch die Änderung des Abrechnungsmodus ändert sich die Verteilung der S
 
 
 
-== Benutzerdefinierte CVO-Konfiguration aktivieren
+== Aktivieren Sie die benutzerdefinierte Cloud Volumes ONTAP Konfiguration
 
-Die benutzerdefinierte CVO-Konfiguration ermöglicht es Ihnen, mehrere Marketplace-Abonnements demselben Hyperscaler zuzuordnen.  Verwenden Sie diesen Modus, wenn Ihre Organisation unterschiedliche Abrechnungskonten für separate Geschäftsbereiche oder Umgebungen führt.
+Sie können nun einzelnen Cloud Volumes ONTAP-Instanzen desselben Cloud-Anbieters spezifische Marketplace-Abonnements zuweisen. Verwenden Sie diesen Modus, wenn Ihr Unternehmen unterschiedliche Abrechnungskonten für separate Geschäftsbereiche oder Umgebungen verwaltet.
 
 .Schritte
 . In der NetApp Console wählen Sie *Administration > Licenses and subscriptions*.
 . Wählen Sie *Abrechnungseinstellungen*.
-. Aktivieren Sie unter **Marketplace-Abonnements** die *Benutzerdefinierte CVO-Konfiguration*.
+. Aktivieren Sie unter **Marketplace subscriptions** die *Custom CVO configuration*.
 . Wählen Sie **Änderungen speichern**.
 
 
 .Ergebnis
-Sie können nun einzelnen Cloud Volumes ONTAP Instanzen unter demselben Hyperscaler spezifische Marketplace-Abonnements zuweisen.
+Sie können nun bestimmten Marketplace-Abonnements einzelnen Cloud Volumes ONTAP Instanzen unter demselben Cloud-Anbieter zuweisen.
 
 
-WARNING: Sobald diese Funktion aktiviert ist, können benutzerdefinierte CVO-Konfigurationen nicht mehr über die **Abrechnungseinstellungen** rückgängig gemacht werden. Durch Deaktivieren dieser Option wird die gesamte CVO-Abrechnung auf die Standard-Abrechnungskonfiguration für Ihre Datendienste zurückgesetzt.
+WARNING: Nach der Aktivierung dieser Option kann die benutzerdefinierte Cloud Volumes ONTAP Konfiguration nicht mehr über die **Abrechnungseinstellungen** zurückgesetzt werden. Durch Deaktivieren dieser Option wird die gesamte Cloud Volumes ONTAP Abrechnung auf die Standardabrechnungskonfiguration für Ihre Datendienste zurückgesetzt.
 
 
 
@@ -114,4 +114,4 @@ Jede Aktualisierung der Abrechnungseinstellungen erfordert eine Bestätigung, um
 
 
 .Ergebnis
-Bei CVO-Instanzen wird wieder die standardmäßige Abrechnungsmethode verwendet, die auch für die anderen Datendienste gilt.
+Cloud Volumes ONTAP Instanzen kehren zur standardmäßigen Abrechnungsmethode zurück, die für die anderen Datendienste verwendet wird.

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-private-aws.html 
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
-summary: Verwalten Sie Ihren allgemeinen und Hyperscaler-spezifischen, durchgängigen Private Offer Process und die Akzeptanz- und Aktivierungsleitfäden für NetApp Intelligent Services für AWS, Azure und Google Cloud. 
+summary: Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console in der AWS-Konsole und konfigurieren Sie die AWS-Anmeldeinformationen in der Konsole. 
 ---
 = Akzeptieren und konfigurieren Sie ein privates AWS Marketplace-Angebot für die NetApp Console
 :hardbreaks:
@@ -116,7 +116,7 @@ Wenn Sie das Angebot angenommen, die Registrierung jedoch nicht abgeschlossen ha
 . Prüfen Sie die Abonnementoptionen des Marktplatzes.
 . Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.
 . Wählen Sie **Änderungen speichern**.
-. Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei verschiedenen Hyperscalern vorhanden sind.
+. Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei mehreren Cloud-Anbietern bestehen.
 
 
 Weitere Informationen zu Marktplatz-Abonnements und der Abrechnung von Direktlizenzen finden Sie unter link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Dokumentation der Abrechnungseinstellungen"]Die
