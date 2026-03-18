@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-private-aws.html 
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
-summary: Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console in der AWS-Konsole und konfigurieren Sie die AWS-Anmeldeinformationen in der Konsole. 
+summary: Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console im AWS Marketplace-Portal und konfigurieren Sie die AWS-Anmeldeinformationen in der Console. 
 ---
 = Akzeptieren und konfigurieren Sie ein privates AWS Marketplace-Angebot für die NetApp Console
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Consol
 
 
 [role="lead"]
-Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console in der AWS-Konsole und konfigurieren Sie die AWS-Anmeldeinformationen in der Konsole.
+Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console im AWS Marketplace-Portal und konfigurieren Sie die AWS-Anmeldeinformationen in der Console.
 
 .Bevor Sie beginnen
 * Arbeiten Sie mit dem NetApp -Vertrieb zusammen, um ein privates Angebot zu erstellen und den Aktivierungslink zu erhalten.
@@ -28,7 +28,7 @@ Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console in der 
 
 
 
-== Akzeptieren Sie das private Angebot in der AWS-Konsole
+== Akzeptieren Sie das private Angebot im AWS Marketplace Portal
 
 Um den Kauf zu aktivieren und den ermäßigten Preis anzuwenden, muss die Abonnementzuweisung in der Konsole abgeschlossen werden.
 
@@ -93,12 +93,12 @@ Bei Vertragsangeboten geben Sie bitte die vereinbarte Stückzahl an. Stellen Sie
 Wenn Sie das Angebot angenommen, die Registrierung jedoch nicht abgeschlossen haben, kehren Sie zur Produktseite zurück. Klicken Sie bei Vertragslisten auf *Kaufoptionen anzeigen*, um das Angebot anzuzeigen, und wählen Sie dann *Konto einrichten*.
 
 ====
-. Sign in bei https://console.netapp.com[] mit Ihrem Konsolenkonto.
+. Melden Sie sich bei https://console.netapp.com[] an.
 . Navigieren Sie nach der Anmeldung zu https://console.netapp.com/licenses/overview[] . Sie werden aufgefordert:
 +
 .. Geben Sie einen *Anzeigenamen* für das Marketplace-Abonnement ein.
-.. Wählen Sie die Konsolen-*Konten* mit Zugriff auf das Abonnement aus.
-.. [Optional] Aktivieren Sie *Vorhandenes Abonnement ersetzen*, um ein vorhandenes Abonnement für ein Konto zu überschreiben.
+.. Wählen Sie die Console-*Organisation* mit Zugriff auf das Abonnement aus.
+.. [Optional] Aktivieren Sie *Replace existing subscription*, um ein bestehendes Abonnement für eine Organisation zu überschreiben.
 +
 [NOTE]
 ====

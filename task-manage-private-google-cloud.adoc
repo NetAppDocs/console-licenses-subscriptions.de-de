@@ -76,8 +76,8 @@ Wenn Sie bereits über ein aktives PAYGO-Abonnement oder ein geändertes private
 . Nach der Anmeldung werden Sie weitergeleitet zu `https://console.netapp.com/licenses/overview` . Es wird ein Popup angezeigt, in dem Sie Folgendes tun müssen:
 +
 .. Geben Sie einen Anzeigenamen für das *SaaS Marketplace-Abonnement* ein.
-.. Wählen Sie die Konsolen-**Konten** aus, die Zugriff auf das Abonnement haben sollen.
-.. Optional können Sie **Vorhandenes Abonnement ersetzen** aktivieren, wenn Sie ein vorhandenes Marketplace-Abonnement in einem Konsolenkonto automatisch ersetzen möchten.
+.. Wählen Sie die Console-*Organizations* aus, die Zugriff auf das Abonnement haben sollen.
+.. Optional können Sie **Vorhandenes Abonnement ersetzen** aktivieren, wenn Sie ein bestehendes Marketplace-Abonnement in einer Console-Organisation automatisch ersetzen möchten.
 +
 [NOTE]
 ====

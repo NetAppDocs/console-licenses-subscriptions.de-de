@@ -481,14 +481,12 @@
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">Erfahren Sie, wie Sie erkannte Cluster direkt verwalten</block>
   <block id="e82c60430ac236acfc954acd22ea737d" category="list-text"><block ref="e82c60430ac236acfc954acd22ea737d" category="inline-link-rx"></block></block>
   <block id="9248cc8bc8852d71cca7f73f6d36eea5" category="doc">Akzeptieren und konfigurieren Sie ein privates AWS Marketplace-Angebot für die NetApp Console</block>
-  <block id="ff13fa6d7bc903be5ecf4d041ce5aa5c" category="paragraph">Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console in der AWS-Konsole und konfigurieren Sie die AWS-Anmeldeinformationen in der Konsole.</block>
   <block id="e42fe00103b11c26a130efa909bb5a84" category="list-text">Arbeiten Sie mit dem NetApp -Vertrieb zusammen, um ein privates Angebot zu erstellen und den Aktivierungslink zu erhalten.</block>
   <block id="514210ca19d963f85ab4ed1d6e72df32" category="list-text">Stellen Sie sicher, dass Sie über die erforderlichen AWS Marketplace-Berechtigungen verfügen:</block>
   <block id="9b0cad6850cfb6b3550c8a17e7be435b" category="inline-link-macro">Anzeigen und Abonnieren eines privaten Angebots</block>
   <block id="c3f1185d398ba0919b1e1de888c27261" category="list-text"><block ref="c3f1185d398ba0919b1e1de888c27261" category="inline-link-macro-rx"></block></block>
   <block id="eddabc606d42f919a6957cf8c062b45b" category="inline-link-macro">Validierung der Käuferberechtigungen</block>
   <block id="5669e814cce268752252c43ffbb097b9" category="list-text"><block ref="5669e814cce268752252c43ffbb097b9" category="inline-link-macro-rx"></block></block>
-  <block id="09d9df0afa016eba24d822b0fab07ad9" category="section-title">Akzeptieren Sie das private Angebot in der AWS-Konsole</block>
   <block id="01fe1bcb4f23578a5739afabaf15081c" category="paragraph">Um den Kauf zu aktivieren und den ermäßigten Preis anzuwenden, muss die Abonnementzuweisung in der Konsole abgeschlossen werden.</block>
   <block id="5277c9848e0bbe319cb5f8129fe4c77b" category="paragraph">Sie müssen alle Schritte abschließen, um Ihr privates Angebot zu aktivieren. Das Überspringen von Schritten kann zu Abrechnungsfehlern führen. Bei mehrmaliger Annahme und Aktivierung des Angebots kommt es zu einer doppelten Abrechnung.</block>
   <block id="69ab7cbfb20290fc5a153bd4d1e77e2d" category="list-text">Klicken Sie auf den Aktivierungslink für das private Angebot Ihres NetApp -Vertriebsteams. Der Link sollte ungefähr wie folgt aussehen:<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
@@ -513,11 +511,8 @@
   <block id="20d4f676d944ace93b6fd5ea20a1cd60" category="list-text">Nach der Annahme bestätigt ein Banner das Abonnement und enthält Anweisungen zur Registrierung.</block>
   <block id="9a964a2e84212b282e85422fa8a70544" category="list-text">Klicken Sie auf *Konto einrichten*. Dadurch wird eine Weiterleitung zur NetApp Console zur Konfiguration des Abonnements durchgeführt.</block>
   <block id="45a07e7bbaedb6a22c302c7002488d2a" category="paragraph">Wenn Sie das Angebot angenommen, die Registrierung jedoch nicht abgeschlossen haben, kehren Sie zur Produktseite zurück. Klicken Sie bei Vertragslisten auf *Kaufoptionen anzeigen*, um das Angebot anzuzeigen, und wählen Sie dann *Konto einrichten*.</block>
-  <block id="2e64edfe7c5204394d8441cd657b2892" category="list-text">Sign in bei<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block> mit Ihrem Konsolenkonto.</block>
   <block id="5e1b8f033801f9e6066729a408b4da2f" category="list-text">Navigieren Sie nach der Anmeldung zu<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block> . Sie werden aufgefordert:</block>
   <block id="e6927100ca6999c8078a1524ea9d9039" category="list-text">Geben Sie einen *Anzeigenamen* für das Marketplace-Abonnement ein.</block>
-  <block id="2cd221344150a3626a43e90a5a658fe9" category="list-text">Wählen Sie die Konsolen-*Konten* mit Zugriff auf das Abonnement aus.</block>
-  <block id="0d44bad6f11273328ea95f1f049c4238" category="list-text">[Optional] Aktivieren Sie *Vorhandenes Abonnement ersetzen*, um ein vorhandenes Abonnement für ein Konto zu überschreiben.</block>
   <block id="75593b03eb6aef440911b04a96cd04dc" category="list-text">Der Ersatz gilt nur für ein Konsolenkonto.</block>
   <block id="3de849c536c7d2a1b083f7cc3a929f1e" category="list-text">Um mehrere Konten mit demselben Abonnement zu verknüpfen, konfigurieren Sie zusätzliche Konten manuell.</block>
   <block id="ac15313b1dc2741a5095bcc225efa2d9" category="list-text">Wenn Anmeldeinformationen nie mit einem Abonnement verknüpft wurden, verknüpfen Sie sie manuell, wie im nächsten Abschnitt beschrieben.</block>
@@ -555,8 +550,6 @@
   <block id="28aeb99ad7fa714f50ee0dba31b74247" category="list-text">Sie werden weitergeleitet zu<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block> und zur Anmeldung aufgefordert.</block>
   <block id="f0456057cee7cc1dd8dba0eea97afb99" category="list-text">Nach der Anmeldung werden Sie weitergeleitet zu<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block> . Sie werden aufgefordert:</block>
   <block id="39adb4da3012b43be809229537dd4480" category="list-text">Geben Sie einen *Anzeigenamen* für das Marketplace-Abonnement ein.</block>
-  <block id="08203a12c0659c3a962694a2bedabdd2" category="list-text">Wählen Sie die Konsolen-*Konten* aus, die Zugriff auf dieses Abonnement haben sollen.</block>
-  <block id="c971675f678da35b74e0d7fcf448705b" category="list-text">Optional können Sie *Vorhandenes Abonnement ersetzen* aktivieren, um ein vorhandenes Marketplace-Abonnement in einem Konsolenkonto automatisch zu ersetzen.</block>
   <block id="bdd177ac7c3a61f270d7d1424cc6bf1f" category="list-text">Diese Ersatzoption ist auf ein einzelnes Konsolenkonto beschränkt.</block>
   <block id="d939375aaed073b9eac9e5beb4ba0a3b" category="list-text">Um mehrere Konsolenkonten mit demselben Marketplace-Abonnement zu verknüpfen, konfigurieren Sie die zusätzlichen Konten manuell.</block>
   <block id="c9ca68f69753eaca0ec0228921c617fa" category="doc">Akzeptieren und konfigurieren Sie ein privates Google Cloud-Angebot für die NetApp Console</block>
@@ -588,8 +581,6 @@
   <block id="e58b6bbe6eb23bea3dd1681ec6a9af11" category="list-text">Sie werden weitergeleitet zu<block ref="7c376aef5250afe71efcebf7a7a3f4b9" prefix=" " category="inline-code"></block> und zur Anmeldung aufgefordert.</block>
   <block id="58fd0c4f67d67b5379d45ee8a3db553f" category="list-text">Nach der Anmeldung werden Sie weitergeleitet zu<block ref="24d15e59be383cd22c6b17c55af710c1" prefix=" " category="inline-code"></block> . Es wird ein Popup angezeigt, in dem Sie Folgendes tun müssen:</block>
   <block id="109deb83c524752969863db2154396e3" category="list-text">Geben Sie einen Anzeigenamen für das *SaaS Marketplace-Abonnement* ein.</block>
-  <block id="98a69ff93ac7f606e9ffc0f0ad3c2be6" category="list-text">Wählen Sie die Konsolen-**Konten** aus, die Zugriff auf das Abonnement haben sollen.</block>
-  <block id="f42189975a0067b88050cff9b07f38b3" category="list-text">Optional können Sie **Vorhandenes Abonnement ersetzen** aktivieren, wenn Sie ein vorhandenes Marketplace-Abonnement in einem Konsolenkonto automatisch ersetzen möchten.</block>
   <block id="35a234d8ec57d77057c7e83dd833a391" category="list-text">Wenn Sie mehrere Konsolenkonten mit demselben Marketplace-Abonnement verknüpfen müssen, müssen Sie die zusätzlichen Konten manuell konfigurieren.</block>
   <block id="c38a5b5bc8ce7c5e70620128d5b70df7" category="summary">Abonnieren Sie NetApp -Datendienste (einschließlich Cloud Volumes ONTAP) über den Marktplatz eines Cloud-Anbieters.</block>
   <block id="b01b1be092b95233172f870dc729234b" category="doc">Verwalten Sie PAYGO-Abonnements und -Verträge</block>
@@ -974,4 +965,13 @@
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">Dies ist eine systemgenerierte ID, die Ihrer E-Mail-Adresse zugeordnet ist. Auf der Seite *NSS Management* können Sie Ihre E-Mail-Adresse über das <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> Menü anzeigen.</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">Wenn Sie Ihre Anmelde-Credential-Tokens jemals aktualisieren müssen, gibt es im <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> Menü auch die Option *Anmeldeinformationen aktualisieren*.</block>
   <block id="3ac14e8b0ff8be035f2bf4d15b62a698" category="paragraph"><block ref="3ac14e8b0ff8be035f2bf4d15b62a698" category="inline-link-rx"></block></block>
+  <block id="b14c8f714ab9df1d8bf0b8e0b5be9075" category="summary">Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console im AWS Marketplace-Portal und konfigurieren Sie die AWS-Anmeldeinformationen in der Console.</block>
+  <block id="e3edb6d6eefa6e26fd7d233d36622506" category="section-title">Akzeptieren Sie das private Angebot im AWS Marketplace Portal</block>
+  <block id="539df6295a1f72f1a6ce9c01b447ccfd" category="list-text">Melden Sie sich bei<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block> an.</block>
+  <block id="2ef69aab27aad02b09bd9c1e01dfe293" category="list-text">Wählen Sie die Console-*Organisation* mit Zugriff auf das Abonnement aus.</block>
+  <block id="aa9da6403204546dcd3c3b41bda594eb" category="list-text">[Optional] Aktivieren Sie *Replace existing subscription*, um ein bestehendes Abonnement für eine Organisation zu überschreiben.</block>
+  <block id="7df82bbcc877cc7b0ae3f358c7acd1ee" category="list-text">Wählen Sie die Console-*Organizations* aus, die Zugriff auf dieses Abonnement haben sollen.</block>
+  <block id="6b19be00318068639bb55171c38824da" category="list-text">Optional können Sie *Vorhandenes Abonnement ersetzen* aktivieren, um ein bestehendes Marketplace-Abonnement in einer Console-Organisation automatisch zu ersetzen.</block>
+  <block id="f6a3d6466a9b3dd0a42a2d2b4b3377a6" category="list-text">Wählen Sie die Console-*Organizations* aus, die Zugriff auf das Abonnement haben sollen.</block>
+  <block id="abd213f6c87bacca6bcd08de8ac36571" category="list-text">Optional können Sie **Vorhandenes Abonnement ersetzen** aktivieren, wenn Sie ein bestehendes Marketplace-Abonnement in einer Console-Organisation automatisch ersetzen möchten.</block>
 </blocks>
