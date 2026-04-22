@@ -46,7 +46,7 @@ Wenn Sie bereits über ein aktives PAYGO-Abonnement oder ein geändertes private
 
 ====
 .Schritte
-. Klicken Sie auf den Aktivierungslink für das private Angebot, den Sie von Ihrem NetApp -Vertriebsteam erhalten haben. Der Link sollte ungefähr wie folgt aussehen:
+. Wählen Sie den von Ihrem NetApp Vertriebsteam bereitgestellten Link zur Aktivierung des privaten Angebots aus. Der Link sollte in etwa wie folgt aussehen:
 `https://console.cloud.google.com/marketplace/private-offers/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee`
 . Sie werden zum Google Cloud Marketplace weitergeleitet, wo Sie die Angebotsdetails überprüfen können:
 +
@@ -62,14 +62,14 @@ Wenn Sie bereits über ein aktives PAYGO-Abonnement oder ein geändertes private
 ====
 
 
-. Bestätigen Sie die Richtigkeit der Angaben, akzeptieren Sie die Bedingungen und klicken Sie auf **Akzeptieren**.
+. Bestätigen Sie, dass die Angaben korrekt sind, akzeptieren Sie die Bedingungen und wählen Sie **Akzeptieren**.
 . Während der Erstellung des Abonnements wird ein Ladesymbol angezeigt.
 . Wenn das Abonnement erfolgreich erstellt wurde, wird ein Popup-Fenster angezeigt: *Ihre Bestellanfrage wurde an NetApp, Inc. gesendet.*
-. Klicken Sie auf **REGISTRIEREN SIE SICH BEI NETAPP, Inc.**. Sie werden zur NetApp Console weitergeleitet, um die Konfiguration Ihres Abonnements abzuschließen. Wenn das private Angebot von einer anderen Person in Ihrer Organisation angenommen wurde:
+. Wählen Sie **REGISTRIEREN BEI NETAPP, Inc.**. Sie werden zur NetApp Console weitergeleitet, um die Konfiguration Ihres Abonnements abzuschließen. Falls das private Angebot von einer anderen Person in Ihrem Unternehmen angenommen wurde:
 +
 .. Gehen Sie im Google Cloud Marketplace zu **Bestellungen**.
 .. Suchen Sie das Angebot mit dem Status **Ausstehend**.
-.. Klicken Sie auf das Drei-Punkte-Menü und wählen Sie **Bei NetApp, Inc. registrieren**.
+.. Wählen Sie das Drei-Punkte-Menü und wählen Sie **Registrieren bei NetApp, Inc.**
 
 
 . Sie werden weitergeleitet zu `https://console.netapp.com` und zur Anmeldung aufgefordert.
@@ -88,8 +88,8 @@ Wenn Sie bereits über ein aktives PAYGO-Abonnement oder ein geändertes private
 ====
 
 
-. Klicken Sie auf **Partner**.
-. Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen.  Klicken Sie anschließend auf **Verknüpfen**.
+. Wählen Sie **Associate** aus.
+. Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen. Wählen Sie **Zuordnen**.
 . Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.
 . Prüfen Sie die Abonnementoptionen des Marktplatzes.
 . Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.

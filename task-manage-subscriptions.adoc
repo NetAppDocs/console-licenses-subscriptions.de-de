@@ -132,7 +132,7 @@ NOTE: Die Konsole unterstützt Identity and Access Management (IAM) im Standardm
 .Schritte
 . Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
 . Wählen Sie *Marketplace-Abonnements* aus.
-. Öffnen Sie in der Zeile für das Abonnement, das Sie zuordnen möchten, das Aktionsmenü und wählen Sie *Zuordnen* aus.
+. Öffnen Sie in der Zeile des Abonnements, das Sie verknüpfen möchten, das Aktionsmenü und wählen Sie dann *Verknüpfen*.
 . Wählen Sie im Dialogfeld *Abonnement zuordnen* eine oder mehrere Organisationen aus, die dem Abonnement zugeordnet werden sollen.
 . Wählen Sie *Zuordnen* aus.
 
@@ -161,7 +161,7 @@ Bevor Sie ein Abonnement entfernen können, müssen Sie es dekonfigurieren.  Dad
 .Schritte
 . Im Menü der NetApp Console wählen Sie *Administration > Licenses and subscriptions*.
 . Wählen Sie *Marketplace-Abonnements* aus.
-. Klicken Sie in der Zeile für das Abonnement, das Sie dekonfigurieren möchten, auf das Aktionsmenü und wählen Sie *Dekonfigurieren* aus.
+. Wählen Sie in der Zeile des Abonnements, das Sie deaktivieren möchten, das Aktionsmenü und dann *Deaktivieren*.
 . Folgen Sie den Anweisungen, um alle zugehörigen Einstellungen oder Daten zu entfernen oder zurückzusetzen.
 . Warten Sie, bis der Status auf *Nicht konfiguriert* aktualisiert wird.
 

@@ -13,17 +13,17 @@ summary: Verschaffen Sie sich im Übersichts-Dashboard in der Konsole einen Übe
 == Verwenden der Dashboard-Übersicht
 
 [role="lead"]
-Verwenden Sie das Dashboard *Übersicht* in der Konsole, um den Zustand Ihrer Lizenzen und Abonnements zu überwachen und sicherzustellen, dass Sie die Kosten verwalten und den Dienst aufrechterhalten können, wenn Abonnements Ablaufdaten oder Kapazitätsgrenzen erreichen.
+Das *Overview*-Dashboard in der NetApp Console hilft Ihnen, den Status Ihrer Licenses and subscriptions zu überwachen, um sicherzustellen, dass Sie Kosten verwalten und den Service aufrechterhalten können, wenn subscriptions das Ablaufdatum oder Kapazitätsgrenzen erreichen.
 
-Sie können spezifische Lizenz- und Abonnementinformationen zu jedem Ihrer Datendienste (einschließlich Cloud Volumes ONTAP) anzeigen und für jeden Dienst eine Detailansicht anzeigen.
+Sie können spezifische Lizenz- und Abonnementinformationen zu jedem Ihrer Datendienste (einschließlich Cloud Volumes ONTAP) einsehen.
 
-Sie werden außerdem auf bevorstehende Kapazitätsgrenzen oder Ablaufdaten hingewiesen und zum Handeln aufgefordert.
+Das Licenses and subscriptions Dashboard macht Sie auf bevorstehende Kapazitätsgrenzen oder Ablaufdaten aufmerksam und fordert Sie auf, die erforderlichen Maßnahmen zu ergreifen.
 
 
 
 === Details zu einem bestimmten Datendienst anzeigen
 
-Das Dashboard *Übersicht* bietet die Möglichkeit, Details zu den folgenden Datendiensten anzuzeigen:
+Das Dashboard *Übersicht* enthält Details zu den folgenden Services:
 
 * Cloud Volumes ONTAP
 * Notfallwiederherstellung
@@ -63,11 +63,11 @@ link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwal
 
 === Beheben von Lizenz- oder Abonnementproblemen
 
-Sie können Lizenz- und Abonnementprobleme anzeigen, die gelöst werden müssen.  Zu den Problemen zählen Lizenzen und Abonnements, die ablaufen oder ihre Kapazitätsgrenze erreichen.
+Im Übersichts-Dashboard können Sie Lizenz- und Abonnementprobleme einsehen, die gelöst werden müssen. Zu den Problemen gehören Lizenzen und Abonnements, die ablaufen oder ihre Kapazitätsgrenze erreichen.
 
 . Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
 . Wählen Sie *Übersicht*.
-. Wählen Sie *Beheben* für die Kachel *Erfordert Aktion* aus, um Probleme anzuzeigen, die behoben werden müssen.  Wenn „Beheben“ nicht angezeigt wird, gibt es derzeit keine Probleme, die eine Aktion erfordern.
+. Wählen Sie im Bereich *Requires action* die Option *Resolve*, um die anzupassenden Probleme anzuzeigen. Wird *Resolve* nicht angezeigt, sind keine Probleme vorhanden, die eine Aktion erfordern.
 . Wählen Sie auf der Seite *Aktion erforderlich* entweder die Registerkarte *Lizenzen* oder die Registerkarte *Abonnements* aus.
 . Verwenden Sie das Aktionsmenü, um das Problem zu beheben.
 +

@@ -58,7 +58,7 @@ Benutzer mit dieser Rolle haben nur Lesezugriff. Nutzer des Viewers können:
 
 Die Abrechnungseinstellungen gewährleisten, dass Nutzungsgebühren und Verlängerungen korrekt berechnet werden.  Durch die korrekte Konfiguration werden Abrechnungsstreitigkeiten reduziert und die Verwaltung hybrider Lizenzmodelle, die NetApp-eigene und auf dem Marktplatz erworbene Kapazitäten kombinieren, wird vereinfacht.
 
-Beispielsweise können globale Abrechnungseinstellungen Ihre Rechnungskontaktliste vereinheitlichen, sodass alle Dienste einen einzigen Abrechnungsadministrator gemeinsam nutzen.  Sie können außerdem Kostenstellenkennzeichnungen verwenden, um die Nutzung abteilungs- oder regionsübergreifend zu vereinheitlichen und die automatische Verlängerung zu aktivieren, um Serviceunterbrechungen zu vermeiden.  Neue Cloud Volumes ONTAP (CVO)-Bereitstellungen übernehmen automatisch den hier definierten Abrechnungsmodus, wodurch das Kostenverrechnungsmodell Ihrer Organisation auch bei der Hinzufügung neuer Systeme konsistent bleibt.
+Globale Abrechnungseinstellungen können beispielsweise Ihre Rechnungskontaktliste vereinheitlichen, sodass alle Dienste einen gemeinsamen Abrechnungsadministrator haben. Sie können außerdem Kostenstellen-Tags verwenden, um die Nutzung abteilungs- oder regionsübergreifend abzustimmen und die automatische Verlängerung zu aktivieren, um Serviceunterbrechungen zu vermeiden. Neue Cloud Volumes ONTAP-Bereitstellungen übernehmen automatisch den hier definierten Abrechnungsmodus, wodurch das Chargeback-Modell Ihrer Organisation konsistent bleibt, wenn neue Systeme hinzugefügt werden.
 
 Die Abrechnungseinstellungen werden im Abschnitt * Licenses and subscriptions* der NetApp Console konfiguriert.
 
@@ -79,7 +79,7 @@ In den Abrechnungsfeldern werden Metadaten darüber gespeichert, wie die einzeln
 
 === Marktplatzfelder
 
-Marketplace-Felder beschreiben Verträge, die von einem Cloud-Anbieter wie AWS, Azure oder Google Cloud stammen.  Diese Felder definieren, wie die NetApp Console Ihre Abonnements mit den im Marketplace des Anbieters gespeicherten Abrechnungsinformationen verbindet.  Sie kontrollieren auch die Verwaltung von Vertragsverlängerungen, regionalen Zuweisungen und Abrechnungskonten.
+Die Felder im Marketplace beschreiben Verträge, die von Cloud-Anbietern wie AWS, Azure oder Google Cloud stammen. Diese Felder definieren, wie die NetApp Console Ihre Abonnements mit den im Marketplace des Anbieters gespeicherten Abrechnungsinformationen verknüpft. Sie steuern außerdem die Verwaltung von Verlängerungen, regionalen Zuweisungen und Abrechnungskonten.
 
 * *Marktplatzanbieter* — Kennzeichnet die Cloud-Plattform, über die die Abrechnung erfolgt.  Der Anbieter legt die unterstützten Funktionen, Vertragsarten und Verlängerungsregeln fest.  Beispielsweise verwenden AWS Marketplace-Abonnements eine kontobasierte Abrechnung, während Azure sowohl kontobasierte als auch mandantenbasierte Modelle unterstützt.
 * *Abrechnungskonto- oder Abonnement-ID* — Gibt die eindeutige Kennung für das Konto an, das zur Zahlungsabwicklung verwendet wird.  Dadurch wird sichergestellt, dass die Nutzungsdaten dem richtigen Cloud-Abrechnungsprofil zugeordnet werden.

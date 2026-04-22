@@ -6,5 +6,5 @@ Um Lizenzen zu verwalten, können Sie Lizenzen basierend auf dem Dienstnamen gru
 
 .Schritte
 . Wählen Sie im Konsolenmenü *Administration* > * Licenses and subscriptions* und anschließend die Registerkarte *Direktlizenzen*.
-. Klicken Sie auf eine Dienstnamenzeile, um sie zu erweitern.  Hier werden alle Lizenzen angezeigt, die mit diesem Dienst in Zusammenhang stehen.  Jede erweiterte Zeile zeigt detaillierte Informationen zu den Lizenzen an, einschließlich Lizenz-ID, Seriennummer, Kapazität und Ablaufdatum.
+. Wählen Sie eine Zeile mit einem Dienstnamen aus, um sie zu erweitern. Daraufhin werden alle Lizenzen angezeigt, die mit diesem Dienst verknüpft sind. Jede erweiterte Zeile enthält detaillierte Informationen zu den Lizenzen, einschließlich Lizenz-ID, Seriennummer, Kapazität und Ablaufdatum.
 

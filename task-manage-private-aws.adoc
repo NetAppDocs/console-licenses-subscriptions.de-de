@@ -38,7 +38,7 @@ Sie müssen alle Schritte abschließen, um Ihr privates Angebot zu aktivieren. D
 
 ====
 .Schritte
-. Klicken Sie auf den Aktivierungslink für das private Angebot Ihres NetApp -Vertriebsteams. Der Link sollte ungefähr wie folgt aussehen:
+. Wählen Sie den Aktivierungslink für das private Angebot von Ihrem NetApp Vertriebsteam aus. Der Link sollte in etwa wie folgt aussehen:
 `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
 +
  If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
@@ -81,16 +81,16 @@ Bei Vertragsangeboten geben Sie bitte die vereinbarte Stückzahl an. Stellen Sie
 ====
 . Um das private Angebot anzunehmen, gehen Sie wie folgt vor:
 +
-.. Klicken Sie für die On-Demand-Nutzung auf *Abonnieren*.
-.. Bei Vertragsangeboten geben Sie die Stückzahl der einzelnen Leistungen ein und klicken auf *Vertrag erstellen*.
+.. Für die Nutzung auf Abruf wählen Sie *Abonnieren*.
+.. Bei Vertragsangeboten geben Sie die Anzahl der Einheiten für jede Dienstleistung ein und wählen Sie *Create contract*.
 
 
 . Nach der Annahme bestätigt ein Banner das Abonnement und enthält Anweisungen zur Registrierung.
-. Klicken Sie auf *Konto einrichten*. Dadurch wird eine Weiterleitung zur NetApp Console zur Konfiguration des Abonnements durchgeführt.
+. Wählen Sie *Konto einrichten*. Sie werden dann zur NetApp Console weitergeleitet, um das Abonnement zu konfigurieren.
 +
 [NOTE]
 ====
-Wenn Sie das Angebot angenommen, die Registrierung jedoch nicht abgeschlossen haben, kehren Sie zur Produktseite zurück. Klicken Sie bei Vertragslisten auf *Kaufoptionen anzeigen*, um das Angebot anzuzeigen, und wählen Sie dann *Konto einrichten*.
+Wenn Sie das Angebot angenommen, die Registrierung aber nicht abgeschlossen haben, kehren Sie zur Produktseite zurück. Bei Vertragsangeboten wählen Sie *Kaufoptionen ansehen*, um das Angebot anzuzeigen, und anschließend *Konto einrichten*.
 
 ====
 . Melden Sie sich bei https://console.netapp.com[] an.
@@ -110,8 +110,8 @@ Wenn Sie das Angebot angenommen, die Registrierung jedoch nicht abgeschlossen ha
 ====
 
 
-. Klicken Sie auf **Partner**.
-. Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen.  Klicken Sie anschließend auf **Verknüpfen**.
+. Wählen Sie **Associate** aus.
+. Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen. Wählen Sie **Zuordnen**.
 . Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.
 . Prüfen Sie die Abonnementoptionen des Marktplatzes.
 . Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.

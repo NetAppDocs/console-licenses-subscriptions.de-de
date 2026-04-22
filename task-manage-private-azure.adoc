@@ -48,17 +48,17 @@ Bei mehrmaliger Annahme und Aktivierung des Angebots kommt es zu einer doppelten
 
 ====
 .Schritte
-. Klicken Sie auf den Link zum privaten Angebot, den Sie von Ihrem NetApp Vertriebsteam erhalten haben, und melden Sie sich an. Wenn kein Link verfügbar ist, melden Sie sich direkt beim Azure-Portal an.
+. Wählen Sie den von Ihrem NetApp Vertriebsteam bereitgestellten Link zum privaten Angebot aus und melden Sie sich an. Falls kein Link verfügbar ist, melden Sie sich direkt im Azure-Portal an.
 . Suchen oder wählen Sie *Marketplace* aus den Azure-Diensten aus.
-. Klicken Sie auf der Marketplace-Seite im Abschnitt *Verwaltung* auf *Private Angebotsverwaltung*.
-. Klicken Sie auf *Anzeigen + Akzeptieren*, um die Details des privaten Angebots zu überprüfen.
+. Wählen Sie auf der Marketplace-Seite unter dem Abschnitt *Verwaltung* die Option *Private Angebotverwaltung* aus.
+. Wählen Sie *Ansehen + annehmen*, um die Details des privaten Angebots einzusehen.
 +
 .. Überprüfen Sie, ob die *Plandetails*, *Laufzeit* und *Preise* korrekt sind.
 .. Wenn die Angaben falsch sind, abonnieren Sie nicht. Wenden Sie sich an Ihr NetApp -Vertriebsteam, um das Angebot zu korrigieren.
 
 
-. Bestätigen Sie und klicken Sie auf *Privates Angebot annehmen*.
-. Klicken Sie auf *Kaufen*, um den Kaufvorgang abzuschließen.
+. Bestätigen Sie und wählen Sie *Privates Angebot annehmen*.
+. Wählen Sie *Kaufen*, um den Kaufvorgang abzuschließen.
 +
 [NOTE]
 ====
@@ -73,12 +73,12 @@ Wenn die Schaltfläche *Kaufen* nicht verfügbar ist, bestätigen Sie, dass Sie 
 
 
 . Legen Sie optional *Tags* fest (für Produkt, Standort, Workload-Definition oder Namenskonvention).
-. Klicken Sie auf *Überprüfen und abonnieren*, bestätigen Sie die Angaben und klicken Sie dann auf *Abonnieren*.
-. Wenn das Abonnement erfolgreich erstellt wurde, klicken Sie auf *Konto jetzt konfigurieren*. Dadurch werden Sie zur NetApp Console weitergeleitet, um die Konfiguration abzuschließen.
+. Wählen Sie *Überprüfen und abonnieren*, bestätigen Sie die Angaben und wählen Sie dann *Abonnieren*.
+. Sobald das Abonnement erfolgreich erstellt wurde, wählen Sie *Konto jetzt konfigurieren*. Sie werden dann zur NetApp Console weitergeleitet, um die Konfiguration abzuschließen.
 +
 [NOTE]
 ====
-Die Azure-seitige Automatisierung kann 30 Sekunden bis 5 Minuten dauern. Wenn die Seite geschlossen wurde, bevor Sie auf *Konto jetzt konfigurieren* geklickt haben, kehren Sie zum Dienst im Azure-Portal zurück. Das Abonnement wird als *Konfiguration ausstehend* angezeigt. Wählen Sie es aus, um mit der Konfiguration fortzufahren.
+Die Azure-seitige Automatisierung kann zwischen 30 Sekunden und 5 Minuten dauern. Wenn die Seite geschlossen wurde, bevor Sie *Konto jetzt konfigurieren* ausgewählt haben, kehren Sie im Azure-Portal zum Dienst zurück. Das Abonnement wird als *Konfiguration ausstehend* angezeigt. Wählen Sie es aus, um die Konfiguration fortzusetzen.
 
 ====
 . Sie werden weitergeleitet zu https://console.netapp.com[] und zur Anmeldung aufgefordert.
@@ -86,7 +86,7 @@ Die Azure-seitige Automatisierung kann 30 Sekunden bis 5 Minuten dauern. Wenn di
 +
 .. Geben Sie einen *Anzeigenamen* für das Marketplace-Abonnement ein.
 .. Wählen Sie die Console-*Organizations* aus, die Zugriff auf dieses Abonnement haben sollen.
-.. Optional können Sie *Vorhandenes Abonnement ersetzen* aktivieren, um ein bestehendes Marketplace-Abonnement in einer Console-Organisation automatisch zu ersetzen.
+.. Optional können Sie die Option *Vorhandenes Abonnement ersetzen* aktivieren, um ein bestehendes Marketplace-Abonnement in einer Console-Organisation automatisch zu ersetzen.
 +
 [NOTE]
 ====
@@ -97,8 +97,8 @@ Die Azure-seitige Automatisierung kann 30 Sekunden bis 5 Minuten dauern. Wenn di
 ====
 
 
-. Klicken Sie auf **Partner**.
-. Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen.  Klicken Sie anschließend auf **Verknüpfen**.
+. Wählen Sie **Associate** aus.
+. Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen. Wählen Sie **Zuordnen**.
 . Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.
 . Prüfen Sie die Abonnementoptionen des Marktplatzes.
 . Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.

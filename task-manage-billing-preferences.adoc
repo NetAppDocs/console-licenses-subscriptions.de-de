@@ -14,7 +14,7 @@ summary: Konfigurieren Sie die Abrechnungseinstellungen in der NetApp Console, u
 
 
 [role="lead"]
-In der NetApp Console können Sie die Abrechnungseinstellungen konfigurieren und verwalten, um zu steuern, wie Kapazitätsnutzung, Verlängerungen und Rechnungen den Konten Ihrer Organisation zugeordnet werden. Die Abrechnungseinstellungen legen fest, ob die Nutzungsgebühren aus NetApp -Lizenzen, Cloud-Marketplace-Verträgen oder Keystone Vereinbarungen stammen.
+Sie können die Abrechnungseinstellungen in der NetApp Console konfigurieren und verwalten, um festzulegen, wie Kapazitätsnutzung, Verlängerungen und Rechnungen den Konten Ihrer Organisation zugeordnet werden. Die Abrechnungseinstellungen bestimmen, ob die Nutzungsgebühren über NetApp Lizenzen, Cloud-Marketplace-Verträge oder Keystone Vereinbarungen abgerechnet werden.
 
 .Bevor Sie beginnen
 * Sie haben Zugriff auf die *Admin*-Rolle.
@@ -49,7 +49,7 @@ Sie können auswählen, wie die Konsole die Nutzungsgebühren auf die verschiede
 Die NetApp Console aktualisiert die Abrechnungszuordnungen.  Zukünftige Servicegebühren und Verlängerungen basieren nun auf der ausgewählten Konfiguration.
 
 
-NOTE: Durch die Änderung des Abrechnungsmodus ändert sich die Verteilung der Servicegebühren.  Neue Cloud Volumes ONTAP (CVO)-Instanzen übernehmen automatisch die ausgewählte Konfiguration.
+NOTE: Durch die Änderung des Abrechnungsmodus ändert sich die Verteilung der Servicegebühren. Neue Cloud Volumes ONTAP Instanzen übernehmen die ausgewählte Konfiguration automatisch.
 
 
 

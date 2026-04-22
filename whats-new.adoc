@@ -210,9 +210,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === Verbrauchte Kapazität
 
-Jetzt wird Ihnen die insgesamt verbrauchte Kapazität in Ihrem Konto und die verbrauchte Kapazität pro Lizenzpaket angezeigt. Auf diese Weise können Sie besser nachvollziehen, welche Kosten Ihnen in Rechnung gestellt werden und ob Sie zusätzliche Kapazität erwerben müssen.
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Ein Screenshot, der die Seite für kapazitätsbasierte Lizenzen zeigt. Die Seite bietet einen Überblick über die verbrauchte Kapazität in Ihrem Konto und schlüsselt die verbrauchte Kapazität anschließend nach Lizenzpaket auf."]
+Digital Wallet zeigt Ihnen jetzt die insgesamt in Ihrem Konto verbrauchte Kapazität sowie die durch das Lizenzpaket verbrauchte Kapazität an. Dies kann Ihnen helfen zu verstehen, wie Ihnen Kosten berechnet werden und ob Sie zusätzliche Kapazität erwerben müssen.
 
 
 
