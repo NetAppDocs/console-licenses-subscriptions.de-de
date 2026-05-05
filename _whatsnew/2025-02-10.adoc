@@ -24,6 +24,6 @@ Sie können jetzt die Organisation, mit der ein Abonnement verknüpft ist, direk
 
 
 
-=== Verwalten von Cloud Volume ONTAP Lizenzen
+=== Verwaltung von Cloud Volumes ONTAP licenses
 
-Sie verwalten Cloud Volumes ONTAP -Lizenzen jetzt über die Startseite oder die Registerkarte *Direktlizenzen*.  Verwenden Sie die Registerkarte *Marketplace-Abonnements*, um Ihre Abonnementinformationen anzuzeigen.
+Sie verwalten Cloud Volumes ONTAP licenses jetzt über die Startseite oder die Registerkarte *Direct licenses*. Verwenden Sie die Registerkarte *Marketplace subscriptions*, um Ihre Abonnementinformationen anzuzeigen.

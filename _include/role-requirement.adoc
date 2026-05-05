@@ -1,0 +1,5 @@
+= 
+:allow-uri-read: 
+
+
+*Erforderliche Konsolenrolle* Um diese Aufgabe auszuführen, benötigen Sie die Licenses and subscriptions admin role.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Erfahren Sie mehr über Licenses and subscriptions Rollen für die NetApp Console"^].

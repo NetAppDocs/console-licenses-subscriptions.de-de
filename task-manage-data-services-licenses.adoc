@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
 keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, bluexp, netapp console, classification, tiering, backup and recovery, disaster recovery 
-summary: 'Verwalten Sie Lizenzen, die Sie direkt von NetApp (BYOL) zur Verwendung mit NetApp -Datendiensten erworben haben.  Sie können die genutzte Lizenzkapazität und die verbleibende freie Kapazität anzeigen und erhalten Benachrichtigungen, wenn Sie das Kapazitätslimit oder das Ablaufdatum erreicht haben.' 
+summary: 'Verwalten Sie Lizenzen, die Sie direkt von NetApp (BYOL) für die Nutzung mit NetApp Datendiensten erworben haben. Sie können die genutzte Lizenzkapazität, die Kapazitätsauslastung und die bevorstehenden Ablaufdaten einsehen.' 
 ---
 = Lizenzen für NetApp -Datendienste verwalten
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Verwalten Sie Lizenzen, die Sie direkt von NetApp (BYOL) zur Verwendun
 
 
 [role="lead"]
-Sie können Lizenzen verwalten, die Sie direkt von NetApp (BYOL) zur Verwendung mit NetApp -Datendiensten, einschließlich Cloud Volumes ONTAP, erworben haben.  Sie können die genutzte Lizenzkapazität und die verbleibende freie Kapazität anzeigen und erhalten Benachrichtigungen, wenn Sie das Kapazitätslimit oder das Ablaufdatum erreichen.
+Sie können Lizenzen, die Sie direkt von NetApp (BYOL) für die Nutzung mit NetApp Datenservices, einschließlich Cloud Volumes ONTAP, erworben haben, verwalten. Sie können die genutzte Lizenzkapazität, die Kapazitätsauslastung und bevorstehende Ablaufdaten einsehen.
 
 
 NOTE: Auf der Seite *Direktlizenzen* sind alle Lizenzen aufgelistet.  Wenn Sie Lizenzdetails für einen bestimmten Datendienst wünschen, verwenden Sie die Datendienstkacheln im Dashboard *Übersicht*. link:task-homepage.html#overview-page["Weitere Informationen zum Übersichts-Dashboard"] .
@@ -39,7 +39,7 @@ Wenn Sie eine Lizenz von einem NetApp -Vertriebsmitarbeiter erwerben, erhalten S
 .Schritte
 . Suchen Sie Ihre Konsolenkonto-ID:
 +
-.. Wählen Sie oben rechts in der Konsoleimage:icon-settings-option.png["Das Einstellungssymbol, das oben rechts in der Webkonsole angezeigt wird."] > *Identitäts- und Zugriffsverwaltung*.
+.. Im Navigationsmenü der Konsole wählen Sie *Administration* > *Identität und Zugriff*.
 .. Suchen Sie auf der Organisationsseite nach Ihrer Konto-ID und kopieren Sie sie.
 +
 Wenn keine Konto-ID aufgeführt ist und Sie nur eine Organisations-ID haben, kopieren Sie die ersten acht Zeichen der Organisations-ID und hängen Sie sie an *Konto-* an
@@ -68,7 +68,7 @@ Konto-ea10e1c6
 
 == Hinzufügen einer Lizenz
 
-Lizenzinformationen werden automatisch im Abschnitt ** Licenses and subscriptions** angezeigt, wenn das mit der Lizenz verknüpfte NetApp Console auch ein NetApp Support-Site-Konto ist und über Internetzugang verfügt.  Wenn Sie ein Konsolenkonto verwendet haben, das nicht mit Ihrem NSS-Konto verknüpft ist, müssen Sie manuell eine Lizenz hinzufügen.
+Lizenzinformationen werden automatisch im Abschnitt **Licenses and subscriptions** angezeigt, wenn das mit der Lizenz verknüpfte NetApp Console-Konto auch ein NetApp Support Site-Konto ist. Wenn Sie ein Console-Konto verwendet haben, das nicht mit Ihrem NSS-Konto verknüpft ist, müssen Sie eine Lizenz manuell hinzufügen.
 
 Sie können die Lizenz in der Konsole entweder durch Eingabe der Seriennummer und des zugehörigen NSS-Kontos oder durch Hochladen der NetApp -Lizenzdatei (NLF) hinzufügen.  Sie sollten eine NetApp Lizenzdatei zum Hochladen erhalten, wenn die Konsole keinen Internetzugang hat (Installationen im privaten Modus).
 
@@ -78,7 +78,8 @@ Nachdem Sie eine Lizenz von Ihrem NetApp Vertriebsmitarbeiter erworben haben, se
 NOTE: Um die Seriennummer einzugeben, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["Fügen Sie Ihr NetApp Support Site-Konto zur Konsole hinzu"^] .  Dies ist das NetApp Support Site-Konto, das zum Zugriff auf die Seriennummer berechtigt ist.
 
 .Schritte
-. Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions* und anschließend die Registerkarte *Direktlizenzen*.
+. Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
+. Wählen Sie die Registerkarte *Direktlizenzen* aus.
 . Wählen Sie *Lizenz hinzufügen*.
 . Geben Sie im Dialogfeld *Lizenz hinzufügen* die Lizenzinformationen ein und wählen Sie *Lizenz hinzufügen*:
 +
@@ -133,4 +134,9 @@ Nachdem Sie die Zahlung abgeschlossen und die Lizenz bei der NetApp -Support-Sit
 
 == Lizenzstatus anzeigen
 
-Nicht aufgelöste Direktive in <stdin> - include::task-view-license-status.adoc[]
+Um Lizenzen zu verwalten, können Sie Lizenzen basierend auf dem Dienstnamen gruppieren.  Auf diese Weise können Sie alle Lizenzen anzeigen, die sich auf einen bestimmten Dienst beziehen.  Sie können eine Zeile erweitern, um detaillierte Informationen zu jeder Lizenz anzuzeigen, die mit dem Dienst in Zusammenhang steht.  In der Stammzeile jedes Dienstes werden der Dienstname und die für diesen Dienst verwendete Kapazität angezeigt.  Die Lizenzen werden automatisch nach Dienstnamen gruppiert.  Die Stammzeile für jeden Dienst zeigt den Dienstnamen und die für diesen Dienst verwendete Kapazität.
+
+.Schritte
+. Wählen Sie im Konsolenmenü *Administration* > * Licenses and subscriptions* und anschließend die Registerkarte *Direktlizenzen*.
+. Wählen Sie eine Zeile mit einem Dienstnamen aus, um sie zu erweitern. Daraufhin werden alle Lizenzen angezeigt, die mit diesem Dienst verknüpft sind. Jede erweiterte Zeile enthält detaillierte Informationen zu den Lizenzen, einschließlich Lizenz-ID, Seriennummer, Kapazität und Ablaufdatum.
+

@@ -13,7 +13,7 @@ summary: Verschaffen Sie sich im Übersichts-Dashboard in der Konsole einen Übe
 == Verwenden der Dashboard-Übersicht
 
 [role="lead"]
-Das *Overview*-Dashboard in der NetApp Console hilft Ihnen, den Status Ihrer Licenses and subscriptions zu überwachen, um sicherzustellen, dass Sie Kosten verwalten und den Service aufrechterhalten können, wenn subscriptions das Ablaufdatum oder Kapazitätsgrenzen erreichen.
+Das *Übersichts*-Dashboard in der NetApp Console hilft Ihnen, den Status Ihrer Lizenzen und Abonnements zu überwachen, um sicherzustellen, dass Sie die Kosten kontrollieren und den Service aufrechterhalten können, wenn Abonnements ein Ablaufdatum oder Kapazitätsgrenzen erreichen.
 
 Sie können spezifische Lizenz- und Abonnementinformationen zu jedem Ihrer Datendienste (einschließlich Cloud Volumes ONTAP) einsehen.
 
@@ -25,11 +25,11 @@ Das Licenses and subscriptions Dashboard macht Sie auf bevorstehende Kapazitäts
 
 Das Dashboard *Übersicht* enthält Details zu den folgenden Services:
 
+* Sicherung und Wiederherstellung
+* Cloud-Tiering
 * Cloud Volumes ONTAP
 * Notfallwiederherstellung
 * Ransomware-Resilienz
-* Sicherung und Wiederherstellung
-* Cloud-Tiering
 
 
 Beispielsweise können Administratoren, die mit der Verwaltung von Cloud Volumes ONTAP -Ressourcen beauftragt sind, die aktuelle Kapazität jeder Lizenz oder jedes Abonnements anzeigen, wodurch sie eine fokussierte Ansicht der Ressourcen in ihrem Zuständigkeitsbereich erhalten.
@@ -52,7 +52,7 @@ Jede Kachel bietet eine grafische Übersicht über die Kapazität.  Sie können 
 . Erweitern Sie eine beliebige Zeile, um Details zum Inhalt des Abonnements oder der Lizenz, zur erworbenen Kapazität und zu den Bedingungen anzuzeigen.
 . Verwenden Sie das Aktionsmenü, um eine bestimmte Lizenz oder ein bestimmtes Abonnement zu verwalten, z. B. um eine Lizenz zu aktualisieren oder ein Abonnement einer anderen Organisation zuzuordnen.
 +
-Sie können von der Seite *Übersicht* aus keine neuen Lizenzen oder Abonnements für einen bestimmten Dienst hinzufügen.  Sie können Lizenzen oder Abonnements nur über die Registerkarte *Direktlizenzen* bzw. *Marketplace-Abonnements* hinzufügen.
+Neue Lizenzen oder Abonnements können Sie nicht über die *Übersicht*-Seite für einen bestimmten Service hinzufügen. Sie können Lizenzen nur über den Tab *Direct licenses* oder Abonnements über den Tab *Marketplace subscriptions* hinzufügen.
 
 +
 link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen."] link:task-manage-subscriptions.html["Erfahren Sie mehr über die Verwaltung von Abonnements."]

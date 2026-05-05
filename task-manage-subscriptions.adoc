@@ -133,7 +133,7 @@ NOTE: Die Konsole unterstützt Identity and Access Management (IAM) im Standardm
 . Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
 . Wählen Sie *Marketplace-Abonnements* aus.
 . Öffnen Sie in der Zeile des Abonnements, das Sie verknüpfen möchten, das Aktionsmenü und wählen Sie dann *Verknüpfen*.
-. Wählen Sie im Dialogfeld *Abonnement zuordnen* eine oder mehrere Organisationen aus, die dem Abonnement zugeordnet werden sollen.
+. Im Dialogfeld *Abonnement zuordnen* wählen Sie die Konsolenorganisationen aus, die Sie dem Abonnement zuordnen möchten.
 . Wählen Sie *Zuordnen* aus.
 
 
@@ -149,7 +149,7 @@ NOTE: Verwenden Sie das Dropdown-Menü „Agent“ in der oberen Navigationsleis
 .Schritte
 . Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
 . Wählen Sie *Marketplace-Abonnements* aus.
-. Wählen Sie in der Zeile mit dem Abonnement, dessen Anmeldeinformationen Sie anzeigen möchten, die Option Anzeigen aus.  Wenn einem Abonnement mehrere Anmeldeinformationen zugeordnet sind, werden möglicherweise keine Anmeldeinformationen angezeigt und Sie werden aufgefordert, einen anderen Agenten auszuwählen.
+. Wählen Sie in der Zeile mit dem Abonnement, dessen Zugangsdaten Sie anzeigen möchten, die Option *Anzeigen*. Falls einem Abonnement mehrere Zugangsdaten zugeordnet sind, werden möglicherweise keine angezeigt und Sie werden aufgefordert, einen anderen Agenten auszuwählen.
 
 
 
@@ -170,23 +170,18 @@ Bevor Sie ein Abonnement entfernen können, müssen Sie es dekonfigurieren.  Dad
 
 === Entfernen eines Abonnements
 
-Wenn Sie ein Abonnement bei Ihrem Cloud-Anbieter (AWS, Google Cloud oder Azure) kündigen, zeigt die Konsole den Abonnementstatus als *Abgemeldet* an.
+Wenn Sie ein Abonnement bei Ihrem Cloud-Anbieter (AWS, Google Cloud oder Azure) kündigen, wird der Abonnementstatus in der Console als *Unsubscribed* angezeigt. Wenn Sie ein Abonnement gekündigt haben, können Sie es auch aus Licenses and subscriptions entfernen.
 
-Sie können *Abgemeldete* Abonnements aus der Konsole entfernen, sodass sie nicht mehr angezeigt werden.
+.Bevor Sie beginnen
+* Sie können nur Abonnements mit dem Status *Abgemeldet* entfernen. Alle zugehörigen Einstellungen, Daten und Konfigurationen müssen vor der Entfernung gelöscht oder zurückgesetzt werden.
++
+Wenn das Abonnement noch konfiguriert ist, ist die Option *Entfernen* nicht verfügbar.
 
-[NOTE]
-====
-Sie können nur Abonnements entfernen, die sowohl *Abgemeldet* als auch *Nicht konfiguriert* sind.  Vor der Entfernung müssen alle zugehörigen Einstellungen, Daten und Konfigurationen gelöscht oder zurückgesetzt werden.
 
-Wenn das Abonnement noch konfiguriert ist, wird die Option *Entfernen* nicht angezeigt.  Um die Option verfügbar zu machen, dekonfigurieren Sie das Abonnement, indem Sie alle zugehörigen Einstellungen, Dienste oder Daten löschen.
 
-====
 .Schritte
 . Im Menü der NetApp Console wählen Sie *Administration > Licenses and subscriptions*.
 . Wählen Sie *Marketplace-Abonnements* aus.
 . Öffnen Sie in der Zeile des Abonnements, das Sie entfernen möchten, das Aktionsmenü und wählen Sie *Entfernen*.
-+
-Sie können nur Abonnements mit dem Status *Abgemeldet* und *Nicht konfiguriert* entfernen.
-
-. Bestätigen Sie im Dialogfeld *Abonnement entfernen*, dass Sie das Abonnement entfernen möchten.
+. Im Dialogfeld *Abonnement entfernen* wählen Sie *Entfernen*, um zu bestätigen, dass Sie das Abonnement entfernen möchten.
 

@@ -24,7 +24,7 @@ Informieren Sie sich über die Neuerungen bei NetApp Console -Lizenzen und -Abon
 
 === Abrechnungseinstellungen verwalten
 
-Sie können Ihre *Abrechnungseinstellungen* jetzt direkt in der NetApp Console konfigurieren und verwalten.  Diese Erweiterung ermöglicht es Administratoren, zu definieren und einzusehen, wie Kapazitätsnutzung, Verlängerungen und Kosten über direkte NetApp Lizenzen, Cloud-Marketplace-Abonnements und Keystone Verträge abgerechnet werden.
+Sie können nun *Abrechnungseinstellungen* direkt in der NetApp Console konfigurieren und verwalten. Diese Verbesserung ermöglicht es Administratoren, die Abrechnung von Kapazitätsnutzung, Verlängerungen und Kosten über direkte NetApp Lizenzen, Cloud-Marketplace-Abonnements und Keystone Agreements hinweg zu definieren und einzusehen.
 
 Weitere Informationen finden Sie imlink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Dokumentation der Abrechnungseinstellungen"^] .
 
@@ -82,9 +82,9 @@ Sie können jetzt die Organisation, mit der ein Abonnement verknüpft ist, direk
 
 
 
-=== Verwalten von Cloud Volume ONTAP Lizenzen
+=== Verwaltung von Cloud Volumes ONTAP licenses
 
-Sie verwalten Cloud Volumes ONTAP -Lizenzen jetzt über die Startseite oder die Registerkarte *Direktlizenzen*.  Verwenden Sie die Registerkarte *Marketplace-Abonnements*, um Ihre Abonnementinformationen anzuzeigen.
+Sie verwalten Cloud Volumes ONTAP licenses jetzt über die Startseite oder die Registerkarte *Direct licenses*. Verwenden Sie die Registerkarte *Marketplace subscriptions*, um Ihre Abonnementinformationen anzuzeigen.
 
 
 

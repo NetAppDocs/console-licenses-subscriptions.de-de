@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-billing-preferences-terms.html 
 keywords: license, licensing, licenses, subscriptions, 
-summary: Mit den Lizenzen und Abonnements können Sie NetApp Console Lizenzen, NetApp Marketplace-Abonnements und NetApp Keystone verwalten und überwachen. 
+summary: Licenses and subscriptions ermöglicht es Ihnen, NetApp Console-Lizenzen, NetApp Marketplace-Abonnements und NetApp Keystone zu verwalten und zu überwachen. 
 ---
 = Begriffe und Definitionen
 :hardbreaks:
@@ -20,7 +20,7 @@ Die Abrechnungseinstellungen steuern, wie die NetApp Console Zahlungen, Rechnung
 * *Pro Abonnement* — gilt nur für einen bestimmten Marktplatz oder einen direkten Lizenzvertrag.
 
 
-Die Rechnungsquelle kann folgende sein:
+Als Abrechnungsquellen können dienen:
 
 * *Marktplatz-Abonnements* — Die Abrechnung erfolgt über AWS Marketplace, Azure Marketplace oder Google Cloud Marketplace.  Sie können das Abrechnungskonto, die Region und die Verlängerungsoptionen auswählen, die vom Cloud-Marktplatz angeboten werden.
 * *Direktlizenzen* — Die Abrechnung erfolgt über NetApp.  Sie verwalten Lizenzschlüssel, Rechnungskontakte und die automatische Verlängerung in der NetApp Console.
@@ -75,4 +75,18 @@ Mit den Abrechnungseinstellungen können Sie: - eine einheitliche Rechnungskonta
 
 == Typische Konfigurationspfade
 
-| Szenario | Empfohlene Abrechnungsoption | |-----------|-----------------------------| | Nutzung gekaufter NetApp Kapazität | NetApp Lizenzen zuerst | | Nutzung ausschließlich von Marketplace-Verträgen | Nur Marketplace-Abonnements | | Abrechnung mehrerer Projekte unter einem Cloud-Anbieter | Benutzerdefinierte CVO-Konfiguration aktivieren | | Rückkehr zur Standardabrechnung | Benutzerdefinierte CVO-Konfiguration deaktivieren |
+|===
+| Szenario | Empfohlene Abrechnungsoption |  
+
+
+| Nutzung der gekauften NetApp Kapazität | NetApp licenses zuerst |  
+
+
+| Ausschließlich Marktplatzverträge verwenden | Nur Marketplace-Abonnements |  
+
+
+| Abrechnung mehrerer Projekte über einen Cloud-Anbieter | Benutzerdefinierte CVO-Konfiguration aktivieren |  
+
+
+| Rückkehr zur Standardabrechnung | Benutzerdefinierte CVO-Konfiguration deaktivieren |  
+|===

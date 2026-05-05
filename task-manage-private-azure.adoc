@@ -44,7 +44,7 @@ Sie müssen alle Schritte abschließen, um Ihr privates Angebot anzunehmen und z
 
 Wenn Sie Unstimmigkeiten in den Angebotsbedingungen, Preisen oder Details feststellen oder unsicher sind, welches Angebot Sie annehmen sollen, nehmen Sie das Angebot nicht an. Wenden Sie sich an Ihr NetApp -Vertriebsteam.
 
-Bei mehrmaliger Annahme und Aktivierung des Angebots kommt es zu einer doppelten Abrechnung.
+Wenn Sie das Angebot mehrfach annehmen und aktivieren, kann dies zu einer doppelten Abbuchung führen.
 
 ====
 .Schritte
@@ -99,11 +99,11 @@ Die Azure-seitige Automatisierung kann zwischen 30 Sekunden und 5 Minuten dauern
 
 . Wählen Sie **Associate** aus.
 . Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen. Wählen Sie **Zuordnen**.
-. Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.
+. Nachdem Sie das Abonnement verknüpft haben, wählen Sie die Registerkarte **Abrechnungseinstellungen** aus.
 . Prüfen Sie die Abonnementoptionen des Marktplatzes.
 . Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.
 . Wählen Sie **Änderungen speichern**.
 . Wiederholen Sie diese Schritte nach Bedarf, wenn mehrere Abonnements bei mehreren Cloud-Anbietern bestehen.
 
 
-Weitere Informationen zu Marktplatz-Abonnements und der Abrechnung von Direktlizenzen finden Sie unter link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Dokumentation der Abrechnungseinstellungen"]Die
+Weitere Informationen zu Marktplatz-Abonnements und zur Abrechnung von Direktlizenzen finden Sie unter link:concept-billing-preferences.html["Erfahren Sie mehr über die Abrechnungseinstellungen für Lizenzen und Abonnements."].

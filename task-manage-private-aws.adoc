@@ -32,16 +32,17 @@ Akzeptieren Sie ein privates Marketplace-Angebot für die NetApp Console im AWS 
 
 Um den Kauf zu aktivieren und den ermäßigten Preis anzuwenden, muss die Abonnementzuweisung in der Konsole abgeschlossen werden.
 
-[NOTE]
-====
-Sie müssen alle Schritte abschließen, um Ihr privates Angebot zu aktivieren. Das Überspringen von Schritten kann zu Abrechnungsfehlern führen. Bei mehrmaliger Annahme und Aktivierung des Angebots kommt es zu einer doppelten Abrechnung.
 
-====
+NOTE: Sie müssen alle Schritte abschließen, um Ihr privates Angebot zu aktivieren. Das Überspringen von Schritten kann zu Abrechnungsfehlern führen. Das mehrfache Annehmen und Aktivieren des Angebots kann zu einer doppelten Abbuchung führen.
+
 .Schritte
-. Wählen Sie den Aktivierungslink für das private Angebot von Ihrem NetApp Vertriebsteam aus. Der Link sollte in etwa wie folgt aussehen:
-`https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
+. Wählen Sie den Aktivierungslink für das private Angebot von Ihrem NetApp Vertriebsteam aus.
 +
- If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
+Der Link sollte in etwa wie folgt aussehen: `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
+
++
+Falls Sie den Link nicht erhalten haben, können Sie private Angebote in der AWS Marketplace-Konsole einsehen. Folgende Berechtigungen sind erforderlich:
+
 +
 ** Verwenden von AWS-verwalteten Richtlinien: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* oder *AWSMarketplaceFullAccess*
 ** Verwenden benutzerdefinierter IAM-Richtlinien: `aws-marketplace:ListPrivateListings` Und `aws-marketplace:ViewSubscriptions`
@@ -49,11 +50,9 @@ Sie müssen alle Schritte abschließen, um Ihr privates Angebot zu aktivieren. D
 
 . Sie werden zum AWS Marketplace weitergeleitet, um das private Angebot anzuzeigen.
 +
-[NOTE]
-====
-Private Angebote werden zusätzlich zu öffentlichen Angeboten erstellt. Verwenden Sie das Dropdown-Menü *Angebotsauswahl*, um zwischen öffentlichen und privaten Angeboten zu wechseln.
 
-====
+NOTE: Private Angebote werden zusätzlich zu öffentlichen Angeboten erstellt. Verwenden Sie das Dropdown-Menü *Angebotsauswahl*, um zwischen öffentlichen und privaten Angeboten zu wechseln.
+
 . Überprüfen Sie die Details des privaten Angebots und bestätigen Sie, dass sie mit Ihrer Vereinbarung übereinstimmen. Wenn sie falsch sind, akzeptieren Sie sie nicht. Wenden Sie sich an Ihr NetApp -Account-Team.
 +
 [NOTE]
@@ -112,7 +111,7 @@ Wenn Sie das Angebot angenommen, die Registrierung aber nicht abgeschlossen habe
 
 . Wählen Sie **Associate** aus.
 . Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen. Wählen Sie **Zuordnen**.
-. Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.
+. Nachdem Sie das Abonnement verknüpft haben, wählen Sie die Registerkarte **Abrechnungseinstellungen** aus.
 . Prüfen Sie die Abonnementoptionen des Marktplatzes.
 . Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.
 . Wählen Sie **Änderungen speichern**.

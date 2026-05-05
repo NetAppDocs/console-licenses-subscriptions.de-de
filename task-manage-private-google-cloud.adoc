@@ -90,7 +90,7 @@ Wenn Sie bereits über ein aktives PAYGO-Abonnement oder ein geändertes private
 
 . Wählen Sie **Associate** aus.
 . Füllen Sie das Formular aus, um das Abonnement Ihrer Console-Organisation zuzuordnen. Wählen Sie **Zuordnen**.
-. Nachdem Sie das Abonnement verknüpft haben, navigieren Sie zum Tab **Abrechnungseinstellungen** und wählen Sie diesen aus.
+. Nachdem Sie das Abonnement verknüpft haben, wählen Sie die Registerkarte **Abrechnungseinstellungen** aus.
 . Prüfen Sie die Abonnementoptionen des Marktplatzes.
 . Wählen Sie das Marketplace-Abonnement aus, das Sie abrechnen möchten.  Dies gilt nur, wenn es mehr als eine Option gibt.
 . Wählen Sie **Änderungen speichern**.

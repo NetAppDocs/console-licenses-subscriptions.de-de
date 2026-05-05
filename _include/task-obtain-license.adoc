@@ -9,7 +9,7 @@ Wenn Sie eine Lizenz von einem NetApp -Vertriebsmitarbeiter erwerben, erhalten S
 .Schritte
 . Suchen Sie Ihre Konsolenkonto-ID:
 +
-.. Wählen Sie oben rechts in der Konsoleimage:icon-settings-option.png["Das Einstellungssymbol, das oben rechts in der Webkonsole angezeigt wird."] > *Identitäts- und Zugriffsverwaltung*.
+.. Im Navigationsmenü der Konsole wählen Sie *Administration* > *Identität und Zugriff*.
 .. Suchen Sie auf der Organisationsseite nach Ihrer Konto-ID und kopieren Sie sie.
 +
 Wenn keine Konto-ID aufgeführt ist und Sie nur eine Organisations-ID haben, kopieren Sie die ersten acht Zeichen der Organisations-ID und hängen Sie sie an *Konto-* an
