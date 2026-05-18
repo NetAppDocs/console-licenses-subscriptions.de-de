@@ -2,7 +2,7 @@
 :allow-uri-read: 
 
 
-Lizenzinformationen werden automatisch im Abschnitt **Licenses and subscriptions** angezeigt, wenn das mit der Lizenz verknüpfte NetApp Console-Konto auch ein NetApp Support Site-Konto ist. Wenn Sie ein Console-Konto verwendet haben, das nicht mit Ihrem NSS-Konto verknüpft ist, müssen Sie eine Lizenz manuell hinzufügen.
+Lizenzinformationen werden automatisch im Abschnitt **Licenses and subscriptions** angezeigt, wenn das mit der Lizenz verknüpfte NetApp Console-Konto auch ein NetApp Support Site-Konto ist und über Internetzugang verfügt. Wenn Sie ein Console-Konto verwendet haben, das nicht mit Ihrem NSS-Konto verknüpft ist, müssen Sie eine Lizenz manuell hinzufügen.
 
 Sie können die Lizenz in der Konsole entweder durch Eingabe der Seriennummer und des zugehörigen NSS-Kontos oder durch Hochladen der NetApp -Lizenzdatei (NLF) hinzufügen.  Sie sollten eine NetApp Lizenzdatei zum Hochladen erhalten, wenn die Konsole keinen Internetzugang hat (Installationen im privaten Modus).
 

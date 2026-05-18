@@ -17,10 +17,11 @@ summary: Konfigurieren Sie die Abrechnungseinstellungen in der NetApp Console, u
 Sie können die Abrechnungseinstellungen in der NetApp Console konfigurieren und verwalten, um festzulegen, wie Kapazitätsnutzung, Verlängerungen und Rechnungen den Konten Ihrer Organisation zugeordnet werden. Die Abrechnungseinstellungen bestimmen, ob die Nutzungsgebühren über NetApp Lizenzen, Cloud-Marketplace-Verträge oder Keystone Vereinbarungen abgerechnet werden.
 
 .Bevor Sie beginnen
-* Sie haben Zugriff auf die *Admin*-Rolle.
 * Alle relevanten Marktplatz-Abonnements sind mit Ihrer Organisation verknüpft.
 * Sie haben die bestehende Konfiguration für *Lizenzen und Abonnements* überprüft.
 
+
+*Erforderliche Konsolenrolle* Um diese Aufgabe auszuführen, benötigen Sie die Licenses and subscriptions admin role.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Erfahren Sie mehr über Licenses and subscriptions Rollen für die NetApp Console"^].
 
 
 
@@ -39,10 +40,10 @@ Sie können auswählen, wie die Konsole die Nutzungsgebühren auf die verschiede
 
 . Unter *Marketplace subscriptions* wählen Sie das Abonnement für jeden Cloud-Anbieter (AWS, Azure und Google Cloud) aus.
 . Wenn Sie mehrere Abonnements unter einem einzigen Cloud-Anbieter verwenden, aktivieren Sie die *Benutzerdefinierte CVO-Konfiguration*.
-. (Optional) *Rechnungskontakte* und *Benachrichtigungskontakte* aktualisieren.
-. (Optional) Geben Sie ein *Kostenstellen-Tag* ein, um die Abrechnung internen Buchhaltungscodes zuzuordnen.
+. Optional können Sie *Rechnungskontakte* und *Benachrichtigungskontakte* aktualisieren.
+. Optional können Sie ein *Kostenstellen-Tag* eingeben, um die Abrechnung mit internen Buchhaltungscodes zu verknüpfen.
 . Wählen Sie *Änderungen speichern*.
-. Wenn Sie dazu aufgefordert werden, überprüfen Sie den Bestätigungsdialog und wählen Sie *Bestätigen*.
+. Wenn Sie dazu aufgefordert werden, lesen Sie den Bestätigungsdialog und wählen Sie dann *Bestätigen*.
 
 
 .Ergebnis

@@ -23,6 +23,8 @@ Wenn Sie NetApp -Datendienste (einschließlich Cloud Volumes ONTAP) über den Ma
 
 NOTE: Auf der Seite *Marketplace-Abonnements* sind alle Lizenzen aufgelistet.  Lizenzdetails für einen bestimmten Datendienst erhalten Sie über die Datendienstkacheln im Dashboard „Übersicht“. link:task-homepage.html#overview-page["Weitere Informationen zum Übersichts-Dashboard"] .
 
+*Erforderliche Konsolenrolle* Um diese Aufgabe auszuführen, benötigen Sie die Licenses and subscriptions admin role.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Erfahren Sie mehr über Licenses and subscriptions Rollen für die NetApp Console"^].
+
 
 
 == Ein neues Marktplatz-Abonnement hinzufügen
@@ -150,20 +152,6 @@ NOTE: Verwenden Sie das Dropdown-Menü „Agent“ in der oberen Navigationsleis
 . Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
 . Wählen Sie *Marketplace-Abonnements* aus.
 . Wählen Sie in der Zeile mit dem Abonnement, dessen Zugangsdaten Sie anzeigen möchten, die Option *Anzeigen*. Falls einem Abonnement mehrere Zugangsdaten zugeordnet sind, werden möglicherweise keine angezeigt und Sie werden aufgefordert, einen anderen Agenten auszuwählen.
-
-
-
-
-=== Aufheben der Konfiguration eines Abonnements
-
-Bevor Sie ein Abonnement entfernen können, müssen Sie es dekonfigurieren.  Dadurch werden alle zugehörigen Daten und Einstellungen gelöscht.
-
-.Schritte
-. Im Menü der NetApp Console wählen Sie *Administration > Licenses and subscriptions*.
-. Wählen Sie *Marketplace-Abonnements* aus.
-. Wählen Sie in der Zeile des Abonnements, das Sie deaktivieren möchten, das Aktionsmenü und dann *Deaktivieren*.
-. Folgen Sie den Anweisungen, um alle zugehörigen Einstellungen oder Daten zu entfernen oder zurückzusetzen.
-. Warten Sie, bis der Status auf *Nicht konfiguriert* aktualisiert wird.
 
 
 

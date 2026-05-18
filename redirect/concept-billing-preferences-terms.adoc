@@ -37,11 +37,17 @@ Sie benötigen die Rolle *Account Admin* oder *Billing Admin*, um Abrechnungsein
 
 == Abrechnungseinstellungen festlegen
 
-Mit den Abrechnungseinstellungen können Sie: - eine einheitliche Rechnungskontaktliste für alle Dienste erzwingen, - die Nutzung Kostenstellen zuordnen, - automatische Verlängerungs- und Ablaufbenachrichtigungen verwalten, - sicherstellen, dass neue Cloud Volumes ONTAP (CVO)-Systeme das richtige Abrechnungskonto übernehmen.
+Mit den Abrechnungseinstellungen können Sie Folgendes tun:
+
+* Eine einheitliche Rechnungskontaktliste für alle Dienste erzwingen,
+* Nutzung den Kostenstellen zuordnen,
+* automatische Verlängerung und Ablaufbenachrichtigungen verwalten,
+* Stellen Sie sicher, dass neue Cloud Volumes ONTAP (CVO)-Systeme das korrekte Abrechnungskonto übernehmen.
 
 
 
-= Abrechnungsfelder
+
+== Abrechnungsfelder
 
 
 
@@ -54,7 +60,7 @@ Mit den Abrechnungseinstellungen können Sie: - eine einheitliche Rechnungskonta
 
 
 
-= Abrechnungsoptionen und Definitionen
+== Abrechnungsoptionen und Definitionen
 
 
 
@@ -76,17 +82,17 @@ Mit den Abrechnungseinstellungen können Sie: - eine einheitliche Rechnungskonta
 == Typische Konfigurationspfade
 
 |===
-| Szenario | Empfohlene Abrechnungsoption |  
+| Szenario | Empfohlene Abrechnungsoption 
 
 
-| Nutzung der gekauften NetApp Kapazität | NetApp licenses zuerst |  
+| Nutzung der gekauften NetApp Kapazität | NetApp licenses zuerst 
 
 
-| Ausschließlich Marktplatzverträge verwenden | Nur Marketplace-Abonnements |  
+| Ausschließlich Marktplatzverträge verwenden | Nur Marketplace-Abonnements 
 
 
-| Abrechnung mehrerer Projekte über einen Cloud-Anbieter | Benutzerdefinierte CVO-Konfiguration aktivieren |  
+| Abrechnung mehrerer Projekte über einen Cloud-Anbieter | Benutzerdefinierte CVO-Konfiguration aktivieren 
 
 
-| Rückkehr zur Standardabrechnung | Benutzerdefinierte CVO-Konfiguration deaktivieren |  
+| Rückkehr zur Standardabrechnung | Benutzerdefinierte CVO-Konfiguration deaktivieren 
 |===

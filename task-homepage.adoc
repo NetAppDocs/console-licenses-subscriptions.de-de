@@ -71,6 +71,8 @@ Im Übersichts-Dashboard können Sie Lizenz- und Abonnementprobleme einsehen, di
 . Wählen Sie auf der Seite *Aktion erforderlich* entweder die Registerkarte *Lizenzen* oder die Registerkarte *Abonnements* aus.
 . Verwenden Sie das Aktionsmenü, um das Problem zu beheben.
 +
-link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen"]. link:task-manage-subscriptions.html["Weitere Informationen zum Verwalten von Abonnements"].
+** link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwaltung von Lizenzen"].
+** link:task-manage-subscriptions.html["Weitere Informationen zum Verwalten von Abonnements"].
+
 
 
