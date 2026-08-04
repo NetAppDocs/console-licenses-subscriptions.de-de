@@ -10,6 +10,8 @@ summary: Verschaffen Sie sich im Übersichts-Dashboard in der Konsole einen Übe
 
 
 
+[[use-the-dashboard-overview]]
+[[overview-page]]
 == Verwenden der Dashboard-Übersicht
 
 [role="lead"]
@@ -21,6 +23,7 @@ Das Licenses and subscriptions Dashboard macht Sie auf bevorstehende Kapazitäts
 
 
 
+[[view-details-about-a-specific-data-service]]
 === Details zu einem bestimmten Datendienst anzeigen
 
 Das Dashboard *Übersicht* enthält Details zu den folgenden Services:
@@ -61,6 +64,7 @@ link:task-manage-data-services-licenses.html["Erfahren Sie mehr über die Verwal
 
 
 
+[[resolve-license-or-subscription-issues]]
 === Beheben von Lizenz- oder Abonnementproblemen
 
 Im Übersichts-Dashboard können Sie Lizenz- und Abonnementprobleme einsehen, die gelöst werden müssen. Zu den Problemen gehören Lizenzen und Abonnements, die ablaufen oder ihre Kapazitätsgrenze erreichen.

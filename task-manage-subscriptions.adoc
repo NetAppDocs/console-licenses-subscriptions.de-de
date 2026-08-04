@@ -27,6 +27,7 @@ NOTE: Auf der Seite *Marketplace-Abonnements* sind alle Lizenzen aufgelistet.  L
 
 
 
+[[add-a-new-marketplace-subscription]]
 == Ein neues Marktplatz-Abonnement hinzufügen
 
 Sie können ein Marktplatz-Abonnement direkt über die Konsole abonnieren.
@@ -46,6 +47,7 @@ Sie können ein Marktplatz-Abonnement direkt über die Konsole abonnieren.
 
 
 
+[[view-your-subscriptions]]
 == Ihre Abonnements anzeigen
 
 Sie können Details zu jedem PAYGO-Abonnement und Jahresvertrag anzeigen, der mit Ihrer Konsolenorganisation oder Ihrem Konsolenkonto verknüpft ist.
@@ -91,6 +93,7 @@ Verträge::
 
 
 
+[[rename-a-subscription]]
 == Umbenennen eines Abonnements
 
 Sie können ein Abonnement umbenennen, um besser zu identifizieren, wie es von Ihrer Organisation verwendet wird.
@@ -103,6 +106,7 @@ Sie können ein Abonnement umbenennen, um besser zu identifizieren, wie es von I
 
 
 
+[[configure-a-subscription-with-a-provider-credential]]
 == Konfigurieren eines Abonnements mit Anbieteranmeldeinformationen
 
 Abonnements werden normalerweise mit den Anbieteranmeldeinformationen konfiguriert, die Sie beim Abonnieren erstellt haben.  In einigen Fällen müssen Sie ein Abonnement möglicherweise neu konfigurieren, um andere Anmeldeinformationen zu verwenden und so die Abrechnungsmethode zu ändern.  Die Anmeldeinformationen, die Sie einem Abonnement zuordnen, müssen auch einem Agenten zugeordnet sein.
@@ -120,6 +124,7 @@ Die Option „Konfigurieren“ ist ausgegraut, wenn Sie ein Abonnement gekündig
 
 
 
+[[associate-a-subscription-with-a-console-organization]]
 == Zuordnen eines Abonnements zu einer Konsolenorganisation
 
 Durch die Verknüpfung eines Abonnements mit einer Organisation wird sichergestellt, dass Mitglieder dieser Organisation dieses Abonnement zum Aufladen verwenden können.
@@ -141,6 +146,7 @@ NOTE: Die Konsole unterstützt Identity and Access Management (IAM) im Standardm
 
 
 
+[[view-credentials-associated-with-a-subscription]]
 == Anzeigen der mit einem Abonnement verknüpften Anmeldeinformationen
 
 Sie können die Anmeldeinformationen für ein bestimmtes Abonnement auf der Seite *Marketplace-Abonnements* anzeigen.  So können Sie überprüfen, wie das Abonnement abgerechnet wird.  Da die Anmeldeinformationen an den von Ihnen verwendeten Agenten gebunden sind, müssen Sie den Agenten auswählen, der dem Abonnement zugeordnet ist, das Sie anzeigen möchten.
@@ -156,6 +162,7 @@ NOTE: Verwenden Sie das Dropdown-Menü „Agent“ in der oberen Navigationsleis
 
 
 
+[[remove-a-subscription]]
 === Entfernen eines Abonnements
 
 Wenn Sie ein Abonnement bei Ihrem Cloud-Anbieter (AWS, Google Cloud oder Azure) kündigen, wird der Abonnementstatus in der Console als *Unsubscribed* angezeigt. Wenn Sie ein Abonnement gekündigt haben, können Sie es auch aus Licenses and subscriptions entfernen.

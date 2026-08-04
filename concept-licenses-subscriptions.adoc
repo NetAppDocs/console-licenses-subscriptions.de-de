@@ -18,6 +18,7 @@ Sie können von NetApp erworbene Lizenzen (BYOL), Marktplatzabonnements für Net
 
 
 
+[[how-licenses-and-subscriptions-display-in-the-console]]
 == So werden Lizenzen und Abonnements in der Konsole angezeigt
 
 Lizenz- und Abonnementinformationen werden automatisch in der Konsole angezeigt, wenn Ihr Konsolenkonto auch mit einem NetApp Support Site (NSS)-Konto verknüpft ist.  Wenn Ihr Konsolenkonto nicht mit einem NSS-Konto verknüpft ist, müssen Sie Lizenzen manuell hinzufügen.  Wenn Lizenzen manuell hinzugefügt werden, werden Nutzung, Kapazität und andere Details nicht automatisch aktualisiert.
@@ -27,12 +28,14 @@ NOTE: Zum Anzeigen von Abonnementinformationen muss ein Konsolenagent bereitgest
 
 
 
+[[automatic-license-discovery]]
 === Automatische Lizenzerkennung
 
 Die Konsole fragt automatisch den NetApp -Lizenzierungsdienst ab, um Lizenzdetails zu erhalten, die mit Ihrem NetApp Support-Site-Konto verknüpft sind.  Wenn die Abfrage erfolgreich ist, fügt die Konsole die Lizenzen automatisch hinzu.
 
 
 
+[[manual-license-addition]]
 === Manuelles Hinzufügen einer Lizenz
 
 Wenn die Konsole keine Lizenzen automatisch hinzufügen kann, müssen Sie sie manuell hinzufügen.  Dies tritt auf, wenn Ihr Konsolenkonto nicht mit Ihrem NetApp Support Site-Konto verknüpft ist.
@@ -43,6 +46,7 @@ https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[
 
 
 
+[[supported-services]]
 == Unterstützte Dienste
 
 Sie können Lizenzen und Abonnements für die folgenden Dienste in der Konsole verwalten:

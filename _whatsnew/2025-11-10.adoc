@@ -4,6 +4,7 @@
 
 
 
+[[manage-billing-preferences]]
 === Abrechnungseinstellungen verwalten
 
 Sie können nun *Abrechnungseinstellungen* direkt in der NetApp Console konfigurieren und verwalten. Diese Verbesserung ermöglicht es Administratoren, die Abrechnung von Kapazitätsnutzung, Verlängerungen und Kosten über direkte NetApp Lizenzen, Cloud-Marketplace-Abonnements und Keystone Agreements hinweg zu definieren und einzusehen.

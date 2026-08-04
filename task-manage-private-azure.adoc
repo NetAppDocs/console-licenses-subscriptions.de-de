@@ -34,6 +34,7 @@ Akzeptieren und abonnieren Sie ein privates Marketplace-Angebot für die NetApp 
 
 
 
+[[accept-and-subscribe-to-the-private-offer-in-the-azure-portal]]
 == Akzeptieren und Abonnieren des privaten Angebots im Azure-Portal
 
 Ein Azure-Abonnement kann nur mit einem Marketplace-Abonnement verknüpft werden. Wenn Sie zwei verschiedene Marketplace-Abonnements für Workloads im selben Azure-Abonnement verwenden möchten, müssen Sie zwei separate Konsolenkonten erstellen – eines für jedes Abonnement.  Wenn Sie über mehrere Cloud Volumes ONTAP Instanzen verfügen und die Abrechnung auf verschiedene Abonnements aufteilen möchten, erstellen Sie für jedes Abonnement separate Konsolenkonten.

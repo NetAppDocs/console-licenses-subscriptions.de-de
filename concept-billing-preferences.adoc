@@ -24,6 +24,7 @@ Sie können je nach Ihrem Beschaffungsmodell konfigurieren, wie Ihre Organisatio
 
 
 
+[[permissions]]
 == Berechtigungen
 
 Die Verwaltung von Lizenzen und Abonnements innerhalb der NetApp Console wird über Benutzerrollen gesteuert. Diese Rollen bieten unterschiedliche Zugriffsebenen, die bestimmte Aktionen ermöglichen oder einschränken, die Benutzer für diese Funktion durchführen können.
@@ -54,6 +55,7 @@ Benutzer mit dieser Rolle haben nur Lesezugriff. Nutzer des Viewers können:
 |===
 
 
+[[billing-preferences]]
 == Abrechnungseinstellungen
 
 Die Abrechnungseinstellungen gewährleisten, dass Nutzungsgebühren und Verlängerungen korrekt berechnet werden.  Durch die korrekte Konfiguration werden Abrechnungsstreitigkeiten reduziert und die Verwaltung hybrider Lizenzmodelle, die NetApp-eigene und auf dem Marktplatz erworbene Kapazitäten kombinieren, wird vereinfacht.
@@ -71,12 +73,14 @@ Von dort aus können Sie:
 
 
 
+[[fields]]
 == Felder
 
 In den Abrechnungsfeldern werden Metadaten darüber gespeichert, wie die einzelnen Lizenzen oder Abonnements abgerechnet werden.  Sie beschreiben, wem die Rechnung gestellt wird, wie Verlängerungen erfolgen und zu welchem Konto oder Kostenstellenbereich die jeweilige Dienstleistung gehört.
 
 
 
+[[marketplace-fields]]
 === Marktplatzfelder
 
 Die Felder im Marketplace beschreiben Verträge, die von Cloud-Anbietern wie AWS, Azure oder Google Cloud stammen. Diese Felder definieren, wie die NetApp Console Ihre Abonnements mit den im Marketplace des Anbieters gespeicherten Abrechnungsinformationen verknüpft. Sie steuern außerdem die Verwaltung von Verlängerungen, regionalen Zuweisungen und Abrechnungskonten.
@@ -88,12 +92,14 @@ Die Felder im Marketplace beschreiben Verträge, die von Cloud-Anbietern wie AWS
 
 
 
+[[direct-license-fields]]
 === Direktlizenzfelder
 
 Direkte Lizenzfelder gelten für von NetApp verwaltete Verträge, die direkt und nicht über einen Cloud-Marktplatz erworben wurden.  Sie legen fest, wie NetApp Ihnen Rechnungen stellt, wohin die Gebühren gesendet werden und welche juristische Person auf der Rechnung erscheint.  Diese Felder sind für Organisationen, die mit Bestellungen oder zentralisierter Unternehmensabrechnung arbeiten, von entscheidender Bedeutung.
 
 
 
+[[keystone-fields]]
 === Keystone Felder
 
 Keystone Felder gelten für die Nutzung im Rahmen eines NetApp Keystone Abonnementvertrags.  Sie ermöglichen es Ihnen, die gemessene Servicenutzung mit Ihrem Keystone Abrechnungsprofil zu verknüpfen und so die Abonnementdaten mit anderen kapazitätsbasierten Lizenzmodellen in Einklang zu bringen.
@@ -104,12 +110,14 @@ Keystone Felder gelten für die Nutzung im Rahmen eines NetApp Keystone Abonneme
 
 
 
+[[billing-options-and-definitions]]
 == Abrechnungsoptionen und Definitionen
 
 Die Abrechnungsoptionen legen fest, wie die NetApp Console die Nutzungsgebühren priorisiert und anwendet, wenn mehrere Abrechnungsquellen angeschlossen sind.  Sie steuern, welches Konto zuerst belastet wird und wie die Abrechnung zwischen NetApp Lizenzen und Marketplace-Abonnements umgeschaltet wird, wenn die Kapazitätsgrenzen erreicht sind.
 
 
 
+[[terms-and-options]]
 === Bedingungen und Optionen
 
 Sie können je nach Beschaffungsstrategie Ihres Unternehmens zwischen verschiedenen Abrechnungsmodi wählen:
@@ -124,6 +132,7 @@ Sie können je nach Beschaffungsstrategie Ihres Unternehmens zwischen verschiede
 
 
 
+[[typical-configuration-paths]]
 === Typische Konfigurationspfade
 
 Die folgenden Beispiele veranschaulichen, wie unterschiedliche Abrechnungsmodelle mit gängigen Anwendungsfällen übereinstimmen:

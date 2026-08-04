@@ -25,6 +25,7 @@ Sie können die Abrechnungseinstellungen in der NetApp Console konfigurieren und
 
 
 
+[[set-billing-preferences]]
 == Abrechnungseinstellungen festlegen
 
 Sie können auswählen, wie die Konsole die Nutzungsgebühren auf die verschiedenen Abrechnungsquellen aufteilt.  Hierdurch wird festgelegt, welche Konten zuerst belastet werden und wie Verlängerungen abgewickelt werden.
@@ -54,6 +55,7 @@ NOTE: Durch die Änderung des Abrechnungsmodus ändert sich die Verteilung der S
 
 
 
+[[enable-custom-cloud-volumes-ontap-configuration]]
 == Aktivieren Sie die benutzerdefinierte Cloud Volumes ONTAP Konfiguration
 
 Sie können nun einzelnen Cloud Volumes ONTAP-Instanzen desselben Cloud-Anbieters spezifische Marketplace-Abonnements zuweisen. Verwenden Sie diesen Modus, wenn Ihr Unternehmen unterschiedliche Abrechnungskonten für separate Geschäftsbereiche oder Umgebungen verwaltet.
@@ -73,6 +75,7 @@ WARNING: Nach der Aktivierung dieser Option kann die benutzerdefinierte Cloud Vo
 
 
 
+[[edit-marketplace-configuration]]
 == Marktplatzkonfiguration bearbeiten
 
 Sie können die Konfigurationsdetails des Marktplatzes bearbeiten, um Abonnements mit Cloud-Projekten zu verknüpfen oder Vertragsinformationen zu aktualisieren.
@@ -98,6 +101,7 @@ TIP: Um ein Abonnement mehreren Cloud-Projekten zuzuordnen, muss zunächst die *
 
 
 
+[[confirm-or-revert-billing-changes]]
 == Rechnungsänderungen bestätigen oder rückgängig machen
 
 Jede Aktualisierung der Abrechnungseinstellungen erfordert eine Bestätigung, um versehentliche Änderungen zu vermeiden.

@@ -25,6 +25,7 @@ Die Konsole zeigt Details zu lokalen ONTAP Clustern an, die Sie als Systeme erka
 
 
 
+[[view-cluster-information-and-contract-details]]
 == Clusterinformationen und Vertragsdetails anzeigen
 
 Zeigen Sie den Status der Hardware- und Softwareverträge für Ihre lokalen ONTAP Cluster an, damit Sie sie vor Ablauf verlängern können.
@@ -44,6 +45,7 @@ Wenn Sie aufgefordert werden, zuerst die Anmeldeinformationen Ihres NetApp Suppo
 
 
 
+[[discover-clusters]]
 == Cluster entdecken
 
 Wenn Sie keinen lokalen ONTAP Cluster als System erkannt haben, können Sie dies über die Konsole tun.  Nach der Erkennung steht Ihnen ein Cluster als System zur Verfügung, sodass Sie ihn verwalten können.

@@ -29,12 +29,14 @@ Als Abrechnungsquellen können dienen:
 
 
 
+[[permissions]]
 == Berechtigungen
 
 Sie benötigen die Rolle *Account Admin* oder *Billing Admin*, um Abrechnungseinstellungen zu ändern. Operatoren können die Einstellungen einsehen, aber nicht bearbeiten.
 
 
 
+[[set-billing-preferences]]
 == Abrechnungseinstellungen festlegen
 
 Mit den Abrechnungseinstellungen können Sie Folgendes tun:
@@ -47,10 +49,12 @@ Mit den Abrechnungseinstellungen können Sie Folgendes tun:
 
 
 
+[[billing-fields]]
 == Abrechnungsfelder
 
 
 
+[[marketplace-fields]]
 == Marktplatzfelder
 
 * *Marktplatzanbieter* — AWS, Azure oder Google Cloud.
@@ -60,10 +64,12 @@ Mit den Abrechnungseinstellungen können Sie Folgendes tun:
 
 
 
+[[billing-options-and-definitions]]
 == Abrechnungsoptionen und Definitionen
 
 
 
+[[terms-and-options]]
 == Bedingungen und Optionen
 
 * **NetApp licenses first** — Abrechnung auf Basis aktiver NetApp-Lizenzen. Zusätzliche Nutzung erfolgt über den Marktplatz.
@@ -79,6 +85,7 @@ Mit den Abrechnungseinstellungen können Sie Folgendes tun:
 
 
 
+[[typical-configuration-paths]]
 == Typische Konfigurationspfade
 
 |===

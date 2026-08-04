@@ -32,6 +32,7 @@ Die Anweisungen auf dieser Seite enthalten Informationen, die für jeden Dienst 
 
 
 
+[[obtain-a-license-file]]
 == Erhalten Sie eine Lizenzdatei
 
 Sie sollten eine NetApp Lizenzdatei zum Hochladen erhalten, wenn die Konsole keinen Internetzugang hat (Installationen im privaten Modus).
@@ -68,6 +69,7 @@ Konto-ea10e1c6
 
 
 
+[[add-a-license]]
 == Hinzufügen einer Lizenz
 
 Lizenzinformationen werden automatisch im Abschnitt **Licenses and subscriptions** angezeigt, wenn das mit der Lizenz verknüpfte NetApp Console-Konto auch ein NetApp Support Site-Konto ist und über Internetzugang verfügt. Wenn Sie ein Console-Konto verwendet haben, das nicht mit Ihrem NSS-Konto verknüpft ist, müssen Sie eine Lizenz manuell hinzufügen.
@@ -99,6 +101,7 @@ Wenn Ihr NetApp Support Site-Konto nicht in der Dropdown-Liste verfügbar ist, h
 
 
 
+[[update-a-license]]
 == Aktualisieren einer Lizenz
 
 Die Konsole benachrichtigt Sie, wenn die Laufzeit Ihrer Lizenz bald abläuft oder wenn sich Ihre lizenzierte Kapazität dem Limit nähert.  Aktualisieren Sie Ihre Lizenz vor Ablauf, um Unterbrechungen Ihrer NetApp -Datendienste oder Cloud Volumes ONTAP zu vermeiden.
@@ -134,6 +137,7 @@ Nachdem Sie die Zahlung abgeschlossen und die Lizenz bei der NetApp -Support-Sit
 
 
 
+[[view-license-status]]
 == Lizenzstatus anzeigen
 
 Um Lizenzen zu verwalten, können Sie Lizenzen basierend auf dem Dienstnamen gruppieren.  Auf diese Weise können Sie alle Lizenzen anzeigen, die sich auf einen bestimmten Dienst beziehen.  Sie können eine Zeile erweitern, um detaillierte Informationen zu jeder Lizenz anzuzeigen, die mit dem Dienst in Zusammenhang steht.  In der Stammzeile jedes Dienstes werden der Dienstname und die für diesen Dienst verwendete Kapazität angezeigt.  Die Lizenzen werden automatisch nach Dienstnamen gruppiert.  Die Stammzeile für jeden Dienst zeigt den Dienstnamen und die für diesen Dienst verwendete Kapazität.
