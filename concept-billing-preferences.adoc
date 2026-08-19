@@ -73,6 +73,34 @@ Von dort aus können Sie:
 
 
 
+[[flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws]]
+== Flexible Abrechnung für Cloud Volumes ONTAP und Datendienste in AWS
+
+In AWS können Cloud Volumes ONTAP-Kapazität und NetApp Datendienste über verschiedene AWS Marketplace-Abonnements abgerechnet werden. Einzelheiten zu Änderungen und Empfehlungen des AWS Enterprise Discount Program (EDP) sind im link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Cloud Volumes ONTAP Versionshinweise"] zu finden.
+
+Wenn sowohl ein eigenständiges Cloud Volumes ONTAP Abonnement als auch das NetApp Intelligent Services (NIS) Abonnement für Ihr AWS-Konto verfügbar sind, kann in den *Abrechnungseinstellungen* ausgewählt werden, welches Abonnement für die Kapazitätsabrechnung von Cloud Volumes ONTAP verwendet wird.
+
+
+NOTE: Das Abrechnungsverhalten hängt davon ab, ob bereits Cloud Volumes ONTAP-Systeme betrieben werden und diese über NIS abgerechnet werden, oder ob neue Systeme nach dem Hinzufügen des eigenständigen Cloud Volumes ONTAP Abonnements bereitgestellt werden. Für bestehende Systeme ändert sich die Abrechnung durch das Hinzufügen des eigenständigen Abonnements nicht, es sei denn, *Abrechnungseinstellungen* werden aktualisiert. Für neue Bereitstellungen, die nach Verfügbarkeit des eigenständigen Abonnements erstellt werden, wird das eigenständige Abonnement standardmäßig für die Kapazitätsabrechnung von Cloud Volumes ONTAP (Essentials/Freemium) verwendet, sofern dies nicht in den *Abrechnungseinstellungen* überschrieben wird.
+
+* Standalone Cloud Volumes ONTAP Abonnement (empfohlen): Cloud Volumes ONTAP Kapazität (Essentials/Freemium)
+* NetApp Intelligent Services (NIS)-Abonnement: NetApp Datenservices (und Cloud Volumes ONTAP Professional)
+
+
+Das eigenständige Cloud Volumes ONTAP Abonnement unterstützt nur die kapazitätsbasierten Essentials und Freemium Pakete. Das Professional Paket wird nicht unterstützt und wird weiterhin über NIS abgerechnet. Wenn nur das eigenständige Abonnement zugeordnet ist, kann Cloud Volumes ONTAP mit Essentials bereitgestellt werden, aber für die Konfiguration von Backup und Recovery ist ein anderes Abonnement erforderlich.
+
+
+
+[[where-to-configure-it]]
+=== Wo es konfiguriert wird
+
+AWS Marketplace subscriptions werden unter *Administration > Licenses and subscriptions > Marketplace subscriptions* zugeordnet, und das für die Kapazitätsabrechnung von Cloud Volumes ONTAP verwendete Marketplace subscription wird unter *Administration > Licenses and subscriptions > Billing preferences* ausgewählt. Abrechnungsdetails lassen sich mithilfe der Cloud Volumes ONTAP usage reports überprüfen.
+
+
+NOTE: Es kommt nicht zu doppelter Messung, wenn Sie mehrere Abonnementtypen verwenden oder zwischen Angeboten migrieren.
+
+
+
 [[fields]]
 == Felder
 
@@ -85,7 +113,7 @@ In den Abrechnungsfeldern werden Metadaten darüber gespeichert, wie die einzeln
 
 Die Felder im Marketplace beschreiben Verträge, die von Cloud-Anbietern wie AWS, Azure oder Google Cloud stammen. Diese Felder definieren, wie die NetApp Console Ihre Abonnements mit den im Marketplace des Anbieters gespeicherten Abrechnungsinformationen verknüpft. Sie steuern außerdem die Verwaltung von Verlängerungen, regionalen Zuweisungen und Abrechnungskonten.
 
-* *Marktplatzanbieter* — Kennzeichnet die Cloud-Plattform, über die die Abrechnung erfolgt.  Der Anbieter legt die unterstützten Funktionen, Vertragsarten und Verlängerungsregeln fest.  Beispielsweise verwenden AWS Marketplace-Abonnements eine kontobasierte Abrechnung, während Azure sowohl kontobasierte als auch mandantenbasierte Modelle unterstützt.
+* *Marktplatzanbieter* – Kennzeichnet die Cloud-Plattform, über die die Abrechnung erfolgt. Der Anbieter bestimmt die unterstützten Funktionen, Vertragstypen und Verlängerungsregeln. Beispielsweise verwenden AWS Marketplace-Abonnements eine kontobasierte Abrechnung, während Azure sowohl konto- als auch mandantenbasierte Modelle unterstützt.
 * *Abrechnungskonto- oder Abonnement-ID* — Gibt die eindeutige Kennung für das Konto an, das zur Zahlungsabwicklung verwendet wird.  Dadurch wird sichergestellt, dass die Nutzungsdaten dem richtigen Cloud-Abrechnungsprofil zugeordnet werden.
 * *Vertragslaufzeit* — Definiert die Abonnementdauer und die Verlängerungseinstellungen.
 

@@ -32,6 +32,9 @@ NOTE: Auf der Seite *Marketplace-Abonnements* sind alle Lizenzen aufgelistet.  L
 
 Sie können ein Marktplatz-Abonnement direkt über die Konsole abonnieren.
 
+
+NOTE: Für AWS kann es sein, dass Ihr Konto mehr als ein NetApp Marketplace-Abonnement zur Verfügung hat. Wenn nur das eigenständige Cloud Volumes ONTAP Abonnement verknüpft wird, ist die Bereitstellung von Cloud Volumes ONTAP mit Essentials möglich, aber für die Konfiguration von Backup und Recovery ist ein anderes Abonnement erforderlich. Zur Auswahl des Abonnements, das für die Kapazitätsabrechnung von Cloud Volumes ONTAP verwendet wird (einschließlich der Änderung der Abrechnung für bestehende Systeme), befindet sich die Option unter *Administration > Licenses and subscriptions > Billing preferences*.
+
 .Schritte
 . Wählen Sie im Menü der NetApp Console *Administration > Licenses and subscriptions*.
 . Wählen Sie *Marketplace-Abonnements* aus.
