@@ -73,8 +73,8 @@ Sie sehen nur die Abonnements, die mit der Organisation verknüpft sind, die Sie
 
 
 
-[[viewing-package-details]]
-== Paketdetails anzeigen
+[[view-package-details]]
+== Paketdetails
 
 Sie können Details zur pro Paket genutzten Kapazität anzeigen, indem Sie auf der Cloud Volumes ONTAP -Seite in den Legacy-Modus wechseln.
 

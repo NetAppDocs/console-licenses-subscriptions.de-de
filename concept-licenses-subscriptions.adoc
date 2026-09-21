@@ -24,7 +24,7 @@ Sie können von NetApp erworbene Lizenzen (BYOL), Marktplatzabonnements für Net
 Lizenz- und Abonnementinformationen werden automatisch in der Konsole angezeigt, wenn Ihr Konsolenkonto auch mit einem NetApp Support Site (NSS)-Konto verknüpft ist.  Wenn Ihr Konsolenkonto nicht mit einem NSS-Konto verknüpft ist, müssen Sie Lizenzen manuell hinzufügen.  Wenn Lizenzen manuell hinzugefügt werden, werden Nutzung, Kapazität und andere Details nicht automatisch aktualisiert.
 
 
-NOTE: Zum Anzeigen von Abonnementinformationen muss ein Konsolenagent bereitgestellt werden.  Zum Anzeigen von Knotenlizenzen für Cloud Volumes ONTAP ist außerdem ein Agent erforderlich.
+NOTE: Sie benötigen einen bereitgestellten Console Agent, um Abonnementinformationen anzuzeigen. Ein Agent ist ebenfalls erforderlich, um BYOL-Lizenzen für Cloud Volumes ONTAP anzuzeigen.
 
 
 

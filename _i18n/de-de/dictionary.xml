@@ -85,7 +85,6 @@
   <block id="095a6074d8cac073313583b5aec86563" category="paragraph">Sie können von NetApp erworbene Lizenzen (BYOL), Marktplatzabonnements für NetApp -Datendienste (einschließlich Cloud Volumes ONTAP) und NetApp Keystone -Abonnements in der NetApp Console verwalten und überwachen.</block>
   <block id="a555aeea3ec67a6c83d73b1bfdefb4ab" category="section-title">So werden Lizenzen und Abonnements in der Konsole angezeigt</block>
   <block id="de7d3dd9b9cde1be1ad6f0d2b933e1a2" category="paragraph">Lizenz- und Abonnementinformationen werden automatisch in der Konsole angezeigt, wenn Ihr Konsolenkonto auch mit einem NetApp Support Site (NSS)-Konto verknüpft ist.  Wenn Ihr Konsolenkonto nicht mit einem NSS-Konto verknüpft ist, müssen Sie Lizenzen manuell hinzufügen.  Wenn Lizenzen manuell hinzugefügt werden, werden Nutzung, Kapazität und andere Details nicht automatisch aktualisiert.</block>
-  <block id="0ce8098d87732b7ddaff9494e1959f72" category="admonition">Zum Anzeigen von Abonnementinformationen muss ein Konsolenagent bereitgestellt werden.  Zum Anzeigen von Knotenlizenzen für Cloud Volumes ONTAP ist außerdem ein Agent erforderlich.</block>
   <block id="92d0f4057dd78c03677b13a3df9a24f0" category="section-title">Automatische Lizenzerkennung</block>
   <block id="d4c8d0b101189503f6888a4d0e84fec5" category="paragraph">Die Konsole fragt automatisch den NetApp -Lizenzierungsdienst ab, um Lizenzdetails zu erhalten, die mit Ihrem NetApp Support-Site-Konto verknüpft sind.  Wenn die Abfrage erfolgreich ist, fügt die Konsole die Lizenzen automatisch hinzu.</block>
   <block id="6fc732417eef67838e6035198387d225" category="section-title">Manuelles Hinzufügen einer Lizenz</block>
@@ -241,7 +240,6 @@
   <block id="24456dcfa7781b6f3a972b5f11ed0d88" category="list-text">Während Sie die Informationen zu Ihren Abonnements anzeigen, können Sie mit den Details in der Tabelle interagieren. Erweitern Sie eine Zeile, um weitere Details anzuzeigen.</block>
   <block id="56594b7222b35921f9fe676eadf6bbdf" category="inline-image-macro">das Plus-Symbol am Ende der Tabellenüberschrift</block>
   <block id="2eab7ff26639a8d2e45cece515ff781f" category="list-text">Wählen<block ref="98b11313fea6c4106e5a3c018f0ffbc9" category="inline-image-macro-rx" type="image"></block> um auszuwählen, welche Spalten in der Tabelle angezeigt werden. Beachten Sie, dass die Spalten „Laufzeit“ und „Automatische Verlängerung“ nicht standardmäßig angezeigt werden. In der Spalte „Automatische Verlängerung“ werden nur Verlängerungsinformationen für Azure-Verträge angezeigt.</block>
-  <block id="8ac1ecc7ceb7a49d071b4f1b71f0e176" category="section-title">Paketdetails anzeigen</block>
   <block id="f88e8fee4b6b78cbc9779b73098653b5" category="paragraph">Sie können Details zur pro Paket genutzten Kapazität anzeigen, indem Sie auf der Cloud Volumes ONTAP -Seite in den Legacy-Modus wechseln.</block>
   <block id="4a95292c803539c8cf72591c54db0644" category="list-text">Wählen Sie *Anzeigen*, um die bereitgestellte Kapazität für jedes Ihrer Lizenzpakete anzuzeigen.</block>
   <block id="40d1f3228e91a00383279859612f7ba5" category="list-text">Wählen Sie *Zur erweiterten Ansicht wechseln*.</block>
@@ -338,39 +336,21 @@
   <block id="e29343f0ee1c0051a367e02b49c1c5ff" category="paragraph">Wenn Sie ein Keystone -Abonnement nicht mehr mit der Konsole verwenden möchten, können Sie die Verknüpfung des Abonnements aufheben. Beachten Sie, dass Sie die Verknüpfung eines Abonnements nur aufheben können, wenn es nicht mit einem vorhandenen Cloud Volumes ONTAP Abonnement verknüpft ist.</block>
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">Wählen Sie * Keystone*.</block>
   <block id="0e1096776546966fb22c4752766d55a9" category="paragraph">Die Verknüpfung des Abonnements mit Ihrer Konsolenorganisation oder Ihrem Konto wird aufgehoben und steht beim Erstellen einer Cloud Volumes ONTAP Arbeitsumgebung nicht mehr zur Auswahl.</block>
-  <block id="63e5ea33dc9b9a10458ac73abae91075" category="paragraph">Verwalten Sie knotenbasierte Lizenzen in der NetApp Console, um sicherzustellen, dass jedes Cloud Volumes ONTAP -System über eine gültige Lizenz mit der erforderlichen Kapazität verfügt.</block>
-  <block id="4627bd080634e9380c75a1cc04a09486" category="paragraph">_Knotenbasierte Lizenzen_ sind das Lizenzmodell der vorherigen Generation (und für Neukunden nicht verfügbar):</block>
-  <block id="0d4e36aae457a1001b3373de2fd510f1" category="list-text">Bring Your Own License (BYOL)-Lizenzen, die bei NetApp erworben wurden</block>
-  <block id="17ac9e85cf5b6f7b77acf61fb7721242" category="list-text">Stündliche Pay-as-you-go-Abonnements (PAYGO) vom Marktplatz Ihres Cloud-Anbieters</block>
-  <block id="3501754bb69f70ed8f72d23562bab97c" category="paragraph">Sie können knotenbasierte Cloud Volumes ONTAP -Lizenzen über die NetApp Console verwalten.</block>
-  <block id="9426b05d2fc423b761e34f9d75b4066d" category="section-title">PAYGO-Lizenzen verwalten</block>
-  <block id="fcd2026c30c1b902d032e35337e8888c" category="paragraph">Über das Menü „Licenses and subscriptions“ können Sie Details zu jedem Ihrer PAYGO Cloud Volumes ONTAP Systeme anzeigen, einschließlich der Seriennummer und des PAYGO-Lizenztyps.</block>
-  <block id="343c7ed77049523f4d99e8d4c436a330" category="list-text">Wählen Sie *Knotenbasierte Lizenzen* aus der Dropdown-Liste aus.</block>
-  <block id="87089bacab591352ad6ad6579e34d93e" category="list-text">Klicken Sie auf *PAYGO*.</block>
-  <block id="82be8e06ac169a3de0fce42cd01f5760" category="list-text">Sehen Sie sich in der Tabelle Details zu jeder Ihrer PAYGO-Lizenzen an.</block>
-  <block id="bbfa86a1d5f6c6f85f7a434a983b34e1" category="inline-image-macro">Ein Screenshot, der eine Tabelle auf der Seite „Licenses and subscriptions“ mit drei Paygo-Lizenzen zeigt. Jede Zeile zeigt den Namen, den Systemtyp, die Seriennummer, das Paket und einen Link zur Verwaltung der Lizenz.</block>
-  <block id="cf03ba6c2dea0eb29457f99fdcd69b82" category="paragraph"><block ref="cf03ba6c2dea0eb29457f99fdcd69b82" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a45c9786e45613660f519d740b30671a" category="list-text">Klicken Sie bei Bedarf auf *PAYGO-Lizenz verwalten*, um die PAYGO-Lizenz zu ändern oder den Instanztyp zu ändern.</block>
   <block id="00b61e8d20d055a6505bd5bc88e18aeb" category="section-title">BYOL-Lizenzen verwalten</block>
   <block id="33375e3f722897194d509130054856dd" category="paragraph">Verwalten Sie Lizenzen, die Sie direkt von NetApp erworben haben, indem Sie Systemlizenzen und Lizenzen für zusätzliche Kapazität hinzufügen und entfernen.</block>
   <block id="6bcfb67e751fc7a3d8dba22f37cbb570" category="inline-link">Eingeschränkte Verfügbarkeit der BYOL-Lizenzierung für Cloud Volumes ONTAP</block>
   <block id="ceb2294714463ec73c3bb76a991ef103" category="admonition">NetApp hat den Erwerb, die Verlängerung und die Erneuerung von BYOL-Lizenzen eingeschränkt. Weitere Informationen finden Sie unter <block ref="73dc1b5468c2405a47da63a28335f079" category="inline-link-rx"></block> .</block>
   <block id="4742f5b0c38f7c105542ecb15a214212" category="section-title">Nicht zugewiesene Lizenzen hinzufügen</block>
-  <block id="d0052e7943aa77623453a3374803765d" category="paragraph">Fügen Sie der Konsole eine knotenbasierte Lizenz hinzu, damit Sie die Lizenz auswählen können, wenn Sie ein neues Cloud Volumes ONTAP -System erstellen. Die Konsole identifiziert diese Lizenzen als _nicht zugewiesen_.</block>
   <block id="9827486f8d28067db0a9918ee807f05e" category="list-text">Klicken Sie auf *Nicht zugewiesen*.</block>
   <block id="7fa863d81a4b4f5f46596207ce29dc50" category="list-text">Klicken Sie auf *Nicht zugewiesene Lizenzen hinzufügen*.</block>
   <block id="851df848340ac5c43d036a7c8ab531e8" category="list-text">Geben Sie die Seriennummer der Lizenz ein oder laden Sie die Lizenzdatei hoch.</block>
   <block id="bec033f0535da0f58c9f0a7ccd96e793" category="paragraph">Wenn Sie die Lizenzdatei noch nicht haben, lesen Sie den folgenden Abschnitt.</block>
   <block id="ea9a2b9ac34c9aab133f21aa5b67976e" category="list-text">Klicken Sie auf *Lizenz hinzufügen*.</block>
   <block id="684d5df2e069e529d4a4c518d654dc44" category="paragraph">Die Konsole fügt die Lizenz hinzu. Die Lizenz wird als nicht zugewiesen gekennzeichnet, bis Sie sie einem neuen Cloud Volumes ONTAP -System zuordnen. Danach wird die Lizenz auf die Registerkarte *BYOL* unter * Licenses and subscriptions* verschoben.</block>
-  <block id="df5b9d272738b4adaa43e7eb4949a0e5" category="section-title">Austausch nicht zugewiesener knotenbasierter Lizenzen</block>
-  <block id="76a67f9205ca80ce535686592126df9d" category="paragraph">Wenn Sie über eine nicht zugewiesene knotenbasierte Lizenz für Cloud Volumes ONTAP verfügen, die Sie nicht verwendet haben, können Sie die Lizenz austauschen, indem Sie sie in eine NetApp Backup and Recovery -Lizenz, eine NetApp Data Classification -Lizenz oder eine NetApp Cloud Tiering -Lizenz umwandeln.</block>
   <block id="82330159ba1b86113008185841af38f9" category="paragraph">Durch den Austausch der Lizenz wird die Cloud Volumes ONTAP -Lizenz widerrufen und eine Lizenz im Gegenwert von einem Dollar für den Dienst erstellt:</block>
   <block id="488b3f4a79a8819dabc209f2405c7ba7" category="list-text">Die Lizenzierung für ein Cloud Volumes ONTAP HA-Paar wird in eine 51 TiB Direktlizenz umgewandelt</block>
   <block id="d8961eb56e3c50e0da29ec362dcb385a" category="list-text">Die Lizenzierung für einen Cloud Volumes ONTAP Einzelknoten wird in eine 32 TiB-Direktlizenz umgewandelt</block>
   <block id="89f1c05b91f27a0ccc4736c51deee49f" category="paragraph">Die konvertierte Lizenz hat dasselbe Ablaufdatum wie die Cloud Volumes ONTAP -Lizenz.</block>
-  <block id="e0225acc5a75bb0346dd94ed24206c81" category="inline-link-macro">Sehen Sie sich die Anleitung zum Austausch knotenbasierter Lizenzen an.</block>
-  <block id="d82de0388f091aa9d43371708eb95310" category="paragraph"><block ref="b4c22b5293d3ee433dee9c4b3632dbee" category="inline-link-macro-rx"></block></block>
   <block id="fff69e388498c7da2216c0a49587cbc8" category="list-text">Klicken Sie auf *Lizenz austauschen*.</block>
   <block id="25abdaf706ab9bbfe1775de2626f958f" category="inline-image-macro">Ein Screenshot der Exchange-Lizenzoption, die auf der Seite „Nicht zugewiesene Lizenz“ angezeigt wird.</block>
   <block id="59069c86e2c388bcb56b4ec04ba7c1b1" category="paragraph"><block ref="59069c86e2c388bcb56b4ec04ba7c1b1" category="inline-image-macro-rx" type="image"></block></block>
@@ -394,10 +374,7 @@
   <block id="98022931ad96bfc8db710666a48e0416" category="list-text">Laden Sie die Lizenzdatei (oder Dateien, wenn Sie ein HA-Paar haben) hoch.</block>
   <block id="1c523ff18e24f3b5d4d5fa45c4410b01" category="list-text">Klicken Sie auf *Lizenz aktualisieren*.</block>
   <block id="825a0cb9a8312e85f3aa745487c0dbe9" category="paragraph">Die Konsole aktualisiert die Lizenz auf dem Cloud Volumes ONTAP -System.</block>
-  <block id="2c2e7695734e076306fc8ba50ca70c1b" category="section-title">Verwalten von Lizenzen für zusätzliche Kapazität</block>
-  <block id="d452bdec5cf94a61fe23690b513f4a71" category="paragraph">Sie können zusätzliche Kapazitätslizenzen für ein Cloud Volumes ONTAP BYOL-System erwerben, um mehr als die 368 TiB Kapazität zuzuweisen, die mit einer BYOL-Systemlizenz bereitgestellt werden. Sie können beispielsweise eine zusätzliche Lizenzkapazität erwerben, um Cloud Volumes ONTAP bis zu 736 TiB Kapazität zuzuweisen. Oder Sie erwerben drei zusätzliche Kapazitätslizenzen, um bis zu 1,4 PiB zu erhalten.</block>
   <block id="6e869ff6c9fd5eb76baa394c52e2ef18" category="section-title">Kapazitätslizenzen hinzufügen</block>
-  <block id="41a0a4fe38c3f00a9fae3056955c9f80" category="paragraph">Erwerben Sie eine Lizenz für zusätzliche Kapazität, indem Sie uns über das Chat-Symbol unten rechts in der Konsole kontaktieren. Nachdem Sie die Lizenz erworben haben, können Sie sie auf ein Cloud Volumes ONTAP System anwenden.</block>
   <block id="423cdc57679399d47229e2f74dfc102b" category="list-text">Klicken Sie auf *Kapazitätslizenz hinzufügen*.</block>
   <block id="b0bfc70f0e7f3f10c4334bd53c2c2a27" category="list-text">Geben Sie die Seriennummer ein oder laden Sie die Lizenzdatei (oder Dateien, wenn Sie ein HA-Paar haben) hoch.</block>
   <block id="c4e9cc48e592b9354b10b9d54e14525c" category="section-title">Aktualisieren von Kapazitätslizenzen</block>
@@ -408,7 +385,6 @@
   <block id="c320af21170d1ca43751b7580a1125f4" category="list-text">Klicken Sie auf das Aktionsmenü neben der Kapazitätslizenz und wählen Sie *Lizenz entfernen*.</block>
   <block id="03b194a23dcb353466fbfb7acff64363" category="list-text">Klicken Sie auf *Entfernen*.</block>
   <block id="594cb44c6500d8855ad820b0653e02c7" category="section-title">Wechsel zwischen PAYGO und BYOL</block>
-  <block id="a704128156d562fe5860508e9584ee34" category="paragraph">Die Konvertierung eines Systems von der PAYGO-By-Node-Lizenzierung zur BYOL-By-Node-Lizenzierung (und umgekehrt) wird nicht unterstützt. Wenn Sie zwischen einem Pay-as-you-go-Abonnement und einem BYOL-Abonnement wechseln möchten, müssen Sie ein neues System bereitstellen und Daten vom vorhandenen System auf das neue System replizieren.</block>
   <block id="c019dbada10848ba4363bd4710a34f6b" category="list-text">Erstellen Sie ein neues Cloud Volumes ONTAP System.</block>
   <block id="9bd20ffd5e91ec2bb61bc593be38bb13" category="list-text">Richten Sie für jedes Volume, das Sie replizieren müssen, eine einmalige Datenreplikation zwischen den Systemen ein.</block>
   <block id="95b10ad2ca24b4c8bd5673b7383531a2" category="inline-link">Erfahren Sie, wie Sie Daten zwischen Systemen replizieren</block>
@@ -716,7 +692,6 @@
   <block id="22a93e112ce29f0d1e8dfc0ede83e119" category="sidebar">Direktlizenzen verwalten</block>
   <block id="fbf5bb26f6374732410ccc529ef29ffa" category="sidebar">Lizenzen für Cloud Volumes ONTAP verwalten</block>
   <block id="c7031958abe0c6bca3058548b703b37f" category="sidebar">Kapazitätsbasierte Lizenzen für Cloud Volumes ONTAP</block>
-  <block id="f34953a70b4a66823b7c335bccdd1df4" category="sidebar">Knotenbasierte Lizenzen für Cloud Volumes ONTAP</block>
   <block id="03d8ffc661918290fbea573239c62f5a" category="sidebar">Private Angebote verwalten</block>
   <block id="21677e75a8fa5c435a73182243b106bf" category="sidebar">Verwalten eines privaten AWS-Angebots</block>
   <block id="b3f0b3ed456c94edb01f453c1e1cdf1f" category="sidebar">Verwalten eines privaten Azure-Angebots</block>
@@ -928,7 +903,6 @@
   <block id="b33d71b64d47a9f0ce606e73ae1e07dd" category="section-title">Verwaltung von Cloud Volumes ONTAP licenses</block>
   <block id="9429e7a2e486548a79c3122d6c6e17e5" category="paragraph">Sie verwalten Cloud Volumes ONTAP licenses jetzt über die Startseite oder die Registerkarte *Direct licenses*. Verwenden Sie die Registerkarte *Marketplace subscriptions*, um Ihre Abonnementinformationen anzuzeigen.</block>
   <block id="26d95a9677f28d9a6e340c69085c4cdb" category="paragraph">Sie können nun *Abrechnungseinstellungen* direkt in der NetApp Console konfigurieren und verwalten. Diese Verbesserung ermöglicht es Administratoren, die Abrechnung von Kapazitätsnutzung, Verlängerungen und Kosten über direkte NetApp Lizenzen, Cloud-Marketplace-Abonnements und Keystone Agreements hinweg zu definieren und einzusehen.</block>
-  <block id="994c93e3e8dbb5133d0b3a075bdac953" category="summary">Licenses and subscriptions ermöglicht es Ihnen, NetApp Console-Lizenzen, NetApp Marketplace-Abonnements und NetApp Keystone zu verwalten und zu überwachen.</block>
   <block id="abcc786cf14d5e9fe478edfb4649ff58" category="paragraph">Als Abrechnungsquellen können dienen:</block>
   <block id="4034ad2bb1e8e26399eef6531403fda6" category="cell">Nutzung der gekauften NetApp Kapazität</block>
   <block id="3c214db1e9b5df7d24325803b44aa5aa" category="cell">NetApp licenses zuerst</block>
@@ -938,7 +912,6 @@
   <block id="4684cf5eed11e2cbe98bbf41e64baab1" category="cell">Benutzerdefinierte CVO-Konfiguration aktivieren</block>
   <block id="8231c7512d38624b6c73e0353c9b018c" category="cell">Rückkehr zur Standardabrechnung</block>
   <block id="75b55a88e71b87a8f2223b882c8fdb60" category="cell">Benutzerdefinierte CVO-Konfiguration deaktivieren</block>
-  <block id="64b2682858b322421bcf1271f43d5958" category="summary">Sehen Sie sich die Vertragsdetails für jeden Ihrer On-Premises ONTAP Cluster an.</block>
   <block id="3c0e7e5eacb6d93fc4a6e237d9dc57c5" category="paragraph">In der NetApp Console können Sie einen ONTAP Cluster entdecken und Vertragsdetails für jeden lokal gefundenen ONTAP Cluster anzeigen.</block>
   <block id="c874b53d36cb039f81fc4117963fe03f" category="paragraph">Das *Übersichts*-Dashboard in der NetApp Console hilft Ihnen, den Status Ihrer Lizenzen und Abonnements zu überwachen, um sicherzustellen, dass Sie die Kosten kontrollieren und den Service aufrechterhalten können, wenn Abonnements ein Ablaufdatum oder Kapazitätsgrenzen erreichen.</block>
   <block id="bda8ae7ab8a8500998773e4eb67456f7" category="paragraph">Neue Lizenzen oder Abonnements können Sie nicht über die *Übersicht*-Seite für einen bestimmten Service hinzufügen. Sie können Lizenzen nur über den Tab *Direct licenses* oder Abonnements über den Tab *Marketplace subscriptions* hinzufügen.</block>
@@ -1005,8 +978,6 @@
   <block id="e7a38d895cb4f8d8f3a338217e14a339" category="cell">Die eindeutige Kennung des Volumes.</block>
   <block id="7860112ba253041aab5726c5a5f6777c" category="cell">Der Volume-Typ (zum Beispiel lesen/schreiben oder Datenschutz).</block>
   <block id="b41f9ba0b51c7f3d54a31c655a83017f" category="cell">Die für das Volume bereitgestellte Gesamtkapazität.</block>
-  <block id="6e1a9790b199742bec95dea2070e2f3f" category="summary">Die knotenbasierten Lizenzen werden in der NetApp Console verwaltet, sodass jedes Cloud Volumes ONTAP System über eine gültige Lizenz mit der erforderlichen Kapazität verfügt.</block>
-  <block id="160221c1e99e53b72af8a65c2440852b" category="doc">Knotenbasierte Lizenzierung für Cloud Volumes ONTAP verwalten</block>
   <block id="ffc60ab0361bc3c2ef3b3728cce5a231" category="paragraph"><block ref="ac0e83bff3dad475c8103a64904a607a" category="inline-link-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="section-title">Flexible Abrechnung für Cloud Volumes ONTAP und Datendienste in AWS</block>
   <block id="3d44d36eec8c18ebcfe6e7df6a18f232" category="inline-link-macro">Cloud Volumes ONTAP Versionshinweise</block>
@@ -1022,4 +993,36 @@
   <block id="24c5718a7b37767099a36f2e0a1ef086" category="list-text">*Marktplatzanbieter* – Kennzeichnet die Cloud-Plattform, über die die Abrechnung erfolgt. Der Anbieter bestimmt die unterstützten Funktionen, Vertragstypen und Verlängerungsregeln. Beispielsweise verwenden AWS Marketplace-Abonnements eine kontobasierte Abrechnung, während Azure sowohl konto- als auch mandantenbasierte Modelle unterstützt.</block>
   <block id="dbf314f960a580dec77c3328f5a7dcfe" category="list-text">Wenn die Cloud Volumes ONTAP Kapazität über das eigenständige Cloud Volumes ONTAP Abonnement im AWS Marketplace abgerechnet werden soll, muss das Cloud Volumes ONTAP System ein unterstütztes kapazitätsbasiertes Paket (Essentials oder Freemium) verwenden. Das Professional Paket wird für die eigenständige Auflistung nicht unterstützt und weiterhin über das NIS Abonnement abgerechnet. Nach Auswahl des gewünschten Pakets kann in den *Abrechnungseinstellungen* der NetApp Console das Marketplace Abonnement ausgewählt werden, das für die Abrechnung von Cloud Volumes ONTAP verwendet wird.</block>
   <block id="3919d4b9a6b0d4b602f5cdf529c0ed29" category="admonition">Für AWS kann es sein, dass Ihr Konto mehr als ein NetApp Marketplace-Abonnement zur Verfügung hat. Wenn nur das eigenständige Cloud Volumes ONTAP Abonnement verknüpft wird, ist die Bereitstellung von Cloud Volumes ONTAP mit Essentials möglich, aber für die Konfiguration von Backup und Recovery ist ein anderes Abonnement erforderlich. Zur Auswahl des Abonnements, das für die Kapazitätsabrechnung von Cloud Volumes ONTAP verwendet wird (einschließlich der Änderung der Abrechnung für bestehende Systeme), befindet sich die Option unter *Administration &gt; Licenses and subscriptions &gt; Billing preferences*.</block>
+  <block id="9c4eec228f427828235463d59daed219" category="admonition">Sie benötigen einen bereitgestellten Console Agent, um Abonnementinformationen anzuzeigen. Ein Agent ist ebenfalls erforderlich, um BYOL-Lizenzen für Cloud Volumes ONTAP anzuzeigen.</block>
+  <block id="f7eccb32f78ffcc556a6e33ab837a577" category="section-title">Paketdetails</block>
+  <block id="57ad4bfee5bc61eaf0dd46379c75ae34" category="summary">Die Verwaltung Ihrer BYOL-Lizenzen in der NetApp Console stellt sicher, dass Ihre Cloud Volumes ONTAP Systeme über gültige Lizenzen mit der erforderlichen Kapazität verfügen.</block>
+  <block id="50911d76d8db3cc40925f943f1ca7efb" category="doc">BYOL-Lizenzen für Cloud Volumes ONTAP verwalten</block>
+  <block id="be02aeef4770b69cefbe40935aba2797" category="inline-link">Lizenzierung für Cloud Volumes ONTAP</block>
+  <block id="e2c28fe1b1e987a06f636ae7c3482bae" category="paragraph">Bring-Your-Own License (BYOL) ist ein Abrechnungsmodell in Cloud Volumes ONTAP, bei dem die Kapazitätsnutzung über eine Lizenz bezahlt wird, die direkt von NetApp erworben wird, anstatt über Marketplace-Abonnements. Die BYOL-Lizenzen werden in der NetApp Console verwaltet, damit die Cloud Volumes ONTAP Systeme über gültige Lizenzen mit der erforderlichen Kapazität verfügen. Weitere Informationen sind unter <block ref="d9d28f09a38154804862cc0742f76db1" category="inline-link-rx"></block> zu finden.</block>
+  <block id="d7541fdf3e0094adec62a7042b5512d9" category="inline-link">Konvertieren einer Cloud Volumes ONTAP node-basierten Lizenz in eine kapazitätsbasierte Lizenz</block>
+  <block id="847e45a642e11ad647bc1b931aa93b6f" category="paragraph">NetApp empfiehlt die kapazitätsbasierte Lizenzierung für alle neuen Implementierungen. Wenn bereits eine Lizenz auf Basis des vorherigen knotenbasierten Modells vorhanden ist, muss diese auf kapazitätsbasierte Lizenzierung umgestellt werden. Anweisungen finden sich unter <block ref="6c9714235e53a411b3b31b5a9d910769" category="inline-link-rx"></block>.</block>
+  <block id="6eb61ba1a2f61db4d9f72f3888890463" category="admonition">PAYGO-Abonnements (Pay-as-you-go) vom Marktplatz Ihres Cloud-Anbieters sind für Private-Mode-Bereitstellungen nicht verfügbar. Im Private Mode stellt NetApp BYOL-Lizenzen direkt bereit. Knotenbasierte Lizenzen sind nur für bestehende Private-Mode-Bereitstellungen verfügbar und können nicht neu bereitgestellt werden. NetApp hat den Kauf, die Verlängerung und die Erneuerung knotenbasierter Lizenzen im Private Mode seit dem 25. Juni 2025 eingeschränkt. Bei einer bestehenden knotenbasierten Lizenz ist eine Umstellung auf kapazitätsbasierte Lizenzierung erforderlich.</block>
+  <block id="0814f25d2fb19660c0f5a17f5faecd5b" category="inline-link">Cloud Volumes ONTAP im privaten Modus bereitstellen</block>
+  <block id="993fca3d74b4e0c45a0b63335fff4fc2" category="paragraph">Für neue Bereitstellungen im privaten Modus sollte stattdessen die kapazitätsbasierte Lizenzierung verwendet werden. Siehe <block ref="a830c5764652e2ca74bb3dce260e01c7" category="inline-link-rx"></block>.</block>
+  <block id="63a4063cbdde53629f056f26faa6a46b" category="section-title">PAYGO-Abonnements verwalten</block>
+  <block id="27d6a6ca8e88ba1cb467019b29f60d17" category="paragraph">Das Licenses and subscriptions Menü ermöglicht die Anzeige von Details zu jedem Ihrer PAYGO Cloud Volumes ONTAP Systeme, einschließlich der Seriennummer und des PAYGO Abonnementtyps. PAYGO Abonnements aus dem Marketplace Ihres Cloud-Anbieters sind nur für kapazitätsbasierte Lizenzierung verfügbar.</block>
+  <block id="13cd5e1a4f18ae48c4acaf913e719713" category="list-text">Wählen Sie im linken Navigationsbereich *Administration &gt; Licenses and subscriptions* aus.</block>
+  <block id="aa59cb2e56f1983339b4f7a3a9f01781" category="list-text">Im Tab *Abonnements* werden in der Tabelle Details zu jedem Ihrer PAYGO Subscriptions angezeigt.</block>
+  <block id="ecb37f6560fedafb92676fdb1b5f9987" category="paragraph">Die BYOL-Lizenzierung für Cloud Volumes ONTAP umfasst jetzt sowohl knotenbasierte Lizenzen als auch kapazitätsbasierte Lizenzen, die direkt von NetApp erworben wurden.</block>
+  <block id="3201bf04f8e8f798a4aa98d5503f6ae2" category="paragraph">Bei *kapazitätsbasierten BYOL-Lizenzen* ist die Lizenz Ihrem Console-Konto und nicht einem einzelnen Cloud Volumes ONTAP System zugeordnet. Jedes System erhält eine eigene Seriennummer, aber mehrere Systeme unter demselben Konto greifen auf denselben gemeinsamen Kapazitätspool zu und können die zugrunde liegende Lizenz gemeinsam nutzen.</block>
+  <block id="54597fdff28ec33f0b57629ca64201e0" category="inline-link">Informationen zu Cloud Volumes ONTAP node-based BYOL</block>
+  <block id="2cf18338edb89cdd61b1af6d69b2b37c" category="paragraph">Für *knotenbasierte BYOL-Lizenzen* gilt dieses Pooling nicht. Jedes Cloud Volumes ONTAP System benötigt eine eigene dedizierte Systemlizenz, und Lizenzen werden nicht zwischen Systemen geteilt. Wenn jedoch ein System gelöscht wird, kann die Lizenz auf ein neues System übertragen werden. Weitere Informationen finden sich unter<block ref="96c6fa7eefafc39f185da52ed0224caf" category="inline-link-rx"></block>.</block>
+  <block id="4d112c35ca4b3b14458313a7ae735587" category="paragraph">Eine BYOL-Lizenz kann der Konsole hinzugefügt werden, sodass diese Lizenz beim Erstellen eines neuen Cloud Volumes ONTAP Systems ausgewählt werden kann. Die Konsole kennzeichnet diese Lizenzen als _nicht zugewiesen_.</block>
+  <block id="e210f93d019d79eb717a736686141edf" category="list-text">Die Registerkarte *Lizenzen* auswählen.</block>
+  <block id="7a28e503d810a66b902935d7d7416c68" category="section-title">Eine nicht zugewiesene Lizenz austauschen</block>
+  <block id="54f3d74d05e04928c274bd8727b58f79" category="paragraph">Falls Sie über eine nicht zugewiesene Lizenz für Cloud Volumes ONTAP verfügen, die Sie noch nicht verwendet haben, besteht die Möglichkeit, diese in eine NetApp Backup and Recovery Lizenz, eine NetApp Data Classification Lizenz oder eine NetApp Cloud Tiering Lizenz umzuwandeln.</block>
+  <block id="85a4fe62e8772cbd7af6d80cfd2b0f66" category="inline-link-macro">Schritt-für-Schritt-Anleitung zum Austausch nicht zugewiesener Lizenzen anzeigen.</block>
+  <block id="c4a0587d1b95ae7ebd5d636f1e37a7f4" category="paragraph"><block ref="73eee52ffb6a033c9932b0beadef086a" category="inline-link-macro-rx"></block></block>
+  <block id="f872488b1ef144f7365b71552b153b14" category="section-title">Zusätzliche Kapazitätslizenzen (nur knotenbasierte Lizenzen) verwalten</block>
+  <block id="a7990e086d58662834289acdf9e8b96f" category="paragraph">Dieses Verfahren gilt nur für knotenbasierte Lizenzen. Kapazitätsbasierte Lizenzen greifen auf einen gemeinsamen Kapazitätspool zurück und erfordern keine separaten zusätzlichen Kapazitätslizenzen.</block>
+  <block id="26e6ad1e0111d589d3b8569da89a6cb8" category="paragraph">Sie können zusätzliche Kapazitätslizenzen für ein Cloud Volumes ONTAP node-basiertes BYOL-System erwerben, um mehr als die 368 TiB Kapazität zuzuweisen, die mit einer Systemlizenz bereitgestellt werden. Beispielsweise kann eine zusätzliche Lizenz erworben werden, um bis zu 736 TiB Kapazität für Cloud Volumes ONTAP zuzuweisen. Oder es können drei zusätzliche Kapazitätslizenzen erworben werden, um bis zu 1,4 PiB zu erhalten.</block>
+  <block id="3067eec78cda68abb45f1950f5b7de68" category="paragraph">Wenden Sie sich an Ihren NetApp Ansprechpartner, um eine zusätzliche Kapazitätslizenz zu erwerben. Nach dem Kauf der Lizenz kann sie auf ein Cloud Volumes ONTAP System angewendet werden.</block>
+  <block id="9013cda65f4f0c57c44bcdefc6feb154" category="admonition">Dies gilt nur für Bereitstellungen im Standardmodus, da PAYGO im privaten Modus nicht verfügbar ist.</block>
+  <block id="5eb5d5752efd31fd46b0201cfca01e77" category="paragraph">Die Umstellung eines Systems von PAYGO auf BYOL-Lizenzierung (und umgekehrt) wird nicht unterstützt. Für einen Wechsel zwischen einem PAYGO-Abonnement und einem BYOL-Abonnement ist die Bereitstellung eines neuen Systems und die Replikation der Daten vom bestehenden System auf das neue System erforderlich.</block>
+  <block id="8c7bfac6e491e33091d317e6d08f0751" category="sidebar">BYOL licenses für Cloud Volumes ONTAP</block>
 </blocks>
